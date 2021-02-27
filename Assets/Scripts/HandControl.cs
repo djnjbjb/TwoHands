@@ -42,7 +42,8 @@ public class HandControl : MonoBehaviour
     public float length;
     public Vector2 rhJoint1Pos;
     public Vector2 lhJoint1Pos;
-    float fistSpeed;
+    float fistMoveSpeed;
+    float fistRotateSpeed_Degree;
     float minXToOrigin;
 
     //Debug
@@ -59,21 +60,7 @@ public class HandControl : MonoBehaviour
         UpdateFistColor();
     }
 
-    void FixedUpdate()
-    {
-        if (keyRAlt)
-            FistFixedUpdate_AltPressed(rhFist, rhJoint1Pos, RightOrLeftHand.Right);
-        else
-            FistFixedUpdate_AltNotPressed(rhFist, rhJoint1Pos, RightOrLeftHand.Right);
-
-        if (keyLAlt)
-            FistFixedUpdate_AltPressed(lhFist, lhJoint1Pos, RightOrLeftHand.Left);
-        else
-            FistFixedUpdate_AltNotPressed(lhFist, lhJoint1Pos, RightOrLeftHand.Left);
-
-        OtherFixedUpdate();
-    }
-
+    #region UpdateSubFunc
     void UpdateKeyStatus()
     {
         keyRUp = Input.GetKey(KeyCode.O);
@@ -103,122 +90,29 @@ public class HandControl : MonoBehaviour
         else
             lhFist.GetComponent<SpriteRenderer>().color = normal;
     }
+    #endregion
 
-    void RHFixedUpdate_AltNotPressed()
+
+    void FixedUpdate()
     {
-        //1. update fist pos
+        if (!keyRAlt)
+            FixedUpdate_FistAndWhole_FistMoveWholeNot_RightHand();
+        if (!keyLAlt)
+            FixedUpdate_FistAndWhole_FistMoveWholeNot_LeftHand();
+
+        if (keyRAlt && !keyLAlt)
+            FixedUpdate_FistAndWhole_WholeMoveFistNot(rhFist, rhJoint1Pos, RightOrLeftHand.Right);
+        if (!keyRAlt && keyLAlt)
+            FixedUpdate_FistAndWhole_WholeMoveFistNot(lhFist, lhJoint1Pos, RightOrLeftHand.Left);
+
+        if (keyRAlt && keyLAlt)
         {
-            Vector2 posRFist = new Vector2(rhFist.transform.localPosition.x, rhFist.transform.localPosition.y);
-            int RRight = (keyRRight ? 1 : 0) - (keyRLeft ? 1 : 0);
-            int RUp = (keyRUp ? 1 : 0) - (keyRDown ? 1 : 0);
-            Vector2 direction = new Vector2(RRight, RUp);
-            Vector2 velocity = direction.normalized * fistSpeed * Time.fixedDeltaTime;
-            posRFist = posRFist + velocity;
-            posRFist.x = Mathf.Clamp(posRFist.x, rhJoint1Pos.x + minXToOrigin, rhJoint1Pos.x + length);
-            posRFist.y = Mathf.Clamp(posRFist.y, rhJoint1Pos.y - length, rhJoint1Pos.y + length);
-            rhFist.transform.localPosition = posRFist;
+            FixedUpdate_FistAndWhole_TwoHandsAltPressed();
         }
+
+        FixedUpdate_Other();
     }
-
-    void RHFixedUpdate_AltPressed()
-    {
-        //1. update wholePerson pos
-        Vector2 wholePersonPos = new Vector2(wholePerson.transform.localPosition.x, wholePerson.transform.localPosition.y);
-        {
-            // 计算wholePersonPos时，手离身体的距离依然不能超越范围，所以，先计算身体不动情况下的fistPos，再由此计算wholePersonPos
-            Vector2 oldFistPos = new Vector2(rhFist.transform.localPosition.x, rhFist.transform.localPosition.y);
-            int RRight = (keyRRight ? 1 : 0) - (keyRLeft ? 1 : 0);
-            int RUp = (keyRUp ? 1 : 0) - (keyRDown ? 1 : 0);
-            Vector2 direction = new Vector2(RRight, RUp);
-            Vector2 velocity = direction.normalized * fistSpeed * Time.fixedDeltaTime;
-            Vector2 newFistPos = oldFistPos + velocity;
-            newFistPos.x = Mathf.Clamp(newFistPos.x, rhJoint1Pos.x + minXToOrigin, rhJoint1Pos.x + length);
-            newFistPos.y = Mathf.Clamp(newFistPos.y, rhJoint1Pos.y - length, rhJoint1Pos.y + length);
-            rhFist.transform.localPosition = newFistPos;
-
-            Vector2 offset = newFistPos - oldFistPos;
-            wholePersonPos = wholePersonPos - offset;
-            wholePerson.transform.localPosition = wholePersonPos;
-        }
-    }
-
-    void RHFixedUpdate_AfterFistUpdate()
-    {
-        //-- the triangle
-        float a = (new Vector2(rhFist.transform.localPosition.x, rhFist.transform.localPosition.y) - rhJoint1Pos).magnitude;
-        float b = length1;
-        float c = length2;
-
-        //2. posJoint2
-        Vector2 posJoint2 = new Vector2();
-        if (b + c > a)
-        {
-            float cosOrigin = (a * a + b * b - c * c) / (2 * a * b);
-            float angleOrigin = Mathf.Acos(cosOrigin);
-
-            float cosJoint2 = (b * b + c * c - a * a) / (2 * b * c);
-            float angleJoint2 = Mathf.Acos(cosJoint2);
-
-            Vector2 OriginToFist = new Vector2(rhFist.transform.localPosition.x, rhFist.transform.localPosition.y) - rhJoint1Pos;
-            Vector2 OriginToJoint2_ = MyTool.Vec2Rotate(OriginToFist.normalized, -angleOrigin) * length1;
-
-            posJoint2 = rhJoint1Pos + OriginToJoint2_;
-            rhJoint2.transform.localPosition = posJoint2;
-
-            myDebug.d_cosOrigin = cosOrigin;
-            myDebug.d_angleOrigin = angleOrigin;
-            myDebug.d_cosJoint2 = cosJoint2;
-            myDebug.d_angleJoint2 = angleJoint2;
-            myDebug.d_OriginToFist = OriginToFist;
-            myDebug.d_OriginToJoint2 = OriginToJoint2_;
-            myDebug.d_posJoint2 = posJoint2;
-        }
-        else
-        {
-            Vector2 OriginToFist = new Vector2(rhFist.transform.localPosition.x, rhFist.transform.localPosition.y) - rhJoint1Pos;
-            Vector2 offset_ = Vector2.Lerp(new Vector2(), OriginToFist, length1 / length);
-            posJoint2 = rhJoint1Pos + offset_;
-            rhJoint2.transform.localPosition = posJoint2;
-
-            myDebug.d_cosOrigin = 0;
-            myDebug.d_angleOrigin = 0;
-            myDebug.d_cosJoint2 = 0;
-            myDebug.d_angleJoint2 = 0;
-            myDebug.d_OriginToFist = new Vector2();
-            myDebug.d_OriginToJoint2 = new Vector2();
-            myDebug.d_posJoint2 = new Vector2();
-        }
-
-
-        //3. Line1's pos and orientation, Line2's, Fist's Orientation
-        //--Line1
-        Vector2 OriginToJoint2 = new Vector2(rhJoint2.transform.localPosition.x, rhJoint2.transform.localPosition.y) - rhJoint1Pos;
-        Vector2 offsetLine1 = Vector2.Lerp(
-            new Vector2(),
-            OriginToJoint2,
-            (rhJoint1.transform.localScale.x / 2 + rhLine1.transform.localScale.x / 2) / length1
-        );
-        rhLine1.transform.localPosition = rhJoint1Pos + offsetLine1;
-        float angleLine1 = Vector2.SignedAngle(new Vector2(1, 0), OriginToJoint2);
-        rhLine1.transform.localRotation = Quaternion.Euler(0, 0, angleLine1);
-        //--Line2
-        Vector2 FistToJoint2 = (
-            new Vector2(rhJoint2.transform.localPosition.x, rhJoint2.transform.localPosition.y)
-            - new Vector2(rhFist.transform.localPosition.x, rhFist.transform.localPosition.y)
-        );
-        Vector2 offsetLine2 = Vector2.Lerp(
-            new Vector2(),
-            FistToJoint2,
-            (rhFist.transform.localScale.x / 2 + rhLine2.transform.localScale.x / 2) / length2
-        );
-        rhLine2.transform.localPosition = new Vector2(rhFist.transform.localPosition.x, rhFist.transform.localPosition.y) + offsetLine2;
-        float angleLine2 = Vector2.SignedAngle(new Vector2(1, 0), -FistToJoint2);
-        rhLine2.transform.localRotation = Quaternion.Euler(0, 0, angleLine2);
-        //--Fist
-        rhFist.transform.localRotation = Quaternion.Euler(0, 0, angleLine2);
-    }
-
-    void FistFixedUpdate_AltNotPressed(GameObject fist, Vector2 joint1Pos, RightOrLeftHand rightOrLeft)
+    void FixedUpdate_FistAndWhole_FistMoveWholeNot(GameObject fist, Vector2 joint1Pos, RightOrLeftHand rightOrLeft)
     {
         Vector2 fistPos = new Vector2(fist.transform.localPosition.x, fist.transform.localPosition.y);
 
@@ -231,7 +125,7 @@ public class HandControl : MonoBehaviour
         }
 
         Vector2 direction = new Vector2(moveRight, moveUp);
-        Vector2 velocity = direction.normalized * fistSpeed * Time.fixedDeltaTime;
+        Vector2 velocity = direction.normalized * fistMoveSpeed * Time.fixedDeltaTime;
         fistPos = fistPos + velocity;
         if (rightOrLeft == RightOrLeftHand.Right)
         {
@@ -246,23 +140,23 @@ public class HandControl : MonoBehaviour
         fist.transform.localPosition = fistPos;
     }
 
-    void FistFixedUpdate_AltPressed(GameObject fist, Vector2 joint1Pos, RightOrLeftHand rightOrLeft)
+    void FixedUpdate_FistAndWhole_WholeMoveFistNot(GameObject fist, Vector2 joint1Pos, RightOrLeftHand rightOrLeft)
     {
         // 计算wholePersonPos时，手离身体的距离依然不能超越范围，所以，先计算身体不动情况下的fistPos，再由此计算wholePersonPos
         //1. 计算新旧fistPos，并设置fistPos
         Vector2 oldFistPos = new Vector2(fist.transform.localPosition.x, fist.transform.localPosition.y);
         Vector2 newFistPos = oldFistPos;
 
-        int moveRight = (keyRRight ? 1 : 0) - (keyRLeft ? 1 : 0);
-        int moveUp = (keyRUp ? 1 : 0) - (keyRDown ? 1 : 0);
+        int moveRight = -((keyRRight ? 1 : 0) - (keyRLeft ? 1 : 0));
+        int moveUp = -((keyRUp ? 1 : 0) - (keyRDown ? 1 : 0));
         if (rightOrLeft == RightOrLeftHand.Left)
         {
-            moveRight = (keyLRight ? 1 : 0) - (keyLLeft ? 1 : 0);
-            moveUp = (keyLUp ? 1 : 0) - (keyLDown ? 1 : 0);
+            moveRight = -((keyLRight ? 1 : 0) - (keyLLeft ? 1 : 0));
+            moveUp = -((keyLUp ? 1 : 0) - (keyLDown ? 1 : 0));
         }
 
         Vector2 direction = new Vector2(moveRight, moveUp);
-        Vector2 velocity = direction.normalized * fistSpeed * Time.fixedDeltaTime;
+        Vector2 velocity = direction.normalized * fistMoveSpeed * Time.fixedDeltaTime;
         newFistPos = newFistPos + velocity;
         if (rightOrLeft == RightOrLeftHand.Right)
         {
@@ -279,17 +173,251 @@ public class HandControl : MonoBehaviour
         //2. wholePersonPos
         Vector2 wholePersonPos = new Vector2(wholePerson.transform.localPosition.x, wholePerson.transform.localPosition.y);
         Vector2 offset = newFistPos - oldFistPos;
+        offset = Matrix4x4.TRS(wholePerson.transform.localPosition, wholePerson.transform.localRotation,wholePerson.transform.localScale) * (Vector3)offset;
         wholePersonPos = wholePersonPos - offset;
         wholePerson.transform.localPosition = wholePersonPos;
     }
 
-    void OtherFixedUpdate()
+    void FixedUpdate_FistAndWhole_FistMoveWholeNot_RightHand()
     {
-        OtherFixedUpdate_RightHand();
-        OtherFixedUpdate_LeftHand();
+        Vector2 fistPos = new Vector2(rhFist.transform.localPosition.x, rhFist.transform.localPosition.y);
+        int moveRight = (keyRRight ? 1 : 0) - (keyRLeft ? 1 : 0);
+        int moveUp = (keyRUp ? 1 : 0) - (keyRDown ? 1 : 0);
+        Vector2 direction = new Vector2(moveRight, moveUp).normalized;
+        Vector2 moveVecPossible = direction * fistMoveSpeed * Time.fixedDeltaTime;
+        Vector2 fistPosAfterMove;
+        float minX = rhJoint1Pos.x + minXToOrigin;
+        float maxX = rhJoint1Pos.x + length;
+        float minY = rhJoint1Pos.y - length;
+        float maxY = rhJoint1Pos.y + length;
+
+        FixedUpdate_FistAndWhole_FistMoveWholeNot_WithParameter(fistPos, moveVecPossible, minX, maxX, minY, maxY, out fistPosAfterMove);
+        
+        rhFist.transform.localPosition = fistPosAfterMove;
     }
 
-    void OtherFixedUpdate_LeftHand()
+    void FixedUpdate_FistAndWhole_FistMoveWholeNot_LeftHand()
+    {
+        Vector2 fistPos = new Vector2(lhFist.transform.localPosition.x, lhFist.transform.localPosition.y);
+        int moveRight = (keyLRight ? 1 : 0) - (keyLLeft ? 1 : 0);
+        int moveUp = (keyLUp ? 1 : 0) - (keyLDown ? 1 : 0);
+        Vector2 direction = new Vector2(moveRight, moveUp).normalized;
+        Vector2 moveVecPossible = direction * fistMoveSpeed * Time.fixedDeltaTime;
+        Vector2 fistPosAfterMove;
+        float minX = lhJoint1Pos.x - length;
+        float maxX = lhJoint1Pos.x - minXToOrigin;
+        float minY = lhJoint1Pos.y - length;
+        float maxY = lhJoint1Pos.y + length;
+
+        FixedUpdate_FistAndWhole_FistMoveWholeNot_WithParameter(fistPos, moveVecPossible, minX, maxX, minY, maxY, out fistPosAfterMove);
+
+        lhFist.transform.localPosition = fistPosAfterMove;
+    }
+
+    static void FixedUpdate_FistAndWhole_FistMoveWholeNot_WithParameter(in Vector2 fistPos, in Vector2 moveVecPossible,in float minX,in float maxX,in float minY,in float maxY, out Vector2 fistPosAfterMove)
+    {
+
+        fistPosAfterMove = fistPos + moveVecPossible;
+        fistPosAfterMove.x = Mathf.Clamp(fistPosAfterMove.x, minX, maxX);
+        fistPosAfterMove.y = Mathf.Clamp(fistPosAfterMove.y, minY, maxY);
+    }
+
+    static void FixedUpdate_FistAndWhole_RotateRoundRightHand_InputParam(in float angle_Deg, in GameObject rhFist, in GameObject wholePerson, out Vector2 offset, out float angleWholePerson_Deg)
+    {
+        //旋转时，身体和手的相对位置不变，只是身体绕fist旋转
+        //whole的父亲有一个坐标系，需要计算的是在这个坐标系中的移动和旋转变化
+        Matrix4x4 fistLocalMatrix = Matrix4x4.TRS(
+            rhFist.transform.localPosition,
+            rhFist.transform.localRotation,
+            rhFist.transform.localScale
+        );
+        Matrix4x4 wholeLocalMatrix = Matrix4x4.TRS(
+            wholePerson.transform.localPosition,
+            wholePerson.transform.localRotation,
+            wholePerson.transform.localScale
+        );
+        Matrix4x4 fistMatrixInWholeParentCoor = wholeLocalMatrix * fistLocalMatrix;
+        Vector2 fistPosInWholeParentCoor = fistMatrixInWholeParentCoor.ExtractPosition();
+        Vector2 fistPos = fistPosInWholeParentCoor;
+        Vector2 wholePos = wholePerson.transform.localPosition;
+        Vector2 fistToWhole = wholePos - fistPos;
+        Vector2 fistToWholeAfterRotate = MyTool.Vec2Rotate(fistToWhole, -angle_Deg * Mathf.Deg2Rad);
+        
+        offset = fistToWholeAfterRotate - fistToWhole;
+        angleWholePerson_Deg = -angle_Deg;
+    }
+
+    void FixedUpdate_FistAndWhole_TwoHandsAltPressed()
+    {
+        /*
+        用【下】表示绕着那只手旋转
+            身体旋转，像是2指手握着方向盘，然后用力，方向盘发生旋转，人跟着旋转
+        
+        1.如果两只手都按着同一个方向，则向那个方向移动
+            双倍速度
+        2.如果一只手按着下，另一只手按别的，则旋转并配合另一只手移动
+            2.1如果是下 + 无，则只是旋转
+            2.2如果是下 + 其他，则旋转 + 移动
+        3.如果两只手按着不同方向，且没有一个是下，则不响应
+        */
+        Vector2 rhDirection = new Vector2();
+        {
+            int moveRight = -((keyRRight ? 1 : 0) - (keyRLeft ? 1 : 0));
+            int moveUp = -((keyRUp ? 1 : 0) - (keyRDown ? 1 : 0));
+            rhDirection = new Vector2(moveRight, moveUp).normalized;
+        }
+        Vector2 lhDirection = new Vector2();
+        {
+            int moveRight = -((keyLRight ? 1 : 0) - (keyLLeft ? 1 : 0));
+            int moveUp = -((keyLUp ? 1 : 0) - (keyLDown ? 1 : 0));
+            lhDirection = new Vector2(moveRight, moveUp).normalized;
+        }
+        if (rhDirection == lhDirection)
+        {
+            /*
+            同时移动时，需要考量两只手的移动距离。
+                想象一只手已经移动到尽头，另一只手没到的情况。
+            
+            如果两只手都能以2倍速移动，则以2倍速移动
+            如果一只手不行，则
+                两只手可共同移动的长度，两只手以双倍速移动
+                剩下的部分，那只手以但倍速移动
+
+            设2倍速距离为dis2。
+            首先，求出两只手在方向上可移动的距离。l1，r1
+            （由于求l1,r1较为复杂，可以先尝试移动dis2，然后Clamp。这样得到的l1、r1，为 l1 = min(dis2,l1),r1=min(dis2,r1)，也能用于后面的计算，不影响）
+            取得l1,r1中较小min1，另一个是max1。
+            与dis2比较。
+            如果大于等于，则
+                手移动2倍速距离。
+                身体移动2倍速距离。
+            如果小于，则
+                较小的那个手，移动min1
+                另一个手，移动 min(   max1, min1+(dis2-min1)/2  )
+                身体，移动 min(   max1, min1+(dis2-min1)/2  )
+            */
+
+            float dis2x = (fistMoveSpeed * 2) * Time.fixedDeltaTime;
+            Vector2 velocity = rhDirection * (fistMoveSpeed*2) * Time.fixedDeltaTime;
+            Vector2 rhFistPosOld = rhFist.transform.localPosition;
+            Vector2 rhFistPosNew = rhFistPosOld + velocity;
+            rhFistPosNew.x = Mathf.Clamp(rhFistPosNew.x, rhJoint1Pos.x + minXToOrigin, rhJoint1Pos.x + length);
+            rhFistPosNew.y = Mathf.Clamp(rhFistPosNew.y, rhJoint1Pos.y - length, rhJoint1Pos.y + length);
+            Vector2 lhFistPosOld = lhFist.transform.localPosition;
+            Vector2 lhFistPosNew = lhFistPosOld + velocity;
+            lhFistPosNew.x = Mathf.Clamp(lhFistPosNew.x, lhJoint1Pos.x - length, lhJoint1Pos.x - minXToOrigin);
+            lhFistPosNew.y = Mathf.Clamp(lhFistPosNew.y, lhJoint1Pos.y - length, lhJoint1Pos.y + length);
+            float rhDis = (rhFistPosNew - rhFistPosOld).magnitude;
+            float lhDis = (lhFistPosNew - lhFistPosOld).magnitude;
+            float smallerDis = 0;
+            float biggerDis = 0;
+            GameObject smallerFist = rhFist;
+            GameObject biggerFist = rhFist;
+            if (rhDis > lhDis)
+            {
+                smallerDis = lhDis;
+                smallerFist = lhFist;
+                biggerDis = rhDis;
+                biggerFist = rhFist;
+            }
+            else
+            {
+                smallerDis = rhDis;
+                smallerFist = rhFist;
+                biggerDis = lhDis;
+                biggerFist = lhFist;
+            }
+
+            if (Mathf.Approximately(smallerDis, dis2x) || smallerDis >= dis2x)
+            {
+                rhFist.transform.localPosition = rhFistPosNew;
+                lhFist.transform.localPosition = lhFistPosNew;
+
+                Vector2 offset = rhFistPosNew - rhFistPosOld;
+                offset = Matrix4x4.TRS(wholePerson.transform.localPosition, wholePerson.transform.localRotation, wholePerson.transform.localScale) * (Vector3)offset;
+                Vector2 wholePersonPosNew = (Vector2)wholePerson.transform.localPosition - offset;
+                wholePerson.transform.localPosition = wholePersonPosNew;
+            }
+            else
+            {
+                Vector2 smallerMove = smallerDis * rhDirection;
+                biggerDis = Mathf.Min(biggerDis, smallerDis + (dis2x - smallerDis) / 2);
+                Vector2 biggerMove = biggerDis * rhDirection;
+
+                smallerFist.transform.localPosition += (Vector3)smallerMove;
+                biggerFist.transform.localPosition += (Vector3)biggerMove;
+                
+                Vector3 offset = Matrix4x4.TRS(wholePerson.transform.localPosition, wholePerson.transform.localRotation, wholePerson.transform.localScale) * (Vector3)biggerMove;
+                wholePerson.transform.localPosition += -(Vector3)offset;
+            }
+        }
+        else if (Mathf.Approximately(rhDirection.y, 1) || Mathf.Approximately(lhDirection.y, 1))
+        {
+            if (Mathf.Approximately(rhDirection.y, 1))
+            {
+                /*
+                    如果只是旋转，则旋转。
+                    如果旋转和移动结合，其实是个积分。
+                        如果想算得好一点，等于(先旋转一半)→(再移动)→(再旋转)。
+                        这里就凑活算了。让它等于：先移动，再旋转。
+                    综合而言，两种情况都需要旋转。不同是，需要移动时，先移动一下。
+
+                    所以，代码写成
+                    1.如果需要移动，先移动。
+                    2.然后，旋转。
+                */
+                if (!Mathf.Approximately(lhDirection.magnitude, 0))
+                {
+                    FixedUpdate_FistAndWhole_WholeMoveFistNot(lhFist, lhJoint1Pos, RightOrLeftHand.Left);
+                }
+
+                float angle_Deg = fistRotateSpeed_Degree * Time.fixedDeltaTime;
+                Vector2 offset;
+                float angleWholePerson;
+                FixedUpdate_FistAndWhole_RotateRoundRightHand_InputParam(angle_Deg, rhFist, wholePerson, out offset, out angleWholePerson);
+                
+                wholePerson.transform.localPosition += (Vector3)offset;
+                wholePerson.transform.Rotate(new Vector3(0, 0, angleWholePerson), Space.Self);
+            }
+            else if (Mathf.Approximately(lhDirection.y, 1))
+            {
+                /*
+                if (!Mathf.Approximately(rhDirection.magnitude, 0))
+                {
+                    FixedUpdate_FistAndWhole_WholeMoveFistNot(rhFist, rhJoint1Pos, RightOrLeftHand.Right);
+                }
+                */
+                //沿左手旋转，需要根据右手做镜像
+                float angle_Deg = fistRotateSpeed_Degree * Time.fixedDeltaTime;
+                Vector2 mirredOffset;
+                float mirredAngleWholePerson;
+                Vector2 rhOldPos = rhFist.transform.localPosition;
+                Vector2 lhMirredPos = new Vector2(-lhFist.transform.localPosition.x, lhFist.transform.localPosition.y);
+                rhFist.transform.localPosition = lhMirredPos;
+                FixedUpdate_FistAndWhole_RotateRoundRightHand_InputParam(angle_Deg, rhFist, wholePerson, out mirredOffset, out mirredAngleWholePerson);
+                rhFist.transform.localPosition = rhOldPos;
+
+                //向量的mirror，要根据wholePerson的中轴来做
+                Vector2 wholeAxis = (wholePerson.transform.localRotation * new Vector3(0, 1, 0)).normalized;
+                Vector2 offset = -Vector2.Reflect(mirredOffset, wholeAxis);
+                wholePerson.transform.localPosition += (Vector3)offset;
+                wholePerson.transform.Rotate(new Vector3(0, 0, -mirredAngleWholePerson), Space.Self);
+            }
+        }
+        else
+        {
+            //do nothing
+        }
+
+    }
+
+    void FixedUpdate_Other()
+    {
+        FixedUpdate_Other_RightHand();
+        FixedUpdate_Other_LeftHand();
+    }
+
+    void FixedUpdate_Other_LeftHand()
     {
         //左手需要通过镜像的方式计算
         Vector2 lhFistPosMirred = new Vector2(-lhFist.transform.localPosition.x, lhFist.transform.localPosition.y);
@@ -301,7 +429,7 @@ public class HandControl : MonoBehaviour
         Vector2 line2PosMirred;
         Quaternion line2AndFistRotationMirred;
 
-        OtherFixedUpdate_RightHand_InputParams(
+        FixedUpdate_Other_RightHand_InputParams(
             lhFistPosMirred, lhJoint1PosMirred,
             lhJoint1.transform.localScale.x, lhJoint2.transform.localScale.x,
             lhLine1.transform.localScale.x, lhLine2.transform.localScale.x,
@@ -321,14 +449,14 @@ public class HandControl : MonoBehaviour
         lhFist.transform.localRotation = Quaternion.AngleAxis(-angle, axis);
     }
 
-    void OtherFixedUpdate_RightHand()
+    void FixedUpdate_Other_RightHand()
     {
         Vector2 joint2Pos;
         Vector2 line1Pos;
         Quaternion line1Rotation;
         Vector2 line2Pos;
         Quaternion line2AndFistRotation;
-        OtherFixedUpdate_RightHand_InputParams(
+        FixedUpdate_Other_RightHand_InputParams(
             rhFist.transform.localPosition, rhJoint1.transform.localPosition,
             rhJoint1.transform.localScale.x, rhJoint2.transform.localScale.x,
             rhLine1.transform.localScale.x, rhLine2.transform.localScale.x,
@@ -344,7 +472,7 @@ public class HandControl : MonoBehaviour
         rhFist.transform.localRotation = line2AndFistRotation;
     }
 
-    static void OtherFixedUpdate_RightHand_InputParams(
+    static void FixedUpdate_Other_RightHand_InputParams(
         in Vector2 fistPos, in Vector2 joint1Pos,
         in float joint1ScaleX, in float joint2ScaleX, 
         in float line1ScaleX, in float line2ScaleX,
@@ -409,6 +537,7 @@ public class HandControl : MonoBehaviour
         }
     }
 
+    
     void ConstVariableInit()
     {
         length1 = rhJoint1.transform.localScale.x / 2 + rhLine1.transform.localScale.x + rhJoint2.transform.localScale.x / 2;
@@ -417,7 +546,8 @@ public class HandControl : MonoBehaviour
         rhJoint1Pos = rhJoint1.transform.localPosition;
         lhJoint1Pos = lhJoint1.transform.localPosition;
 
-        fistSpeed = length;
+        fistMoveSpeed = length;
+        fistRotateSpeed_Degree = 360f / 15f;
         minXToOrigin = rhJoint1.transform.localScale.x / 2 + rhFist.transform.localScale.x / 2;
     }
 }
