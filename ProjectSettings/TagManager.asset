@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - EnvGround
+  - EnvRock
+  - Stuff
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Env
+    uniqueID: 2525550967
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
