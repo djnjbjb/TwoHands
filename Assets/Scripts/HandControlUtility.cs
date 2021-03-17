@@ -2,6 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+/*                                       *
+ *          Right Or Left Hand           *
+ *                                       */
+enum RightOrLeftHand
+{
+    Right = 1,
+    Left = -1
+}
+
+
 /*                              *
  *          HandState           *
  *                              */
@@ -24,18 +36,19 @@ public static class HandStateExendsion
     {
         return state == HandState.GrabNothing || state == HandState.GrabEnv || state == HandState.GrabStuff;
     }
-    public static bool GrabSomething(this HandState state)
+    public static bool GrabedSomething(this HandState state)
     {
         return state == HandState.GrabEnv || state == HandState.GrabStuff;
     }
 }
 
-
-/*                                       *
- *          Right Or Left Hand           *
- *                                       */
-enum RightOrLeftHand
+/*                              *
+ *          FootState           *
+ *                              */
+public enum FootState
 {
-    Right = 1,
-    Left = -1
+    Air,
+    Surface,
+    EnvGround,
+    EnvRock
 }

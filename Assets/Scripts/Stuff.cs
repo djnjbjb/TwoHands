@@ -7,11 +7,6 @@ public class Stuff : MonoBehaviour
     public float speed = 0;
     public Vector2 direction = new Vector2(0,0);
     public float decrease = 0.03f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void FixedUpdate()
