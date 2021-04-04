@@ -6,7 +6,7 @@ public partial class HandControl : MonoBehaviour
 {
     void Update()
     {
-        HKey.Refresh();
+        HKey.UpdateRefresh();
         UpdateFistRepresent();
     }
 

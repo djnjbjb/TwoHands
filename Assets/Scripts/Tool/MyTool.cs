@@ -21,6 +21,15 @@ public class MyTool
         else
             return false;
     }
+
+    public static Vector2 FindNearestPointOnLine(Vector2 lineOrigin, Vector2 lineDirection, Vector2 point)
+    {
+        lineDirection.Normalize();
+        Vector2 lhs = point - lineOrigin;
+
+        float dotP = Vector2.Dot(lhs, lineDirection);
+        return lineOrigin + lineDirection * dotP;
+    }
 }
 
 public class Logout

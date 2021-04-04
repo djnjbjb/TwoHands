@@ -13,26 +13,21 @@ public partial class HandControl : MonoBehaviour
     GameObject leftFist;
     GameObject bottomLeftPoint;
     GameObject bottomRightPoint;
-    HandOther handOther;
+    HandRepresent handRepresent;
     //常用const
+    int ifGrabMoveReverse = 1;
     float length;
     //常用变量，每帧更新的
     Matrix4x4 wholeMatrix;
 
     //Hand State
     HandState rightFistState = HandState.Free;
-    HandState leftFistState = HandState.Free;
     GameObject rightGrabedStuff = null;
+    HandState leftFistState = HandState.Free;
     GameObject leftGrabedStuff = null;
 
     //Fist Move Variable
-    Vector2 rightFistVelocity = new Vector2();
-    Vector2 leftFistVelocity = new Vector2();
-    //const
-    float fistSpeedStartingUp;
-    float fistSpeedAcceleration;
-    float fistSpeedDeceleration;
-    float fistSpeedMax;
+    FistVelocity fistVelocity;
 
     //Whole Move Variable
     Vector2 wholeVelocity = new Vector2();
@@ -54,31 +49,22 @@ public partial class HandControl : MonoBehaviour
         leftFist = whole.transform.Find("LHFist").gameObject;
         bottomLeftPoint = whole.transform.Find("BottomLeftPoint").gameObject;
         bottomRightPoint = whole.transform.Find("BottomRightPoint").gameObject;
-        handOther = new HandOther(whole);
+        handRepresent = new HandRepresent(whole);
         //常用const
-        float length1 = handOther.RightJoint1.transform.localScale.x / 2 + handOther.RightLine1.transform.localScale.x + handOther.RightJoint2.transform.localScale.x / 2;
-        float length2 = handOther.RightJoint2.transform.localScale.x / 2 + handOther.RightLine2.transform.localScale.x + rightFist.transform.localScale.x / 2;
+        float length1 = handRepresent.rightJoint1.transform.localScale.x / 2 + handRepresent.rightLine1.transform.localScale.x + handRepresent.rightJoint2.transform.localScale.x / 2;
+        float length2 = handRepresent.rightJoint2.transform.localScale.x / 2 + handRepresent.rightLine2.transform.localScale.x + rightFist.transform.localScale.x / 2;
         length = length1 + length2;
 
         //Hand State
         //不用初始化
 
-        //Fist Move Variable
-        /*
-            初始速度大概为length
-            从上到下，2*lengh，用时0.8s
-            由此得出
-                fistSpeedStartingUp = length;
-                fistSpeedAcceleration = 3.75f * length;
-                fistSpeedMax = 4f * length;
-            由于可以双手，所以我希望 fistSpeedMax 再乘以2
-        */
-        fistSpeedStartingUp = length;
-        fistSpeedAcceleration = 3.75f * length;
-        fistSpeedMax = (4f * length) * 2;
-        fistSpeedDeceleration = 8f * length;
+        //fistVelocicy
+        fistVelocity = new FistVelocity(length);
+
 
         //Whole Move Variable
-        wholeSpeedMax = fistSpeedMax;
+        wholeSpeedMax = 5*length;
+
+        Yurowm.DebugTools.DebugPanel.Log("Length", "常量", length);
     }
 }
