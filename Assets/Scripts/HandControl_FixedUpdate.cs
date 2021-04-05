@@ -24,6 +24,7 @@ public partial class HandControl : MonoBehaviour
      */
     void FixedUpdate()
     {
+        return;
         
         FU_Pre();
 
