@@ -27,7 +27,7 @@ public partial class HandControl : MonoBehaviour
     GameObject leftGrabedStuff = null;
 
     //Fist Move Variable
-    FistVelocity fistVelocity;
+    TwoFistVelocity fistVelocity;
 
     //Whole Move Variable
     Vector2 wholeVelocity = new Vector2();
@@ -59,7 +59,7 @@ public partial class HandControl : MonoBehaviour
         //不用初始化
 
         //fistVelocicy
-        fistVelocity = new FistVelocity(length);
+        fistVelocity = new TwoFistVelocity(length);
 
 
         //Whole Move Variable

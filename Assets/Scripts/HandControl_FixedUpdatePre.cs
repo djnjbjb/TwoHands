@@ -13,11 +13,6 @@ public partial class HandControl : MonoBehaviour
 
         HandStateUpdate(rightPre, leftPre);
         HandStuffUpdate(rightPre, leftPre);
-
-        fistVelocity.RefreshSpeed();
-
-        Yurowm.DebugTools.DebugPanel.Log("rightSpeed", "Speed", fistVelocity.right.speed);
-        Yurowm.DebugTools.DebugPanel.Log("leftSpeed", "Speed", fistVelocity.left.speed);
     }
 
     void VariableUpdate()
