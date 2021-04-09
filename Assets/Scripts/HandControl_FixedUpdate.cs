@@ -52,7 +52,7 @@ public partial class HandControl : MonoBehaviour
         handRepresent.Refresh();
     }
 
-    void ___________________________I()
+    void ____________FU_General_______________()
     {
 
     }
@@ -81,11 +81,129 @@ public partial class HandControl : MonoBehaviour
         offset = afterMove - fistPos;
     }
 
-    void ___________________________II()
+    void ___________FU_Fist_____________()
     {
 
     }
 
+    void FU_Fists(
+       FistState leftFistState, Vector2 leftMoveDir,
+       FistState rightFistState, Vector2 rightMoveDir,
+       out Vector2 leftFistOffset, out Vector2 rightFistOffset)
+    {
+        /*
+           计算手的作用手的作用对自己的变化，手的作用对whole的影响
+
+           重构时，需要把变化表达清楚。
+
+           --双手--
+           简单想想
+               输入是什么：按键的方向，手的速度
+               输出是什么：手的offset，手的速度，身体的offset，身体的速度？
+               哪些用于手自己
+               哪些用于身体
+           整理
+               首先，把双手的事情看做一个整体，看它有什么输入，有什么输出。
+               抽象出来一个函数。
+
+               这个函数并不起实际作用。只会计算。其实计算出的是一些指导性意见。
+               然后，再搞个应用。
+
+               输入: 按键的方向，手在上一阵的速
+               输出：手的offset，手的速度
+
+           --身体--
+           其实计算出，也是个指导意见，比如offset。
+           offset作为输入，根据其他东西去输出。
+
+           --还是需要一个目的，我要做的关卡是什么--
+           这一版本的目的还是很简单，只是移动和跳跃，对身体移动限制的东西基本没有，
+           重构只是为了清晰，把那些变化的量明确出来，作为指导意见
+        */
+
+
+        /*
+         输出：
+            手的offset、手的速度。这二者的大小、方向是否一致。
+                这些可以直接应用。
+            （？）身体offset。这部分应该不应用，只是作为指导。
+                也许可以不输出，只是由身体部分去决定。
+                用handState和手的offset，是可以计算的。
+            （无）身体veloctiy。这个不输出。在身体部分代码，应当根据手的offset、手的速度等东西，去决定自己的速度。
+            (重复)HandState。身体的计算，也要参考这个。
+
+            加入双手代码后，除了HandState，还需要考虑mvDir的方向。
+            在双手的部分，受这个而影响。
+                能否统一化呢？
+                只要让不动，似乎就可以。
+                也许不是很有必要。
+                我的目的，其实是把hand和whole的移动完全分离。
+                分离的目的，是因为whole部分作用的东西比较多，比如移动的平台等。为了方便那部分的书写。
+
+        输入：
+            HandState
+            操作的MvDir
+            手的速度
+            也许不用那么明确输入。
+                还有些细节，比如joint1，这就不重要。
+                上面那3个，感觉也不重要。
+         
+        */
+        //Fist Speed
+        ParameterForSpeed leftParameter = new ParameterForSpeed
+        {
+            anyKeyHold = HKey.lDown || HKey.lUp || HKey.lRight || HKey.lLeft,
+            keyDir = HKey.lMvDir,
+            handState = leftFistState,
+            moveDir = HKey.lMvDir * (leftFistState == FistState.GrabEnv ? ifGrabMoveReverse : 1)
+        };
+        ParameterForSpeed rightParameter = new ParameterForSpeed
+        {
+            anyKeyHold = HKey.rDown || HKey.rUp || HKey.rRight || HKey.rLeft,
+            keyDir = HKey.rMvDir,
+            handState = rightFistState,
+            moveDir = HKey.rMvDir * (rightFistState == FistState.GrabEnv ? ifGrabMoveReverse : 1)
+        };
+        fistVelocity.RefreshSpeed(leftParameter: leftParameter, rightParameter: rightParameter);
+
+        Yurowm.DebugTools.DebugPanel.Log("rightSpeed", "Speed", fistVelocity.right.speed);
+        Yurowm.DebugTools.DebugPanel.Log("leftSpeed", "Speed", fistVelocity.left.speed);
+
+
+        //Fist offset
+        leftFistOffset = new Vector2();
+        rightFistOffset = new Vector2();
+        if (rightFistState != FistState.GrabEnv)
+        {
+            FU_Fist_NoGrabEnv_Right(rightMoveDir, out rightFistOffset);
+        }
+        if (leftFistState != FistState.GrabEnv)
+        {
+            FU_Fist_NoGrabEnv_Left(leftMoveDir, out leftFistOffset);
+        }
+
+        if (rightFistState == FistState.GrabEnv && leftFistState != FistState.GrabEnv)
+        {
+            FU_Fist_GrabEnv_Right(out rightFistOffset);
+        }
+        if (rightFistState != FistState.GrabEnv && leftFistState == FistState.GrabEnv)
+        {
+            FU_Fist_GrabEnv_Left(out leftFistOffset);
+
+        }
+        if (rightFistState == FistState.GrabEnv && leftFistState == FistState.GrabEnv)
+        {
+            FU_Fist_GrabEnv_2Fist(leftFistOffset: out leftFistOffset, rightFistOffset: out rightFistOffset);
+        }
+        this.rightFist.transform.localPosition += (Vector3)rightFistOffset;
+        this.leftFist.transform.localPosition += (Vector3)leftFistOffset;
+
+        /*
+            offset计算完成后，offset是否会对speed产生影响呢？
+            可以产生影响，也可以不产生影响，比如offset为0的情况。
+            只考虑Fist这部分，其实没太大影响。就先不做，到whole部分再处理。
+         */
+    }
     void FU_Fist_NoGrabEnv_Right(Vector2 mvDir, out Vector2 offset)
     {
         Vector2 fistPos = rightFist.transform.localPosition;
@@ -158,122 +276,7 @@ public partial class HandControl : MonoBehaviour
         }
     }
 
-    void FU_Fists(
-        FistState leftFistState, Vector2 leftMoveDir,
-        FistState rightFistState, Vector2 rightMoveDir,
-        out Vector2 leftFistOffset, out Vector2 rightFistOffset)
-    {
-        /*
-           计算手的作用手的作用对自己的变化，手的作用对whole的影响
-
-           重构时，需要把变化表达清楚。
-
-           --双手--
-           简单想想
-               输入是什么：按键的方向，手的速度
-               输出是什么：手的offset，手的速度，身体的offset，身体的速度？
-               哪些用于手自己
-               哪些用于身体
-           整理
-               首先，把双手的事情看做一个整体，看它有什么输入，有什么输出。
-               抽象出来一个函数。
-
-               这个函数并不起实际作用。只会计算。其实计算出的是一些指导性意见。
-               然后，再搞个应用。
-
-               输入: 按键的方向，手在上一阵的速
-               输出：手的offset，手的速度
-
-           --身体--
-           其实计算出，也是个指导意见，比如offset。
-           offset作为输入，根据其他东西去输出。
-
-           --还是需要一个目的，我要做的关卡是什么--
-           这一版本的目的还是很简单，只是移动和跳跃，对身体移动限制的东西基本没有，
-           重构只是为了清晰，把那些变化的量明确出来，作为指导意见
-        */
-
-
-        /*
-         输出：
-            手的offset、手的速度。这二者的大小、方向是否一致。
-                这些可以直接应用。
-            （？）身体offset。这部分应该不应用，只是作为指导。
-                也许可以不输出，只是由身体部分去决定。
-                用handState和手的offset，是可以计算的。
-            （无）身体veloctiy。这个不输出。在身体部分代码，应当根据手的offset、手的速度等东西，去决定自己的速度。
-            (重复)HandState。身体的计算，也要参考这个。
-
-            加入双手代码后，除了HandState，还需要考虑mvDir的方向。
-            在双手的部分，受这个而影响。
-                能否统一化呢？
-                只要让不动，似乎就可以。
-                也许不是很有必要。
-                我的目的，其实是把hand和whole的移动完全分离。
-                分离的目的，是因为whole部分作用的东西比较多，比如移动的平台等。为了方便那部分的书写。
-
-        输入：
-            HandState
-            操作的MvDir
-            手的速度
-            也许不用那么明确输入。
-                还有些细节，比如joint1，这就不重要。
-                上面那3个，感觉也不重要。
-         
-        */
-        //Fist Speed
-        ParameterForSpeed leftParameter = new ParameterForSpeed {
-            anyKeyHold = HKey.lDown || HKey.lUp || HKey.lRight || HKey.lLeft,
-            keyDir = HKey.lMvDir,
-            handState = leftFistState,
-            moveDir = HKey.lMvDir * (leftFistState == FistState.GrabEnv ? ifGrabMoveReverse : 1)};
-        ParameterForSpeed rightParameter = new ParameterForSpeed {
-            anyKeyHold = HKey.rDown || HKey.rUp || HKey.rRight || HKey.rLeft,
-            keyDir = HKey.rMvDir,
-            handState = rightFistState,
-            moveDir = HKey.rMvDir * (rightFistState == FistState.GrabEnv ? ifGrabMoveReverse : 1)};
-        fistVelocity.RefreshSpeed(leftParameter: leftParameter, rightParameter: rightParameter);
-
-        Yurowm.DebugTools.DebugPanel.Log("rightSpeed", "Speed", fistVelocity.right.speed);
-        Yurowm.DebugTools.DebugPanel.Log("leftSpeed", "Speed", fistVelocity.left.speed);
-
-
-        //Fist offset
-        leftFistOffset = new Vector2();
-        rightFistOffset = new Vector2();
-        if (rightFistState != FistState.GrabEnv)
-        {
-            FU_Fist_NoGrabEnv_Right(rightMoveDir, out rightFistOffset);
-        }
-        if (leftFistState != FistState.GrabEnv)
-        {
-            FU_Fist_NoGrabEnv_Left(leftMoveDir, out leftFistOffset);
-        }
-
-        if (rightFistState == FistState.GrabEnv && leftFistState != FistState.GrabEnv)
-        {
-            FU_Fist_GrabEnv_Right(out rightFistOffset);
-        }
-        if (rightFistState != FistState.GrabEnv && leftFistState == FistState.GrabEnv)
-        {
-            FU_Fist_GrabEnv_Left(out leftFistOffset);
-            
-        }
-        if (rightFistState == FistState.GrabEnv && leftFistState == FistState.GrabEnv)
-        {
-            FU_Fist_GrabEnv_2Fist(leftFistOffset:out leftFistOffset, rightFistOffset: out rightFistOffset);
-        }
-        this.rightFist.transform.localPosition += (Vector3)rightFistOffset;
-        this.leftFist.transform.localPosition += (Vector3)leftFistOffset;
-
-        /*
-            offset计算完成后，offset是否会对speed产生影响呢？
-            可以产生影响，也可以不产生影响，比如offset为0的情况。
-            只考虑Fist这部分，其实没太大影响。就先不做，到whole部分再处理。
-         */
-    }
-
-    void ___________________________IIII()
+    void _________FU_Whole__________________()
     {
 
     }
@@ -389,14 +392,40 @@ public partial class HandControl : MonoBehaviour
 
     void FU_Whole()
     {
-        /*
-            Summayr
-            首先区分有无GrabEnv。
-            当手有GrabEnv时，用offset计算。
-            没有时，用speed计算。
+        FU_Whole_Velocity();
+        FU_Whole_Offset();
+    }
 
-            在这之前，可以先准备些常用参数。
-        */
+    void FU_Whole_Velocity()
+    {
+        if (leftFistState != FistState.GrabEnv || rightFistState == FistState.GrabEnv)
+        {
+            wholeVelocityBeforeJump.FixedUpdateManually();
+        }
+        else
+        {
+            if (leftFistState.pre == FistState.GrabEnv || rightFistState.pre == FistState.GrabEnv)
+            {
+                wholeVelocityWhileJumping.StartJump();
+            }
+            else
+            {
+                wholeVelocityWhileJumping.FixedUpdateManually();
+            }
+        }
+
+    }
+
+    void FU_Whole_Offset()
+    {
+        /*
+    Summayr
+    首先区分有无GrabEnv。
+    当手有GrabEnv时，用offset计算。
+    没有时，用speed计算。
+
+    在这之前，可以先准备些常用参数。
+*/
 
         /*
             0. 准备         
@@ -429,7 +458,7 @@ public partial class HandControl : MonoBehaviour
                     注意，offset的方向，可能和fistVelocity不同。
                     比如我斜向移动，但是到头了，于是结果可能是横向移动。
                 */
-                
+
                 float smallerDis = 0;
                 float biggerDis = 0;
                 GameObject smallerFist = rightFist;
@@ -452,7 +481,7 @@ public partial class HandControl : MonoBehaviour
                         biggerFist = leftFist;
                     }
                 }
-                
+
                 if (MyTool.FloatEqual0p001(biggerDis, 0))
                 {
                     wholeOffset = new Vector2();
@@ -483,7 +512,7 @@ public partial class HandControl : MonoBehaviour
                         身体的移动，取决于2个dis，x方向上的最大分量和y方向的最大分量。
                     */
                     Vector2 Offset = new Vector2();
-                    if (Mathf.Abs(Vector2.Dot(rightFistOffset, Vector2.right)) 
+                    if (Mathf.Abs(Vector2.Dot(rightFistOffset, Vector2.right))
                         >= Mathf.Abs(Vector2.Dot(leftFistOffset, Vector2.right))
                        )
                     {
@@ -493,7 +522,7 @@ public partial class HandControl : MonoBehaviour
                     {
                         Offset += Vector2.Dot(leftFistOffset, Vector2.right) * Vector2.right;
                     }
-                    if (Mathf.Abs(Vector2.Dot(rightFistOffset, Vector2.down)) 
+                    if (Mathf.Abs(Vector2.Dot(rightFistOffset, Vector2.down))
                         >= Mathf.Abs(Vector2.Dot(leftFistOffset, Vector2.down))
                        )
                     {

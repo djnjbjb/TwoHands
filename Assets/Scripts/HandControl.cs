@@ -10,6 +10,7 @@ public partial class HandControl : MonoBehaviour
     //Setting
     float surfaceTolerance = 0.01f;
 
+
     //GameObject
     [SerializeField] GameObject whole;
     public GameObject leftFist { get; private set; }
@@ -32,10 +33,11 @@ public partial class HandControl : MonoBehaviour
     TwoFistVelocity fistVelocity;
 
     //Whole Move Variable
-    Vector2 wholeVelocity = new Vector2();
+    WholeVelocityBeforeJump wholeVelocityBeforeJump;
+    WholeVelocityWhileJumping wholeVelocityWhileJumping;
     //const
-    float wholeSpeedMax;
-    float gravityAcceleration = 12f;
+    float wholeSpeedDownPartMax = 48f;
+    float gravity = 48f;
 
     void Start()
     {
