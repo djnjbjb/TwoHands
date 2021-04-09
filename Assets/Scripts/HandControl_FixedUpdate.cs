@@ -159,8 +159,8 @@ public partial class HandControl : MonoBehaviour
     }
 
     void FU_Fists(
-        HandState leftFistState, Vector2 leftMoveDir,
-        HandState rightFistState, Vector2 rightMoveDir,
+        FistState leftFistState, Vector2 leftMoveDir,
+        FistState rightFistState, Vector2 rightMoveDir,
         out Vector2 leftFistOffset, out Vector2 rightFistOffset)
     {
         /*
@@ -225,11 +225,13 @@ public partial class HandControl : MonoBehaviour
         ParameterForSpeed leftParameter = new ParameterForSpeed {
             anyKeyHold = HKey.lDown || HKey.lUp || HKey.lRight || HKey.lLeft,
             keyDir = HKey.lMvDir,
-            handState = leftFistState };
+            handState = leftFistState,
+            moveDir = HKey.lMvDir * (leftFistState == FistState.GrabEnv ? ifGrabMoveReverse : 1)};
         ParameterForSpeed rightParameter = new ParameterForSpeed {
             anyKeyHold = HKey.rDown || HKey.rUp || HKey.rRight || HKey.rLeft,
             keyDir = HKey.rMvDir,
-            handState = rightFistState };
+            handState = rightFistState,
+            moveDir = HKey.rMvDir * (rightFistState == FistState.GrabEnv ? ifGrabMoveReverse : 1)};
         fistVelocity.RefreshSpeed(leftParameter: leftParameter, rightParameter: rightParameter);
 
         Yurowm.DebugTools.DebugPanel.Log("rightSpeed", "Speed", fistVelocity.right.speed);
@@ -239,26 +241,25 @@ public partial class HandControl : MonoBehaviour
         //Fist offset
         leftFistOffset = new Vector2();
         rightFistOffset = new Vector2();
-        if (rightFistState != HandState.GrabEnv)
+        if (rightFistState != FistState.GrabEnv)
         {
             FU_Fist_NoGrabEnv_Right(rightMoveDir, out rightFistOffset);
-
         }
-        if (leftFistState != HandState.GrabEnv)
+        if (leftFistState != FistState.GrabEnv)
         {
             FU_Fist_NoGrabEnv_Left(leftMoveDir, out leftFistOffset);
         }
 
-        if (rightFistState == HandState.GrabEnv && leftFistState != HandState.GrabEnv)
+        if (rightFistState == FistState.GrabEnv && leftFistState != FistState.GrabEnv)
         {
             FU_Fist_GrabEnv_Right(out rightFistOffset);
         }
-        if (rightFistState != HandState.GrabEnv && leftFistState == HandState.GrabEnv)
+        if (rightFistState != FistState.GrabEnv && leftFistState == FistState.GrabEnv)
         {
             FU_Fist_GrabEnv_Left(out leftFistOffset);
             
         }
-        if (rightFistState == HandState.GrabEnv && leftFistState == HandState.GrabEnv)
+        if (rightFistState == FistState.GrabEnv && leftFistState == FistState.GrabEnv)
         {
             FU_Fist_GrabEnv_2Fist(leftFistOffset:out leftFistOffset, rightFistOffset: out rightFistOffset);
         }
@@ -269,7 +270,6 @@ public partial class HandControl : MonoBehaviour
             offset计算完成后，offset是否会对speed产生影响呢？
             可以产生影响，也可以不产生影响，比如offset为0的情况。
             只考虑Fist这部分，其实没太大影响。就先不做，到whole部分再处理。
-         
          */
     }
 
@@ -282,16 +282,14 @@ public partial class HandControl : MonoBehaviour
     {
         //把手的部分中，whole可能用到的代码，先放到这里。
 
-        //首先是单手移动的代码
-        //wholeOffset = wholeMatrix * -fistOffset;
-        //whole.transform.position += (Vector3)wholeOffset;
 
         //接下来是双手移动的代码
-        //注意，offset的方向，可能和fistVelocity不同。因为，比如我斜向移动，但是到头了，于是结果可能是横向移动
-        //以下是相关代码
-        //↓
-        //float rhDis = (rhFistPosNew - rhFistPosOld).magnitude;
-        //float lhDis = (lhFistPosNew - lhFistPosOld).magnitude;
+        /*
+            注意，offset的方向，可能和fistVelocity不同。
+            比如我斜向移动，但是到头了，于是结果可能是横向移动。
+        */
+        //float rhDis = rightFistOffset.magnitude;
+        //float lhDis = leftFistOffset.magnitude;
         //float smallerDis = 0;
         //float biggerDis = 0;
         //GameObject smallerFist = rightFist;
@@ -386,194 +384,273 @@ public partial class HandControl : MonoBehaviour
         //    */
         //    wholeVelocity = wholeMatrix * (-fistSpeed * rhDirection);
         //}
+
     }
 
-    //void FU_Whole()
-    //{
-    //    /*
-    //        当手有GrabEnv时，用offset计算。
-    //        没有时，用speed计算。
+    void FU_Whole()
+    {
+        /*
+            Summayr
+            首先区分有无GrabEnv。
+            当手有GrabEnv时，用offset计算。
+            没有时，用speed计算。
 
-    //        有GrabEnv时，不考虑任何碰撞。
-    //        没有时，只考虑向下运动的碰撞。
-    //            没有考虑从左右碰撞collider的问题。感觉暂时不需要。
+            在这之前，可以先准备些常用参数。
+        */
 
-    //        这部分需要搞定whole的position和speed。
+        /*
+            0. 准备         
+         */
+        Matrix4x4 wholeMatrix = Matrix4x4.TRS(whole.transform.position, whole.transform.localRotation, whole.transform.localScale);
 
-    //        ----------------
-    //        水平方向有摩擦力减速
-    //        只有在地面时，才有摩擦力减速
-    //            向上无摩擦力
-    //            向下，只有接触地面时有摩擦力
-    //    */
+        /*
+            1. 有GrabEnv 
+            有GrabEnv时，不考虑任何碰撞。
+            根据HandState分情况讨论。
+        */
+        if (rightFistState == FistState.GrabEnv || leftFistState == FistState.GrabEnv)
+        {
+            Vector2 rightFistOffset = new Vector2();
+            Vector2 leftFistOffset = new Vector2();
 
-    //    Vector2 wholeVelocityNew;
-    //    float wholeVelNew_DownPart;
-    //    {
-    //        float deltaSpeed = gravityAcceleration * Time.fixedDeltaTime;
-    //        Vector2 deltaVelocity = deltaSpeed * Vector2.down;
 
-    //        wholeVelocityNew = wholeVelocity + deltaVelocity;
-    //        if (wholeVelocityNew.magnitude > wholeSpeedMax)
-    //        {
-    //            wholeVelocityNew = wholeVelocityNew.normalized * wholeSpeedMax;
-    //        }
-    //        wholeVelNew_DownPart = Vector2.Dot(wholeVelocityNew, Vector2.down);
-    //    }
-    //    /*
-    //        1
-    //        有GrabEnv 
-    //    */
-    //    if (rightFistState == HandState.GrabEnv || leftFistState == HandState.GrabEnv)
-    //    {
-    //        //whole position
-    //        whole.transform.position += (Vector3)wholeGrabEnvOffset;
-    //        //whole speed -> 不变
-    //        return;
-    //    }
+            Vector2 wholeOffset = new Vector2();
+            if (rightFistState == FistState.GrabEnv && leftFistState != FistState.GrabEnv)
+            {
+                wholeOffset = wholeMatrix * -rightFistOffset;
+            }
+            if (rightFistState != FistState.GrabEnv && leftFistState == FistState.GrabEnv)
+            {
+                wholeOffset = wholeMatrix * -leftFistOffset;
+            }
+            if (rightFistState == FistState.GrabEnv && leftFistState == FistState.GrabEnv)
+            {
+                /*
+                    注意，offset的方向，可能和fistVelocity不同。
+                    比如我斜向移动，但是到头了，于是结果可能是横向移动。
+                */
+                
+                float smallerDis = 0;
+                float biggerDis = 0;
+                GameObject smallerFist = rightFist;
+                GameObject biggerFist = rightFist;
+                {
+                    float rhDis = rightFistOffset.magnitude;
+                    float lhDis = leftFistOffset.magnitude;
+                    if (rhDis > lhDis)
+                    {
+                        smallerDis = lhDis;
+                        smallerFist = leftFist;
+                        biggerDis = rhDis;
+                        biggerFist = rightFist;
+                    }
+                    else
+                    {
+                        smallerDis = rhDis;
+                        smallerFist = rightFist;
+                        biggerDis = lhDis;
+                        biggerFist = leftFist;
+                    }
+                }
+                
+                if (MyTool.FloatEqual0p001(biggerDis, 0))
+                {
+                    wholeOffset = new Vector2();
+                }
+                else if (MyTool.FloatEqual0p001(smallerDis, 0) && !MyTool.FloatEqual0p001(biggerDis, 0))
+                {
+                    //如果一只手的移动是0
+                    //身体和移动的那只手，等效于单手移动
+                    //另一只手减速
+                    if (biggerFist == rightFist)
+                    {
+                        wholeOffset = wholeMatrix * -rightFistOffset;
+                    }
+                    if (biggerFist == leftFist)
+                    {
+                        wholeOffset = wholeMatrix * -leftFistOffset;
+                    }
+                }
+                else
+                {
+                    /*  
+                        双手移动都不是0
+                            其实分2种情况，一种是都可以移动到dis，一种是不行，但在计算时没有区别
 
-    //    /*
-    //        2
-    //        无GrabEnv，无向下运动
-    //    */
-    //    if (wholeVelNew_DownPart <= 0)
-    //    {
-    //        //whole position
-    //        whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime;
-    //        //whole speed
-    //        wholeVelocity = wholeVelocityNew;
-    //        return;
-    //    }
+                        注意，offset的方向，可能和fistVelocity不同。
+                            比如，极端情况。按键是右上，但两只手都没向右上移动，一只手向右，一只手向上。
+                        这时应如何计算呢？
+                        身体的移动，取决于2个dis，x方向上的最大分量和y方向的最大分量。
+                    */
+                    Vector2 Offset = new Vector2();
+                    if (Mathf.Abs(Vector2.Dot(rightFistOffset, Vector2.right)) 
+                        >= Mathf.Abs(Vector2.Dot(leftFistOffset, Vector2.right))
+                       )
+                    {
+                        Offset += Vector2.Dot(rightFistOffset, Vector2.right) * Vector2.right;
+                    }
+                    else
+                    {
+                        Offset += Vector2.Dot(leftFistOffset, Vector2.right) * Vector2.right;
+                    }
+                    if (Mathf.Abs(Vector2.Dot(rightFistOffset, Vector2.down)) 
+                        >= Mathf.Abs(Vector2.Dot(leftFistOffset, Vector2.down))
+                       )
+                    {
+                        Offset += Vector2.Dot(rightFistOffset, Vector2.down) * Vector2.down;
+                    }
+                    else
+                    {
+                        Offset += Vector2.Dot(leftFistOffset, Vector2.down) * Vector2.down;
+                    }
+                    wholeOffset = wholeMatrix * -Offset;
+                }
+            }
 
-    //    /*
-    //        3
-    //        无GrabEnv，有向下运动
-    //    */
-    //    //3.1 get FootState
-    //    FootState footState;
-    //    {
-    //        Vector2 pointBL = bottomLeftPoint.transform.position;
-    //        Vector2 pointBR = bottomRightPoint.transform.position;
-    //        RaycastHit2D hit = Physics2D.Linecast(pointBL, pointBR);
+            whole.transform.position += (Vector3)wholeOffset;
+            return;
+        }
 
-    //        Vector2 pointBLUp = (Vector2)bottomLeftPoint.transform.position + new Vector2(0, surfaceTolerance);
-    //        Vector2 pointBRUp = (Vector2)bottomRightPoint.transform.position + new Vector2(0, surfaceTolerance);
-    //        RaycastHit2D hitUp = Physics2D.Linecast(pointBLUp, pointBRUp);
+        /*
+            2. 无GrabEnv 
 
-    //        Vector2 pointBLDown = (Vector2)bottomLeftPoint.transform.position - new Vector2(0, surfaceTolerance);
-    //        Vector2 pointBRDown = (Vector2)bottomRightPoint.transform.position - new Vector2(0, surfaceTolerance);
-    //        RaycastHit2D hitDown = Physics2D.Linecast(pointBLDown, pointBRDown);
+            没有时，只考虑向下运动的碰撞。
+                没有考虑从左右碰撞collider的问题。感觉暂时不需要。
 
-    //        if (!hitUp.collider && !hitDown.collider)
-    //            footState = FootState.Air;
-    //        else if (!hitUp.collider && hitDown.collider)
-    //            footState = FootState.Surface;
-    //        else
-    //        {
-    //            footState = FootState.EnvRock;
+            ----------------
+            水平方向有摩擦力减速
+            只有在地面时，才有摩擦力减速
+                向上无摩擦力
+                向下，只有接触地面时有摩擦力
+         
+         */
+        //Vector2 wholeVelocityNew;
+        //float wholeVelNew_DownPart;
+        //{
+        //    float deltaSpeed = gravityAcceleration * Time.fixedDeltaTime;
+        //    Vector2 deltaVelocity = deltaSpeed * Vector2.down;
 
-    //            int layerMaskGround = LayerMask.GetMask("EnvGround");
-    //            RaycastHit2D hitDownGround = Physics2D.Linecast(pointBLDown, pointBRDown, layerMaskGround);
-    //            RaycastHit2D hitUpGround = Physics2D.Linecast(pointBLUp, pointBRUp, layerMaskGround);
-    //            if (hitDownGround.collider)
-    //                footState = FootState.EnvGround;
-    //        }
-    //    }
+        //    wholeVelocityNew = wholeVelocity + deltaVelocity;
+        //    if (wholeVelocityNew.magnitude > wholeSpeedMax)
+        //    {
+        //        wholeVelocityNew = wholeVelocityNew.normalized * wholeSpeedMax;
+        //    }
+        //    wholeVelNew_DownPart = Vector2.Dot(wholeVelocityNew, Vector2.down);
+        //}
+        ///*
+        //    2.1
+        //    无GrabEnv，无向下运动
+        //*/
+        //{
 
-    //    //3.2 do regarding to footState
-    //    if (footState == FootState.Surface || footState == FootState.EnvGround)
-    //    {
-    //        float wholeVelNew_RightPart = Vector2.Dot(wholeVelocityNew, Vector2.right);
-    //        wholeVelocityNew = wholeVelNew_RightPart * Vector2.right;
-    //        //水平方向摩擦力减速
-    //        float speedNew = wholeVelocityNew.magnitude - fistSpeedDeceleration * Time.fixedDeltaTime;
-    //        speedNew = Mathf.Clamp(speedNew, 0f, wholeSpeedMax);
-    //        wholeVelocityNew = speedNew * wholeVelocityNew.normalized;
-    //        //whole position
-    //        whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime;
-    //        //whole speed
-    //        wholeVelocity = wholeVelocityNew;
+        //}
+        //if (wholeVelNew_DownPart <= 0)
+        //{
+        //    //whole position
+        //    whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime;
+        //    //whole speed
+        //    wholeVelocity = wholeVelocityNew;
+        //    return;
+        //}
 
-    //    }
-    //    else if (footState == FootState.Air)
-    //    {
-    //        float downDis = wholeVelNew_DownPart * Time.fixedDeltaTime;
+        ///*
+        //    2.2
+        //    无GrabEnv，有向下运动
+        //*/
+        ////2.2.2 do regarding to footState
+        //if (footState == FootState.Surface || footState == FootState.EnvGround)
+        //{
+        //    float wholeVelNew_RightPart = Vector2.Dot(wholeVelocityNew, Vector2.right);
+        //    wholeVelocityNew = wholeVelNew_RightPart * Vector2.right;
+        //    //水平方向摩擦力减速
+        //    float speedNew = wholeVelocityNew.magnitude - fistSpeedDeceleration * Time.fixedDeltaTime;
+        //    speedNew = Mathf.Clamp(speedNew, 0f, wholeSpeedMax);
+        //    wholeVelocityNew = speedNew * wholeVelocityNew.normalized;
+        //    //whole position
+        //    whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime;
+        //    //whole speed
+        //    wholeVelocity = wholeVelocityNew;
 
-    //        //只用2个点做Raycast，不能保证，但先这样
-    //        Vector2 pointBL = bottomLeftPoint.transform.position;
-    //        Vector2 pointBR = bottomRightPoint.transform.position;
-    //        RaycastHit2D hitBL = Physics2D.Raycast(pointBL, new Vector2(0, -1), downDis);
-    //        RaycastHit2D hitBR = Physics2D.Raycast(pointBR, new Vector2(0, -1), downDis);
+        //}
+        //else if (footState == FootState.Air)
+        //{
+        //    float downDis = wholeVelNew_DownPart * Time.fixedDeltaTime;
 
-    //        if (!hitBL.collider && !hitBR.collider)
-    //        {
-    //            //whole position
-    //            whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime;
-    //            //whole speed
-    //            wholeVelocity = wholeVelocityNew;
-    //        }
-    //        else
-    //        {
-    //            if (hitBL.collider)
-    //            {
-    //                downDis = hitBL.distance;
-    //            }
-    //            if (hitBR.collider)
-    //            {
-    //                if (hitBR.distance < downDis)
-    //                {
-    //                    downDis = hitBR.distance;
-    //                }
-    //            }
+        //    //只用2个点做Raycast，不能保证，但先这样
+        //    Vector2 pointBL = bottomLeftPoint.transform.position;
+        //    Vector2 pointBR = bottomRightPoint.transform.position;
+        //    RaycastHit2D hitBL = Physics2D.Raycast(pointBL, new Vector2(0, -1), downDis);
+        //    RaycastHit2D hitBR = Physics2D.Raycast(pointBR, new Vector2(0, -1), downDis);
 
-    //            float wholeVelNew_RightPart = Vector2.Dot(wholeVelocityNew, Vector2.right);
-    //            wholeVelocityNew = wholeVelNew_RightPart * Vector2.right;
-    //            //whole position
-    //            whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime + new Vector3(0, -downDis, 0);
-    //            //whole speed
-    //            wholeVelocity = wholeVelocityNew;
-    //        }
-    //    }
-    //    else if (footState == FootState.EnvRock)
-    //    {
-    //        float downDis = wholeVelNew_DownPart * Time.fixedDeltaTime;
+        //    if (!hitBL.collider && !hitBR.collider)
+        //    {
+        //        //whole position
+        //        whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime;
+        //        //whole speed
+        //        wholeVelocity = wholeVelocityNew;
+        //    }
+        //    else
+        //    {
+        //        if (hitBL.collider)
+        //        {
+        //            downDis = hitBL.distance;
+        //        }
+        //        if (hitBR.collider)
+        //        {
+        //            if (hitBR.distance < downDis)
+        //            {
+        //                downDis = hitBR.distance;
+        //            }
+        //        }
 
-    //        //只用2个点做Raycast，不能保证，但先这样
-    //        //当前是EnvRock，如果经过一个Air，再出现EnvRock。这里的算法就会有问题。但一帧移动的很少，目前应该不会出现。先不管它。
-    //        int layerMaskGround = LayerMask.GetMask("EnvGround");
-    //        Vector2 pointBL = bottomLeftPoint.transform.position;
-    //        Vector2 pointBR = bottomRightPoint.transform.position;
-    //        RaycastHit2D hitBL = Physics2D.Raycast(pointBL, new Vector2(0, -1), downDis, layerMaskGround);
-    //        RaycastHit2D hitBR = Physics2D.Raycast(pointBR, new Vector2(0, -1), downDis, layerMaskGround);
+        //        float wholeVelNew_RightPart = Vector2.Dot(wholeVelocityNew, Vector2.right);
+        //        wholeVelocityNew = wholeVelNew_RightPart * Vector2.right;
+        //        //whole position
+        //        whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime + new Vector3(0, -downDis, 0);
+        //        //whole speed
+        //        wholeVelocity = wholeVelocityNew;
+        //    }
+        //}
+        //else if (footState == FootState.EnvRock)
+        //{
+        //    float downDis = wholeVelNew_DownPart * Time.fixedDeltaTime;
 
-    //        if (!hitBL.collider && !hitBR.collider)
-    //        {
-    //            //whole position
-    //            whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime;
-    //            //whole speed
-    //            wholeVelocity = wholeVelocityNew;
-    //        }
-    //        else
-    //        {
-    //            if (hitBL.collider)
-    //            {
-    //                downDis = hitBL.distance;
-    //            }
-    //            if (hitBR.collider)
-    //            {
-    //                if (hitBR.distance < downDis)
-    //                {
-    //                    downDis = hitBR.distance;
-    //                }
-    //            }
+        //    //只用2个点做Raycast，不能保证，但先这样
+        //    //当前是EnvRock，如果经过一个Air，再出现EnvRock。这里的算法就会有问题。但一帧移动的很少，目前应该不会出现。先不管它。
+        //    int layerMaskGround = LayerMask.GetMask("EnvGround");
+        //    Vector2 pointBL = bottomLeftPoint.transform.position;
+        //    Vector2 pointBR = bottomRightPoint.transform.position;
+        //    RaycastHit2D hitBL = Physics2D.Raycast(pointBL, new Vector2(0, -1), downDis, layerMaskGround);
+        //    RaycastHit2D hitBR = Physics2D.Raycast(pointBR, new Vector2(0, -1), downDis, layerMaskGround);
 
-    //            float wholeVelNew_RightPart = Vector2.Dot(wholeVelocityNew, Vector2.right);
-    //            wholeVelocityNew = wholeVelNew_RightPart * Vector2.right;
-    //            //whole position
-    //            whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime + new Vector3(0, -downDis, 0);
-    //            //whole speed
-    //            wholeVelocity = wholeVelocityNew;
-    //        }
-    //    }
-    //}
+        //    if (!hitBL.collider && !hitBR.collider)
+        //    {
+        //        //whole position
+        //        whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime;
+        //        //whole speed
+        //        wholeVelocity = wholeVelocityNew;
+        //    }
+        //    else
+        //    {
+        //        if (hitBL.collider)
+        //        {
+        //            downDis = hitBL.distance;
+        //        }
+        //        if (hitBR.collider)
+        //        {
+        //            if (hitBR.distance < downDis)
+        //            {
+        //                downDis = hitBR.distance;
+        //            }
+        //        }
+
+        //        float wholeVelNew_RightPart = Vector2.Dot(wholeVelocityNew, Vector2.right);
+        //        wholeVelocityNew = wholeVelNew_RightPart * Vector2.right;
+        //        //whole position
+        //        whole.transform.position += (Vector3)wholeVelocityNew * Time.fixedDeltaTime + new Vector3(0, -downDis, 0);
+        //        //whole speed
+        //        wholeVelocity = wholeVelocityNew;
+        //    }
+        //}
+    }
 }

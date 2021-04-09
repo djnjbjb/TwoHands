@@ -6,7 +6,8 @@ public struct ParameterForSpeed
 {
     public bool anyKeyHold;
     public Vector2 keyDir;
-    public HandState handState;
+    public FistState handState;
+    public Vector2 moveDir;
 }
 public class SpeedParameter
 {
@@ -55,11 +56,8 @@ public class SpeedParameter
     }
 }
 
-public class FistVelocity
-{
-    public Vector2 direction { get; set; }
-    public float speed { get; set; }
-
+public class FistVelocity : Velocity
+{ 
     private SpeedParameter speedParameter;
     private float speedStart;
     private float speedMaxOneFist;
@@ -80,12 +78,14 @@ public class FistVelocity
     {
         RefreshSpeedParameter(parameter);
         RefreshSpeedOneFistDueToSpeedParameter(parameter);
+        direction = parameter.moveDir;
     }
 
     public void AccelerateSpeedTwoFistGrabed(ParameterForSpeed parameter, float speedBigger)
     {
         RefreshSpeedParameter(parameter);
         speed = speedBigger;
+        direction = parameter.moveDir;
         AccelerateSpeedTwoFistGrabedDueToSpeedParameter();
     }
 
@@ -113,7 +113,6 @@ public class FistVelocity
         if (!speedParameter.keyHoldState)
             speed = Decelerate(speedParameter.speedBeforeKeyRelease, speedParameter.keyReleaseTime);
     }
-
     void AccelerateSpeedTwoFistGrabedDueToSpeedParameter()
     {
         speed = AccelerateTwoFistGrabed(speed);
@@ -201,7 +200,7 @@ public class TwoFistVelocity
             如果双手都是GrabEnv，就要双手协同
             单手比较简单，用以前的方式。
         */
-        if (leftParameter.handState == HandState.GrabEnv && rightParameter.handState == HandState.GrabEnv)
+        if (leftParameter.handState == FistState.GrabEnv && rightParameter.handState == FistState.GrabEnv)
         {
             /*
                 如果双手同向，则双手都按照RefreshSpeedTwoFist来加速。

@@ -6,36 +6,36 @@ using UnityEngine.UI;
 
 
 public partial class HandControl : MonoBehaviour
-{   
+{
+    //Setting
+    float surfaceTolerance = 0.01f;
+
     //GameObject
     [SerializeField] GameObject whole;
-    GameObject rightFist;
-    GameObject leftFist;
+    public GameObject leftFist { get; private set; }
+    public GameObject rightFist { get; private set; }
     GameObject bottomLeftPoint;
     GameObject bottomRightPoint;
     HandRepresent handRepresent;
     //常用const
     int ifGrabMoveReverse = 1;
     float length;
-    //常用变量，每帧更新的
-    Matrix4x4 wholeMatrix;
 
-    //Hand State
-    HandState rightFistState = HandState.Free;
-    GameObject rightGrabedStuff = null;
-    HandState leftFistState = HandState.Free;
+    //Pre
+    FistStatePlus leftFistState = FistState.Free;
+    FistStatePlus rightFistState = FistState.Free;
     GameObject leftGrabedStuff = null;
+    GameObject rightGrabedStuff = null;
+    FootStatePlus footState;
 
     //Fist Move Variable
     TwoFistVelocity fistVelocity;
 
     //Whole Move Variable
     Vector2 wholeVelocity = new Vector2();
-    Vector2 wholeGrabEnvOffset = new Vector2();
     //const
     float wholeSpeedMax;
     float gravityAcceleration = 12f;
-    float surfaceTolerance = 0.01f;
 
     void Start()
     {
@@ -55,8 +55,8 @@ public partial class HandControl : MonoBehaviour
         float length2 = handRepresent.rightJoint2.transform.localScale.x / 2 + handRepresent.rightLine2.transform.localScale.x + rightFist.transform.localScale.x / 2;
         length = length1 + length2;
 
-        //Hand State
-        //不用初始化
+        //Pre
+        footState = new FootStatePlus(FootState.Air, surfaceTolerance);
 
         //fistVelocicy
         fistVelocity = new TwoFistVelocity(length);

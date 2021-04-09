@@ -16,11 +16,11 @@ public partial class HandControl : MonoBehaviour
         Color normal = GameObject.Find("FistNormalColor").GetComponent<SpriteRenderer>().color;
         Color pressed = GameObject.Find("FistPressedColor").GetComponent<SpriteRenderer>().color;
 
-        if (rightFistState.GrabPressed())
+        if (rightFistState.IsGrabPressed())
             rightFist.GetComponent<SpriteRenderer>().color = pressed;
         else
             rightFist.GetComponent<SpriteRenderer>().color = normal;
-        if (leftFistState.GrabPressed())
+        if (leftFistState.IsGrabPressed())
             leftFist.GetComponent<SpriteRenderer>().color = pressed;
         else
             leftFist.GetComponent<SpriteRenderer>().color = normal;
@@ -28,7 +28,7 @@ public partial class HandControl : MonoBehaviour
         //grab sign
         var rGrabSign = rightFist.transform.Find("GrabSign").gameObject;
         var lGrabSign = leftFist.transform.Find("GrabSign").gameObject;
-        rGrabSign.SetActive(rightFistState.GrabedSomething());
-        lGrabSign.SetActive(leftFistState.GrabedSomething());
+        rGrabSign.SetActive(rightFistState.IsGrabingThings());
+        lGrabSign.SetActive(leftFistState.IsGrabingThings());
     }
 }

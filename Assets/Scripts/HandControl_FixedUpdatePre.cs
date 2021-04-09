@@ -6,58 +6,23 @@ public partial class HandControl : MonoBehaviour
 {
     void FU_Pre()
     {
-        VariableUpdate();
+        rightFistState.FixedUpdateManually(rightFist, HKey.rAlt);
+        leftFistState.FixedUpdateManually(leftFist, HKey.lAlt);
+        footState.FixedUpdateManually(bottomLeftPoint: bottomLeftPoint, bottomRightPoint: bottomRightPoint);
 
-        HandState rightPre = rightFistState;
-        HandState leftPre = leftFistState;
-
-        HandStateUpdate(rightPre, leftPre);
-        HandStuffUpdate(rightPre, leftPre);
+        HandStuffFixedUpdate(rightFistState.pre, leftFistState.pre);
     }
 
-    void VariableUpdate()
+    void HandStuffFixedUpdate(FistState rightPre, FistState leftPre)
     {
-        wholeMatrix = Matrix4x4.TRS(whole.transform.position, whole.transform.localRotation, whole.transform.localScale);
-    }
-
-    void HandStateUpdate(HandState rightPre, HandState leftPre)
-    {
-        LayerMask LMStuff = LayerMask.GetMask("Stuff");
-        LayerMask LMEnv = LayerMask.GetMask("EnvRock", "EnvGround");
-        HandState GetHandState(GameObject fist, bool altPressed, HandState statePre)
-        {
-            if (!altPressed)
-                return HandState.Free;
-
-            //GrabStuff的优先级较高。比Env之类的高。
-            if (statePre == HandState.GrabStuff && altPressed)
-                return HandState.GrabStuff;
-            var colliderStuff = Physics2D.OverlapCircle(fist.transform.position,
-                fist.transform.lossyScale.x / 2, LMStuff);
-            if (colliderStuff)
-                return HandState.GrabStuff;
-
-            var colliderEnv = Physics2D.OverlapCircle(fist.transform.position,
-               fist.transform.lossyScale.x / 2, LMEnv);
-            if (colliderEnv)
-                return HandState.GrabEnv;
-
-            return HandState.GrabNothing;
-        }
-        rightFistState = GetHandState(rightFist, HKey.rAlt, rightPre);
-        leftFistState = GetHandState(leftFist, HKey.lAlt, leftPre);
-    }
-
-    void HandStuffUpdate(HandState rightPre, HandState leftPre)
-    {
-        void HandStuffUpdate_One(ref GameObject handGrabedStuff, HandState state, HandState statePre, GameObject fist, Vector2 mvDir)
+        void HandStuffUpdate_One(ref GameObject handGrabedStuff, FistState state, FistState statePre, GameObject fist, Vector2 mvDir)
         {
             /*
                 把stuff变成hand的子节点，这样可以省事
                 对stuff的collider进行处理 - 添加/删除。暂时先这么做。
             */
             LayerMask LMStuff = LayerMask.GetMask("Stuff");
-            if (statePre != HandState.GrabStuff && state == HandState.GrabStuff)
+            if (statePre != FistState.GrabStuff && state == FistState.GrabStuff)
             {
                 var colliderStuff = Physics2D.OverlapCircle(fist.transform.position,
                     fist.transform.lossyScale.x / 2, LMStuff);
@@ -71,7 +36,7 @@ public partial class HandControl : MonoBehaviour
                 stuff.transform.SetParent(fist.transform);
                 handGrabedStuff = stuff;
             }
-            if (statePre == HandState.GrabStuff && state != HandState.GrabStuff)
+            if (statePre == FistState.GrabStuff && state != FistState.GrabStuff)
             {
                 GameObject stuff = handGrabedStuff;
                 handGrabedStuff = null;
