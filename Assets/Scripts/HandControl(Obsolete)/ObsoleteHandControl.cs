@@ -9,7 +9,7 @@ public class ObsoleteHandControl : MonoBehaviour
     //    /*
     //    用【下】表示绕着那只手旋转
     //        身体旋转，像是2指手握着方向盘，然后用力，方向盘发生旋转，人跟着旋转
-        
+
     //    1.如果两只手都按着同一个方向，则向那个方向移动
     //        双倍速度
     //    2.如果一只手按着下，另一只手按别的，则旋转并配合另一只手移动
@@ -24,7 +24,7 @@ public class ObsoleteHandControl : MonoBehaviour
     //        /*
     //        同时移动时，需要考量两只手的移动距离。
     //            想象一只手已经移动到尽头，另一只手没到的情况。
-            
+
     //        如果两只手都能以2倍速移动，则以2倍速移动
     //        如果一只手不行，则
     //            两只手可共同移动的长度，两只手以双倍速移动
@@ -152,6 +152,115 @@ public class ObsoleteHandControl : MonoBehaviour
     //        //do nothing
     //    }
     //}
+
+    void FU_WholeTemp()
+    {
+        //把手的部分中，whole可能用到的代码，先放到这里。
+
+
+        //接下来是双手移动的代码
+        /*
+            注意，offset的方向，可能和fistVelocity不同。
+            比如我斜向移动，但是到头了，于是结果可能是横向移动。
+        */
+        //float rhDis = rightFistOffset.magnitude;
+        //float lhDis = leftFistOffset.magnitude;
+        //float smallerDis = 0;
+        //float biggerDis = 0;
+        //GameObject smallerFist = rightFist;
+        //GameObject biggerFist = rightFist;
+        //if (rhDis > lhDis)
+        //{
+        //    smallerDis = lhDis;
+        //    smallerFist = leftFist;
+        //    biggerDis = rhDis;
+        //    biggerFist = rightFist;
+        //}
+        //else
+        //{
+        //    smallerDis = rhDis;
+        //    smallerFist = rightFist;
+        //    biggerDis = lhDis;
+        //    biggerFist = leftFist;
+        //}
+        //if (MyTool.FloatEqual0p001(biggerDis, 0))
+        //{
+        //    //如果双手移动都是0
+        //    //位置都不动，手和身体都减速
+        //    fistSpeed = SpeedDecelerate(fistSpeedPre);
+        //    rightFistVelocity = fistSpeed * rhDirection;
+        //    leftFistVelocity = fistSpeed * lhDirection;
+
+        //    wholeGrabEnvOffset = new Vector2();
+        //    wholeVelocity = wholeMatrix * (-fistSpeed * rhDirection);
+        //}
+        //else if (MyTool.FloatEqual0p001(smallerDis, 0) && !MyTool.FloatEqual0p001(biggerDis, 0))
+        //{
+        //    //如果一只手的移动是0
+        //    //身体和移动的那只手，等效于单手移动
+        //    //另一只手减速
+        //    if (biggerFist == rightFist)
+        //    {
+        //        FU_Fist_GrabEnv_Right();
+        //        leftFistVelocity = SpeedDecelerate(leftFistVelocity.magnitude) * lhDirection;
+        //    }
+        //    else if (biggerFist == leftFist)
+        //    {
+        //        FU_Fist_GrabEnv_Left();
+        //        rightFistVelocity = SpeedDecelerate(rightFistVelocity.magnitude) * rhDirection;
+        //    }
+        //}
+        //else
+        //{
+        //    /*  
+        //        双手移动都不是0
+        //            其实分2种情况，一种是都可以移动到dis2x，一种是不行，但在计算时没有区别
+
+        //        如果双手的移动方向一致：
+        //        双手都移动到对应的dis。身体的offset是biggerDis。
+        //        双手速度都增加到speed。身体速度则是-speed。
+
+        //        注意，offset的方向，可能和fistVelocity不同。
+        //        这时应如何计算呢？
+        //        手的移动，依然是相应的dis。手的速度变化，比较难搞，就简单化，依然增加到speed。
+        //        身体的移动，取决于2个dis，x方向上的最大分量和y方向的最大分量。身体的速度，也增加到speed，但反向。
+        //    */
+        //    Vector2 wholeOffset = new Vector2();
+        //    Vector2 rhOffset = rhFistPosNew - rhFistPosOld;
+        //    Vector2 lhOffset = lhFistPosNew - lhFistPosOld;
+        //    if (Vector2.Dot(rhOffset, Vector2.right) >= Vector2.Dot(lhOffset, Vector2.right))
+        //    {
+        //        wholeOffset += Vector2.Dot(rhOffset, Vector2.right) * Vector2.right;
+        //    }
+        //    else
+        //    {
+        //        wholeOffset += Vector2.Dot(lhOffset, Vector2.right) * Vector2.right;
+        //    }
+        //    if (Vector2.Dot(rhOffset, Vector2.down) >= Vector2.Dot(lhOffset, Vector2.down))
+        //    {
+        //        wholeOffset += Vector2.Dot(rhOffset, Vector2.down) * Vector2.down;
+        //    }
+        //    else
+        //    {
+        //        wholeOffset += Vector2.Dot(lhOffset, Vector2.down) * Vector2.down;
+        //    }
+
+        //    //----------------------------------------------------
+        //    rightFist.transform.localPosition = rhFistPosNew;
+        //    leftFist.transform.localPosition = lhFistPosNew;
+        //    rightFistVelocity = fistSpeed * rhDirection;
+        //    leftFistVelocity = fistSpeed * lhDirection;
+
+        //    wholeGrabEnvOffset = wholeMatrix * (-wholeOffset);
+        //    /*
+        //        如果双手移动同向，同时又和rhDirection不同，那么这里的速度会有问题
+        //        应为 wholeMatrix * (-fistSpeed * wholeGrabEnvOffset.normal)
+        //        暂时先不改
+        //    */
+        //    wholeVelocity = wholeMatrix * (-fistSpeed * rhDirection);
+        //}
+
+    }
 
     static void FU_Main_1RotateRoundRight_Params(in float angle_Deg, in GameObject rhFist, in GameObject wholePerson, out Vector2 offset, out float angleWholePerson_Deg)
     {

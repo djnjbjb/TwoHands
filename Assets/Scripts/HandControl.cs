@@ -31,6 +31,7 @@ public partial class HandControl : MonoBehaviour
 
     //Fist Move Variable
     TwoFistVelocity fistVelocity;
+    TwoFistOffset fistOffset;
 
     //Whole Move Variable
     WholeVelocityBeforeJump wholeVelocityBeforeJump;
@@ -38,6 +39,7 @@ public partial class HandControl : MonoBehaviour
     //const
     float wholeSpeedDownPartMax = 48f;
     float gravity = 48f;
+    float friction = 16f; //摩擦力
 
     void Start()
     {
@@ -62,11 +64,11 @@ public partial class HandControl : MonoBehaviour
 
         //fistVelocicy
         fistVelocity = new TwoFistVelocity(length);
-
+        fistOffset = new TwoFistOffset();
 
         //Whole Move Variable
-        wholeSpeedMax = 5*length;
-
+        wholeVelocityBeforeJump = new WholeVelocityBeforeJump();
+        wholeVelocityWhileJumping = new WholeVelocityWhileJumping(gravity, friction, wholeSpeedDownPartMax);
         Yurowm.DebugTools.DebugPanel.Log("Length", "常量", length);
     }
 }

@@ -3,11 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
-/*                                       *
- *          Right Or Left Hand           *
- *                                       */
-enum RightOrLeftHand
+enum RightOrLeftFist
 {
     Right = 1,
     Left = -1

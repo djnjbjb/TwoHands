@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WholeVelocityBeforeJump: Velocity
 {
-    public class WholeVelocityBeforeJumpParams
+    public class Params
     {
         public FistStatePlus leftFistState { get; set; }
         public FistStatePlus rightFistState { get; set; }
@@ -13,7 +13,6 @@ public class WholeVelocityBeforeJump: Velocity
         public Vector2 leftFistOffset { get; set; }
         public Vector2 rightFistOffset { get; set; }
         public Matrix4x4 wholeMatrix { get; set; }
-        public HandControl handControl { get; set; }
     }
 
     public WholeVelocityBeforeJump()
@@ -21,7 +20,7 @@ public class WholeVelocityBeforeJump: Velocity
 
     }
 
-    public void FixedUpdateManually(WholeVelocityBeforeJumpParams param)
+    public void FixedUpdateManually(Params @params)
     {
         /*
             身体的速度，大小和fist一致
@@ -30,14 +29,13 @@ public class WholeVelocityBeforeJump: Velocity
                 这涉及到宏观还是微观看身体移动方向的问题。
         */
 
-        FistStatePlus leftFistState = param.leftFistState;
-        FistStatePlus rightFistState = param.leftFistState;
-        Velocity leftFistVelocity = param.leftFistVelocity;
-        Velocity rightFistVelocity = param.rightFistVelocity;
-        Vector2 leftFistOffset = param.leftFistOffset;
-        Vector2 rightFistOffset = param.rightFistOffset;
-        Matrix4x4 wholeMatrix = param.wholeMatrix;
-        HandControl handControl = param.handControl;
+        FistStatePlus leftFistState = @params.leftFistState;
+        FistStatePlus rightFistState = @params.leftFistState;
+        Velocity leftFistVelocity = @params.leftFistVelocity;
+        Velocity rightFistVelocity = @params.rightFistVelocity;
+        Vector2 leftFistOffset = @params.leftFistOffset;
+        Vector2 rightFistOffset = @params.rightFistOffset;
+        Matrix4x4 wholeMatrix = @params.wholeMatrix;
 
         if (leftFistState != FistState.GrabEnv && rightFistState != FistState.GrabEnv)
         {
@@ -46,14 +44,14 @@ public class WholeVelocityBeforeJump: Velocity
         if (leftFistState == FistState.GrabEnv && rightFistState != FistState.GrabEnv)
         {
             Vector2 velocity = leftFistVelocity.speed * leftFistVelocity.direction;
-            velocity = param.wholeMatrix * -velocity;
+            velocity = @params.wholeMatrix * -velocity;
             speed = velocity.magnitude;
             direction = velocity.normalized;
         }
         if (leftFistState != FistState.GrabEnv && rightFistState == FistState.GrabEnv)
         {
             Vector2 velocity = rightFistVelocity.speed * rightFistVelocity.direction;
-            velocity = param.wholeMatrix * -velocity;
+            velocity = @params.wholeMatrix * -velocity;
             speed = velocity.magnitude;
             direction = velocity.normalized;
         }
@@ -64,21 +62,21 @@ public class WholeVelocityBeforeJump: Velocity
             float lhDis = leftFistOffset.magnitude;
             float smallerDis = 0;
             float biggerDis = 0;
-            GameObject smallerFist = handControl.leftFist;
-            GameObject biggerFist = handControl.leftFist;
+            RightOrLeftFist smallerFist = RightOrLeftFist.Left;
+            RightOrLeftFist biggerFist = RightOrLeftFist.Left;
             if (rhDis > lhDis)
             {
                 smallerDis = lhDis;
-                smallerFist = handControl.leftFist;
+                smallerFist = RightOrLeftFist.Left;
                 biggerDis = rhDis;
-                biggerFist = handControl.rightFist;
+                biggerFist = RightOrLeftFist.Right;
             }
             else
             {
                 smallerDis = rhDis;
-                smallerFist = handControl.rightFist;
+                smallerFist = RightOrLeftFist.Right;
                 biggerDis = lhDis;
-                biggerFist = handControl.leftFist;
+                biggerFist = RightOrLeftFist.Left;
             }
             if (MyTool.FloatEqual0p001(biggerDis, 0))
             {
@@ -90,12 +88,12 @@ public class WholeVelocityBeforeJump: Velocity
             {
                 //如果一只手的移动是0
                 //身体和移动的那只手，等效于单手移动
-                if (biggerFist == handControl.leftFist)
+                if (biggerFist == RightOrLeftFist.Left)
                 {
                     speed = leftFistVelocity.speed;
                     direction = wholeMatrix * (-leftFistVelocity.direction);
                 }
-                else if (biggerFist == handControl.rightFist)
+                else if (biggerFist == RightOrLeftFist.Right)
                 {
                     speed = rightFistVelocity.speed;
                     direction = wholeMatrix * (-rightFistVelocity.direction);

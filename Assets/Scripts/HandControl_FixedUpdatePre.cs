@@ -6,6 +6,11 @@ public partial class HandControl : MonoBehaviour
 {
     void FU_Pre()
     {
+        /*
+            FistState
+            FootState
+         
+         */
         rightFistState.FixedUpdateManually(rightFist, HKey.rAlt);
         leftFistState.FixedUpdateManually(leftFist, HKey.lAlt);
         footState.FixedUpdateManually(bottomLeftPoint: bottomLeftPoint, bottomRightPoint: bottomRightPoint);
