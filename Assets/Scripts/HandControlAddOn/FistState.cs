@@ -67,6 +67,7 @@ public class FistStatePlus
         if (colliderEnv)
         {
             state  = FistState.GrabEnv;
+            return;
         }
         state =  FistState.GrabNothing;
     }

@@ -6,16 +6,16 @@ public static class HandControlTool
 {
     public class TryMoveRegionParams
     {
+        public Vector2 fistPos;
         public Vector2 joint1Pos;
         public float length;
-        public Vector2 fistPos;
     }
     public static void TryMove(TryMoveRegionParams @params, Vector2 moveVector, out Vector2 offset)
     {
-        float minY = @params.joint1Pos.y - @params.length;
-        float maxY = @params.joint1Pos.y + @params.length;
         float minX = @params.joint1Pos.x - @params.length;
         float maxX = @params.joint1Pos.x + @params.length;
+        float minY = @params.joint1Pos.y - @params.length;
+        float maxY = @params.joint1Pos.y + @params.length;
 
         Vector2 afterMove = @params.fistPos + moveVector;
         afterMove.x = Mathf.Clamp(afterMove.x, minX, maxX);

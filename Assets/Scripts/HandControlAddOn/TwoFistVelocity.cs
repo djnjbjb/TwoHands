@@ -2,187 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public struct ParameterForSpeed
-{
-    public bool anyKeyHold;
-    public Vector2 keyDir;
-    public FistState handState;
-    public Vector2 moveDir;
-}
-public class SpeedParameter
-{
-    public float speedBeforeKeyRelease;
-    public bool keyHoldState;
-    public bool keyHoldStatePre;
-    public float keyReleaseTime;
-
-    public SpeedParameter()
-    {
-        speedBeforeKeyRelease = 0f;
-        keyHoldState = false;
-        keyHoldStatePre = false;
-        keyReleaseTime = 0f;
-    }
-
-    public void Refresh(bool newKeyHoldState, float speed)
-    {
-        keyHoldState = newKeyHoldState;
-        RefreshSpeedBeforeKeyRelease(speed);
-        RefreshTime();
-        keyHoldStatePre = keyHoldState;
-    }
-
-    private void RefreshSpeedBeforeKeyRelease(float speed)
-    {
-        if (!keyHoldState && keyHoldStatePre)
-            speedBeforeKeyRelease = speed;
-        if (keyHoldState)
-            speedBeforeKeyRelease = -1f;
-    }
-
-    private void RefreshTime()
-    {
-        if (keyHoldState)
-        {
-            keyReleaseTime = -1f;
-        }
-        else
-        {
-            if (!keyHoldStatePre)
-                keyReleaseTime += Time.fixedDeltaTime;
-            else
-                keyReleaseTime = 0f;
-        }
-    }
-}
-
-public class FistVelocity : Velocity
-{ 
-    private SpeedParameter speedParameter;
-    private float speedStart;
-    private float speedMaxOneFist;
-    private float speedMaxTwoFist;
-
-    public FistVelocity(float length)
-    {
-        direction = new Vector2();
-        speed = 0f;
-
-        speedParameter = new SpeedParameter();
-        speedStart = 0.5f * length;
-        speedMaxOneFist = 5f * length;
-        speedMaxTwoFist = 7f * length;
-    }
-
-    public void RefreshSpeedOneFist(ParameterForSpeed parameter)
-    {
-        RefreshSpeedParameter(parameter);
-        RefreshSpeedOneFistDueToSpeedParameter(parameter);
-        direction = parameter.moveDir;
-    }
-
-    public void AccelerateSpeedTwoFistGrabed(ParameterForSpeed parameter, float speedBigger)
-    {
-        RefreshSpeedParameter(parameter);
-        speed = speedBigger;
-        direction = parameter.moveDir;
-        AccelerateSpeedTwoFistGrabedDueToSpeedParameter();
-    }
-
-    void RefreshSpeedParameter(ParameterForSpeed parameter)
-    {
-        speedParameter.Refresh(parameter.anyKeyHold, speed);
-    }
-
-    void RefreshSpeedOneFistDueToSpeedParameter(ParameterForSpeed parameter)
-    {
-        /*
-            相比之前的代码，需要补充，如果手的速度超过了单手速度怎么办。
-                超速有2种情况：
-                第一种是本来就要减速。
-                第二种是不用减速。
-            现在的方法：
-                直接减速到单手速度上限。
-                然后再根据手的情况处理。
-        */
-        if (speed > speedMaxOneFist) speed = speedMaxOneFist;
-        if (speedParameter.keyHoldState && parameter.keyDir != new Vector2())
-            speed = Accelerate(speed);
-        if (speedParameter.keyHoldState && parameter.keyDir == new Vector2())
-            speed = speed;
-        if (!speedParameter.keyHoldState)
-            speed = Decelerate(speedParameter.speedBeforeKeyRelease, speedParameter.keyReleaseTime);
-    }
-    void AccelerateSpeedTwoFistGrabedDueToSpeedParameter()
-    {
-        speed = AccelerateTwoFistGrabed(speed);
-    }
-
-    float Accelerate(float speedPre)
-    {
-        //
-        //公式:   speed = 0.5 + 50t^2
-        //       speed = speedStart + p * t^2
-        //speed不超过max
-        //
-        const float p = 50f;
-
-        if (speedPre < speedStart)
-            return speedStart;
-
-        float tPre = Mathf.Pow((speedPre - speedStart) / p, 0.5f);
-        float t = tPre + Time.fixedDeltaTime;
-        float speed = speedStart + p * Mathf.Pow(t, 2);
-        speed = Mathf.Clamp(speed, speedStart, speedMaxOneFist);
-        return speed;
-    }
-
-    float AccelerateTwoFistGrabed(float speedPre)
-    {
-        //
-        //公式:   speed = 0.5 + 70t^2
-        //       speed = speedStart + p * t^2
-        //speed不超过max
-        //
-        const float p = 70f;
-
-        if (speedPre < speedStart)
-            return speedStart;
-
-        float tPre = Mathf.Pow((speedPre - speedStart) / p, 0.5f);
-        float t = tPre + Time.fixedDeltaTime;
-        float speed = speedStart + p * Mathf.Pow(t, 2);
-        speed = Mathf.Clamp(speed, speedStart, speedMaxTwoFist);
-        return speed;
-    }
-
-    float Decelerate(float v0, float time)
-    {
-        /*
-            v = (v0^2 - 1379*t^2.9) ^ 0.5
-            v = (v0^2 - p1*t^p2) ^ 0.5
-            vo是松开按键前的速度
-            t是松开按键的时间
-
-            v < speedStart时，直接归0。
-         */
-        float p1 = 1379f;
-        float p2 = 2.9f;
-
-        float a = Mathf.Pow(v0, 2) - p1 * Mathf.Pow(time, p2);
-
-        if (a <= 0)
-            return 0f;
-
-        float speed = Mathf.Pow(a, 0.5f);
-        if (speed < speedStart)
-        {
-            speed = 0f;
-        }
-
-        return speed;
-    }
-}
 public class TwoFistVelocity
 {
     public FistVelocity left;
@@ -194,7 +13,7 @@ public class TwoFistVelocity
         right = new FistVelocity(length);
     }
 
-    public void RefreshSpeed(ParameterForSpeed leftParameter, ParameterForSpeed rightParameter)
+    public void RefreshSpeed(ParameterForFistVelocity leftParameter, ParameterForFistVelocity rightParameter)
     {
         /*
             如果双手都是GrabEnv，就要双手协同
@@ -210,7 +29,7 @@ public class TwoFistVelocity
                     双手方向都为0
                 都根据一只手的情况计算就可以了。
              */
-            if ( (leftParameter.keyDir == rightParameter.keyDir) && leftParameter.keyDir != new Vector2())
+            if ( (leftParameter.moveDir == rightParameter.moveDir) && leftParameter.moveDir.magnitude != 0)
             {
                 float speedBigger = Mathf.Max(left.speed, right.speed);
                 left.AccelerateSpeedTwoFistGrabed(leftParameter, speedBigger);
@@ -226,6 +45,64 @@ public class TwoFistVelocity
         {
             left.RefreshSpeedOneFist(leftParameter);
             right.RefreshSpeedOneFist(rightParameter);
+        }
+    }
+
+    public void OffsetReflectSpeed(ParameterForFistVelocity leftParameter, Vector2 leftOffset, 
+                                   ParameterForFistVelocity rightParameter, Vector2 rightOffset)
+    {
+        /*
+            双手加速，需考虑offset
+            双手加速的情况：双手 + 同向移动 + 不为0
+         */
+        if (leftParameter.handState == FistState.GrabEnv && rightParameter.handState == FistState.GrabEnv)
+        {
+            if (  (leftParameter.moveDir == rightParameter.moveDir)
+                  && leftParameter.moveDir.magnitude != 0            )
+            {
+                if (  MyTool.FloatEqual0p001(leftOffset.magnitude, 0f)
+                      && MyTool.FloatEqual0p001(rightOffset.magnitude, 0f) )
+                {
+                    left.OffsetZeroTwoHand();
+                    right.OffsetZeroTwoHand();
+                    return;
+                }
+            }
+            else
+            {
+                goto NormalState;
+            }
+        }
+
+    /*
+        单手加速，需考虑offset
+        单手加速的情况：
+            1. 只有一个或0个GrabEnv，mvDir不为0 -> 在下面有条件判断
+            2. 两个都GrabEnv，但是非双手加速，MvDir不为0 -> 在下面有条件判断，由前面的goto跳转而来
+        增加一条，速度必须小于单手最大速度，才加速
+    */
+    NormalState:
+        if (MyTool.FloatEqual0p001(leftOffset.magnitude, 0f))
+        {
+            if (leftParameter.moveDir.magnitude != 0)
+            {
+                if (left.IsSpeedPreNoBiggerThanMaxOneFist())
+                {
+                    left.OffsetZeroOneHand();
+                }
+                
+            }
+        }
+
+        if (MyTool.FloatEqual0p001(rightOffset.magnitude, 0f))
+        {
+            if (rightParameter.moveDir.magnitude != 0)
+            {
+                if (right.IsSpeedPreNoBiggerThanMaxOneFist())
+                {
+                    right.OffsetZeroOneHand();
+                }
+            }
         }
     }
 }

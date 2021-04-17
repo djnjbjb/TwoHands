@@ -9,7 +9,7 @@ public partial class HandControl : MonoBehaviour
 {
     //Setting
     float surfaceTolerance = 0.01f;
-
+    int moveDirectionReverseIfGrabEnv = 1;
 
     //GameObject
     [SerializeField] GameObject whole;
@@ -19,7 +19,6 @@ public partial class HandControl : MonoBehaviour
     GameObject bottomRightPoint;
     HandRepresent handRepresent;
     //常用const
-    int ifGrabMoveReverse = 1;
     float length;
 
     //Pre
@@ -31,15 +30,22 @@ public partial class HandControl : MonoBehaviour
 
     //Fist Move Variable
     TwoFistVelocity fistVelocity;
+    FistVelocity leftFistVelocity;
+    FistVelocity rightFistVelocity;
     TwoFistOffset fistOffset;
 
     //Whole Move Variable
     WholeVelocityBeforeJump wholeVelocityBeforeJump;
     WholeVelocityWhileJumping wholeVelocityWhileJumping;
+    WholeOffset wholeOffset;
     //const
+    float wholeJumpSpeedCutTime = 10f;
+    float wholeJumpSpeedHistoryTime = 1f;
+    float wholeJumpSpeedFastHistoryTime = 1f;
     float wholeSpeedDownPartMax = 48f;
+    float wholeFistSpeedRatio = 24f / 13f;
     float gravity = 48f;
-    float friction = 16f; //摩擦力
+    float friction = 32f; //摩擦力 //摩擦力现在不被用到了，水平位移直接停止
 
     void Start()
     {
@@ -62,13 +68,22 @@ public partial class HandControl : MonoBehaviour
         //Pre
         footState = new FootStatePlus(FootState.Air, surfaceTolerance);
 
-        //fistVelocicy
+        //Fist Move
         fistVelocity = new TwoFistVelocity(length);
+        leftFistVelocity = fistVelocity.left;
+        rightFistVelocity = fistVelocity.right;
         fistOffset = new TwoFistOffset();
 
-        //Whole Move Variable
-        wholeVelocityBeforeJump = new WholeVelocityBeforeJump();
-        wholeVelocityWhileJumping = new WholeVelocityWhileJumping(gravity, friction, wholeSpeedDownPartMax);
+        //Whole Move
+        wholeVelocityBeforeJump = new WholeVelocityBeforeJump(wholeJumpSpeedHistoryTime);
+        wholeVelocityWhileJumping = 
+            new WholeVelocityWhileJumping(gravity, friction, wholeSpeedDownPartMax, wholeFistSpeedRatio,
+                                          speedCutTime: wholeJumpSpeedCutTime, historyTime: wholeJumpSpeedHistoryTime, fastHistoryTime: wholeJumpSpeedFastHistoryTime);
+        wholeOffset = new WholeOffset();
+
+        //Debug
         Yurowm.DebugTools.DebugPanel.Log("Length", "常量", length);
     }
+
+    void Parameter
 }
