@@ -5,7 +5,8 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Yurowm.DebugTools {
+namespace Y
+{
     public class DebugPanelView : EditorWindow {
         static DebugPanelView instance = null;
 

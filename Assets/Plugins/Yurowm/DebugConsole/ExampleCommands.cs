@@ -7,7 +7,8 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Yurowm.DebugTools {
+namespace Y
+{
     public class HelloWorld : ICommand {
         public override IEnumerator Execute(params string[] args) {
             yield return "Hello buddy! :)";

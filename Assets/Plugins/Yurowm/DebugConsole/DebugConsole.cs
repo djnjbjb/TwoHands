@@ -5,7 +5,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Yurowm.DebugTools {
+namespace Y
+{
     public class DebugConsole : MonoBehaviour {
         static DebugConsole _Instance = null;
         public static DebugConsole Instance {

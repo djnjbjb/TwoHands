@@ -32,61 +32,6 @@ public class MyTool
     }
 }
 
-public class Logout
-{
-    static string buffer = "";
-    public static void Log(string path, string Content)
-    {
-        StreamWriter sw = new StreamWriter(path + "\\HelloWorldLog.txt", true);
-        //开始写入
-        sw.WriteLine(Content);
-        //清空缓冲区
-        sw.Flush();
-        //关闭流
-        sw.Close();
-    }
-    public static void Log(string Content)
-    {
-        string path = Application.dataPath;
-        StreamWriter sw = new StreamWriter(path + "\\HelloWorldLog.txt", true);
-        //开始写入
-        sw.WriteLine(Content);
-        //清空缓冲区
-        sw.Flush();
-        //关闭流
-        sw.Close();
-    }
-
-    public static void LogBuffer(string Content)
-    {
-        buffer += (Content + "\n");
-    }
-
-    public static void PrintBuffer()
-    {
-        string path = Application.dataPath;
-        StreamWriter sw = new StreamWriter(path + "\\HelloWorldLog.txt", true);
-        //开始写入
-        sw.WriteLine(buffer);
-        //清空缓冲区
-        sw.Flush();
-        //关闭流
-        sw.Close();
-    }
-
-    public static void Clear()
-    {
-        string path = Application.dataPath;
-        StreamWriter sw = new StreamWriter(path + "\\HelloWorldLog.txt", false);
-        //开始写入
-        sw.WriteLine("");
-        //清空缓冲区
-        sw.Flush();
-        //关闭流
-        sw.Close();
-    }
-}
-
 public static class MatrixExtensions
 {
     public static Quaternion ExtractRotation(this Matrix4x4 matrix)

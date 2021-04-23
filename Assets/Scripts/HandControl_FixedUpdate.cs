@@ -13,6 +13,8 @@ public partial class HandControl : MonoBehaviour
     
     void FixedUpdate()
     {
+        MyLog.Log($"❤ Fixed Update, Time {Time.fixedTime}");
+
         FU_Pre();
 
         FU_Main();
@@ -24,14 +26,27 @@ public partial class HandControl : MonoBehaviour
     {
         FU_Fist();
         FU_Whole();
+        //Log
+        MyLog.Log($"Whole Velocity Before Jump, speed:{wholeVelocityBeforeJump.speed}, direction: ({wholeVelocityBeforeJump.direction.x}, {wholeVelocityBeforeJump.direction.y})");
+        MyLog.Log($"Whole Velocity While Jump, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
+
+        MyLog.Log($"leftOffset: ({fistOffset.left.x}, {fistOffset.left.y})");
+        MyLog.Log($"rightOffset: ({fistOffset.right.x}, {fistOffset.right.y})");
+        MyLog.Log($"leftSpeed: {leftFistVelocity.speed}");
+        MyLog.Log($"rightSpeed: {rightFistVelocity.speed}");
 
         //Debug
-        Yurowm.DebugTools.DebugPanel.Log("rightSpeed", "HandControl", fistVelocity.right.speed);
-        Yurowm.DebugTools.DebugPanel.Log("leftSpeed", "HandControl", fistVelocity.left.speed);
-        FastFileLog.LogManager.Log(GameObject.Find("LogSpeed"), $"leftFistSpeed: {fistVelocity.left.speed}");
-        Yurowm.DebugTools.DebugPanel.Log("leftOffset", "HandControl", $"{fistOffset.left.x}, {fistOffset.left.y}");
-        Yurowm.DebugTools.DebugPanel.Log("rightOffset", "HandControl", $"{fistOffset.right.x}, {fistOffset.right.y}");
-        Yurowm.DebugTools.DebugPanel.Log("wholeOffset", "HandControl", $"{wholeOffset.offset.x}, {wholeOffset.offset.y}");
+        {
+            Y.DebugPanel.Log("leftSpeed", "HandControl", fistVelocity.left.speed);
+            Y.DebugPanel.Log("rightSpeed", "HandControl", fistVelocity.right.speed);
+            Y.DebugPanel.Log("leftOffset", "HandControl", $"{fistOffset.left.x}, {fistOffset.left.y}");
+            Y.DebugPanel.Log("rightOffset", "HandControl", $"{fistOffset.right.x}, {fistOffset.right.y}");
+            
+            Y.DebugPanel.Log("WholeVelocity Before Jump", "HandControl", $"{wholeVelocityBeforeJump.speed}");
+            Y.DebugPanel.Log("WholeVelocity WhileJumping", "HandControl", $"{wholeVelocityWhileJumping.speed}");
+            Y.DebugPanel.Log("wholeOffset", "HandControl", $"{wholeOffset.offset.x}, {wholeOffset.offset.y}");
+        }
+
     }
 
     void FU_Fist()
@@ -190,8 +205,11 @@ public partial class HandControl : MonoBehaviour
         {
             if (leftFistState.pre == FistState.GrabEnv || rightFistState.pre == FistState.GrabEnv)
             {
-                wholeVelocityWhileJumping.StartJump(wholeVelocityBeforeJump, wholeOffset);
+                wholeVelocityWhileJumping.StartJumpWithLog(wholeVelocityBeforeJump, wholeOffset);
             }
+
+            MyLog.Log($"😊 Whole Velocity While Jump Before Fix, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
+
             WholeVelocityWhileJumping.Params @params = new WholeVelocityWhileJumping.Params();
             @params.leftFistState = leftFistState;
             @params.rightFistState = rightFistState;
@@ -199,8 +217,6 @@ public partial class HandControl : MonoBehaviour
             wholeVelocityWhileJumping.FixedUpdateManually(@params);
             
         }
-        Yurowm.DebugTools.DebugPanel.Log("VJumping", "HandControl", $"{wholeVelocityWhileJumping.speed}");
-        Yurowm.DebugTools.DebugPanel.Log("VBeforeJump", "HandControl", $"{wholeVelocityBeforeJump.speed}");
     }
 
 

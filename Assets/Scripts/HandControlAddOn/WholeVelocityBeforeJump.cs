@@ -105,19 +105,16 @@ public class WholeVelocityBeforeJump: Velocity
                 float lhDis = leftFistOffset.magnitude;
                 float smallerDis = 0;
                 float biggerDis = 0;
-                RightOrLeftFist smallerFist = RightOrLeftFist.Left;
                 RightOrLeftFist biggerFist = RightOrLeftFist.Left;
                 if (rhDis > lhDis)
                 {
                     smallerDis = lhDis;
-                    smallerFist = RightOrLeftFist.Left;
                     biggerDis = rhDis;
                     biggerFist = RightOrLeftFist.Right;
                 }
                 else
                 {
                     smallerDis = rhDis;
-                    smallerFist = RightOrLeftFist.Right;
                     biggerDis = lhDis;
                     biggerFist = RightOrLeftFist.Left;
                 }

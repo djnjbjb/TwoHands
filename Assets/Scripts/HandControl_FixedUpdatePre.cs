@@ -20,11 +20,6 @@ public partial class HandControl : MonoBehaviour
         footState.FixedUpdateManually(bottomLeftPoint: bottomLeftPoint, bottomRightPoint: bottomRightPoint);
 
         HandStuffFixedUpdate(rightFistState.pre, leftFistState.pre);
-
-        //Debug
-        Yurowm.DebugTools.DebugPanel.Log("leftFistState", "HandControl", (FistState)leftFistState);
-        Yurowm.DebugTools.DebugPanel.Log("rightFistState", "HandControl", (FistState)rightFistState);
-        Yurowm.DebugTools.DebugPanel.Log("footState", "HandControl", (FootState)footState);
     }
 
     void HandStuffFixedUpdate(FistState rightPre, FistState leftPre)

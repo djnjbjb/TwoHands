@@ -31,18 +31,21 @@ public class TwoFistVelocity
              */
             if ( (leftParameter.moveDir == rightParameter.moveDir) && leftParameter.moveDir.magnitude != 0)
             {
+                MyLog.Log($"FistSpeed, BeforeOffset, 2 hands accelerate.");
                 float speedBigger = Mathf.Max(left.speed, right.speed);
                 left.AccelerateSpeedTwoFistGrabed(leftParameter, speedBigger);
                 right.AccelerateSpeedTwoFistGrabed(rightParameter, speedBigger);
+                return;
             }
             else
             {
-                left.RefreshSpeedOneFist(leftParameter);
-                right.RefreshSpeedOneFist(rightParameter);
+                goto OneHandCase;
             }
         }
-        else
+        OneHandCase:
         {
+            MyLog.Log($"FistSpeed, BeforeOffset, leftFist, KeyMvDir: {HKey.lMvDir}, KeyAlt: {HKey.lAlt}");
+            MyLog.Log($"FistSpeed, BeforeOffset, rightFist, KeyMvDir: {HKey.rMvDir}, KeyAlt: {HKey.rAlt}");
             left.RefreshSpeedOneFist(leftParameter);
             right.RefreshSpeedOneFist(rightParameter);
         }

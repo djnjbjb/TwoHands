@@ -18,6 +18,7 @@ public class WholeVelocityWhileJumping : Velocity
     private float speedCutTime;
     private float historyTime;
     private float fastHistoryTime;
+    private string log;
     public WholeVelocityWhileJumping(
         float gravity, float friction, float speedDownPartMax, float wholeFistSpeedRatio,
         float speedCutTime, float historyTime, float fastHistoryTime)
@@ -33,16 +34,35 @@ public class WholeVelocityWhileJumping : Velocity
         
     }
 
-    public void StartJump(WholeVelocityBeforeJump velocityBeforeJump, WholeOffset offset)
+    public void StartJumpWithLog(WholeVelocityBeforeJump velocityBeforeJump, WholeOffset offset)
     {
-        /*
-        if (offset.offsetZeroTime >= speedCutTime)
-            speed = 0f;
-        else
-            speed = velocityBeforeJump.speed * wholeFistSpeedRatio;
-        direction = velocityBeforeJump.direction;
-        */
+        log = "--StartJump\n";
 
+        StartJump(velocityBeforeJump, offset);
+        
+        log += "    " + $"TimeNow: {Time.fixedTime}\n";
+        log += "    " + "------Fast History------\n";
+        foreach (var text in velocityBeforeJump.history)
+        {
+            if (Time.fixedTime - text.time <= fastHistoryTime)
+            {
+                log += "    " + $"time: {text.time}, dir:{text.direction}\n";
+            }
+        }
+        log += "    " + "------Other History------\n";
+        foreach (var text in velocityBeforeJump.history)
+        {
+            if (Time.fixedTime - text.time > fastHistoryTime && Time.fixedTime - text.time <= historyTime)
+            {
+                log += "    " + $"time: {text.time}, dir:{text.direction}\n";
+            }
+        }
+        log += $"--StartJump End\n";
+        MyLog.Log(log);
+    }
+
+    private void StartJump(WholeVelocityBeforeJump velocityBeforeJump, WholeOffset offset)
+    {
         bool allZeroInCutTime = true;
         foreach (WholeVelocityBeforeJump.DirectionHistory history in velocityBeforeJump.history)
         {
@@ -59,23 +79,25 @@ public class WholeVelocityWhileJumping : Velocity
         {
             speed = 0f;
             direction = new Vector2();
+            log += "    " + "JumpStyle: Zero\n";
             return;
         }
 
         //-----------------------------------------------------------
         bool allSameAndNotZeroInFastHistory = false;
         Vector2 directionByFastHistory = new Vector2();
-        bool firstFound = false;
+        bool directionFound = false;
         foreach (WholeVelocityBeforeJump.DirectionHistory history in velocityBeforeJump.history)
         {
             if (Time.fixedTime - history.time <= fastHistoryTime)
             {
                 if (history.direction.magnitude != 0)
                 {
-                    if (!firstFound)
+                    if (!directionFound)
                     {
                         allSameAndNotZeroInFastHistory = true;
                         directionByFastHistory = history.direction;
+                        directionFound = true;
                     }
                     else
                     {
@@ -91,30 +113,34 @@ public class WholeVelocityWhileJumping : Velocity
         {
             speed = velocityBeforeJump.speed * wholeFistSpeedRatio;
             direction = directionByFastHistory;
+            log += "    " + "JumpStyle: Fast History\n";
             return;
         }
 
         //-----------------------------------------------------------
         //把8个方向放在这里，然后数count。用vector2 的 dictionary，但是我搜了搜，需要实现GetHashCode和Equals，就先不搞了。
-        List<Vector2> possibleDirection = new List<Vector2>();
-        possibleDirection.Add(new Vector2(1, 0).normalized);
-        possibleDirection.Add(new Vector2(-1, 0).normalized);
-        possibleDirection.Add(new Vector2(0, 1).normalized);
-        possibleDirection.Add(new Vector2(0, -1).normalized);
-        possibleDirection.Add(new Vector2(1, 1).normalized);
-        possibleDirection.Add(new Vector2(1, -1).normalized);
-        possibleDirection.Add(new Vector2(-1, 1).normalized);
-        possibleDirection.Add(new Vector2(-1, -1).normalized);
+        List<Vector2> possibleDirections = new List<Vector2>();
+        possibleDirections.Add(new Vector2(1, 0).normalized);
+        possibleDirections.Add(new Vector2(-1, 0).normalized);
+        possibleDirections.Add(new Vector2(0, 1).normalized);
+        possibleDirections.Add(new Vector2(0, -1).normalized);
+        possibleDirections.Add(new Vector2(1, 1).normalized);
+        possibleDirections.Add(new Vector2(1, -1).normalized);
+        possibleDirections.Add(new Vector2(-1, 1).normalized);
+        possibleDirections.Add(new Vector2(-1, -1).normalized);
         List<int> count = new List<int>();
-        foreach (Vector2 dir in possibleDirection) count.Add(0);
+        foreach (Vector2 dir in possibleDirections) count.Add(0);
 
         foreach (WholeVelocityBeforeJump.DirectionHistory history in velocityBeforeJump.history)
         {
-            for (int i = 0; i < possibleDirection.Count; i++)
+            if (Time.fixedTime - history.time  <= historyTime)
             {
-                if (possibleDirection[i] == history.direction)
+                for (int i = 0; i < possibleDirections.Count; i++)
                 {
-                    count[i]++;
+                    if (possibleDirections[i] == history.direction)
+                    {
+                        count[i]++;
+                    }
                 }
             }
         }
@@ -126,7 +152,7 @@ public class WholeVelocityWhileJumping : Velocity
             if (count[i] > maxCount)
             {
                 maxCount = count[i];
-                maxCountDirection = possibleDirection[i];
+                maxCountDirection = possibleDirections[i];
             }
         }
         
@@ -136,11 +162,14 @@ public class WholeVelocityWhileJumping : Velocity
         {
             speed = velocityBeforeJump.speed * wholeFistSpeedRatio;
             direction = maxCountDirection;
+            log += "    " + "JumpStyle: All History\n";
         }
         else
         {
             speed = 0f;
             direction = new Vector2();
+            //因为前面已经检查过，在speedCutTime内，不都为0了。所以，这里检查historyTime,不应该出现全为0的情况。
+            Debug.LogError("In WholeVelocitywhileJumping.StartJump, Search All History, all history should not be all zero.");
         }
     }
     public void FixedUpdateManually(Params @params)

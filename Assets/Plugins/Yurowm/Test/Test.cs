@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Yurowm.DebugTools;
+using Y;
 
 namespace Yurowm.DebugToolsTest {
     public class Test : MonoBehaviour {

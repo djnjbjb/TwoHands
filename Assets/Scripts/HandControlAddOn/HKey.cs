@@ -45,16 +45,5 @@ public static class HKey
         lMvRight = (lRight ? 1 : 0) - (lLeft ? 1 : 0);
         lMvUp = (lUp ? 1 : 0) - (lDown ? 1 : 0);
         lMvDir = new Vector2(lMvRight, lMvUp).normalized;
-
-        string a = "";
-        if (lDown && lAlt)
-            a = "down + alt";
-        if (!lDown && lAlt)
-            a = "alt";
-        if (lDown && !lAlt)
-            a = "down";
-        if (!lDown && !lAlt)
-            a = "0";
-        FastFileLog.LogManager.Log(GameObject.Find("LogKey"), $"Count: {Time.frameCount}, Time:{Time.realtimeSinceStartup},  pressing:{a}");
     }
 }

@@ -6,7 +6,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
-namespace Yurowm.DebugTools {
+namespace Y
+{
     public abstract class ICommand {
         public abstract string GetName();
         public abstract IEnumerator Execute(params string[] args);

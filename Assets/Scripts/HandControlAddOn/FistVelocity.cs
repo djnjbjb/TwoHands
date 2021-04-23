@@ -263,14 +263,14 @@ public class FistVelocity : Velocity
 
         return speed;
     }
-#endregion
+    #endregion
 
     /* ------------------------------------------------------
                     附加部分
                         1.两只手移动
                         2.Offset为0时，speed的设置
      ------------------------------------------------------ */
-                #region 附加部分，两只手移动才用到
+    #region 附加部分，两只手移动才用到
     public void OffsetZeroTwoHand()
     {
         speed = speedPre;
@@ -320,8 +320,5 @@ public class FistVelocity : Velocity
         speed = Mathf.Clamp(speed, speedStart, speedMaxTwoFist);
         return speed;
     }
-
-
-
-                #endregion
+    #endregion
 }

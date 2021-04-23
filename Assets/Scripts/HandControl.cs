@@ -39,9 +39,9 @@ public partial class HandControl : MonoBehaviour
     WholeVelocityWhileJumping wholeVelocityWhileJumping;
     WholeOffset wholeOffset;
     //const
-    float wholeJumpSpeedCutTime = 10f;
-    float wholeJumpSpeedHistoryTime = 1f;
-    float wholeJumpSpeedFastHistoryTime = 1f;
+    float wholeJumpSpeedCutTime = 0.151f;
+    float wholeJumpSpeedHistoryTime = 0.21f;
+    float wholeJumpSpeedFastHistoryTime = 0.11f;
     float wholeSpeedDownPartMax = 48f;
     float wholeFistSpeedRatio = 24f / 13f;
     float gravity = 48f;
@@ -75,15 +75,29 @@ public partial class HandControl : MonoBehaviour
         fistOffset = new TwoFistOffset();
 
         //Whole Move
-        wholeVelocityBeforeJump = new WholeVelocityBeforeJump(wholeJumpSpeedHistoryTime);
+        wholeVelocityBeforeJump =
+            new WholeVelocityBeforeJump( Mathf.Max(wholeJumpSpeedHistoryTime, wholeJumpSpeedCutTime, wholeJumpSpeedFastHistoryTime) );
         wholeVelocityWhileJumping = 
             new WholeVelocityWhileJumping(gravity, friction, wholeSpeedDownPartMax, wholeFistSpeedRatio,
                                           speedCutTime: wholeJumpSpeedCutTime, historyTime: wholeJumpSpeedHistoryTime, fastHistoryTime: wholeJumpSpeedFastHistoryTime);
         wholeOffset = new WholeOffset();
 
+        //CheckSetting
+        CheckSetting();
         //Debug
-        Yurowm.DebugTools.DebugPanel.Log("Length", "常量", length);
+        Y.DebugPanel.Log("Length", "常量", length);
     }
 
-    void Parameter
+    void CheckSetting()
+    {
+        if (wholeJumpSpeedFastHistoryTime <= wholeJumpSpeedCutTime
+            && wholeJumpSpeedCutTime <= wholeJumpSpeedHistoryTime)
+        {
+
+        }
+        else
+        {
+            Debug.LogWarning("WholeJumpSpeed Time Setting, 值的大小顺序不对");
+        }
+    }
 }

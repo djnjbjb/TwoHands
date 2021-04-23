@@ -6,7 +6,8 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace Yurowm.DebugTools {
+namespace Y
+{
     public class DebugConsoleView : EditorWindow {
         static DebugConsoleView instance = null;
 

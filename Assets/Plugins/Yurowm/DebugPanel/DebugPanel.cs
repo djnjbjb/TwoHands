@@ -3,7 +3,8 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Yurowm.DebugTools {
+namespace Y
+{
     public class DebugPanel : MonoBehaviour {
 
         static DebugPanel _Instance = null;
