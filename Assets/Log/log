@@ -1,5 +1,5 @@
 ----------------------↓↓↓----------------------
-Log Start At 16:59:34
+Log Start At 17:31:28
 ❤ Fixed Update, Time 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -991,344 +991,344 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 1.98
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.017)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 0.85
 rightSpeed: 0
 ❤ Fixed Update, Time 2
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.0174289)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 0.8714452
 rightSpeed: 0
 ❤ Fixed Update, Time 2.02
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.01942624)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 0.9713121
 rightSpeed: 0
 ❤ Fixed Update, Time 2.04
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.02368593)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 1.184297
 rightSpeed: 0
 ❤ Fixed Update, Time 2.06
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.03072489)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 1.536245
 rightSpeed: 0
 ❤ Fixed Update, Time 2.08
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.04097639)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 2.04882
 rightSpeed: 0
 ❤ Fixed Update, Time 2.1
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.05482134)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 2.741067
 rightSpeed: 0
 ❤ Fixed Update, Time 2.12
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.07260372)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 3.630186
 rightSpeed: 0
 ❤ Fixed Update, Time 2.14
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.09463969)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 4.731984
 rightSpeed: 0
 ❤ Fixed Update, Time 2.16
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.1212234)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.061167
 rightSpeed: 0
 ❤ Fixed Update, Time 2.18
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.2
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.22
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.24
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.26
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.28
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, 0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.3
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.09616661, 0.09616649)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.32
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.09616649, 0.09616649)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.34
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.09616649, 0.09616649)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.36
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.09616649, 0.09616649)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.38
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.09616649, 0.006803393)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.4
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.09616649, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.42
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.09616649, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.44
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.46
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.48
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.5
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.52
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.54
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.56
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.58
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.6
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.62
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.64
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0.136, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.66
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1338,7 +1338,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 2.68
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1348,7 +1348,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.783119
 rightSpeed: 0
 ❤ Fixed Update, Time 2.7
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1358,7 +1358,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.71349
 rightSpeed: 0
 ❤ Fixed Update, Time 2.72
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1368,7 +1368,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.573322
 rightSpeed: 0
 ❤ Fixed Update, Time 2.74
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1378,7 +1378,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.346644
 rightSpeed: 0
 ❤ Fixed Update, Time 2.76
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1388,7 +1388,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.014221
 rightSpeed: 0
 ❤ Fixed Update, Time 2.78
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1398,7 +1398,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 5.548426
 rightSpeed: 0
 ❤ Fixed Update, Time 2.8
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1408,7 +1408,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 4.90285
 rightSpeed: 0
 ❤ Fixed Update, Time 2.82
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1418,7 +1418,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 3.981701
 rightSpeed: 0
 ❤ Fixed Update, Time 2.84
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1428,7 +1428,7 @@ Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 2.48277
 rightSpeed: 0
 ❤ Fixed Update, Time 2.86
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
@@ -1521,9 +1521,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.04
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1531,9 +1530,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.06
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1541,9 +1539,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.08
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1551,9 +1548,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.1
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1561,9 +1557,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.12
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1571,9 +1566,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.14
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1581,9 +1575,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.16
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1591,9 +1584,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.18
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1601,9 +1593,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.2
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1611,9 +1602,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.22
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1621,9 +1611,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.24
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1631,9 +1620,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.26
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -1641,371 +1629,361 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 3.28
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:0.85, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.01699996)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 0.85
 rightSpeed: 0
 ❤ Fixed Update, Time 3.3
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:0.8714452, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.01742887)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 0.8714452
 rightSpeed: 0
 ❤ Fixed Update, Time 3.32
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:0.9713121, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.01942623)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 0.9713121
 rightSpeed: 0
 ❤ Fixed Update, Time 3.34
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:1.184297, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.02368593)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 1.184297
 rightSpeed: 0
 ❤ Fixed Update, Time 3.36
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:1.536245, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.03072488)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 1.536245
 rightSpeed: 0
 ❤ Fixed Update, Time 3.38
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:2.04882, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.04097641)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 2.04882
 rightSpeed: 0
 ❤ Fixed Update, Time 3.4
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:2.741067, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.05482137)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 2.741067
 rightSpeed: 0
 ❤ Fixed Update, Time 3.42
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:3.630186, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.0726037)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 3.630186
 rightSpeed: 0
 ❤ Fixed Update, Time 3.44
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:4.731984, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.09463966)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 4.731984
 rightSpeed: 0
 ❤ Fixed Update, Time 3.46
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.061167, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.1212233)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.061167
 rightSpeed: 0
 ❤ Fixed Update, Time 3.48
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.5
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.52
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.54
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.56
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.58
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.6
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.62
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.64
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.66
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.68
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.7
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.72
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.74
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.76
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.78
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
+leftOffset: (0, -0.136)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.8
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 3.82
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+--StartJump
+    JumpStyle: Fast History
+    TimeNow: 3.82
+    ------Fast History------
+    time: 3.72, dir:(0.0, 1.0)
+    time: 3.74, dir:(0.0, 1.0)
+    time: 3.76, dir:(0.0, 1.0)
+    time: 3.78, dir:(0.0, 1.0)
+    time: 3.8, dir:(0.0, 0.0)
+    ------Other History------
+    time: 3.62, dir:(0.0, 1.0)
+    time: 3.64, dir:(0.0, 1.0)
+    time: 3.66, dir:(0.0, 1.0)
+    time: 3.68, dir:(0.0, 1.0)
+    time: 3.7, dir:(0.0, 1.0)
+--StartJump End
+
+😊 Whole Velocity While Jump Before Fix, speed:12.55385, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:11.59385, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.783119
 rightSpeed: 0
 ❤ Fixed Update, Time 3.84
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:11.59385, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:10.63385, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.71349
 rightSpeed: 0
 ❤ Fixed Update, Time 3.86
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:10.63385, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:9.673846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.573322
 rightSpeed: 0
 ❤ Fixed Update, Time 3.88
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:9.673846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:8.713846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.346644
 rightSpeed: 0
 ❤ Fixed Update, Time 3.9
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:8.713846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:7.753846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 6.014221
 rightSpeed: 0
 ❤ Fixed Update, Time 3.92
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:7.753846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:6.793846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 5.548426
 rightSpeed: 0
 ❤ Fixed Update, Time 3.94
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:6.793846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:5.833846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 4.90285
 rightSpeed: 0
 ❤ Fixed Update, Time 3.96
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:5.833846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:4.873846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 3.981701
 rightSpeed: 0
 ❤ Fixed Update, Time 3.98
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:4.873846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:3.913846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0
+leftSpeed: 2.48277
 rightSpeed: 0
 ❤ Fixed Update, Time 4
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:3.913846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:2.953846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2013,9 +1991,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.02
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:2.953846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:1.993846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2023,9 +2001,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.04
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:1.993846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:1.033846, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2033,9 +2011,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.06
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:1.033846, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:0.07384592, direction: (0, 1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2043,9 +2021,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.08
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:0.07384592, direction: (0, 1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:0.8861541, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2053,9 +2031,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.1
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:0.8861541, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:1.846154, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2063,9 +2041,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.12
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:1.846154, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:2.806154, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2073,9 +2051,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.14
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:2.806154, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:3.766154, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2083,9 +2061,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.16
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:3.766154, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:4.726154, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2093,9 +2071,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.18
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:4.726154, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:5.686154, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2103,9 +2081,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.2
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:5.686154, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:6.646154, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2113,9 +2091,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.22
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:6.646154, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:7.606154, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2123,9 +2101,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.24
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:7.606154, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:8.566154, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2133,9 +2111,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.26
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:8.566154, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:9.526154, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2143,9 +2121,9 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.28
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:9.526154, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:10.48615, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
@@ -2153,8 +2131,8 @@ rightSpeed: 0
 ❤ Fixed Update, Time 4.3
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:10.48615, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2164,7 +2142,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2174,7 +2152,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2184,7 +2162,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2194,7 +2172,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2204,7 +2182,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2214,7 +2192,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2224,7 +2202,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2234,7 +2212,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2244,7 +2222,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2254,7 +2232,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2264,7 +2242,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2274,7 +2252,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2284,16 +2262,15 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.58
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2301,9 +2278,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.6
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2311,9 +2287,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.62
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2321,9 +2296,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.64
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2331,9 +2305,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.66
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2341,9 +2314,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.68
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2351,9 +2323,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.7
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2361,9 +2332,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.72
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2371,9 +2341,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.74
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2381,9 +2350,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.76
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2391,9 +2359,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.78
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2401,9 +2368,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.8
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2411,9 +2377,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.82
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2421,9 +2386,8 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.84
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
 Whole Velocity Before Jump, speed:0, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
@@ -2431,390 +2395,378 @@ rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 4.86
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:0.85, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 4.88
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 4.9
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 4.92
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 4.94
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 4.96
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 4.98
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 5
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 5.02
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 5.04
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 5.06
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 5.08
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 5.1
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.01202083, 0.01202082)
+leftOffset: (0, 0.01700002)
 rightOffset: (0, 0)
 leftSpeed: 0.85
 rightSpeed: 0
-❤ Fixed Update, Time 5.12
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 4.88
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:0.8714452, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.01232409, 0.01232409)
+leftOffset: (0, 0.01742887)
 rightOffset: (0, 0)
 leftSpeed: 0.8714452
 rightSpeed: 0
-❤ Fixed Update, Time 5.14
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 4.9
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:0.9713121, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.01373649, 0.01373643)
+leftOffset: (0, 0.01942623)
 rightOffset: (0, 0)
 leftSpeed: 0.9713121
 rightSpeed: 0
-❤ Fixed Update, Time 5.16
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 4.92
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:1.184297, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.01674843, 0.01674848)
+leftOffset: (0, 0.02368593)
 rightOffset: (0, 0)
 leftSpeed: 1.184297
 rightSpeed: 0
-❤ Fixed Update, Time 5.18
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 4.94
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:1.536245, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.02172589, 0.02172577)
+leftOffset: (0, 0.03072488)
 rightOffset: (0, 0)
 leftSpeed: 1.536245
 rightSpeed: 0
-❤ Fixed Update, Time 5.2
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 4.96
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:2.04882, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.02897465, 0.02897468)
+leftOffset: (0, 0.04097641)
 rightOffset: (0, 0)
 leftSpeed: 2.04882
 rightSpeed: 0
-❤ Fixed Update, Time 5.22
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 4.98
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:2.741067, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.0387646, 0.03876455)
+leftOffset: (0, 0.05482131)
 rightOffset: (0, 0)
 leftSpeed: 2.741067
 rightSpeed: 0
-❤ Fixed Update, Time 5.24
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 5
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:3.630186, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.05133855, 0.05133858)
+leftOffset: (0, 0.0726037)
 rightOffset: (0, 0)
 leftSpeed: 3.630186
 rightSpeed: 0
-❤ Fixed Update, Time 5.26
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 5.02
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:4.731984, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.0669204, 0.06692037)
+leftOffset: (0, 0.09463966)
 rightOffset: (0, 0)
 leftSpeed: 4.731984
 rightSpeed: 0
-❤ Fixed Update, Time 5.28
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 5.04
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.061167, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.0857178, 0.08571786)
+leftOffset: (0, 0.1212233)
 rightOffset: (0, 0)
 leftSpeed: 6.061167
 rightSpeed: 0
-❤ Fixed Update, Time 5.3
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+❤ Fixed Update, Time 5.06
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616649, 0.09616652)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.08
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.1
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.12
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.14
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.16
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.18
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.2
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.22
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.24
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.26
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.28
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.3
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
 rightOffset: (0, 0)
 leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 5.32
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616649, 0.09616655)
+leftOffset: (0, 0.136)
 rightOffset: (0, 0)
 leftSpeed: 6.8
 rightSpeed: 0
 ❤ Fixed Update, Time 5.34
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.36
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, -1)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0.136)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.38
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 6.8
 rightSpeed: 0
-❤ Fixed Update, Time 5.36
+❤ Fixed Update, Time 5.4
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.42
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: True
+FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+leftOffset: (0, 0)
+rightOffset: (0, 0)
+leftSpeed: 6.8
+rightSpeed: 0
+❤ Fixed Update, Time 5.44
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+--StartJump
+    JumpStyle: Fast History
+    TimeNow: 5.44
+    ------Fast History------
+    time: 5.34, dir:(0.0, -1.0)
+    time: 5.36, dir:(0.0, -1.0)
+    time: 5.38, dir:(0.0, 0.0)
+    time: 5.4, dir:(0.0, 0.0)
+    time: 5.42, dir:(0.0, 0.0)
+    ------Other History------
+    time: 5.24, dir:(0.0, -1.0)
+    time: 5.26, dir:(0.0, -1.0)
+    time: 5.28, dir:(0.0, -1.0)
+    time: 5.3, dir:(0.0, -1.0)
+    time: 5.32, dir:(0.0, -1.0)
+--StartJump End
+
+😊 Whole Velocity While Jump Before Fix, speed:12.55385, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:13.51385, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 6.783119
 rightSpeed: 0
-❤ Fixed Update, Time 5.38
+❤ Fixed Update, Time 5.46
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:13.51385, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
+Whole Velocity While Jump, speed:14.47385, direction: (0, -1)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 6.71349
 rightSpeed: 0
-❤ Fixed Update, Time 5.4
+❤ Fixed Update, Time 5.48
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+😊 Whole Velocity While Jump Before Fix, speed:14.47385, direction: (0, -1)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 6.573322
 rightSpeed: 0
-❤ Fixed Update, Time 5.42
+❤ Fixed Update, Time 5.5
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 6.346644
 rightSpeed: 0
-❤ Fixed Update, Time 5.44
+❤ Fixed Update, Time 5.52
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 6.014221
 rightSpeed: 0
-❤ Fixed Update, Time 5.46
+❤ Fixed Update, Time 5.54
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 5.548426
 rightSpeed: 0
-❤ Fixed Update, Time 5.48
+❤ Fixed Update, Time 5.56
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 4.90285
 rightSpeed: 0
-❤ Fixed Update, Time 5.5
+❤ Fixed Update, Time 5.58
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 3.981701
 rightSpeed: 0
-❤ Fixed Update, Time 5.52
+❤ Fixed Update, Time 5.6
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 2.48277
 rightSpeed: 0
-❤ Fixed Update, Time 5.54
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 5.56
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 5.58
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 5.6
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
 ❤ Fixed Update, Time 5.62
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2824,7 +2776,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2834,7 +2786,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2844,7 +2796,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2854,7 +2806,7 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
@@ -2864,561 +2816,471 @@ rightSpeed: 0
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.74
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.01699996, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0.85
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.76
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.01742887, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0.8714452
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.78
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.01942623, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 0.9713121
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.8
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.02368593, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 1.184297
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.82
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.03072488, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 1.536245
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.84
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.04097641, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 2.04882
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.86
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-0.7, -0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.0387646, -0.03876454)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 2.741067
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.88
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-0.7, -0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.05133855, -0.05133858)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 3.630186
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.9
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-0.7, -0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.0669204, -0.06692037)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 4.731984
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.92
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (-0.7, -0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (-0.0857178, -0.08571786)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.061167
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.94
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, -0.136)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.96
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, -0.136)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 5.98
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, -1.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, -0.136)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, -0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616649, -0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.02
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, -0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616649, -0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.04
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, -0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616649, -0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.06
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.136, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.08
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.136, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.1
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.136, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.12
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.136, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.14
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.136, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.16
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.136, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.18
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.136, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.2
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.136, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.22
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (1.0, 0.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.136, 0)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.24
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616652, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.26
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616652, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.28
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616652, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.3
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616652, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.32
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616652, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.34
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616652, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.36
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616652, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.38
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616652, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.4
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616652, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.42
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616649, 0.09616652)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.44
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616649, 0.09616655)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.46
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616649, 0.09616649)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.48
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.7, 0.7), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0.09616649, 0.09616649)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.5
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 1.0), KeyAlt: False
+FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0.136)
+leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.52
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.8
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.54
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.783119
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.56
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.71349
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.58
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.573322
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.6
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.346644
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.62
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
-leftSpeed: 6.014221
+leftSpeed: 0
 rightSpeed: 0
 ❤ Fixed Update, Time 6.64
 FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
 😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 5.548426
-rightSpeed: 0
-❤ Fixed Update, Time 6.66
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 4.90285
-rightSpeed: 0
-❤ Fixed Update, Time 6.68
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 3.981701
-rightSpeed: 0
-❤ Fixed Update, Time 6.7
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 2.48277
-rightSpeed: 0
-❤ Fixed Update, Time 6.72
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity Before Jump, speed:6.8, direction: (0, 0)
 Whole Velocity While Jump, speed:0, direction: (0, 0)
 leftOffset: (0, 0)
 rightOffset: (0, 0)
 leftSpeed: 0
 rightSpeed: 0
-❤ Fixed Update, Time 6.74
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 6.76
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 6.78
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 6.8
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-❤ Fixed Update, Time 6.82
-FistSpeed, BeforeOffset, leftFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-FistSpeed, BeforeOffset, rightFist, KeyMvDir: (0.0, 0.0), KeyAlt: False
-😊 Whole Velocity While Jump Before Fix, speed:0, direction: (0, 0)
-Whole Velocity Before Jump, speed:0, direction: (0, 0)
-Whole Velocity While Jump, speed:0, direction: (0, 0)
-leftOffset: (0, 0)
-rightOffset: (0, 0)
-leftSpeed: 0
-rightSpeed: 0
-Log End At 16:59:42
+Log End At 17:31:35
 ----------------------↑↑↑----------------------
