@@ -7,9 +7,9 @@ using Ludo.Extensions;
 
 public class LevelManager : MonoBehaviour
 {
-    static LevelManager onlyInstance = null;
+    public static LevelManager onlyInstance = null;
 
-    class AABB
+    public class AABB
     {
         public float left;
         public float right;
@@ -23,12 +23,14 @@ public class LevelManager : MonoBehaviour
     bool playerOutOfRangeOn = false;
 
     GameObject playerHead;
-    AABB region;
+    public AABB region;
     void Awake()
     {
         if (onlyInstance == null)
         {
             onlyInstance = this;
+            InitFields();
+
         }
         else
         {
@@ -43,7 +45,7 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    void Start()
+    void InitFields()
     {
         region = new AABB();
         {
@@ -54,8 +56,8 @@ public class LevelManager : MonoBehaviour
             }
             region.left = levelRegionTransform.position.x - levelRegionTransform.localScale.x / 2;
             region.right = levelRegionTransform.position.x + levelRegionTransform.localScale.x / 2;
-            region.bottom = levelRegionTransform.position.y - levelRegionTransform.localScale.x / 2;
-            region.top = levelRegionTransform.position.y + levelRegionTransform.localScale.x / 2;
+            region.bottom = levelRegionTransform.position.y - levelRegionTransform.localScale.y / 2;
+            region.top = levelRegionTransform.position.y + levelRegionTransform.localScale.y / 2;
         }
 
         playerHead = null;
@@ -175,7 +177,7 @@ public class LevelManager : MonoBehaviour
                 SceneManager.sceneLoaded += OnSceneLoaded;
                 void OnSceneLoaded(Scene scene1, LoadSceneMode mode)
                 {
-                    Start();
+                    InitFields();
                     //获取需要的变量
                     HandControl handControl = GameObject.Find("HandControl").GetComponent<HandControl>();
                     GameObject blackScreen = GameObject.Find("Canvas").transform.LudoFind("BlackScreen", includeInactive: true, recursive: false).gameObject;
