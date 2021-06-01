@@ -4,6 +4,18 @@ using UnityEngine;
 
 public partial class HandControl : MonoBehaviour
 {
+    [Header("Update Settings")]
+    [SerializeField]
+    SpriteRenderer normalColorRender;
+    [SerializeField]
+    SpriteRenderer pressedColorRender;
+    /*  
+        目前，color和HandControlFade部分有交互
+        所以，在运行时会变化，所以，放在Update里，而不是一开始初始化
+    */
+    Color normal;
+    Color pressed;
+
     void Update()
     {
         HKey.UpdateRefresh();
@@ -13,8 +25,8 @@ public partial class HandControl : MonoBehaviour
     void UpdateFistRepresent()
     {
         //color
-        Color normal = GameObject.Find("FistNormalColor").GetComponent<SpriteRenderer>().color;
-        Color pressed = GameObject.Find("FistPressedColor").GetComponent<SpriteRenderer>().color;
+        normal = normalColorRender.color;
+        pressed = pressedColorRender.color;
 
         if (rightFistState.IsGrabPressed())
             rightFist.GetComponent<SpriteRenderer>().color = pressed;

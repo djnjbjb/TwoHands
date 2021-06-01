@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Ludo.Extensions;
+using Ludo;
 
 public class ObsoleteHandControl : MonoBehaviour
 {
@@ -71,7 +73,7 @@ public class ObsoleteHandControl : MonoBehaviour
     //            biggerFist = lhFist;
     //        }
 
-    //        if (MyTool.FloatEqual0p001(smallerDis, dis2x) || smallerDis >= dis2x)
+    //        if (Ludo.Utility.FloatEqual0p001(smallerDis, dis2x) || smallerDis >= dis2x)
     //        {
     //            rhFist.transform.localPosition = rhFistPosNew;
     //            lhFist.transform.localPosition = lhFistPosNew;
@@ -94,9 +96,9 @@ public class ObsoleteHandControl : MonoBehaviour
     //            wholePerson.transform.localPosition += -offset;
     //        }
     //    }
-    //    else if (MyTool.FloatEqual0p001(rhDirection.y, 1) || MyTool.FloatEqual0p001(lhDirection.y, 1))
+    //    else if (Ludo.Utility.FloatEqual0p001(rhDirection.y, 1) || Ludo.Utility.FloatEqual0p001(lhDirection.y, 1))
     //    {
-    //        if (MyTool.FloatEqual0p001(rhDirection.y, 1))
+    //        if (Ludo.Utility.FloatEqual0p001(rhDirection.y, 1))
     //        {
     //            /*
     //                如果只是旋转，则旋转。
@@ -109,7 +111,7 @@ public class ObsoleteHandControl : MonoBehaviour
     //                1.如果需要移动，先移动。
     //                2.然后，旋转。
     //            */
-    //            if (!MyTool.FloatEqual0p001(lhDirection.magnitude, 0))
+    //            if (!Ludo.Utility.FloatEqual0p001(lhDirection.magnitude, 0))
     //            {
     //                FU_Fist_Grab_Left();
     //            }
@@ -122,10 +124,10 @@ public class ObsoleteHandControl : MonoBehaviour
     //            wholePerson.transform.localPosition += (Vector3)offset;
     //            wholePerson.transform.Rotate(new Vector3(0, 0, angleWholePerson), Space.Self);
     //        }
-    //        else if (MyTool.FloatEqual0p001(lhDirection.y, 1))
+    //        else if (Ludo.Utility.FloatEqual0p001(lhDirection.y, 1))
     //        {
 
-    //            if (!MyTool.FloatEqual0p001(rhDirection.magnitude, 0))
+    //            if (!Ludo.Utility.FloatEqual0p001(rhDirection.magnitude, 0))
     //            {
     //                FU_Fist_Grab_Right();
     //            }
@@ -183,7 +185,7 @@ public class ObsoleteHandControl : MonoBehaviour
         //    biggerDis = lhDis;
         //    biggerFist = leftFist;
         //}
-        //if (MyTool.FloatEqual0p001(biggerDis, 0))
+        //if (Ludo.Utility.FloatEqual0p001(biggerDis, 0))
         //{
         //    //如果双手移动都是0
         //    //位置都不动，手和身体都减速
@@ -194,7 +196,7 @@ public class ObsoleteHandControl : MonoBehaviour
         //    wholeGrabEnvOffset = new Vector2();
         //    wholeVelocity = wholeMatrix * (-fistSpeed * rhDirection);
         //}
-        //else if (MyTool.FloatEqual0p001(smallerDis, 0) && !MyTool.FloatEqual0p001(biggerDis, 0))
+        //else if (Ludo.Utility.FloatEqual0p001(smallerDis, 0) && !Ludo.Utility.FloatEqual0p001(biggerDis, 0))
         //{
         //    //如果一只手的移动是0
         //    //身体和移动的那只手，等效于单手移动
@@ -281,7 +283,7 @@ public class ObsoleteHandControl : MonoBehaviour
         Vector2 fistPos = fistPosInWholeParentCoor;
         Vector2 wholePos = wholePerson.transform.localPosition;
         Vector2 fistToWhole = wholePos - fistPos;
-        Vector2 fistToWholeAfterRotate = MyTool.Vec2Rotate(fistToWhole, -angle_Deg * Mathf.Deg2Rad);
+        Vector2 fistToWholeAfterRotate = Utility.Vec2Rotate(fistToWhole, -angle_Deg * Mathf.Deg2Rad);
 
         offset = fistToWholeAfterRotate - fistToWhole;
         angleWholePerson_Deg = -angle_Deg;

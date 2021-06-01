@@ -118,14 +118,14 @@ public class WholeVelocityBeforeJump: Velocity
                     biggerDis = lhDis;
                     biggerFist = RightOrLeftFist.Left;
                 }
-                if (MyTool.FloatEqual0p001(biggerDis, 0))
+                if (Ludo.Utility.FloatEqual0p001(biggerDis, 0))
                 {
                     //如果双手移动都是0
                     speed = leftFistVelocity.speed;
                     direction = ArbitraryDirectionToNineDirection(leftFistOffset);
                     direction = wholeMatrix * -direction;
                 }
-                else if (MyTool.FloatEqual0p001(smallerDis, 0) && !MyTool.FloatEqual0p001(biggerDis, 0))
+                else if (Ludo.Utility.FloatEqual0p001(smallerDis, 0) && !Ludo.Utility.FloatEqual0p001(biggerDis, 0))
                 {
                     //如果一只手的移动是0
                     //身体和移动的那只手，等效于单手移动
@@ -162,7 +162,7 @@ public class WholeVelocityBeforeJump: Velocity
                         rightBigDot = Vector2.Dot(rightFistOffset, Vector2.right);
                     else
                         rightBigDot = Vector2.Dot(leftFistOffset, Vector2.right);
-                    directionRightPart = Mathf.Sign(rightBigDot) * (MyTool.FloatEqual0p001(rightBigDot, 0) ? 0 : 1);
+                    directionRightPart = Mathf.Sign(rightBigDot) * (Ludo.Utility.FloatEqual0p001(rightBigDot, 0) ? 0 : 1);
                     float directionUpPart = 0;
                     float upBigDot = 0;
                     if (Mathf.Abs(Vector2.Dot(rightFistOffset, Vector2.up))
@@ -171,7 +171,7 @@ public class WholeVelocityBeforeJump: Velocity
                         upBigDot = Vector2.Dot(rightFistOffset, Vector2.up);
                     else
                         upBigDot = Vector2.Dot(leftFistOffset, Vector2.up);
-                    directionUpPart = Mathf.Sign(upBigDot) * (MyTool.FloatEqual0p001(upBigDot, 0) ? 0 : 1);
+                    directionUpPart = Mathf.Sign(upBigDot) * (Ludo.Utility.FloatEqual0p001(upBigDot, 0) ? 0 : 1);
                     direction = (directionRightPart * Vector2.right + directionUpPart * Vector2.up).normalized;
                     direction = wholeMatrix * -direction;
                 }
@@ -191,10 +191,10 @@ public class WholeVelocityBeforeJump: Velocity
     {
         float directionRightPart = 0;
         float rightDot = Vector2.Dot(direction, Vector2.right);
-        directionRightPart = Mathf.Sign(rightDot) * (MyTool.FloatEqual0p001(rightDot, 0) ? 0 : 1);
+        directionRightPart = Mathf.Sign(rightDot) * (Ludo.Utility.FloatEqual0p001(rightDot, 0) ? 0 : 1);
         float directionUpPart = 0;
         float upDot = Vector2.Dot(direction, Vector2.up);
-        directionUpPart = Mathf.Sign(upDot) * (MyTool.FloatEqual0p001(upDot, 0) ? 0 : 1);
+        directionUpPart = Mathf.Sign(upDot) * (Ludo.Utility.FloatEqual0p001(upDot, 0) ? 0 : 1);
         direction = (directionRightPart * Vector2.right + directionUpPart * Vector2.up).normalized;
         return direction;
     }

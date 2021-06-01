@@ -13,13 +13,17 @@ public partial class HandControl : MonoBehaviour
     
     void FixedUpdate()
     {
-        MyLog.Log($"❤ Fixed Update, Time {Time.fixedTime}");
+        Ludo.LogFile.Log($"😃 Fixed Update, Time {Time.fixedTime}");
 
         FU_Pre();
 
         FU_Main();
 
         handRepresent.Refresh();
+
+        hcAudio.PlayHandRelated(leftState: leftFistState, leftStatePre: leftFistState.pre,
+                        rightState: rightFistState, rightStatePre: rightFistState.pre,
+                        leftOffset: fistOffset.left, rightOffset: fistOffset.right);
     }
 
     void FU_Main()
@@ -27,13 +31,13 @@ public partial class HandControl : MonoBehaviour
         FU_Fist();
         FU_Whole();
         //Log
-        MyLog.Log($"Whole Velocity Before Jump, speed:{wholeVelocityBeforeJump.speed}, direction: ({wholeVelocityBeforeJump.direction.x}, {wholeVelocityBeforeJump.direction.y})");
-        MyLog.Log($"Whole Velocity While Jump, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
+        Ludo.LogFile.Log($"Whole Velocity Before Jump, speed:{wholeVelocityBeforeJump.speed}, direction: ({wholeVelocityBeforeJump.direction.x}, {wholeVelocityBeforeJump.direction.y})");
+        Ludo.LogFile.Log($"Whole Velocity While Jump, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
 
-        MyLog.Log($"leftOffset: ({fistOffset.left.x}, {fistOffset.left.y})");
-        MyLog.Log($"rightOffset: ({fistOffset.right.x}, {fistOffset.right.y})");
-        MyLog.Log($"leftSpeed: {leftFistVelocity.speed}");
-        MyLog.Log($"rightSpeed: {rightFistVelocity.speed}");
+        Ludo.LogFile.Log($"leftOffset: ({fistOffset.left.x}, {fistOffset.left.y})");
+        Ludo.LogFile.Log($"rightOffset: ({fistOffset.right.x}, {fistOffset.right.y})");
+        Ludo.LogFile.Log($"leftSpeed: {leftFistVelocity.speed}");
+        Ludo.LogFile.Log($"rightSpeed: {rightFistVelocity.speed}");
 
         //Debug
         {
@@ -208,7 +212,7 @@ public partial class HandControl : MonoBehaviour
                 wholeVelocityWhileJumping.StartJumpWithLog(wholeVelocityBeforeJump, wholeOffset);
             }
 
-            MyLog.Log($"😊 Whole Velocity While Jump Before Fix, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
+            Ludo.LogFile.Log($"😊 Whole Velocity While Jump Before Fix, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
 
             WholeVelocityWhileJumping.Params @params = new WholeVelocityWhileJumping.Params();
             @params.leftFistState = leftFistState;
@@ -218,7 +222,6 @@ public partial class HandControl : MonoBehaviour
             
         }
     }
-
 
     void FU_Whole_Offset()
     {
@@ -283,11 +286,11 @@ public partial class HandControl : MonoBehaviour
                     }
                 }
 
-                if (MyTool.FloatEqual0p001(biggerDis, 0))
+                if (Ludo.Utility.FloatEqual0p001(biggerDis, 0))
                 {
                     tempWholeOffset = new Vector2();
                 }
-                else if (MyTool.FloatEqual0p001(smallerDis, 0) && !MyTool.FloatEqual0p001(biggerDis, 0))
+                else if (Ludo.Utility.FloatEqual0p001(smallerDis, 0) && !Ludo.Utility.FloatEqual0p001(biggerDis, 0))
                 {
                     //如果一只手的移动是0
                     //身体和移动的那只手，等效于单手移动
@@ -440,5 +443,10 @@ public partial class HandControl : MonoBehaviour
             
         }
         this.wholeOffset.offset = tempWholeOffset;
+    }
+
+    void FU_Audio()
+    {
+
     }
 }

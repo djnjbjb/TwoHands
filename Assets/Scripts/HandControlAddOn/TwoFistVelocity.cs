@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Ludo;
 
 public class TwoFistVelocity
 {
@@ -31,7 +32,7 @@ public class TwoFistVelocity
              */
             if ( (leftParameter.moveDir == rightParameter.moveDir) && leftParameter.moveDir.magnitude != 0)
             {
-                MyLog.Log($"FistSpeed, BeforeOffset, 2 hands accelerate.");
+                Ludo.LogFile.Log($"FistSpeed, BeforeOffset, 2 hands accelerate.");
                 float speedBigger = Mathf.Max(left.speed, right.speed);
                 left.AccelerateSpeedTwoFistGrabed(leftParameter, speedBigger);
                 right.AccelerateSpeedTwoFistGrabed(rightParameter, speedBigger);
@@ -44,8 +45,8 @@ public class TwoFistVelocity
         }
         OneHandCase:
         {
-            MyLog.Log($"FistSpeed, BeforeOffset, leftFist, KeyMvDir: {HKey.lMvDir}, KeyAlt: {HKey.lAlt}");
-            MyLog.Log($"FistSpeed, BeforeOffset, rightFist, KeyMvDir: {HKey.rMvDir}, KeyAlt: {HKey.rAlt}");
+            Ludo.LogFile.Log($"FistSpeed, BeforeOffset, leftFist, KeyMvDir: {HKey.lMvDir}, KeyAlt: {HKey.lAlt}");
+            Ludo.LogFile.Log($"FistSpeed, BeforeOffset, rightFist, KeyMvDir: {HKey.rMvDir}, KeyAlt: {HKey.rAlt}");
             left.RefreshSpeedOneFist(leftParameter);
             right.RefreshSpeedOneFist(rightParameter);
         }
@@ -63,8 +64,8 @@ public class TwoFistVelocity
             if (  (leftParameter.moveDir == rightParameter.moveDir)
                   && leftParameter.moveDir.magnitude != 0            )
             {
-                if (  MyTool.FloatEqual0p001(leftOffset.magnitude, 0f)
-                      && MyTool.FloatEqual0p001(rightOffset.magnitude, 0f) )
+                if (  Utility.FloatEqual0p001(leftOffset.magnitude, 0f)
+                      && Utility.FloatEqual0p001(rightOffset.magnitude, 0f) )
                 {
                     left.OffsetZeroTwoHand();
                     right.OffsetZeroTwoHand();
@@ -85,7 +86,7 @@ public class TwoFistVelocity
         增加一条，速度必须小于单手最大速度，才加速
     */
     NormalState:
-        if (MyTool.FloatEqual0p001(leftOffset.magnitude, 0f))
+        if (Utility.FloatEqual0p001(leftOffset.magnitude, 0f))
         {
             if (leftParameter.moveDir.magnitude != 0)
             {
@@ -97,7 +98,7 @@ public class TwoFistVelocity
             }
         }
 
-        if (MyTool.FloatEqual0p001(rightOffset.magnitude, 0f))
+        if (Utility.FloatEqual0p001(rightOffset.magnitude, 0f))
         {
             if (rightParameter.moveDir.magnitude != 0)
             {

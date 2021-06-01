@@ -58,7 +58,7 @@ public class WholeVelocityWhileJumping : Velocity
             }
         }
         log += $"--StartJump End\n";
-        MyLog.Log(log);
+        Ludo.LogFile.Log(log);
     }
 
     private void StartJump(WholeVelocityBeforeJump velocityBeforeJump, WholeOffset offset)

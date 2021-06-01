@@ -12,12 +12,17 @@ public partial class HandControl : MonoBehaviour
     int moveDirectionReverseIfGrabEnv = 1;
 
     //GameObject
-    [SerializeField] GameObject whole;
+    [SerializeField]
+    GameObject whole;
     public GameObject leftFist { get; private set; }
     public GameObject rightFist { get; private set; }
     GameObject bottomLeftPoint;
     GameObject bottomRightPoint;
+
     HandRepresent handRepresent;
+    [NonSerialized] public HandControlFade handFade;
+    [NonSerialized] public HCAudio hcAudio;
+    
     //常用const
     float length;
 
@@ -59,7 +64,12 @@ public partial class HandControl : MonoBehaviour
         leftFist = whole.transform.Find("LHFist").gameObject;
         bottomLeftPoint = whole.transform.Find("BottomLeftPoint").gameObject;
         bottomRightPoint = whole.transform.Find("BottomRightPoint").gameObject;
+        
+        
         handRepresent = new HandRepresent(whole);
+        handFade = new HandControlFade(whole);
+        hcAudio = new HCAudio();
+
         //常用const
         float length1 = handRepresent.rightJoint1.transform.localScale.x / 2 + handRepresent.rightLine1.transform.localScale.x + handRepresent.rightJoint2.transform.localScale.x / 2;
         float length2 = handRepresent.rightJoint2.transform.localScale.x / 2 + handRepresent.rightLine2.transform.localScale.x + rightFist.transform.localScale.x / 2;

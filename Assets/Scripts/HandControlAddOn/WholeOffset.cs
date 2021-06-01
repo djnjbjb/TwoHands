@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Ludo;
 
 public class WholeOffset
 {
@@ -13,7 +14,7 @@ public class WholeOffset
         set
         {
             _offset = value;
-            if (MyTool.FloatEqual0p001(_offset.magnitude, 0f))
+            if (Utility.FloatEqual0p001(_offset.magnitude, 0f))
             {
                 offsetZeroTime += Time.fixedDeltaTime;
             }
