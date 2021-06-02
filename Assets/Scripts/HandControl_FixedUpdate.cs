@@ -373,13 +373,15 @@ public partial class HandControl : MonoBehaviour
                 }
                 else if (footState == FootState.Air)
                 {
+                    LayerMask LMRockOrGround = LayerMask.GetMask("EnvRock", "EnvGround");
+
                     float downDis = velocityDownPart * Time.fixedDeltaTime;
 
                     //只用2个点做Raycast，不能保证，但先这样
                     Vector2 pointBL = bottomLeftPoint.transform.position;
                     Vector2 pointBR = bottomRightPoint.transform.position;
-                    RaycastHit2D hitBL = Physics2D.Raycast(pointBL, new Vector2(0, -1), downDis);
-                    RaycastHit2D hitBR = Physics2D.Raycast(pointBR, new Vector2(0, -1), downDis);
+                    RaycastHit2D hitBL = Physics2D.Raycast(pointBL, new Vector2(0, -1), downDis, LMRockOrGround);
+                    RaycastHit2D hitBR = Physics2D.Raycast(pointBR, new Vector2(0, -1), downDis, LMRockOrGround);
 
                     if (!hitBL.collider && !hitBR.collider)
                     {

@@ -29,17 +29,19 @@ public class FootStatePlus
     {
         pre = state;
 
+        LayerMask LMRockOrGround = LayerMask.GetMask("EnvRock", "EnvGround");
+
         Vector2 pointBL = bottomLeftPoint.transform.position;
         Vector2 pointBR = bottomRightPoint.transform.position;
-        RaycastHit2D hit = Physics2D.Linecast(pointBL, pointBR);
+        RaycastHit2D hit = Physics2D.Linecast(pointBL, pointBR, LMRockOrGround);
 
         Vector2 pointBLUp = (Vector2)bottomLeftPoint.transform.position + new Vector2(0, surfaceTolerance);
         Vector2 pointBRUp = (Vector2)bottomRightPoint.transform.position + new Vector2(0, surfaceTolerance);
-        RaycastHit2D hitUp = Physics2D.Linecast(pointBLUp, pointBRUp);
+        RaycastHit2D hitUp = Physics2D.Linecast(pointBLUp, pointBRUp, LMRockOrGround);
 
         Vector2 pointBLDown = (Vector2)bottomLeftPoint.transform.position - new Vector2(0, surfaceTolerance);
         Vector2 pointBRDown = (Vector2)bottomRightPoint.transform.position - new Vector2(0, surfaceTolerance);
-        RaycastHit2D hitDown = Physics2D.Linecast(pointBLDown, pointBRDown);
+        RaycastHit2D hitDown = Physics2D.Linecast(pointBLDown, pointBRDown, LMRockOrGround);
 
         if (!hitUp.collider && !hitDown.collider)
             state = FootState.Air;
