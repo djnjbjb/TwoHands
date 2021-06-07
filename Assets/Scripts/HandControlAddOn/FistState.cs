@@ -52,24 +52,33 @@ public class FistStatePlus
             return;
         }
 
-        LayerMask LMStuff = LayerMask.GetMask("Stuff");
-        LayerMask LMEnv = LayerMask.GetMask("EnvRock", "EnvGround", "EnvRoundRock");
-        //GrabStuff的优先级较高，比Env之类的高。
-        var colliderStuff = Physics2D.OverlapCircle
-            (fist.transform.position, fist.transform.lossyScale.x / 2, LMStuff);
-        if (colliderStuff)
+        //if (altPressed && pre != FistState.GrabStuff)
         {
-            state = FistState.GrabStuff;
-            return;
+            LayerMask LMStuff = LayerMask.GetMask("Stuff");
+            LayerMask LMEnv = LayerMask.GetMask("EnvRock", "EnvGround", "EnvRoundRock");
+
+            //1. Stuff
+            //GrabStuff的优先级较高，比Env之类的高。
+            var colliderStuff = Physics2D.OverlapCircle
+                (fist.transform.position, fist.transform.lossyScale.x / 2, LMStuff);
+            if (colliderStuff)
+            {
+                state = FistState.GrabStuff;
+                return;
+            }
+
+            //Env
+            var colliderEnv = Physics2D.OverlapCircle
+                (fist.transform.position, fist.transform.lossyScale.x / 2, LMEnv);
+            if (colliderEnv)
+            {
+                state = FistState.GrabEnv;
+                return;
+            }
+
+            //Nothing
+            state = FistState.GrabNothing;
         }
-        var colliderEnv = Physics2D.OverlapCircle
-            (fist.transform.position, fist.transform.lossyScale.x / 2, LMEnv);
-        if (colliderEnv)
-        {
-            state  = FistState.GrabEnv;
-            return;
-        }
-        state =  FistState.GrabNothing;
     }
 
 }

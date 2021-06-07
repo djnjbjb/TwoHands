@@ -6,6 +6,15 @@ using UnityEngine;
 
 public static class HKey
 {
+    public class DebugMod
+    {
+        public bool lAltAlways = false;
+        public bool rAltAlways = false;
+    }
+
+    static public bool debugModOn = false;
+    static public DebugMod debugMod = new DebugMod();
+
     static public bool rUp;
     static public bool rDown;
     static public bool rLeft;
@@ -27,6 +36,36 @@ public static class HKey
 
     static public void UpdateRefresh()
     {
+        if (debugModOn)
+        {
+            DebugModUpdateRefresh();
+            return;
+        }
+
+        Key();
+        Direction();
+    }
+
+    static private void DebugModUpdateRefresh()
+    {
+        Key();
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            debugMod.lAltAlways = !debugMod.lAltAlways;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            debugMod.rAltAlways = !debugMod.rAltAlways;
+        }
+        if (debugMod.lAltAlways)
+            lAlt = true;
+        if (debugMod.rAltAlways)
+            rAlt = true;
+        Direction();
+    }
+
+    static private void Key()
+    {
         rUp = Input.GetKey(KeyCode.O);
         rDown = Input.GetKey(KeyCode.L);
         rLeft = Input.GetKey(KeyCode.K);
@@ -39,6 +78,10 @@ public static class HKey
         lRight = Input.GetKey(KeyCode.D);
         lAlt = Input.GetKey(KeyCode.LeftAlt);
 
+    }
+
+    static private void Direction()
+    {
         rMvRight = (rRight ? 1 : 0) - (rLeft ? 1 : 0);
         rMvUp = (rUp ? 1 : 0) - (rDown ? 1 : 0);
         rMvDir = new Vector2(rMvRight, rMvUp).normalized;
@@ -46,4 +89,7 @@ public static class HKey
         lMvUp = (lUp ? 1 : 0) - (lDown ? 1 : 0);
         lMvDir = new Vector2(lMvRight, lMvUp).normalized;
     }
+
+
+
 }

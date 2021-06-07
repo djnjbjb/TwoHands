@@ -118,7 +118,7 @@ public class WholeVelocityWhileJumping : Velocity
         }
 
         //-----------------------------------------------------------
-        //把8个方向放在这里，然后数count。用vector2 的 dictionary，但是我搜了搜，需要实现GetHashCode和Equals，就先不搞了。
+        //把8个方向放在这里，然后数count。可以用 vector2 的 dictionary，但是我搜了搜，需要实现GetHashCode和Equals，就先不搞了。
         List<Vector2> possibleDirections = new List<Vector2>();
         possibleDirections.Add(new Vector2(1, 0).normalized);
         possibleDirections.Add(new Vector2(-1, 0).normalized);

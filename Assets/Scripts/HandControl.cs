@@ -7,6 +7,9 @@ using UnityEngine.UI;
 
 public partial class HandControl : MonoBehaviour
 {
+    //Singleton
+    public static HandControl handControl = null;
+
     //Setting
     float surfaceTolerance = 0.01f;
     int moveDirectionReverseIfGrabEnv = 1;
@@ -48,10 +51,14 @@ public partial class HandControl : MonoBehaviour
     float wholeJumpSpeedHistoryTime = 0.21f;
     float wholeJumpSpeedFastHistoryTime = 0.11f;
     float wholeSpeedDownPartMax = 48f;
-    float wholeFistSpeedRatio = 24f / 13f;
-    float gravity = 48f;
+    float wholeFistSpeedRatio = 1.634f;
+    float gravity = 30.864f;
     float friction = 32f; //摩擦力 //摩擦力现在不被用到了，水平位移直接停止
 
+    private void Awake()
+    {
+        handControl = this;
+    }
     void Start()
     {
         Init();
@@ -64,7 +71,6 @@ public partial class HandControl : MonoBehaviour
         leftFist = whole.transform.Find("LHFist").gameObject;
         bottomLeftPoint = whole.transform.Find("BottomLeftPoint").gameObject;
         bottomRightPoint = whole.transform.Find("BottomRightPoint").gameObject;
-        
         
         handRepresent = new HandRepresent(whole);
         handFade = new HandControlFade(whole);
