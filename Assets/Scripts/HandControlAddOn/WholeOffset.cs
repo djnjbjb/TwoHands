@@ -14,7 +14,7 @@ public class WholeOffset
         set
         {
             _offset = value;
-            if (Utility.FloatEqual0p001(_offset.magnitude, 0f))
+            if (Utility.FloatEqual_WithIn0p001(_offset.magnitude, 0f))
             {
                 offsetZeroTime += Time.fixedDeltaTime;
             }

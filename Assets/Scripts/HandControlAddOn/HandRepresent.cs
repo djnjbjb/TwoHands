@@ -254,7 +254,7 @@ public class HandRepresent
         if (currentLR) Ludo.LogFile.LogTemp($"a == {a}");
         if (currentLR) Ludo.LogFile.LogTemp($"b == {b}");
         if (currentLR) Ludo.LogFile.LogTemp($"c == {c}");
-        if (currentLR) Ludo.LogFile.LogTemp($"b + c > a && !Ludo.Utility.FloatEqual0p001(b+c, a) == {b + c > a && !Ludo.Utility.FloatEqual0p001(b + c, a)}");
+        if (currentLR) Ludo.LogFile.LogTemp($"b + c > a && !Ludo.Utility.FloatEqual0p001(b+c, a) == {b + c > a && !Ludo.Utility.FloatEqual_WithIn0p001(b + c, a)}");
         //posJoint2
         /*
             已经放弃了选择更小距离的算法。
@@ -307,7 +307,7 @@ public class HandRepresent
             if (currentLR) Ludo.LogFile.LogTemp("Current == Sigularity");
         }
         //三角形
-        else if (b + c > a && !Ludo.Utility.FloatEqual0p001(b+c, a))
+        else if (b + c > a && !Ludo.Utility.FloatEqual_WithIn0p001(b+c, a))
         {
 
             /*
@@ -390,8 +390,8 @@ public class HandRepresent
                  
                 */
                 bool byPassSingularity = false;
-                if (currentLR) Ludo.LogFile.LogTemp($"Ludo.Utility.FloatEqual0p001((joint2Pos - joint2PosPre).magnitude == {Ludo.Utility.FloatEqual0p001((joint2Pos - joint2PosPre).magnitude,0)}");
-                if (Ludo.Utility.FloatEqual0p001((joint2Pos - joint2PosPre).magnitude, 0))
+                if (currentLR) Ludo.LogFile.LogTemp($"Ludo.Utility.FloatEqual0p001((joint2Pos - joint2PosPre).magnitude == {Ludo.Utility.FloatEqual_WithIn0p001((joint2Pos - joint2PosPre).magnitude,0)}");
+                if (Ludo.Utility.FloatEqual_WithIn0p001((joint2Pos - joint2PosPre).magnitude, 0))
                 {
                     byPassSingularity = false;
                 }
@@ -483,7 +483,7 @@ public class HandRepresent
             joint2State = Joint2State.Singularity;
         }
         //三角形
-        else if (b + c > a && !Ludo.Utility.FloatEqual0p001(b + c, a))
+        else if (b + c > a && !Ludo.Utility.FloatEqual_WithIn0p001(b + c, a))
         {
             float cosJoint1 = (a * a + b * b - c * c) / (2 * a * b);
             float angleJoint1 = Mathf.Acos(cosJoint1);
@@ -524,7 +524,7 @@ public class HandRepresent
             joint2State = Joint2State.Singularity;
         }
         //三角形
-        else if (b + c > a && !Ludo.Utility.FloatEqual0p001(b + c, a))
+        else if (b + c > a && !Ludo.Utility.FloatEqual_WithIn0p001(b + c, a))
         {
             //如果在radius范围内，则在计算Joint2的位置时，把移动到圆的边上。
             Vector2 newFistPos = fistPos;

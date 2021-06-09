@@ -37,7 +37,7 @@ public class CameraFollow : MonoBehaviour
         cameraRegion.bottom = levelManager.region.bottom + camera_half_height;
         cameraRegion.top = levelManager.region.top - camera_half_height;
 
-        if (Ludo.Utility.FloatEqual0p001(cameraRegion.left, cameraRegion.right))
+        if (Ludo.Utility.FloatEqual_WithIn0p001(cameraRegion.left, cameraRegion.right))
         {
             cameraRegion.right = cameraRegion.left;
         }
@@ -47,7 +47,7 @@ public class CameraFollow : MonoBehaviour
         }
 
 
-        if (Ludo.Utility.FloatEqual0p001(cameraRegion.bottom, cameraRegion.top))
+        if (Ludo.Utility.FloatEqual_WithIn0p001(cameraRegion.bottom, cameraRegion.top))
         {
             cameraRegion.top = cameraRegion.bottom;
         }

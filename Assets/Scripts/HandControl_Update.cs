@@ -40,7 +40,7 @@ public partial class HandControl : MonoBehaviour
         //grab sign
         var rGrabSign = rightFist.transform.Find("GrabSign").gameObject;
         var lGrabSign = leftFist.transform.Find("GrabSign").gameObject;
-        rGrabSign.SetActive(rightFistState.IsGrabingThings());
-        lGrabSign.SetActive(leftFistState.IsGrabingThings());
+        rGrabSign.SetActive(rightFistState == FistState.GrabEnv);
+        lGrabSign.SetActive(leftFistState == FistState.GrabEnv);
     }
 }

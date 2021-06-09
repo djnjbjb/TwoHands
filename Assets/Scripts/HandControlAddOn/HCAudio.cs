@@ -51,7 +51,7 @@ public class HCAudio
             rightRelease.Play();
         }
 
-        if ( !Utility.FloatEqual0p001(leftOffset.magnitude, 0f) )
+        if ( !Utility.FloatEqual_WithIn0p001(leftOffset.magnitude, 0f) )
         {
             if (!leftMove.isPlaying)
             {
@@ -66,7 +66,7 @@ public class HCAudio
             }
         }
 
-        if (!Utility.FloatEqual0p001(rightOffset.magnitude, 0f))
+        if (!Utility.FloatEqual_WithIn0p001(rightOffset.magnitude, 0f))
         {
             if (!rightMove.isPlaying)
             {

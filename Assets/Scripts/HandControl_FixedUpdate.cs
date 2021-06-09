@@ -286,11 +286,11 @@ public partial class HandControl : MonoBehaviour
                     }
                 }
 
-                if (Ludo.Utility.FloatEqual0p001(biggerDis, 0))
+                if (Ludo.Utility.FloatEqual_WithIn0p001(biggerDis, 0))
                 {
                     tempWholeOffset = new Vector2();
                 }
-                else if (Ludo.Utility.FloatEqual0p001(smallerDis, 0) && !Ludo.Utility.FloatEqual0p001(biggerDis, 0))
+                else if (Ludo.Utility.FloatEqual_WithIn0p001(smallerDis, 0) && !Ludo.Utility.FloatEqual_WithIn0p001(biggerDis, 0))
                 {
                     //如果一只手的移动是0
                     //身体和移动的那只手，等效于单手移动
