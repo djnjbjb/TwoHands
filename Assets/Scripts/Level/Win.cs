@@ -49,6 +49,7 @@ public class Win : MonoBehaviour
     float timeBeforePlayerFade = 1.5f;
     float playerFadeTime = 2.5f;
     float timeBeforeNextLevel = 2.7f;
+    float backGroundMusicFadeDownTime = 1.5f;
 
     //实现用，外部引入，变量
     [SerializeField] LevelManager levelManager;
@@ -204,6 +205,7 @@ public class Win : MonoBehaviour
     {
         win = true;
 
+        handcontrol.hcAudio.BackGroundMusicFadeDown(backGroundMusicFadeDownTime, this);
         handcontrol.hcAudio.PlayDoorOpen();
 
         SpriteRenderer[] paperCutSpriteRenderers = this.transform.Find("PaperCut").GetComponentsInChildren<SpriteRenderer>(includeInactive: true);

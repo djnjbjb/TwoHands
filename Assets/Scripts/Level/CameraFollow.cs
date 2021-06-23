@@ -1,26 +1,22 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public class AABB
-    {
-        public float left;
-        public float right;
-        public float bottom;
-        public float top;
-    }
-    const float screenRatio = 16f / 9f;
+    public const float screenRatio = 16f / 9f;
     const float cameraZ = -10f;
 
-    Camera sceneCamera;
-    AABB cameraRegion;
+    [NonSerialized] public Camera sceneCamera;
+    HandControlTool.Tool.AABB cameraRegion;
     [SerializeField] GameObject player;
     LevelManager levelManager;
+    public static CameraFollow instance;
     
     void Start()
     {
+        instance = this;
         levelManager = LevelManager.onlyInstance;
 
         //camera
@@ -28,7 +24,7 @@ public class CameraFollow : MonoBehaviour
 
 
         //cameraRegion
-        cameraRegion = new AABB();
+        cameraRegion = new HandControlTool.Tool.AABB();
         float camera_half_height = sceneCamera.orthographicSize;
         float camera_half_width = camera_half_height * screenRatio;
 

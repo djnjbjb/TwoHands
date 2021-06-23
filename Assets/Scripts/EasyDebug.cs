@@ -20,5 +20,19 @@ public class EasyDebug : MonoBehaviour
             HKey.debugModOn = !HKey.debugModOn;
         }
         Y.DebugPanel.Log("HKey.DebugModOn", "Debug", HKey.debugModOn);
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            Ludo.LogFile.LogTemp("1");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            Ludo.LogFile.LogTemp("2");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            Ludo.LogFile.LogTemp("3");
+        }
+
     }
 }

@@ -124,7 +124,7 @@ public class FistVelocity : Velocity
         在双手情况下，FistVelocity自身本就无法处理。
         必须借助 TwoFistVelocity 来完成。
         因此，FistVelocity提供一个接口 AccelerateSpeedTwoFistGrabed（）
-        来执行现挂能操作。
+        来执行操作。
         但因为自己也无法控制很多情况，所以这个结构只是完成功能。
         需要 TwoFistVelocity 来考虑调用的环境情况。
     ------------------------------------------------------ */

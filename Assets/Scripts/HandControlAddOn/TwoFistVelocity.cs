@@ -7,6 +7,8 @@ public class TwoFistVelocity
 {
     public FistVelocity left;
     public FistVelocity right;
+    public HandControlTool.DirectionOf9History leftHistoryOfNineDir = new HandControlTool.DirectionOf9History();
+    public HandControlTool.DirectionOf9History rightHistoryOfNineDir = new HandControlTool.DirectionOf9History();
 
     public TwoFistVelocity(float length)
     {
@@ -108,5 +110,11 @@ public class TwoFistVelocity
                 }
             }
         }
+    }
+
+    public void FixedUpdateHistoryManually()
+    {
+        leftHistoryOfNineDir.FixedUpdateManually(Time.fixedTime, left.direction.normalized);
+        rightHistoryOfNineDir.FixedUpdateManually(Time.fixedTime, right.direction.normalized);
     }
 }

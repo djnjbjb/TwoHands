@@ -20,6 +20,7 @@ public partial class HandControl : MonoBehaviour
     public GameObject leftFist { get; private set; }
     public GameObject rightFist { get; private set; }
     GameObject bottomLeftPoint;
+    GameObject bottomMiddlePoint;
     GameObject bottomRightPoint;
 
     HandRepresent handRepresent;
@@ -70,6 +71,7 @@ public partial class HandControl : MonoBehaviour
         rightFist = whole.transform.Find("RHFist").gameObject;
         leftFist = whole.transform.Find("LHFist").gameObject;
         bottomLeftPoint = whole.transform.Find("BottomLeftPoint").gameObject;
+        bottomMiddlePoint = whole.transform.Find("BottomMiddlePoint").gameObject;
         bottomRightPoint = whole.transform.Find("BottomRightPoint").gameObject;
         
         handRepresent = new HandRepresent(whole);

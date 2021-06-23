@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using static Ludo.Utility;
+using HandControlTool;
 
 public partial class HandControl : MonoBehaviour
 {
@@ -61,10 +63,16 @@ public partial class HandControl : MonoBehaviour
         //Apply FistOffset
         this.leftFist.transform.localPosition += (Vector3)fistOffset.left;
         this.rightFist.transform.localPosition += (Vector3)fistOffset.right;
+        fistVelocity.FixedUpdateHistoryManually();
+        fistOffset.FixedUpdateHistoryManually();
     }
 
     void FU_FistSpeed()
     {
+        FistState leftFistState = this.leftFistState;
+        FistState rightFistState = this.rightFistState;
+        FistGrabStuffEnvHelper(ref leftFistState, ref rightFistState);
+
         /*Fist Speed
             输入
                 FistState
@@ -73,6 +81,7 @@ public partial class HandControl : MonoBehaviour
             输出
                 FistSpeed
         */
+
         ParameterForFistVelocity leftParameter = new ParameterForFistVelocity
         {
             anyKeyHold = HKey.lDown || HKey.lUp || HKey.lRight || HKey.lLeft,
@@ -92,6 +101,11 @@ public partial class HandControl : MonoBehaviour
 
     void FU_FistOffset()
     {
+        FistState leftFistState = this.leftFistState;
+        FistState rightFistState = this.rightFistState;
+        FistGrabStuffEnvHelper(ref leftFistState, ref rightFistState);
+
+
         /*
             FistOffset
             输入
@@ -103,11 +117,11 @@ public partial class HandControl : MonoBehaviour
                 FistOffset
         */
 
-        HandControlTool.TryMoveRegionParams leftParams = new HandControlTool.TryMoveRegionParams();
+        Tool.TryMoveRegionParams leftParams = new Tool.TryMoveRegionParams();
         leftParams.fistPos = leftFist.transform.localPosition;
         leftParams.joint1Pos = handRepresent.leftJoint1.transform.localPosition;
         leftParams.length = length;
-        HandControlTool.TryMoveRegionParams rightParams = new HandControlTool.TryMoveRegionParams();
+        Tool.TryMoveRegionParams rightParams = new Tool.TryMoveRegionParams();
         rightParams.fistPos = rightFist.transform.localPosition;
         rightParams.joint1Pos = handRepresent.rightJoint1.transform.localPosition;
         rightParams.length = length;
@@ -138,7 +152,7 @@ public partial class HandControl : MonoBehaviour
             但，实际上，在计算了speed之后，
             除了3.3的移动为0外，其他的移动都可以用TryMove计算。
         */
-        if (rightFistState == FistState.GrabEnv && leftFistState == FistState.GrabEnv)
+        if (leftFistState == FistState.GrabEnv && rightFistState == FistState.GrabEnv)
         {
             if (fistVelocity.left.direction.magnitude != 0 
                 && fistVelocity.right.direction.magnitude != 0
@@ -148,14 +162,14 @@ public partial class HandControl : MonoBehaviour
             }
             else
             {
-                HandControlTool.TryMove(leftParams, leftMovePossible, out leftOffset);
-                HandControlTool.TryMove(rightParams, rightMovePossible, out rightOffset);
+                Tool.TryMove(leftParams, leftMovePossible, out leftOffset);
+                Tool.TryMove(rightParams, rightMovePossible, out rightOffset);
             }
         }
         else
         {
-            HandControlTool.TryMove(leftParams, leftMovePossible, out leftOffset);
-            HandControlTool.TryMove(rightParams, rightMovePossible, out rightOffset);
+            Tool.TryMove(leftParams, leftMovePossible, out leftOffset);
+            Tool.TryMove(rightParams, rightMovePossible, out rightOffset);
         }
 
         fistOffset.left = leftOffset;
@@ -164,6 +178,10 @@ public partial class HandControl : MonoBehaviour
 
     void FU_FistOffetInfluenceSpeed()
     {
+        FistState leftFistState = this.leftFistState;
+        FistState rightFistState = this.rightFistState;
+        FistGrabStuffEnvHelper(ref leftFistState, ref rightFistState);
+
         ParameterForFistVelocity leftParameter = new ParameterForFistVelocity
         {
             anyKeyHold = HKey.lDown || HKey.lUp || HKey.lRight || HKey.lLeft,
@@ -182,8 +200,69 @@ public partial class HandControl : MonoBehaviour
                                         rightParameter: rightParameter, rightOffset: fistOffset.right);
     }
 
+    void FistGrabStuffEnvHelper(ref FistState leftFistStateTemp, ref FistState rightFistStateTemp)
+    {
+        //GrabStuffEnv的特殊处理
+        /*
+            GrabStuffEnv的情况比较好处理
+            根据手的运动方向，可以GrabStuffEnv把转成Env或Stuff。
+            需要注意，无方向时，等价于Env。
+        */
+        if (leftFistStateTemp == FistState.GrabStuffEnv)
+        {
+            var leftStuffValue = leftGrabedStuff.GetComponent<Stuff.Sword>().GetValueForFist_AtFUPre();
+            var stuffDirection = leftStuffValue.direction.normalized;
+            var moveDir = HKey.lMvDir.normalized;
+            if (FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 0) ||
+                    FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 180))
+            {
+                leftFistStateTemp = FistState.GrabStuff;
+            }
+            else
+            {
+                leftFistStateTemp = FistState.GrabEnv;
+            }
+        }
+        if (rightFistStateTemp == FistState.GrabStuffEnv)
+        {
+            var rightStuffValue = rightGrabedStuff.GetComponent<Stuff.Sword>().GetValueForFist_AtFUPre();
+            var stuffDirection = rightStuffValue.direction.normalized;
+            var moveDir = HKey.rMvDir.normalized;
+            if (FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 0) ||
+                    FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 180))
+            {
+                rightFistStateTemp = FistState.GrabStuff;
+            }
+            else
+            {
+                rightFistStateTemp = FistState.GrabEnv;
+            }
+        }
+    }
+
     void FU_Whole()
     {
+        /*                   ---加入GrabEnv后的变化---
+            
+            这里有一个概念
+
+            早先
+            有GrabEnv表示一种情况，BeforeJump。
+                （可以看到，这时BeforeJump这个名字就不太好。）
+                物体的速度以某种形式去作用。物体的offset使用手的offset计算。
+            无GrabEnv表示另一种情况，WhileJumping。
+                物体的速度，以某种形式去作用。物体的Offset，通过速度，以某种方式来计算。
+
+            加入StuffEnv后
+            目前想要简单的处理
+            有GrabEnv/GrabStuffEnv表示一种情况，BeforeJump。
+            无GrabEnv/GrabStuffEnv表示一种情况，WhileJumping。
+                这里对原来的模式，有个破坏。
+                在原来的模式中，对于BeforeJump，物体的运动总是与GrabEnv的Offset反向。由此，还有些略微复杂的逻辑，比如速度什么的。
+                加入GrabStuff后则变了。对于GrabStuffEnv，在他等效于GrabStuff时，物体的运动处理很多与Stuff相同。
+                似乎，把这个问题处理好，一切就解决了。
+
+        */
         FU_Whole_Velocity();
         FU_Whole_Offset();
         //Apply
@@ -192,12 +271,18 @@ public partial class HandControl : MonoBehaviour
 
     void FU_Whole_Velocity()
     {
+        FistState leftFistState_GrabStuffEnvProcessed = this.leftFistState;
+        FistState rightFistState_GrabStuffEnvProcessed = this.rightFistState;
+        FistGrabStuffEnvHelper(ref leftFistState_GrabStuffEnvProcessed, ref rightFistState_GrabStuffEnvProcessed);
+
         Matrix4x4 wholeMatrix = Matrix4x4.TRS(whole.transform.position, whole.transform.localRotation, whole.transform.localScale);
-        if (leftFistState == FistState.GrabEnv || rightFistState == FistState.GrabEnv)
+        if (leftFistState.IsGrabing_Env_StuffEnv() || rightFistState.IsGrabing_Env_StuffEnv())
         {
             WholeVelocityBeforeJump.Params @params = new WholeVelocityBeforeJump.Params();
             @params.leftFistState = leftFistState;
             @params.rightFistState = rightFistState;
+            @params.leftFistState_GrabStuffEnvProcessed = leftFistState_GrabStuffEnvProcessed;
+            @params.rightFistState_GrabStuffEnvProcessed = rightFistState_GrabStuffEnvProcessed;
             @params.leftFistVelocity = fistVelocity.left;
             @params.rightFistVelocity = fistVelocity.right;
             @params.leftFistOffset = fistOffset.left;
@@ -207,7 +292,7 @@ public partial class HandControl : MonoBehaviour
         }
         else
         {
-            if (leftFistState.pre == FistState.GrabEnv || rightFistState.pre == FistState.GrabEnv)
+            if (leftFistState.pre.IsGrabing_Env_StuffEnv() || rightFistState.pre.IsGrabing_Env_StuffEnv())
             {
                 wholeVelocityWhileJumping.StartJumpWithLog(wholeVelocityBeforeJump, wholeOffset);
             }
@@ -225,6 +310,20 @@ public partial class HandControl : MonoBehaviour
 
     void FU_Whole_Offset()
     {
+        /*
+         GrabStuffEnv带来的变化
+
+            在判断用offset还是速度计算时。GrabStuffEnv总是等效于GrabEnv。
+            
+            但是，使用Offset计算时，方法不同。
+            GrabStuffEnv等效于Env时，计算Offset也等效于Env。
+            等效于Stuff时，不对Offset产生影响。
+            具体代码再看。
+         */
+        FistState leftFistState_GrabStuffEnvProcessed = this.leftFistState;
+        FistState rightFistState_GrabStuffEnvProcessed = this.rightFistState;
+        FistGrabStuffEnvHelper(ref leftFistState_GrabStuffEnvProcessed, ref rightFistState_GrabStuffEnvProcessed);
+
         /*
             Summary
             首先区分有无GrabEnv。
@@ -244,19 +343,23 @@ public partial class HandControl : MonoBehaviour
             有GrabEnv时，不考虑任何碰撞。
             根据HandState分情况讨论。
         */
-        if (rightFistState == FistState.GrabEnv || leftFistState == FistState.GrabEnv)
+        if (leftFistState.IsGrabing_Env_StuffEnv() || rightFistState.IsGrabing_Env_StuffEnv())
         {
             Vector2 leftFistOffset = fistOffset.left;
             Vector2 rightFistOffset = fistOffset.right;
-            if (leftFistState == FistState.GrabEnv && rightFistState != FistState.GrabEnv)
+            /*
+                leftFistState_GrabStuffEnvProcessed，在StuffEnv等效于Stuff时，对offset的作用为零。
+                这里就不用处理了。默认tempWholeOffset就是零。
+            */
+            if (leftFistState_GrabStuffEnvProcessed == FistState.GrabEnv && rightFistState_GrabStuffEnvProcessed != FistState.GrabEnv)
             {
                 tempWholeOffset = wholeMatrix * -leftFistOffset;
             }
-            if (rightFistState == FistState.GrabEnv && leftFistState != FistState.GrabEnv)
+            if (rightFistState_GrabStuffEnvProcessed == FistState.GrabEnv && leftFistState_GrabStuffEnvProcessed != FistState.GrabEnv)
             {
                 tempWholeOffset = wholeMatrix * -rightFistOffset;
             }
-            if (leftFistState == FistState.GrabEnv && rightFistState == FistState.GrabEnv)
+            if (leftFistState_GrabStuffEnvProcessed == FistState.GrabEnv && rightFistState_GrabStuffEnvProcessed == FistState.GrabEnv)
             {
                 /*
                     注意，offset的方向，可能和fistVelocity不同。
@@ -377,30 +480,36 @@ public partial class HandControl : MonoBehaviour
 
                     float downDis = velocityDownPart * Time.fixedDeltaTime;
 
-                    //只用2个点做Raycast，不能保证，但先这样
                     Vector2 pointBL = bottomLeftPoint.transform.position;
+                    Vector2 pointBM = bottomMiddlePoint.transform.position;
                     Vector2 pointBR = bottomRightPoint.transform.position;
                     RaycastHit2D hitBL = Physics2D.Raycast(pointBL, new Vector2(0, -1), downDis, LMRockOrGround);
+                    RaycastHit2D hitBM = Physics2D.Raycast(pointBM, new Vector2(0, -1), downDis, LMRockOrGround);
                     RaycastHit2D hitBR = Physics2D.Raycast(pointBR, new Vector2(0, -1), downDis, LMRockOrGround);
 
-                    if (!hitBL.collider && !hitBR.collider)
+                    if (!hitBL.collider && !hitBM.collider  && !hitBR.collider)
                     {
                         //whole position
                         tempWholeOffset = velocity * Time.fixedDeltaTime;
                     }
                     else
                     {
+                        float downDisBL = float.MaxValue;
+                        float downDisBM = float.MaxValue;
+                        float downDisBR = float.MaxValue;
                         if (hitBL.collider)
                         {
-                            downDis = hitBL.distance;
+                            downDisBL = hitBL.distance;
+                        }
+                        if (hitBM.collider)
+                        {
+                            downDisBM = hitBM.distance;
                         }
                         if (hitBR.collider)
                         {
-                            if (hitBR.distance < downDis)
-                            {
-                                downDis = hitBR.distance;
-                            }
+                            downDisBR = hitBR.distance;
                         }
+                        downDis = Mathf.Min(downDisBL, downDisBM, downDisBR);
 
                         tempWholeOffset = velocityRightPart * Time.fixedDeltaTime * Vector2.right
                                         + new Vector2(0, -downDis);
@@ -410,31 +519,37 @@ public partial class HandControl : MonoBehaviour
                 {
                     float downDis = velocityDownPart * Time.fixedDeltaTime;
 
-                    //只用2个点做Raycast，不能保证，但先这样
                     //当前是EnvRock，如果经过一个Air，再出现EnvRock。这里的算法就会有问题。但一帧移动的很少，目前应该不会出现。先不管它。
                     int layerMaskGround = LayerMask.GetMask("EnvGround");
                     Vector2 pointBL = bottomLeftPoint.transform.position;
+                    Vector2 pointBM = bottomMiddlePoint.transform.position;
                     Vector2 pointBR = bottomRightPoint.transform.position;
                     RaycastHit2D hitBL = Physics2D.Raycast(pointBL, new Vector2(0, -1), downDis, layerMaskGround);
+                    RaycastHit2D hitBM = Physics2D.Raycast(pointBM, new Vector2(0, -1), downDis, layerMaskGround);
                     RaycastHit2D hitBR = Physics2D.Raycast(pointBR, new Vector2(0, -1), downDis, layerMaskGround);
 
-                    if (!hitBL.collider && !hitBR.collider)
+                    if (!hitBL.collider && !hitBM.collider && !hitBR.collider)
                     {
                         tempWholeOffset = velocity * Time.fixedDeltaTime;
                     }
                     else
                     {
+                        float downDisBL = float.MaxValue;
+                        float downDisBM = float.MaxValue;
+                        float downDisBR = float.MaxValue;
                         if (hitBL.collider)
                         {
-                            downDis = hitBL.distance;
+                            downDisBL = hitBL.distance;
+                        }
+                        if (hitBM.collider)
+                        {
+                            downDisBM = hitBM.distance;
                         }
                         if (hitBR.collider)
                         {
-                            if (hitBR.distance < downDis)
-                            {
-                                downDis = hitBR.distance;
-                            }
+                            downDisBR = hitBR.distance;
                         }
+                        downDis = Mathf.Min(downDisBL, downDisBM, downDisBR);
 
                         tempWholeOffset = velocityRightPart * Time.fixedDeltaTime * Vector2.right
                                         + new Vector2(0, -downDis);

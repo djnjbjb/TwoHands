@@ -20,9 +20,12 @@ public class LevelManager : MonoBehaviour
     //设计用变量
     float fadeOffTime = 0.5f;
     float litUpTime = 0.5f;
-    bool playerOutOfRangeOn = false;
+    float collideEnemyTime = 0.5f;
+    bool playerRestartOn = false;
+    bool playerMeetEnemyOn = false;
 
     GameObject playerHead;
+    Collider2D playerCollider;
     public AABB region;
     void Awake()
     {
@@ -49,15 +52,15 @@ public class LevelManager : MonoBehaviour
     {
         region = new AABB();
         {
-            Transform levelRegionTransform = transform.LudoFind("LevelRegion", includeInactive: true, recursive: false);
+            Transform levelRegionTransform = transform.LudoFind("LevelRegion", includeInactive: true, recursive: true);
             if (levelRegionTransform == null)
             {
                 throw new Exception("Can not find LevelRegion");
             }
-            region.left = levelRegionTransform.position.x - levelRegionTransform.localScale.x / 2;
-            region.right = levelRegionTransform.position.x + levelRegionTransform.localScale.x / 2;
-            region.bottom = levelRegionTransform.position.y - levelRegionTransform.localScale.y / 2;
-            region.top = levelRegionTransform.position.y + levelRegionTransform.localScale.y / 2;
+            region.left = levelRegionTransform.position.x - levelRegionTransform.lossyScale.x / 2;
+            region.right = levelRegionTransform.position.x + levelRegionTransform.lossyScale.x / 2;
+            region.bottom = levelRegionTransform.position.y - levelRegionTransform.lossyScale.y / 2;
+            region.top = levelRegionTransform.position.y + levelRegionTransform.lossyScale.y / 2;
         }
 
         playerHead = null;
@@ -66,6 +69,14 @@ public class LevelManager : MonoBehaviour
             if (playerHead == null)
             {
                 throw new Exception("Can not find playerHead");
+            }
+        }
+        playerCollider = null;
+        {
+            playerCollider = GameObject.Find("Player").GetComponent<Collider2D>();
+            if (playerCollider == null)
+            {
+                throw new Exception("Can not find playerCollider");
             }
         }
     }
@@ -78,23 +89,73 @@ public class LevelManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (playerOutOfRangeOn)
+        if (playerRestartOn)
             return;
+
+        //out of range
         Vector3 p = playerHead.transform.position;
-        if (p.x > region.right || p.x < region.left || p.y < region.bottom)
+        Vector3 scale = playerHead.transform.lossyScale;
+        if (p.x-scale.x/2 > region.right || p.x+scale.x/2 < region.left || p.y+scale.y/2 < region.bottom)
         {
             PlayerOutOfRange();
         }
+
+        //enemy
+        if (playerMeetEnemyOn == false)
+        {
+            LayerMask env = LayerMask.GetMask("Enemy");
+            ContactFilter2D filter = new ContactFilter2D();
+            filter.SetLayerMask(env);
+            Collider2D[] result = new Collider2D[1];
+            if (Physics2D.OverlapCollider(playerCollider, filter, result) > 0)
+            {
+                playerMeetEnemyOn = true;
+                GameObject enemy = result[0].gameObject;
+                StartCoroutine(PlayerCollideEnemy(enemy));
+            }
+        }
+    }
+
+    void PlayerDiePre()
+    {
+        HandControl handControl = GameObject.Find("HandControl").GetComponent<HandControl>();
+        if (handControl == null)
+        {
+            throw new Exception("Can not find HandControl");
+        }
+        //播放音效
+        handControl.hcAudio.PlayDeath();
+
+        //停止玩家操作
+        handControl.gameObject.SetActive(false);
     }
 
     void PlayerOutOfRange()
     {
-        StartCoroutine(PlayerOutOfRangeCoroutine());
+        PlayerDiePre();
+        StartCoroutine(GameRestartCoroutine());
     }
 
-    IEnumerator PlayerOutOfRangeCoroutine()
+    IEnumerator PlayerCollideEnemy(GameObject enemyObj)
     {
-        playerOutOfRangeOn = true;
+        PlayerDiePre();
+        GameObject crying = playerHead.transform.LudoFind("Crying", includeInactive: true, recursive: false).gameObject;
+        crying.SetActive(true);
+        GameObject enemy_evil = enemyObj.transform.LudoFind("Evil", includeInactive: true, recursive: false).gameObject;
+        enemy_evil.SetActive(true);
+        Enemy.Enemy enemy = enemyObj.GetComponent<Enemy.Enemy>();
+        enemy.StopMoving();
+
+        yield return new WaitForSeconds(collideEnemyTime);
+
+        yield return StartCoroutine(GameRestartCoroutine());
+
+        playerMeetEnemyOn = false;
+    }
+
+    IEnumerator GameRestartCoroutine()
+    {
+        playerRestartOn = true;
         {
             //
             //1. Before Scene Load
@@ -103,7 +164,15 @@ public class LevelManager : MonoBehaviour
             GameObject out_deathSoundOld = null;
             {
                 //获取需要的变量
-                HandControl handControl = GameObject.Find("HandControl").GetComponent<HandControl>();
+                var objs = SceneManager.GetActiveScene().GetRootGameObjects();
+                HandControl handControl = null;
+                foreach (var obj in objs)
+                {
+                    if (obj.name == "HandControl")
+                    {
+                        handControl = obj.GetComponent<HandControl>();
+                    }
+                }
                 GameObject blackScreen = GameObject.Find("Canvas").transform.LudoFind("BlackScreen", includeInactive: true, recursive: false).gameObject;
                 var image = blackScreen.GetComponent<UnityEngine.UI.Image>();
                 GameObject backGroundMusic = GameObject.Find("Audio").transform.Find("BackGround").gameObject;
@@ -128,13 +197,6 @@ public class LevelManager : MonoBehaviour
                 {
                     throw new Exception("Can not find Death(deathSound)");
                 }
-
-                //播放音效
-                handControl.hcAudio.PlayDeath();
-
-                //停止玩家操作
-                handControl.gameObject.SetActive(false);
-
 
                 //设置NotDestroy
                 DontDestroyOnLoad(this.gameObject);
@@ -265,7 +327,7 @@ public class LevelManager : MonoBehaviour
 
 
         }
-        playerOutOfRangeOn = false;
+        playerRestartOn = false;
     }
 
     public void NextLevel()

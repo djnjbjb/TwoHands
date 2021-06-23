@@ -82,6 +82,7 @@ public class HandRepresent
     void RefreshRight()
     {
         currentLR = true;
+        currentLR = false; //Disable LogTemp
         Vector2 joint2PosPre = rightJoint2.transform.localPosition;
         Vector2 joint2Pos;
         Vector2 line1Pos;

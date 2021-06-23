@@ -177,7 +177,7 @@ public class WholeVelocityWhileJumping : Velocity
         FistStatePlus leftFistState = @params.leftFistState;
         FistStatePlus rightFistState = @params.rightFistState;
         FootStatePlus footState = @params.footState;
-        if (leftFistState == FistState.GrabEnv || rightFistState == FistState.GrabEnv)
+        if (leftFistState.IsGrabing_Env_StuffEnv() || rightFistState.IsGrabing_Env_StuffEnv())
         {
             Debug.LogError("WholeVelocityWhileJumping should not be called when fist grabing");
             return;
@@ -199,7 +199,7 @@ public class WholeVelocityWhileJumping : Velocity
         direction = velocityNew.normalized;
 
 
-        //2 根据速度方向和footState来更改速度
+        //2.根据速度方向和footState来更改速度
         float velocityDownPart = Vector2.Dot(velocity, Vector2.down);
         //2.1 向上运动
         if (velocityDownPart < 0)

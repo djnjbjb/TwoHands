@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using Ludo;
 public class HCAudio
 {
+    AudioSource backGroundMusic;
     AudioSource leftGrip;
     AudioSource leftRelease;
     AudioSource leftMove;
@@ -13,9 +15,11 @@ public class HCAudio
     AudioSource lightUpLeft;
     AudioSource lightUpRight;
     AudioSource doorOpen;
+    
 
     public HCAudio()
     {
+        backGroundMusic = GameObject.Find("Audio").transform.Find("BackGround").GetComponent<AudioSource>();
         leftGrip     =  GameObject.Find("Audio").transform.Find("LeftGrip").GetComponent<AudioSource>();
         leftRelease  = GameObject.Find("Audio").transform.Find("LeftRelease").GetComponent<AudioSource>();
         leftMove     = GameObject.Find("Audio").transform.Find("LeftMove").GetComponent<AudioSource>();
@@ -83,6 +87,22 @@ public class HCAudio
 
     }
 
+    public void BackGroundMusicFadeDown(float time, MonoBehaviour mono)
+    {
+        mono.StartCoroutine(BackGroundMusicFadeDownCoroutine(time));
+    }
+
+    IEnumerator BackGroundMusicFadeDownCoroutine(float time)
+    {
+        float startTime = Time.fixedTime;
+        while (Time.fixedTime - startTime <= time)
+        {
+            backGroundMusic.volume = 1 - (Time.fixedTime - startTime)/time;
+            yield return new WaitForFixedUpdate();
+        }
+        backGroundMusic.volume = 0;
+    }
+
     public void PlayDeath()
     {
         death.Play();
@@ -107,4 +127,6 @@ public class HCAudio
     {
         doorOpen.Play();
     }
+
+    
 }
