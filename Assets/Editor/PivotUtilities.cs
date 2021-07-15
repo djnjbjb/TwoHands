@@ -3,7 +3,7 @@ using UnityEditor;
 
 public static class PivotUtilities
 {
-	[MenuItem("GameObject/Pivot/Create Pivot", false, 49)]
+	[MenuItem("GameObject/Pivot/Create Pivot", false, 48)]
 	static void CreatePivotObject()
 	{
 		if (Selection.activeGameObject != null)
@@ -13,7 +13,7 @@ public static class PivotUtilities
 		}
 	}
 
-	[MenuItem("GameObject/Pivot/Create Pivot (Local Zero)", false, 49)]
+	[MenuItem("GameObject/Pivot/Create Pivot (Local Zero)", false, 48)]
 	static void CreatePivotObjectAtParentPos()
 	{
 		if (Selection.activeGameObject != null)
@@ -23,7 +23,7 @@ public static class PivotUtilities
 		}
 	}
 
-	[MenuItem("GameObject/Pivot/Delete Pivot", false, 49)]
+	[MenuItem("GameObject/Pivot/Delete Pivot", false, 48)]
 	static void DeletePivotObject()
 	{
 		GameObject objSelectionAfter = null;
@@ -45,7 +45,7 @@ public static class PivotUtilities
 		}
 	}
 
-	[MenuItem("GameObject/Pivot/CreatePivotLeft", false, 49)]
+	[MenuItem("GameObject/Pivot/CreatePivotLeft", false, 48)]
 	static void CreatePivotLeft()
 	{
 		if (Selection.activeGameObject != null)
@@ -55,7 +55,7 @@ public static class PivotUtilities
 		}
 	}
 
-	[MenuItem("GameObject/Pivot/CreatePivotRight", false, 49)]
+	[MenuItem("GameObject/Pivot/CreatePivotRight", false, 48)]
 	static void CreatePivotRight()
 	{
 		if (Selection.activeGameObject != null)
@@ -65,7 +65,7 @@ public static class PivotUtilities
 		}
 	}
 
-	[MenuItem("GameObject/Pivot/CreatePivotBottom", false, 49)]
+	[MenuItem("GameObject/Pivot/CreatePivotBottom", false, 48)]
 	static void CreatePivotBottom()
 	{
 		if (Selection.activeGameObject != null)
@@ -75,7 +75,7 @@ public static class PivotUtilities
 		}
 	}
 
-	[MenuItem("GameObject/Pivot/CreatePivotTop", false, 49)]
+	[MenuItem("GameObject/Pivot/CreatePivotTop", false, 48)]
 	static void CreatePivotTop()
 	{
 		if (Selection.activeGameObject != null)

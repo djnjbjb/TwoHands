@@ -9,27 +9,47 @@ using UnityEditor;
 */
 public class CountCodeLines
 {
-    [MenuItem("Tools/输出代码总行数")]
+    [MenuItem("Tools/Code Line Count")]
     private static void PrintTotalLine()
     {
-        string[] fileName = Directory.GetFiles("Assets/Scripts", "*.cs", SearchOption.AllDirectories);
-
-        int totalLine = 0;
-        foreach (var temp in fileName)
+        int game_lines = 0;
         {
-            int nowLine = 0;
-            StreamReader sr = new StreamReader(temp);
-            while (sr.ReadLine() != null)
+            string[] fileName = Directory.GetFiles("Assets/Scripts", "*.cs", SearchOption.AllDirectories);
+            int totalLine = 0;
+            foreach (var temp in fileName)
             {
-                nowLine++;
+                int nowLine = 0;
+                StreamReader sr = new StreamReader(temp);
+                while (sr.ReadLine() != null)
+                {
+                    nowLine++;
+                }
+
+                totalLine += nowLine;
             }
-
-            //文件名+文件行数
-            //Debug.Log(String.Format("{0}——{1}", temp, nowLine));
-
-            totalLine += nowLine;
+            game_lines = totalLine;
         }
+        int editor_lines;
+        {
+            string[] fileName = Directory.GetFiles("Assets/Editor", "*.cs", SearchOption.AllDirectories);
+            int totalLine = 0;
+            foreach (var temp in fileName)
+            {
+                int nowLine = 0;
+                StreamReader sr = new StreamReader(temp);
+                while (sr.ReadLine() != null)
+                {
+                    nowLine++;
+                }
 
-        Debug.Log(String.Format("总代码行数：{0}", totalLine));
+                totalLine += nowLine;
+            }
+            editor_lines = totalLine;
+            
+        }
+        Debug.Log(String.Format("游戏代码行数：{0}", game_lines));
+        Debug.Log(String.Format("Editor代码行数：{0}", editor_lines));
+        Debug.Log(String.Format("总代码行数：{0}", game_lines + editor_lines));
+
     }
 }
