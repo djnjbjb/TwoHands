@@ -68,9 +68,9 @@ public class WholeVelocityWhileJumping : Velocity
         Vector2 direction;
         (direction, type) = StartJump_GetDirection(velocityBeforeJump);
         float speed = StartJump_GetSpeed(velocityBeforeJump, type, out float lastNoZeroSpeed, out float deltaTime);
-
         this.speed = speed;
         this.direction = direction;
+        StartJump_SpeedAddedWhenSlanting();
 
         if (type == StartJump_Direction_Type.ZeroCut)
         {
@@ -315,20 +315,26 @@ public class WholeVelocityWhileJumping : Velocity
         else if (type == StartJump_Direction_Type.SimpleHistory || type == StartJump_Direction_Type.ComplexHistory)
         {
             speedReturn = speedEqualToBeforeJump * wholeFistSpeedRatio;
-            if (jumpSpeedAddedWhenSlanting)
-            {
-                //斜向的话，速度乘以 2^0.5
-                if (!Ludo.Utility.FloatEqual_WithIn0p001(direction.x, 0)
-                     && !Ludo.Utility.FloatEqual_WithIn0p001(direction.y, 0))
-                {
-                    Vector2 velocity = speedReturn * direction;
-                    velocity.y = velocity.y * Mathf.Pow(2, 0.5f);
-                    speedReturn = velocity.magnitude;
-                    direction = velocity.normalized;
-                }
-            }
+            
         }
         return speedReturn;
+    }
+
+    private void StartJump_SpeedAddedWhenSlanting()
+    {
+        if (jumpSpeedAddedWhenSlanting)
+        {
+            //斜向的话，速度乘以 2^0.5
+            if (!Ludo.Utility.FloatEqual_WithIn0p001(direction.x, 0)
+                 && !Ludo.Utility.FloatEqual_WithIn0p001(direction.y, 0))
+            {
+                Vector2 velocity = speed * direction;
+                velocity.y = velocity.y * Mathf.Pow(2, 0.5f);
+                speed = velocity.magnitude;
+                direction = velocity.normalized;
+            }
+        }
+
     }
 
     public (Vector2 direction, StartJump_Direction_Type type) Out_GetDirection(WholeVelocityBeforeJump velocityBeforeJump)

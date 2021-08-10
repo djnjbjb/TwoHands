@@ -15,8 +15,8 @@ public partial class PlayerControl : MonoBehaviour
                 FistState
                 FootState
          */
-        leftFistState.FixedUpdateManually(leftFist, leftGrabedStuff, HKey.lAlt);
-        rightFistState.FixedUpdateManually(rightFist, rightGrabedStuff, HKey.rAlt);
+        leftFistState.FixedUpdateManually(leftFist, leftGrabedStuff, HKey.lGrab);
+        rightFistState.FixedUpdateManually(rightFist, rightGrabedStuff, HKey.rGrab);
         footState.FixedUpdateManually(bottomLeftPoint: bottomLeftPoint, bottomRightPoint: bottomRightPoint);
 
         HandStuffFixedUpdate(rightFistState.pre, leftFistState.pre);

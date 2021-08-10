@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using Ludo.Extensions;
 
 
+[RequireComponent(typeof(HKey))]
 public partial class PlayerControl : MonoBehaviour
 {
     /*
@@ -24,7 +25,7 @@ public partial class PlayerControl : MonoBehaviour
     //Setting - Game
     float footState_surfaceUpDownOffset = 0.01f;
     float footState_surfaceLeftRightInaccuracy = 0.01f;
-    int moveDirectionReverseIfGrabEnv = 1;
+    int moveDirectionReverseIfGrabEnv;  //从PlayerControlStaticSetting获取值
     bool jumpSpeedAddedWhenSlanting = true;
 
     //Setting - Const
@@ -102,6 +103,9 @@ public partial class PlayerControl : MonoBehaviour
 
     void Init()
     {
+        //Setting
+        moveDirectionReverseIfGrabEnv = PlayerControlStaticSetting.GetMoveDirectionReverseIfGrabEnv();
+
         //GameObject
         whole = this.gameObject;
         rightFist = whole.transform.Find("RHFist").gameObject;

@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes2/MainMenu.unity
     guid: 70c5bf09b4e5d3b46911580c740d7bae
   - enabled: 1
-    path: Assets/Scenes2/LevelZ3_1_Climb.unity
+    path: Assets/Scenes2/Level1_Climb.unity
     guid: be25d1166ad93374c8b4f8e7a637ab26
+  - enabled: 1
+    path: Assets/Scenes2/Level2_Jump.unity
+    guid: 7699554881a43ec48bbaa226078dcdbd
+  - enabled: 1
+    path: Assets/Scenes2/Level3_River.unity
+    guid: adefcece9ec078b41b46a6e73fb0fbe2
+  - enabled: 1
+    path: Assets/Scenes2/Level4_Sword.unity
+    guid: 62651f90d607e0744a2c3653dcda7507
+  - enabled: 1
+    path: Assets/Scenes2/Level5_Temp.unity
+    guid: 3edcb172abb64ee4890edea7dc8ebb0d
   m_configObjects: {}

@@ -6,6 +6,6 @@ public partial class PlayerControl : MonoBehaviour
 {
     void Update()
     {
-        HKey.UpdateRefresh();
+        //HKey.UpdateRefresh();
     }
 }

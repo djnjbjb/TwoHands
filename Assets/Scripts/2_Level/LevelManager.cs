@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class LevelManager : MonoBehaviour
 {
@@ -129,7 +130,7 @@ public class LevelManager : MonoBehaviour
         playeControl.hcAudio.PlayDeath();
 
         //停止玩家操作
-        playeControl.gameObject.SetActive(false);
+        playeControl.enabled = false;
     }
 
     void PlayerOutOfRange()
@@ -143,7 +144,7 @@ public class LevelManager : MonoBehaviour
         GameObject blackScreen = GameObject.Find("Canvas").transform.LudoFind("BlackScreen", includeInactive: true, recursive: false).gameObject;
         var image = blackScreen.GetComponent<UnityEngine.UI.Image>();
         GameObject title = GameObject.Find("Canvas").transform.LudoFind("Title", includeInactive: true, recursive: false).gameObject;
-        var text = title.GetComponent<UnityEngine.UI.Text>();
+        var text = title.GetComponent<TextMeshProUGUI>();
         if (blackScreen == null)
         {
             throw new Exception("Can not find BlackScreen");
@@ -174,6 +175,10 @@ public class LevelManager : MonoBehaviour
             text.color = Color.Lerp(new Color(1, 1, 1, 1), new Color(1, 1, 1, 0), (Time.time - startTime) / firstStartScreenFadeTime);
             yield return null;
         }
+        image.color = new Color(0, 0, 0, 0);
+        text.color = new Color(1, 1, 1, 0);
+        title.SetActive(false);
+        blackScreen.SetActive(false);
     }
 
     IEnumerator PlayerCollideEnemy(GameObject enemyObj)

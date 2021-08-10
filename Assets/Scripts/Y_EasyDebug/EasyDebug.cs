@@ -9,12 +9,14 @@ public class EasyDebug : MonoBehaviour
     [SerializeField] bool playerTrail = false;
     [SerializeField] GameObject TrailPrefab = null;
     GameObject player;
+    UnityEngine.InputSystem.Keyboard keyboard;
 
     void Start()
     {
         Time.timeScale = timeScale;
         GameObject.Find("Audio").transform.Find("BackGround").gameObject.SetActive(musicOn);
         player = GameObject.Find("Player");
+        keyboard = UnityEngine.InputSystem.Keyboard.current;
     }
 
     private void FixedUpdate()
@@ -31,27 +33,36 @@ public class EasyDebug : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F1))
+        if (keyboard.f1Key.wasPressedThisFrame)
         {
             HKey.debugModOn = !HKey.debugModOn;
         }
         Y.DebugPanel.Log("HKey.DebugModOn", "Debug", HKey.debugModOn);
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (keyboard.digit1Key.wasPressedThisFrame)
         {
             Ludo.LogFile.LogTemp("1");
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (keyboard.digit2Key.wasPressedThisFrame)
         {
             Ludo.LogFile.LogTemp("2");
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (keyboard.digit3Key.wasPressedThisFrame)
         {
             Ludo.LogFile.LogTemp("3");
         }
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        if (keyboard.numpad1Key.wasPressedThisFrame)
         {
             Ludo.LogFile.Log("【EasyDebug】 ManuallyNumpad1");
+        }
+        if (keyboard.numpad2Key.wasPressedThisFrame)
+        {
+            Debug.Log($"抓握时反向Static： {PlayerControlStaticSetting.GetMoveDirectionReverseIfGrabEnv()}");
+            Debug.Log($"抓握时反向PlayerControl：{PlayerControl.playerControl.Out_GetMoveDirectionReverseIfGrabEnv()}");
+        }
+        if (keyboard.numpad3Key.wasPressedThisFrame)
+        {
+            Time.timeScale = timeScale;
         }
 
     }

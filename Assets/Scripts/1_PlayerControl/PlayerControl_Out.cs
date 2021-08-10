@@ -72,4 +72,14 @@ public partial class PlayerControl : MonoBehaviour
             rightGrabedStuff = null;
         }
     }
+
+    public void Out_SetMoveDirectionReverseIfGrabEnv(int value)
+    {
+        moveDirectionReverseIfGrabEnv = value;
+    }
+
+    public int Out_GetMoveDirectionReverseIfGrabEnv()
+    {
+        return moveDirectionReverseIfGrabEnv;
+    }
 }

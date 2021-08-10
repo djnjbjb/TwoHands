@@ -89,14 +89,14 @@ public partial class PlayerControl : MonoBehaviour
 
         ParameterForFistVelocity leftParameter = new ParameterForFistVelocity
         {
-            anyKeyHold = HKey.lDown || HKey.lUp || HKey.lRight || HKey.lLeft,
+            anyKeyHold = HKey.lAnyDirKeyHold,
             keyDir = HKey.lMvDir,
             handState = leftFistState,
             moveDir = HKey.lMvDir * (leftFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
         };
         ParameterForFistVelocity rightParameter = new ParameterForFistVelocity
         {
-            anyKeyHold = HKey.rDown || HKey.rUp || HKey.rRight || HKey.rLeft,
+            anyKeyHold = HKey.rAnyDirKeyHold,
             keyDir = HKey.rMvDir,
             handState = rightFistState,
             moveDir = HKey.rMvDir * (rightFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
@@ -189,14 +189,14 @@ public partial class PlayerControl : MonoBehaviour
 
         ParameterForFistVelocity leftParameter = new ParameterForFistVelocity
         {
-            anyKeyHold = HKey.lDown || HKey.lUp || HKey.lRight || HKey.lLeft,
+            anyKeyHold = HKey.lAnyDirKeyHold,
             keyDir = HKey.lMvDir,
             handState = leftFistState,
             moveDir = HKey.lMvDir * (leftFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
         };
         ParameterForFistVelocity rightParameter = new ParameterForFistVelocity
         {
-            anyKeyHold = HKey.rDown || HKey.rUp || HKey.rRight || HKey.rLeft,
+            anyKeyHold = HKey.rAnyDirKeyHold,
             keyDir = HKey.rMvDir,
             handState = rightFistState,
             moveDir = HKey.rMvDir * (rightFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
@@ -627,10 +627,5 @@ public partial class PlayerControl : MonoBehaviour
             
         }
         this.wholeOffset.offset = tempWholeOffset;
-    }
-
-    void FU_Audio()
-    {
-
     }
 }
