@@ -2,3 +2,4 @@
 * -text
 # 代码文件设置自动行尾转换，并统一使用crlf作为行尾
 *.cs text eol=crlf
+/Assets/Log/lfs_file_commandline_test filter=lfs diff=lfs merge=lfs -text
