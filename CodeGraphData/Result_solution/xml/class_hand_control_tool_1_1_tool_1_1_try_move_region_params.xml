@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hand_control_tool_1_1_tool_1_1_try_move_region_params" kind="class" prot="public">
+    <compoundname>HandControlTool::Tool::TryMoveRegionParams</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_hand_control_tool_1_1_tool_1_1_try_move_region_params_1a9cd6fce3b5fd241c8e6295ee46c7c057" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 HandControlTool.Tool.TryMoveRegionParams.fistPos</definition>
+        <argsstring></argsstring>
+        <name>fistPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" line="40" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hand_control_tool_1_1_tool_1_1_try_move_region_params_1a5b09f378d3a126fa7c3b100c862f7e58" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 HandControlTool.Tool.TryMoveRegionParams.joint1Pos</definition>
+        <argsstring></argsstring>
+        <name>joint1Pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" line="41" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hand_control_tool_1_1_tool_1_1_try_move_region_params_1ac57689192c5a8137f51cc3b6564cfea3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HandControlTool.Tool.TryMoveRegionParams.length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" line="42" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" line="39" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" bodystart="38" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_hand_control_tool_1_1_tool_1_1_try_move_region_params_1a9cd6fce3b5fd241c8e6295ee46c7c057" prot="public" virt="non-virtual"><scope>HandControlTool::Tool::TryMoveRegionParams</scope><name>fistPos</name></member>
+      <member refid="class_hand_control_tool_1_1_tool_1_1_try_move_region_params_1a5b09f378d3a126fa7c3b100c862f7e58" prot="public" virt="non-virtual"><scope>HandControlTool::Tool::TryMoveRegionParams</scope><name>joint1Pos</name></member>
+      <member refid="class_hand_control_tool_1_1_tool_1_1_try_move_region_params_1ac57689192c5a8137f51cc3b6564cfea3" prot="public" virt="non-virtual"><scope>HandControlTool::Tool::TryMoveRegionParams</scope><name>length</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_fist_state_plus" kind="class" prot="public">
+    <compoundname>FistStatePlus</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_fist_state_plus_1aabf85450b0b0742cd85f2a62e0af2150" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+        <definition>FistState FistStatePlus.state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="52" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_fist_state_plus_1acd787ef9d2c775f42cb69db892791194" compoundref="_fist_state_8cs" startline="79" endline="83">FistStatePlus</referencedby>
+        <referencedby refid="class_fist_state_plus_1ab029e2b63be5965532d6cd8d7141edcd" compoundref="_fist_state_8cs" startline="85" endline="212">FixedUpdateManually</referencedby>
+        <referencedby refid="class_fist_state_plus_1a76c0cfef8003cca2fe72f42107a60d29" compoundref="_fist_state_8cs" startline="58" endline="61">IsFreeToMove</referencedby>
+        <referencedby refid="class_fist_state_plus_1ab0079f07342d499121b053d4037cd853" compoundref="_fist_state_8cs" startline="70" endline="73">IsGrabing_Env_StuffEnv</referencedby>
+        <referencedby refid="class_fist_state_plus_1ac69031657bc392e0964750cd64058885" compoundref="_fist_state_8cs" startline="74" endline="77">IsGrabing_Stuff_StuffEnv</referencedby>
+        <referencedby refid="class_fist_state_plus_1af1f06f64861ba9229df04bd375a6f2d8" compoundref="_fist_state_8cs" startline="66" endline="69">IsGrabingThings</referencedby>
+        <referencedby refid="class_fist_state_plus_1ae1cd9a3a9d376d59ac0cd89befb5ecb8" compoundref="_fist_state_8cs" startline="62" endline="65">IsGrabPressed</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_fist_state_plus_1afaa041d117a07b5c30e739008ce3b939" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+        <definition>FistState FistStatePlus.pre</definition>
+        <argsstring></argsstring>
+        <name>pre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="53" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_fist_state_plus_1acd787ef9d2c775f42cb69db892791194" compoundref="_fist_state_8cs" startline="79" endline="83">FistStatePlus</referencedby>
+        <referencedby refid="class_fist_state_plus_1ab029e2b63be5965532d6cd8d7141edcd" compoundref="_fist_state_8cs" startline="85" endline="212">FixedUpdateManually</referencedby>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">PlayerControl.FU_Pre</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_fist_state_plus_1a51d663a95d01dd02b81323a987e85c55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit FistStatePlus.operator FistState</definition>
+        <argsstring>(FistStatePlus handState)</argsstring>
+        <name>operator FistState</name>
+        <param>
+          <type><ref refid="class_fist_state_plus" kindref="compound">FistStatePlus</ref></type>
+          <declname>handState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_plus_1ae6009a8052d7ab734c7f8a4569700cd5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit FistStatePlus.operator FistStatePlus</definition>
+        <argsstring>(FistState handState)</argsstring>
+        <name>operator FistStatePlus</name>
+        <param>
+          <type><ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>handState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="56" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_fist_state_plus_1a76c0cfef8003cca2fe72f42107a60d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FistStatePlus.IsFreeToMove</definition>
+        <argsstring>()</argsstring>
+        <name>IsFreeToMove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="58" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="58" bodyend="61"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa1c4272c8f0add1328f5e53acd74e387b">GrabStuff</references>
+        <references refid="class_fist_state_plus_1aabf85450b0b0742cd85f2a62e0af2150" compoundref="_fist_state_8cs" startline="52">state</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_plus_1ae1cd9a3a9d376d59ac0cd89befb5ecb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FistStatePlus.IsGrabPressed</definition>
+        <argsstring>()</argsstring>
+        <name>IsGrabPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="62" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="62" bodyend="65"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa6f5917431d9a7f2f2183067f05814adb">GrabStuffEnv</references>
+        <references refid="class_fist_state_plus_1aabf85450b0b0742cd85f2a62e0af2150" compoundref="_fist_state_8cs" startline="52">state</references>
+        <referencedby refid="class_player_control_1a46afe636baf1fc930a82fec73c264100" compoundref="_player_control___represent_8cs" startline="14" endline="63">PlayerControl.FistRepresent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_plus_1af1f06f64861ba9229df04bd375a6f2d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FistStatePlus.IsGrabingThings</definition>
+        <argsstring>()</argsstring>
+        <name>IsGrabingThings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="66" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="66" bodyend="69"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa6f5917431d9a7f2f2183067f05814adb">GrabStuffEnv</references>
+        <references refid="class_fist_state_plus_1aabf85450b0b0742cd85f2a62e0af2150" compoundref="_fist_state_8cs" startline="52">state</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_plus_1ab0079f07342d499121b053d4037cd853" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FistStatePlus.IsGrabing_Env_StuffEnv</definition>
+        <argsstring>()</argsstring>
+        <name>IsGrabing_Env_StuffEnv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="70" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="70" bodyend="73"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa6f5917431d9a7f2f2183067f05814adb">GrabStuffEnv</references>
+        <references refid="class_fist_state_plus_1aabf85450b0b0742cd85f2a62e0af2150" compoundref="_fist_state_8cs" startline="52">state</references>
+        <referencedby refid="class_whole_velocity_while_jumping_1a232ece1da43dedb95212af890191c3fe" compoundref="_whole_velocity_while_jumping_8cs" startline="350" endline="410">WholeVelocityWhileJumping.FixedUpdateManually</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_plus_1ac69031657bc392e0964750cd64058885" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FistStatePlus.IsGrabing_Stuff_StuffEnv</definition>
+        <argsstring>()</argsstring>
+        <name>IsGrabing_Stuff_StuffEnv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="74" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="74" bodyend="77"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa6f5917431d9a7f2f2183067f05814adb">GrabStuffEnv</references>
+        <references refid="class_fist_state_plus_1aabf85450b0b0742cd85f2a62e0af2150" compoundref="_fist_state_8cs" startline="52">state</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_plus_1acd787ef9d2c775f42cb69db892791194" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FistStatePlus.FistStatePlus</definition>
+        <argsstring>(FistState handState)</argsstring>
+        <name>FistStatePlus</name>
+        <param>
+          <type><ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>handState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="79" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="79" bodyend="83"/>
+        <references refid="class_fist_state_plus_1afaa041d117a07b5c30e739008ce3b939" compoundref="_fist_state_8cs" startline="53">pre</references>
+        <references refid="class_fist_state_plus_1aabf85450b0b0742cd85f2a62e0af2150" compoundref="_fist_state_8cs" startline="52">state</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_plus_1ab029e2b63be5965532d6cd8d7141edcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FistStatePlus.FixedUpdateManually</definition>
+        <argsstring>(GameObject fist, GameObject grabedStuff, bool altPressed)</argsstring>
+        <name>FixedUpdateManually</name>
+        <param>
+          <type>GameObject</type>
+          <declname>fist</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>grabedStuff</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>altPressed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="85" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="85" bodyend="212"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aab24ce0cd392a5b0b8dedc66c25213594">Free</references>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa91baec6227b33d6aa298c6751663ec5c">GrabEnv</references>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa63bc044d28101e55cc22a67ed4e2b4c9">GrabNothing</references>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa1c4272c8f0add1328f5e53acd74e387b">GrabStuff</references>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa6f5917431d9a7f2f2183067f05814adb">GrabStuffEnv</references>
+        <references refid="class_fist_state_plus_1afaa041d117a07b5c30e739008ce3b939" compoundref="_fist_state_8cs" startline="53">pre</references>
+        <references refid="class_fist_state_plus_1aabf85450b0b0742cd85f2a62e0af2150" compoundref="_fist_state_8cs" startline="52">state</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="51" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="50" bodyend="214"/>
+    <listofallmembers>
+      <member refid="class_fist_state_plus_1acd787ef9d2c775f42cb69db892791194" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>FistStatePlus</name></member>
+      <member refid="class_fist_state_plus_1ab029e2b63be5965532d6cd8d7141edcd" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>FixedUpdateManually</name></member>
+      <member refid="class_fist_state_plus_1a76c0cfef8003cca2fe72f42107a60d29" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>IsFreeToMove</name></member>
+      <member refid="class_fist_state_plus_1ab0079f07342d499121b053d4037cd853" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>IsGrabing_Env_StuffEnv</name></member>
+      <member refid="class_fist_state_plus_1ac69031657bc392e0964750cd64058885" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>IsGrabing_Stuff_StuffEnv</name></member>
+      <member refid="class_fist_state_plus_1af1f06f64861ba9229df04bd375a6f2d8" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>IsGrabingThings</name></member>
+      <member refid="class_fist_state_plus_1ae1cd9a3a9d376d59ac0cd89befb5ecb8" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>IsGrabPressed</name></member>
+      <member refid="class_fist_state_plus_1a51d663a95d01dd02b81323a987e85c55" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>operator FistState</name></member>
+      <member refid="class_fist_state_plus_1ae6009a8052d7ab734c7f8a4569700cd5" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>operator FistStatePlus</name></member>
+      <member refid="class_fist_state_plus_1afaa041d117a07b5c30e739008ce3b939" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>pre</name></member>
+      <member refid="class_fist_state_plus_1aabf85450b0b0742cd85f2a62e0af2150" prot="public" virt="non-virtual"><scope>FistStatePlus</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

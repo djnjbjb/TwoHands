@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_effect_demo_8cs" kind="file">
+    <compoundname>EffectDemo.cs</compoundname>
+    <innerclass refid="class_shapes2_d_1_1_effect_demo" prot="public">Shapes2D::EffectDemo</innerclass>
+    <innernamespace refid="namespace_shapes2_d">Shapes2D</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Shapes2D<sp/>{</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_shapes2_d_1_1_effect_demo" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_shapes2_d_1_1_effect_demo" kindref="compound">EffectDemo</ref><sp/>:<sp/>MonoBehaviour<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_shapes2_d_1_1_effect_demo_1a90ca0d7ba09e7326ca3e97afff875a24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_shapes2_d_1_1_tap_effect" kindref="compound">TapEffect</ref><sp/><ref refid="class_shapes2_d_1_1_effect_demo_1a90ca0d7ba09e7326ca3e97afff875a24" kindref="member">tapEffect</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update<sp/>is<sp/>called<sp/>once<sp/>per<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_shapes2_d_1_1_effect_demo_1ac2d6b57cb4b43c19ce2d1e13861a7731" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_shapes2_d_1_1_effect_demo_1ac2d6b57cb4b43c19ce2d1e13861a7731" kindref="member">Update</ref><sp/>()<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_shapes2_d_1_1_input_utils" kindref="compound">InputUtils</ref>.<ref refid="class_shapes2_d_1_1_input_utils_1ac1257442d5adf3a6bade23228172905b" kindref="member">MouseDownOrTap</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector2<sp/>pos<sp/>=<sp/>InputUtils.MouseOrTapPosition();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>worldPos<sp/>=<sp/>InputUtils.InputToWorldPosition(pos);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Instantiate(<ref refid="class_shapes2_d_1_1_effect_demo_1a90ca0d7ba09e7326ca3e97afff875a24" kindref="member">tapEffect</ref>,<sp/>worldPos,<sp/>Quaternion.identity);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/EffectDemo.cs"/>
+  </compounddef>
+</doxygen>

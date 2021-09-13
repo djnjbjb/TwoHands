@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_shapes2_d_1_1_bird" kind="class" prot="public">
+    <compoundname>Shapes2D::Bird</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_shapes2_d_1_1_bird_1a767a599183b44c4ac716bcf84f6f2767" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D Shapes2D.Bird.rb</definition>
+        <argsstring></argsstring>
+        <name>rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a336530177b1bce407832de4be45461f0" compoundref="_bird_8cs" startline="74" endline="79">Shapes2D.Bird.Flap</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1aaeac9cb68965de22e78a4ff4c57e50ab" compoundref="_bird_8cs" startline="16" endline="20">Shapes2D.Bird.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_bird_1a68e7a1b0a5cc90a8fa99bb7ef6a3622c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Shapes2D.Bird.dead</definition>
+        <argsstring></argsstring>
+        <name>dead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a37ec92966925992adc1d1c11fd25fd4d" compoundref="_bird_8cs" startline="65" endline="72">Shapes2D.Bird.Die</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a7578d93fa2c8eba51b97b643cfcb3a36" compoundref="_bird_8cs" startline="38" endline="40">Shapes2D.Bird.IsDead</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a0fc6311b4dcd993eec364829528b70e6" compoundref="_bird_8cs" startline="56" endline="63">Shapes2D.Bird.Play</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a87bc37aa749a97fd2e22154c94810472" compoundref="_bird_8cs" startline="42" endline="50">Shapes2D.Bird.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_bird_1ad3d2e950a47447e119744a704722f5f6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Shapes2D.Bird.playing</definition>
+        <argsstring></argsstring>
+        <name>playing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a37ec92966925992adc1d1c11fd25fd4d" compoundref="_bird_8cs" startline="65" endline="72">Shapes2D.Bird.Die</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a2400967b6fa77d3665c24464288fb219" compoundref="_bird_8cs" startline="52" endline="54">Shapes2D.Bird.IsPlaying</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a0fc6311b4dcd993eec364829528b70e6" compoundref="_bird_8cs" startline="56" endline="63">Shapes2D.Bird.Play</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a87bc37aa749a97fd2e22154c94810472" compoundref="_bird_8cs" startline="42" endline="50">Shapes2D.Bird.Reset</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a8d7bc1f4f568bb24635a55c1cbc85f21" compoundref="_bird_8cs" startline="81" endline="90">Shapes2D.Bird.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_bird_1a87279ef166b4ef7477d80d00ad50d613" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Shapes2D.Bird.startPosition</definition>
+        <argsstring></argsstring>
+        <name>startPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="12" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a87bc37aa749a97fd2e22154c94810472" compoundref="_bird_8cs" startline="42" endline="50">Shapes2D.Bird.Reset</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1aaeac9cb68965de22e78a4ff4c57e50ab" compoundref="_bird_8cs" startline="16" endline="20">Shapes2D.Bird.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_bird_1af50cf7470019aac1109ef788d4fb1982" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Shapes2D.Bird.score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_bird_1aa3ae81fc229802020861db660b4ff3ab" compoundref="_bird_8cs" startline="30" endline="32">Shapes2D.Bird.GetScore</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a33368005a77e1e2abedbf26382bbeeab" compoundref="_bird_8cs" startline="22" endline="28">Shapes2D.Bird.OnTriggerEnter2D</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a87bc37aa749a97fd2e22154c94810472" compoundref="_bird_8cs" startline="42" endline="50">Shapes2D.Bird.Reset</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_shapes2_d_1_1_bird_1a7518bc264c846e3df00652ae1b085407" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2D.Bird.force</definition>
+        <argsstring></argsstring>
+        <name>force</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a37ec92966925992adc1d1c11fd25fd4d" compoundref="_bird_8cs" startline="65" endline="72">Shapes2D.Bird.Die</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a336530177b1bce407832de4be45461f0" compoundref="_bird_8cs" startline="74" endline="79">Shapes2D.Bird.Flap</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1aaeac9cb68965de22e78a4ff4c57e50ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Bird.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="16" bodyend="20"/>
+        <references refid="class_shapes2_d_1_1_bird_1a767a599183b44c4ac716bcf84f6f2767" compoundref="_bird_8cs" startline="9">Shapes2D.Bird.rb</references>
+        <references refid="class_shapes2_d_1_1_bird_1a87bc37aa749a97fd2e22154c94810472" compoundref="_bird_8cs" startline="42" endline="50">Shapes2D.Bird.Reset</references>
+        <references refid="class_shapes2_d_1_1_bird_1a87279ef166b4ef7477d80d00ad50d613" compoundref="_bird_8cs" startline="12">Shapes2D.Bird.startPosition</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1a33368005a77e1e2abedbf26382bbeeab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Bird.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="22" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="22" bodyend="28"/>
+        <references refid="class_shapes2_d_1_1_bird_1a37ec92966925992adc1d1c11fd25fd4d" compoundref="_bird_8cs" startline="65" endline="72">Shapes2D.Bird.Die</references>
+        <references refid="class_shapes2_d_1_1_bird_1af50cf7470019aac1109ef788d4fb1982" compoundref="_bird_8cs" startline="13">Shapes2D.Bird.score</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1a76057caa3aae51a3275cb69879addddf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Bird.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D coll)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>coll</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="34" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="34" bodyend="36"/>
+        <references refid="class_shapes2_d_1_1_bird_1a37ec92966925992adc1d1c11fd25fd4d" compoundref="_bird_8cs" startline="65" endline="72">Shapes2D.Bird.Die</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1a37ec92966925992adc1d1c11fd25fd4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Bird.Die</definition>
+        <argsstring>()</argsstring>
+        <name>Die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="65" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="65" bodyend="72"/>
+        <references refid="class_shapes2_d_1_1_bird_1a68e7a1b0a5cc90a8fa99bb7ef6a3622c" compoundref="_bird_8cs" startline="11">Shapes2D.Bird.dead</references>
+        <references refid="class_shapes2_d_1_1_bird_1a7518bc264c846e3df00652ae1b085407" compoundref="_bird_8cs" startline="10">Shapes2D.Bird.force</references>
+        <references refid="class_shapes2_d_1_1_bird_1ad3d2e950a47447e119744a704722f5f6" compoundref="_bird_8cs" startline="11">Shapes2D.Bird.playing</references>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a76057caa3aae51a3275cb69879addddf" compoundref="_bird_8cs" startline="34" endline="36">Shapes2D.Bird.OnCollisionEnter2D</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a33368005a77e1e2abedbf26382bbeeab" compoundref="_bird_8cs" startline="22" endline="28">Shapes2D.Bird.OnTriggerEnter2D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1a336530177b1bce407832de4be45461f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Bird.Flap</definition>
+        <argsstring>()</argsstring>
+        <name>Flap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="74" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="74" bodyend="79"/>
+        <references refid="class_shapes2_d_1_1_bird_1a7518bc264c846e3df00652ae1b085407" compoundref="_bird_8cs" startline="10">Shapes2D.Bird.force</references>
+        <references refid="class_shapes2_d_1_1_bird_1a767a599183b44c4ac716bcf84f6f2767" compoundref="_bird_8cs" startline="9">Shapes2D.Bird.rb</references>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a0fc6311b4dcd993eec364829528b70e6" compoundref="_bird_8cs" startline="56" endline="63">Shapes2D.Bird.Play</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a8d7bc1f4f568bb24635a55c1cbc85f21" compoundref="_bird_8cs" startline="81" endline="90">Shapes2D.Bird.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1a8d7bc1f4f568bb24635a55c1cbc85f21" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Bird.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="81" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="81" bodyend="90"/>
+        <references refid="class_shapes2_d_1_1_bird_1a336530177b1bce407832de4be45461f0" compoundref="_bird_8cs" startline="74" endline="79">Shapes2D.Bird.Flap</references>
+        <references refid="class_shapes2_d_1_1_input_utils_1ac1257442d5adf3a6bade23228172905b" compoundref="_input_utils_8cs" startline="35" endline="45">Shapes2D.InputUtils.MouseDownOrTap</references>
+        <references refid="class_shapes2_d_1_1_bird_1ad3d2e950a47447e119744a704722f5f6" compoundref="_bird_8cs" startline="11">Shapes2D.Bird.playing</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1aa3ae81fc229802020861db660b4ff3ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Shapes2D.Bird.GetScore</definition>
+        <argsstring>()</argsstring>
+        <name>GetScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="30" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="30" bodyend="32"/>
+        <references refid="class_shapes2_d_1_1_bird_1af50cf7470019aac1109ef788d4fb1982" compoundref="_bird_8cs" startline="13">Shapes2D.Bird.score</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1a7578d93fa2c8eba51b97b643cfcb3a36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shapes2D.Bird.IsDead</definition>
+        <argsstring>()</argsstring>
+        <name>IsDead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="38" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="38" bodyend="40"/>
+        <references refid="class_shapes2_d_1_1_bird_1a68e7a1b0a5cc90a8fa99bb7ef6a3622c" compoundref="_bird_8cs" startline="11">Shapes2D.Bird.dead</references>
+        <referencedby refid="class_shapes2_d_1_1_game_1ac03c9b52b8cb5ce6975127e208e523ca" compoundref="_game_8cs" startline="44" endline="56">Shapes2D.Game.OnStartButton</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_game_1a957ceb985393a8c171b25d0437bc77bd" compoundref="_game_8cs" startline="59" endline="107">Shapes2D.Game.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1a87bc37aa749a97fd2e22154c94810472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Bird.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="42" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="42" bodyend="50"/>
+        <references refid="class_shapes2_d_1_1_bird_1a68e7a1b0a5cc90a8fa99bb7ef6a3622c" compoundref="_bird_8cs" startline="11">Shapes2D.Bird.dead</references>
+        <references refid="class_shapes2_d_1_1_bird_1ad3d2e950a47447e119744a704722f5f6" compoundref="_bird_8cs" startline="11">Shapes2D.Bird.playing</references>
+        <references refid="class_shapes2_d_1_1_bird_1af50cf7470019aac1109ef788d4fb1982" compoundref="_bird_8cs" startline="13">Shapes2D.Bird.score</references>
+        <references refid="class_shapes2_d_1_1_bird_1a87279ef166b4ef7477d80d00ad50d613" compoundref="_bird_8cs" startline="12">Shapes2D.Bird.startPosition</references>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a0fc6311b4dcd993eec364829528b70e6" compoundref="_bird_8cs" startline="56" endline="63">Shapes2D.Bird.Play</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1aaeac9cb68965de22e78a4ff4c57e50ab" compoundref="_bird_8cs" startline="16" endline="20">Shapes2D.Bird.Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1a2400967b6fa77d3665c24464288fb219" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shapes2D.Bird.IsPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>IsPlaying</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="52" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="52" bodyend="54"/>
+        <references refid="class_shapes2_d_1_1_bird_1ad3d2e950a47447e119744a704722f5f6" compoundref="_bird_8cs" startline="11">Shapes2D.Bird.playing</references>
+        <referencedby refid="class_shapes2_d_1_1_game_1ac03c9b52b8cb5ce6975127e208e523ca" compoundref="_game_8cs" startline="44" endline="56">Shapes2D.Game.OnStartButton</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_game_1a957ceb985393a8c171b25d0437bc77bd" compoundref="_game_8cs" startline="59" endline="107">Shapes2D.Game.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_bird_1a0fc6311b4dcd993eec364829528b70e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Bird.Play</definition>
+        <argsstring>()</argsstring>
+        <name>Play</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="56" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="56" bodyend="63"/>
+        <references refid="class_shapes2_d_1_1_bird_1a68e7a1b0a5cc90a8fa99bb7ef6a3622c" compoundref="_bird_8cs" startline="11">Shapes2D.Bird.dead</references>
+        <references refid="class_shapes2_d_1_1_bird_1a336530177b1bce407832de4be45461f0" compoundref="_bird_8cs" startline="74" endline="79">Shapes2D.Bird.Flap</references>
+        <references refid="class_shapes2_d_1_1_bird_1ad3d2e950a47447e119744a704722f5f6" compoundref="_bird_8cs" startline="11">Shapes2D.Bird.playing</references>
+        <references refid="class_shapes2_d_1_1_bird_1a87bc37aa749a97fd2e22154c94810472" compoundref="_bird_8cs" startline="42" endline="50">Shapes2D.Bird.Reset</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>Shapes2D.Bird</label>
+        <link refid="class_shapes2_d_1_1_bird"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>Shapes2D.Bird</label>
+        <link refid="class_shapes2_d_1_1_bird"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/Bird.cs" bodystart="7" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_shapes2_d_1_1_bird_1a68e7a1b0a5cc90a8fa99bb7ef6a3622c" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>dead</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a37ec92966925992adc1d1c11fd25fd4d" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>Die</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a336530177b1bce407832de4be45461f0" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>Flap</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a7518bc264c846e3df00652ae1b085407" prot="public" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>force</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1aa3ae81fc229802020861db660b4ff3ab" prot="public" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>GetScore</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a7578d93fa2c8eba51b97b643cfcb3a36" prot="public" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>IsDead</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a2400967b6fa77d3665c24464288fb219" prot="public" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>IsPlaying</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a76057caa3aae51a3275cb69879addddf" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a33368005a77e1e2abedbf26382bbeeab" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a0fc6311b4dcd993eec364829528b70e6" prot="public" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>Play</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1ad3d2e950a47447e119744a704722f5f6" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>playing</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a767a599183b44c4ac716bcf84f6f2767" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>rb</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a87bc37aa749a97fd2e22154c94810472" prot="public" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>Reset</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1af50cf7470019aac1109ef788d4fb1982" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>score</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1aaeac9cb68965de22e78a4ff4c57e50ab" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>Start</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a87279ef166b4ef7477d80d00ad50d613" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>startPosition</name></member>
+      <member refid="class_shapes2_d_1_1_bird_1a8d7bc1f4f568bb24635a55c1cbc85f21" prot="private" virt="non-virtual"><scope>Shapes2D::Bird</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

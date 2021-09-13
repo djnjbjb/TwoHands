@@ -1,0 +1,462 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_a_b_b_utilities" kind="class" prot="public">
+    <compoundname>AABBUtilities</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_a_a_b_b_utilities_1a523ae95456750774ce709aa5267608e3" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float AABBUtilities.leftSaved</definition>
+        <argsstring></argsstring>
+        <name>leftSaved</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" compoundref="_a_a_b_b_utilities_8cs" startline="102" endline="143">Restore</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" compoundref="_a_a_b_b_utilities_8cs" startline="57" endline="76">Save</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_a_b_b_utilities_1a994d3e652ec20640203597db2e14f8ca" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float AABBUtilities.rightSaved</definition>
+        <argsstring></argsstring>
+        <name>rightSaved</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" compoundref="_a_a_b_b_utilities_8cs" startline="102" endline="143">Restore</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" compoundref="_a_a_b_b_utilities_8cs" startline="57" endline="76">Save</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_a_b_b_utilities_1a5fdb4c69024717568cbc1a07bfeb72c1" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float AABBUtilities.bottomSaved</definition>
+        <argsstring></argsstring>
+        <name>bottomSaved</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" compoundref="_a_a_b_b_utilities_8cs" startline="102" endline="143">Restore</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" compoundref="_a_a_b_b_utilities_8cs" startline="57" endline="76">Save</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_a_b_b_utilities_1a503b62aa124139ce7e09d70b1e38aa38" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float AABBUtilities.topSaved</definition>
+        <argsstring></argsstring>
+        <name>topSaved</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" compoundref="_a_a_b_b_utilities_8cs" startline="102" endline="143">Restore</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" compoundref="_a_a_b_b_utilities_8cs" startline="57" endline="76">Save</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_a_b_b_utilities_1a8147d9731dac0dd6ced75d9abe21fce1" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float AABBUtilities.scaleXSaved</definition>
+        <argsstring></argsstring>
+        <name>scaleXSaved</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="145" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="145" bodyend="-1"/>
+        <referencedby refid="class_a_a_b_b_utilities_1a7a52ec61bed2fd12fd505db3b3a5aae3" compoundref="_a_a_b_b_utilities_8cs" startline="156" endline="164">RestoreScaleX</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1ab7b5231a0d47f97002df84fffb2894ec" compoundref="_a_a_b_b_utilities_8cs" startline="147" endline="150">SaveScaleX</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_a_b_b_utilities_1ab781c0563ebd228f1932bcbeaac26d5a" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float AABBUtilities.scaleYSaved</definition>
+        <argsstring></argsstring>
+        <name>scaleYSaved</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="146" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="146" bodyend="-1"/>
+        <referencedby refid="class_a_a_b_b_utilities_1a9d506d548c09d5ae1456dc97963fcc9b" compoundref="_a_a_b_b_utilities_8cs" startline="165" endline="173">RestoreScaleY</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1af38e27b0630421b062d7cac2125999e1" compoundref="_a_a_b_b_utilities_8cs" startline="152" endline="155">SaveScaleY</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1ade89a87ce586b490a7d9eee4e1aa0491" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.PrintAABB</definition>
+        <argsstring>()</argsstring>
+        <name>PrintAABB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="13" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a4c12494ecb487463fa62b6b3e198c74e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.SaveLeft</definition>
+        <argsstring>()</argsstring>
+        <name>SaveLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="34" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="34" bodyend="37"/>
+        <references refid="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" compoundref="_a_a_b_b_utilities_8cs" startline="57" endline="76">Save</references>
+        <referencedby refid="class_a_a_b_b_utilities_1ae487ff0dd8fac97dcd61c1b796455e67" compoundref="_a_a_b_b_utilities_8cs" startline="195" endline="200">MaintainLeftBottomSacleX_Start</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1ae88a4145a0367eae15939f5bd2ced1cd" compoundref="_a_a_b_b_utilities_8cs" startline="178" endline="183">MaintainTopLeftSacleY_Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a6fc0e886b578e5cbf17a0491260530d7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.SaveRight</definition>
+        <argsstring>()</argsstring>
+        <name>SaveRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="40" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="40" bodyend="43"/>
+        <references refid="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" compoundref="_a_a_b_b_utilities_8cs" startline="57" endline="76">Save</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a3a4f326c3f9e7ed6e7df9d75ab195f2e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.SaveBottom</definition>
+        <argsstring>()</argsstring>
+        <name>SaveBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="46" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="46" bodyend="49"/>
+        <references refid="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" compoundref="_a_a_b_b_utilities_8cs" startline="57" endline="76">Save</references>
+        <referencedby refid="class_a_a_b_b_utilities_1ae487ff0dd8fac97dcd61c1b796455e67" compoundref="_a_a_b_b_utilities_8cs" startline="195" endline="200">MaintainLeftBottomSacleX_Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1abb82d9c3479ab91c29c31fc47b2a00ae" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.SaveTop</definition>
+        <argsstring>()</argsstring>
+        <name>SaveTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="52" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="52" bodyend="55"/>
+        <references refid="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" compoundref="_a_a_b_b_utilities_8cs" startline="57" endline="76">Save</references>
+        <referencedby refid="class_a_a_b_b_utilities_1ae88a4145a0367eae15939f5bd2ced1cd" compoundref="_a_a_b_b_utilities_8cs" startline="178" endline="183">MaintainTopLeftSacleY_Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.Save</definition>
+        <argsstring>(string which)</argsstring>
+        <name>Save</name>
+        <param>
+          <type>string</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="57" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="57" bodyend="76"/>
+        <references refid="class_a_a_b_b_utilities_1a5fdb4c69024717568cbc1a07bfeb72c1" compoundref="_a_a_b_b_utilities_8cs" startline="9">bottomSaved</references>
+        <references refid="class_a_a_b_b_utilities_1a523ae95456750774ce709aa5267608e3" compoundref="_a_a_b_b_utilities_8cs" startline="7">leftSaved</references>
+        <references refid="class_a_a_b_b_utilities_1a994d3e652ec20640203597db2e14f8ca" compoundref="_a_a_b_b_utilities_8cs" startline="8">rightSaved</references>
+        <references refid="class_a_a_b_b_utilities_1a503b62aa124139ce7e09d70b1e38aa38" compoundref="_a_a_b_b_utilities_8cs" startline="10">topSaved</references>
+        <referencedby refid="class_a_a_b_b_utilities_1a3a4f326c3f9e7ed6e7df9d75ab195f2e" compoundref="_a_a_b_b_utilities_8cs" startline="46" endline="49">SaveBottom</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1a4c12494ecb487463fa62b6b3e198c74e" compoundref="_a_a_b_b_utilities_8cs" startline="34" endline="37">SaveLeft</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1a6fc0e886b578e5cbf17a0491260530d7" compoundref="_a_a_b_b_utilities_8cs" startline="40" endline="43">SaveRight</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1abb82d9c3479ab91c29c31fc47b2a00ae" compoundref="_a_a_b_b_utilities_8cs" startline="52" endline="55">SaveTop</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a1fea68daacfffebe2c0565ef8525351f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.RestoreLeft</definition>
+        <argsstring>()</argsstring>
+        <name>RestoreLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="79" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="79" bodyend="82"/>
+        <references refid="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" compoundref="_a_a_b_b_utilities_8cs" startline="102" endline="143">Restore</references>
+        <referencedby refid="class_a_a_b_b_utilities_1a173c3f01699fafc9197e7f6cf7bb3025" compoundref="_a_a_b_b_utilities_8cs" startline="203" endline="208">MaintainLeftBottomSacleX_End</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1ada440563307d03c37fa0f63de5370bb1" compoundref="_a_a_b_b_utilities_8cs" startline="186" endline="192">MaintainTopLeftSacleY_End</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1ae1ff944fabf6c03239519a362925defd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.RestoreRight</definition>
+        <argsstring>()</argsstring>
+        <name>RestoreRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="85" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="85" bodyend="88"/>
+        <references refid="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" compoundref="_a_a_b_b_utilities_8cs" startline="102" endline="143">Restore</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a26575b448485a1d1afdd59de4c6d7dd5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.RestoreBottom</definition>
+        <argsstring>()</argsstring>
+        <name>RestoreBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="91" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="91" bodyend="94"/>
+        <references refid="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" compoundref="_a_a_b_b_utilities_8cs" startline="102" endline="143">Restore</references>
+        <referencedby refid="class_a_a_b_b_utilities_1a173c3f01699fafc9197e7f6cf7bb3025" compoundref="_a_a_b_b_utilities_8cs" startline="203" endline="208">MaintainLeftBottomSacleX_End</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a8f1f5131e5bb06d7533d40c935acd11b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.RestoreTop</definition>
+        <argsstring>()</argsstring>
+        <name>RestoreTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="97" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="97" bodyend="100"/>
+        <references refid="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" compoundref="_a_a_b_b_utilities_8cs" startline="102" endline="143">Restore</references>
+        <referencedby refid="class_a_a_b_b_utilities_1ada440563307d03c37fa0f63de5370bb1" compoundref="_a_a_b_b_utilities_8cs" startline="186" endline="192">MaintainTopLeftSacleY_End</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.Restore</definition>
+        <argsstring>(string which)</argsstring>
+        <name>Restore</name>
+        <param>
+          <type>string</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="102" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="102" bodyend="143"/>
+        <references refid="class_a_a_b_b_utilities_1a5fdb4c69024717568cbc1a07bfeb72c1" compoundref="_a_a_b_b_utilities_8cs" startline="9">bottomSaved</references>
+        <references refid="class_a_a_b_b_utilities_1a523ae95456750774ce709aa5267608e3" compoundref="_a_a_b_b_utilities_8cs" startline="7">leftSaved</references>
+        <references refid="class_a_a_b_b_utilities_1a994d3e652ec20640203597db2e14f8ca" compoundref="_a_a_b_b_utilities_8cs" startline="8">rightSaved</references>
+        <references refid="class_a_a_b_b_utilities_1a503b62aa124139ce7e09d70b1e38aa38" compoundref="_a_a_b_b_utilities_8cs" startline="10">topSaved</references>
+        <referencedby refid="class_a_a_b_b_utilities_1a26575b448485a1d1afdd59de4c6d7dd5" compoundref="_a_a_b_b_utilities_8cs" startline="91" endline="94">RestoreBottom</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1a1fea68daacfffebe2c0565ef8525351f" compoundref="_a_a_b_b_utilities_8cs" startline="79" endline="82">RestoreLeft</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1ae1ff944fabf6c03239519a362925defd" compoundref="_a_a_b_b_utilities_8cs" startline="85" endline="88">RestoreRight</referencedby>
+        <referencedby refid="class_a_a_b_b_utilities_1a8f1f5131e5bb06d7533d40c935acd11b" compoundref="_a_a_b_b_utilities_8cs" startline="97" endline="100">RestoreTop</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1ab7b5231a0d47f97002df84fffb2894ec" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.SaveScaleX</definition>
+        <argsstring>()</argsstring>
+        <name>SaveScaleX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="147" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="147" bodyend="150"/>
+        <references refid="class_a_a_b_b_utilities_1a8147d9731dac0dd6ced75d9abe21fce1" compoundref="_a_a_b_b_utilities_8cs" startline="145">scaleXSaved</references>
+        <referencedby refid="class_a_a_b_b_utilities_1ae487ff0dd8fac97dcd61c1b796455e67" compoundref="_a_a_b_b_utilities_8cs" startline="195" endline="200">MaintainLeftBottomSacleX_Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1af38e27b0630421b062d7cac2125999e1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.SaveScaleY</definition>
+        <argsstring>()</argsstring>
+        <name>SaveScaleY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="152" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="152" bodyend="155"/>
+        <references refid="class_a_a_b_b_utilities_1ab781c0563ebd228f1932bcbeaac26d5a" compoundref="_a_a_b_b_utilities_8cs" startline="146">scaleYSaved</references>
+        <referencedby refid="class_a_a_b_b_utilities_1ae88a4145a0367eae15939f5bd2ced1cd" compoundref="_a_a_b_b_utilities_8cs" startline="178" endline="183">MaintainTopLeftSacleY_Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a7a52ec61bed2fd12fd505db3b3a5aae3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.RestoreScaleX</definition>
+        <argsstring>()</argsstring>
+        <name>RestoreScaleX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="156" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="156" bodyend="164"/>
+        <references refid="class_a_a_b_b_utilities_1a8147d9731dac0dd6ced75d9abe21fce1" compoundref="_a_a_b_b_utilities_8cs" startline="145">scaleXSaved</references>
+        <referencedby refid="class_a_a_b_b_utilities_1a173c3f01699fafc9197e7f6cf7bb3025" compoundref="_a_a_b_b_utilities_8cs" startline="203" endline="208">MaintainLeftBottomSacleX_End</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a9d506d548c09d5ae1456dc97963fcc9b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.RestoreScaleY</definition>
+        <argsstring>()</argsstring>
+        <name>RestoreScaleY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="165" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="165" bodyend="173"/>
+        <references refid="class_a_a_b_b_utilities_1ab781c0563ebd228f1932bcbeaac26d5a" compoundref="_a_a_b_b_utilities_8cs" startline="146">scaleYSaved</references>
+        <referencedby refid="class_a_a_b_b_utilities_1ada440563307d03c37fa0f63de5370bb1" compoundref="_a_a_b_b_utilities_8cs" startline="186" endline="192">MaintainTopLeftSacleY_End</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1ae88a4145a0367eae15939f5bd2ced1cd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.MaintainTopLeftSacleY_Start</definition>
+        <argsstring>()</argsstring>
+        <name>MaintainTopLeftSacleY_Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="178" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="178" bodyend="183"/>
+        <references refid="class_a_a_b_b_utilities_1a4c12494ecb487463fa62b6b3e198c74e" compoundref="_a_a_b_b_utilities_8cs" startline="34" endline="37">SaveLeft</references>
+        <references refid="class_a_a_b_b_utilities_1af38e27b0630421b062d7cac2125999e1" compoundref="_a_a_b_b_utilities_8cs" startline="152" endline="155">SaveScaleY</references>
+        <references refid="class_a_a_b_b_utilities_1abb82d9c3479ab91c29c31fc47b2a00ae" compoundref="_a_a_b_b_utilities_8cs" startline="52" endline="55">SaveTop</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1ada440563307d03c37fa0f63de5370bb1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.MaintainTopLeftSacleY_End</definition>
+        <argsstring>()</argsstring>
+        <name>MaintainTopLeftSacleY_End</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="186" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="186" bodyend="192"/>
+        <references refid="class_a_a_b_b_utilities_1a1fea68daacfffebe2c0565ef8525351f" compoundref="_a_a_b_b_utilities_8cs" startline="79" endline="82">RestoreLeft</references>
+        <references refid="class_a_a_b_b_utilities_1a9d506d548c09d5ae1456dc97963fcc9b" compoundref="_a_a_b_b_utilities_8cs" startline="165" endline="173">RestoreScaleY</references>
+        <references refid="class_a_a_b_b_utilities_1a8f1f5131e5bb06d7533d40c935acd11b" compoundref="_a_a_b_b_utilities_8cs" startline="97" endline="100">RestoreTop</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1ae487ff0dd8fac97dcd61c1b796455e67" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.MaintainLeftBottomSacleX_Start</definition>
+        <argsstring>()</argsstring>
+        <name>MaintainLeftBottomSacleX_Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="195" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="195" bodyend="200"/>
+        <references refid="class_a_a_b_b_utilities_1a3a4f326c3f9e7ed6e7df9d75ab195f2e" compoundref="_a_a_b_b_utilities_8cs" startline="46" endline="49">SaveBottom</references>
+        <references refid="class_a_a_b_b_utilities_1a4c12494ecb487463fa62b6b3e198c74e" compoundref="_a_a_b_b_utilities_8cs" startline="34" endline="37">SaveLeft</references>
+        <references refid="class_a_a_b_b_utilities_1ab7b5231a0d47f97002df84fffb2894ec" compoundref="_a_a_b_b_utilities_8cs" startline="147" endline="150">SaveScaleX</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_utilities_1a173c3f01699fafc9197e7f6cf7bb3025" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AABBUtilities.MaintainLeftBottomSacleX_End</definition>
+        <argsstring>()</argsstring>
+        <name>MaintainLeftBottomSacleX_End</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="203" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="203" bodyend="208"/>
+        <references refid="class_a_a_b_b_utilities_1a26575b448485a1d1afdd59de4c6d7dd5" compoundref="_a_a_b_b_utilities_8cs" startline="91" endline="94">RestoreBottom</references>
+        <references refid="class_a_a_b_b_utilities_1a1fea68daacfffebe2c0565ef8525351f" compoundref="_a_a_b_b_utilities_8cs" startline="79" endline="82">RestoreLeft</references>
+        <references refid="class_a_a_b_b_utilities_1a7a52ec61bed2fd12fd505db3b3a5aae3" compoundref="_a_a_b_b_utilities_8cs" startline="156" endline="164">RestoreScaleX</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>AABBUtilities</label>
+        <link refid="class_a_a_b_b_utilities"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>topSaved</edgelabel>
+          <edgelabel>rightSaved</edgelabel>
+          <edgelabel>scaleXSaved</edgelabel>
+          <edgelabel>scaleYSaved</edgelabel>
+          <edgelabel>bottomSaved</edgelabel>
+          <edgelabel>leftSaved</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" line="5" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/AABBUtilities.cs" bodystart="4" bodyend="209"/>
+    <listofallmembers>
+      <member refid="class_a_a_b_b_utilities_1a5fdb4c69024717568cbc1a07bfeb72c1" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>bottomSaved</name></member>
+      <member refid="class_a_a_b_b_utilities_1a523ae95456750774ce709aa5267608e3" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>leftSaved</name></member>
+      <member refid="class_a_a_b_b_utilities_1a173c3f01699fafc9197e7f6cf7bb3025" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>MaintainLeftBottomSacleX_End</name></member>
+      <member refid="class_a_a_b_b_utilities_1ae487ff0dd8fac97dcd61c1b796455e67" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>MaintainLeftBottomSacleX_Start</name></member>
+      <member refid="class_a_a_b_b_utilities_1ada440563307d03c37fa0f63de5370bb1" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>MaintainTopLeftSacleY_End</name></member>
+      <member refid="class_a_a_b_b_utilities_1ae88a4145a0367eae15939f5bd2ced1cd" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>MaintainTopLeftSacleY_Start</name></member>
+      <member refid="class_a_a_b_b_utilities_1ade89a87ce586b490a7d9eee4e1aa0491" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>PrintAABB</name></member>
+      <member refid="class_a_a_b_b_utilities_1a07ac4bb6d711808031992a3c020138e1" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>Restore</name></member>
+      <member refid="class_a_a_b_b_utilities_1a26575b448485a1d1afdd59de4c6d7dd5" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>RestoreBottom</name></member>
+      <member refid="class_a_a_b_b_utilities_1a1fea68daacfffebe2c0565ef8525351f" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>RestoreLeft</name></member>
+      <member refid="class_a_a_b_b_utilities_1ae1ff944fabf6c03239519a362925defd" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>RestoreRight</name></member>
+      <member refid="class_a_a_b_b_utilities_1a7a52ec61bed2fd12fd505db3b3a5aae3" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>RestoreScaleX</name></member>
+      <member refid="class_a_a_b_b_utilities_1a9d506d548c09d5ae1456dc97963fcc9b" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>RestoreScaleY</name></member>
+      <member refid="class_a_a_b_b_utilities_1a8f1f5131e5bb06d7533d40c935acd11b" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>RestoreTop</name></member>
+      <member refid="class_a_a_b_b_utilities_1a994d3e652ec20640203597db2e14f8ca" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>rightSaved</name></member>
+      <member refid="class_a_a_b_b_utilities_1a11c0ca45dd4047afd1b28696bacbff9b" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>Save</name></member>
+      <member refid="class_a_a_b_b_utilities_1a3a4f326c3f9e7ed6e7df9d75ab195f2e" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>SaveBottom</name></member>
+      <member refid="class_a_a_b_b_utilities_1a4c12494ecb487463fa62b6b3e198c74e" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>SaveLeft</name></member>
+      <member refid="class_a_a_b_b_utilities_1a6fc0e886b578e5cbf17a0491260530d7" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>SaveRight</name></member>
+      <member refid="class_a_a_b_b_utilities_1ab7b5231a0d47f97002df84fffb2894ec" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>SaveScaleX</name></member>
+      <member refid="class_a_a_b_b_utilities_1af38e27b0630421b062d7cac2125999e1" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>SaveScaleY</name></member>
+      <member refid="class_a_a_b_b_utilities_1abb82d9c3479ab91c29c31fc47b2a00ae" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>SaveTop</name></member>
+      <member refid="class_a_a_b_b_utilities_1a8147d9731dac0dd6ced75d9abe21fce1" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>scaleXSaved</name></member>
+      <member refid="class_a_a_b_b_utilities_1ab781c0563ebd228f1932bcbeaac26d5a" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>scaleYSaved</name></member>
+      <member refid="class_a_a_b_b_utilities_1a503b62aa124139ce7e09d70b1e38aa38" prot="private" virt="non-virtual"><scope>AABBUtilities</scope><name>topSaved</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

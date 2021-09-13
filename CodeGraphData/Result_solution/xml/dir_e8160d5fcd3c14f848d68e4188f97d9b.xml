@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e8160d5fcd3c14f848d68e4188f97d9b" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Scripts</compoundname>
+    <innerfile refid="_poly_map_8cs">PolyMap.cs</innerfile>
+    <innerfile refid="_shape_8cs">Shape.cs</innerfile>
+    <innerfile refid="_shapes2_d_prefs_8cs">Shapes2DPrefs.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Scripts/"/>
+  </compounddef>
+</doxygen>

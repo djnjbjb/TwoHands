@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_shapes2_d_prefs" kind="class" prot="public">
+    <compoundname>Shapes2DPrefs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_shapes2_d_prefs_1ae89303988c6c5b7ecf933f99e4002e28" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2DPrefs.pixelsPerUnit</definition>
+        <argsstring></argsstring>
+        <name>pixelsPerUnit</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Scripts/Shapes2DPrefs.cs" line="5" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Scripts/Shapes2DPrefs.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="402">
+        <label>Shapes2DPrefs</label>
+        <link refid="class_shapes2_d_prefs"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="404">
+        <label>Shapes2DPrefs</label>
+        <link refid="class_shapes2_d_prefs"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Scripts/Shapes2DPrefs.cs" line="3" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Scripts/Shapes2DPrefs.cs" bodystart="3" bodyend="7"/>
+    <listofallmembers>
+      <member refid="class_shapes2_d_prefs_1ae89303988c6c5b7ecf933f99e4002e28" prot="public" virt="non-virtual"><scope>Shapes2DPrefs</scope><name>pixelsPerUnit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

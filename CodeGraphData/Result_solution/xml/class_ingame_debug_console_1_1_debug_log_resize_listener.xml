@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ingame_debug_console_1_1_debug_log_resize_listener" kind="class" prot="public">
+    <compoundname>IngameDebugConsole::DebugLogResizeListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IBeginDragHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDragHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_resize_listener_1a50358847a8deb22330894e490c4bc693" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ingame_debug_console_1_1_debug_log_manager" kindref="compound">DebugLogManager</ref></type>
+        <definition>DebugLogManager IngameDebugConsole.DebugLogResizeListener.debugManager</definition>
+        <argsstring></argsstring>
+        <name>debugManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_resize_listener_1a8450d420b10b7805133fc330b649d92c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IBeginDragHandler.</type>
+        <definition>void IBeginDragHandler. IngameDebugConsole.DebugLogResizeListener.OnBeginDrag</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnBeginDrag</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs" line="15" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_resize_listener_1a409e8d6c2abb768cc7e710dd205ae218" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IDragHandler.</type>
+        <definition>void IDragHandler. IngameDebugConsole.DebugLogResizeListener.OnDrag</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnDrag</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs" line="19" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="139">
+        <label>IngameDebugConsole.DebugLogResizeListener</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_resize_listener"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="140">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="142">
+        <label>IDragHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="153">
+        <label>IngameDebugConsole.DebugLogEntry</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_entry"/>
+        <childnode refid="154" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>IngameDebugConsole.DebugLogPopup</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_popup"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+        <childnode refid="149" relation="usage">
+          <edgelabel>newErrorCountText</edgelabel>
+          <edgelabel>newWarningCountText</edgelabel>
+          <edgelabel>newInfoCountText</edgelabel>
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>debugManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="154">
+        <label>System::IEquatable&lt; DebugLogEntry &gt;</label>
+      </node>
+      <node id="156">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="143">
+        <label>IngameDebugConsole.DebugLogResizeListener</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_resize_listener"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>debugManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="148">
+        <label>IngameDebugConsole.DebugLogIndexList</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_index_list"/>
+      </node>
+      <node id="151">
+        <label>IngameDebugConsole.DebugLogItem</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_item"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+        <childnode refid="149" relation="usage">
+          <edgelabel>logCountText</edgelabel>
+          <edgelabel>logText</edgelabel>
+        </childnode>
+        <childnode refid="150" relation="usage">
+          <edgelabel>manager</edgelabel>
+        </childnode>
+        <childnode refid="153" relation="usage">
+          <edgelabel>logEntry</edgelabel>
+        </childnode>
+      </node>
+      <node id="157">
+        <label>System</label>
+      </node>
+      <node id="149">
+        <label>Text</label>
+      </node>
+      <node id="145">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="147">
+        <label>IngameDebugConsole.DebugLogManager</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_manager"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+        <childnode refid="148" relation="usage">
+          <edgelabel>uncollapsedLogEntriesIndices</edgelabel>
+          <edgelabel>indicesOfListEntriesToShow</edgelabel>
+        </childnode>
+        <childnode refid="149" relation="usage">
+          <edgelabel>commandSuggestionPrefab</edgelabel>
+          <edgelabel>errorEntryCountText</edgelabel>
+          <edgelabel>warningEntryCountText</edgelabel>
+          <edgelabel>infoEntryCountText</edgelabel>
+        </childnode>
+        <childnode refid="150" relation="usage">
+          <edgelabel>recycledListView</edgelabel>
+        </childnode>
+        <childnode refid="151" relation="usage">
+          <edgelabel>logItemPrefab</edgelabel>
+        </childnode>
+        <childnode refid="155" relation="usage">
+          <edgelabel>popupManager</edgelabel>
+        </childnode>
+        <childnode refid="157" relation="usage">
+          <edgelabel>OnLogWindowShown</edgelabel>
+          <edgelabel>OnLogWindowHidden</edgelabel>
+        </childnode>
+      </node>
+      <node id="150">
+        <label>IngameDebugConsole.DebugLogRecycledListView</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+        <childnode refid="148" relation="usage">
+          <edgelabel>indicesOfEntriesToShow</edgelabel>
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>debugManager</edgelabel>
+          <edgelabel>manager</edgelabel>
+        </childnode>
+      </node>
+      <node id="152">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="144">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="146">
+        <label>IDragHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_ingame_debug_console_1_1_debug_log_resize_listener_1a50358847a8deb22330894e490c4bc693" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogResizeListener</scope><name>debugManager</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_resize_listener_1a8450d420b10b7805133fc330b649d92c" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogResizeListener</scope><name>OnBeginDrag</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_resize_listener_1a409e8d6c2abb768cc7e710dd205ae218" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogResizeListener</scope><name>OnDrag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hand_control_fade" kind="class" prot="public">
+    <compoundname>HandControlFade</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hand_control_fade_1a3a9f15ae393102f703d9ed4c6f26cfd4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HandControlFade.alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_hand_control_fade_1a96ae28e6f43feee4ae59ab27322100f2" compoundref="_hand_control_fade_8cs" startline="20" endline="38">FadeCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_hand_control_fade_1af6d4dd15dee811403c927bdd0244b05f" prot="private" static="no" mutable="no">
+        <type>readonly SpriteRenderer[]</type>
+        <definition>readonly SpriteRenderer [] HandControlFade.spriteRenderers</definition>
+        <argsstring></argsstring>
+        <name>spriteRenderers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_hand_control_fade_1a96ae28e6f43feee4ae59ab27322100f2" compoundref="_hand_control_fade_8cs" startline="20" endline="38">FadeCoroutine</referencedby>
+        <referencedby refid="class_hand_control_fade_1a70647a263b353c9300bc39d906ba95db" compoundref="_hand_control_fade_8cs" startline="10" endline="13">HandControlFade</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hand_control_fade_1a70647a263b353c9300bc39d906ba95db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HandControlFade.HandControlFade</definition>
+        <argsstring>(GameObject whole)</argsstring>
+        <name>HandControlFade</name>
+        <param>
+          <type>GameObject</type>
+          <declname>whole</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_hand_control_fade_1af6d4dd15dee811403c927bdd0244b05f" compoundref="_hand_control_fade_8cs" startline="8">spriteRenderers</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hand_control_fade_1ad5fbbc131df3eccde485e0abf2e9ae09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HandControlFade.Fade</definition>
+        <argsstring>(MonoBehaviour mono, float fadeTime)</argsstring>
+        <name>Fade</name>
+        <param>
+          <type>MonoBehaviour</type>
+          <declname>mono</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fadeTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" line="15" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_hand_control_fade_1a96ae28e6f43feee4ae59ab27322100f2" compoundref="_hand_control_fade_8cs" startline="20" endline="38">FadeCoroutine</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hand_control_fade_1a96ae28e6f43feee4ae59ab27322100f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator HandControlFade.FadeCoroutine</definition>
+        <argsstring>(float fadeTime)</argsstring>
+        <name>FadeCoroutine</name>
+        <param>
+          <type>float</type>
+          <declname>fadeTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" bodystart="20" bodyend="38"/>
+        <references refid="class_hand_control_fade_1a3a9f15ae393102f703d9ed4c6f26cfd4" compoundref="_hand_control_fade_8cs" startline="7">alpha</references>
+        <references refid="class_hand_control_fade_1af6d4dd15dee811403c927bdd0244b05f" compoundref="_hand_control_fade_8cs" startline="8">spriteRenderers</references>
+        <referencedby refid="class_hand_control_fade_1ad5fbbc131df3eccde485e0abf2e9ae09" compoundref="_hand_control_fade_8cs" startline="15" endline="18">Fade</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs" bodystart="5" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_hand_control_fade_1a3a9f15ae393102f703d9ed4c6f26cfd4" prot="private" virt="non-virtual"><scope>HandControlFade</scope><name>alpha</name></member>
+      <member refid="class_hand_control_fade_1ad5fbbc131df3eccde485e0abf2e9ae09" prot="public" virt="non-virtual"><scope>HandControlFade</scope><name>Fade</name></member>
+      <member refid="class_hand_control_fade_1a96ae28e6f43feee4ae59ab27322100f2" prot="private" virt="non-virtual"><scope>HandControlFade</scope><name>FadeCoroutine</name></member>
+      <member refid="class_hand_control_fade_1a70647a263b353c9300bc39d906ba95db" prot="public" virt="non-virtual"><scope>HandControlFade</scope><name>HandControlFade</name></member>
+      <member refid="class_hand_control_fade_1af6d4dd15dee811403c927bdd0244b05f" prot="private" virt="non-virtual"><scope>HandControlFade</scope><name>spriteRenderers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ingame_debug_console_1_1_debug_log_manager_editor" kind="class" prot="public">
+    <compoundname>IngameDebugConsole::DebugLogManagerEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a9702345c682cf79d607045bac608d326" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.singleton</definition>
+        <argsstring></argsstring>
+        <name>singleton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a356dbf84a7367e94f8b6665baabe097d" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.minimumHeight</definition>
+        <argsstring></argsstring>
+        <name>minimumHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a1df93e123ca3cd4e165bd9c910d2256f" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.enablePopup</definition>
+        <argsstring></argsstring>
+        <name>enablePopup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1ac261f86b5d9839dd50b02f1f476eede0" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.startInPopupMode</definition>
+        <argsstring></argsstring>
+        <name>startInPopupMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a4b5b74c3b125d331cef1ce33a7dc8529" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.startMinimized</definition>
+        <argsstring></argsstring>
+        <name>startMinimized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="12" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a4acb1583ec2ea4d34c766de666486caf" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.toggleWithKey</definition>
+        <argsstring></argsstring>
+        <name>toggleWithKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1aeab2a302bbb9dd642c9b14d81059771b" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.toggleKey</definition>
+        <argsstring></argsstring>
+        <name>toggleKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a610c740dc45f5eb0779b38cb34dd0cca" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.enableSearchbar</definition>
+        <argsstring></argsstring>
+        <name>enableSearchbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="15" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a889f20cc900bdeb8ae2ec7c39aa77a51" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.topSearchbarMinWidth</definition>
+        <argsstring></argsstring>
+        <name>topSearchbarMinWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a1b9bd1ede0de27cb557377267c3fb364" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.clearCommandAfterExecution</definition>
+        <argsstring></argsstring>
+        <name>clearCommandAfterExecution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a43a8f0128ac5fef86feda2fb97aa2c54" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.commandHistorySize</definition>
+        <argsstring></argsstring>
+        <name>commandHistorySize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="18" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a8fb805da538bc64b306eb2a9cb9d62c1" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.showCommandSuggestions</definition>
+        <argsstring></argsstring>
+        <name>showCommandSuggestions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="19" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a6616c09cb2fabdffe2e66fac8487b9f9" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.receiveLogcatLogsInAndroid</definition>
+        <argsstring></argsstring>
+        <name>receiveLogcatLogsInAndroid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1ab31606cc60a615056c759c5147fe5df8" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty IngameDebugConsole.DebugLogManagerEditor.logcatArguments</definition>
+        <argsstring></argsstring>
+        <name>logcatArguments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="21" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" compoundref="_debug_log_manager_editor_8cs" startline="23" endline="39">IngameDebugConsole.DebugLogManagerEditor.OnEnable</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogManagerEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="23" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="23" bodyend="39"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a1b9bd1ede0de27cb557377267c3fb364" compoundref="_debug_log_manager_editor_8cs" startline="17">IngameDebugConsole.DebugLogManagerEditor.clearCommandAfterExecution</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a43a8f0128ac5fef86feda2fb97aa2c54" compoundref="_debug_log_manager_editor_8cs" startline="18">IngameDebugConsole.DebugLogManagerEditor.commandHistorySize</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a1df93e123ca3cd4e165bd9c910d2256f" compoundref="_debug_log_manager_editor_8cs" startline="10">IngameDebugConsole.DebugLogManagerEditor.enablePopup</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a610c740dc45f5eb0779b38cb34dd0cca" compoundref="_debug_log_manager_editor_8cs" startline="15">IngameDebugConsole.DebugLogManagerEditor.enableSearchbar</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ab31606cc60a615056c759c5147fe5df8" compoundref="_debug_log_manager_editor_8cs" startline="21">IngameDebugConsole.DebugLogManagerEditor.logcatArguments</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a356dbf84a7367e94f8b6665baabe097d" compoundref="_debug_log_manager_editor_8cs" startline="9">IngameDebugConsole.DebugLogManagerEditor.minimumHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a6616c09cb2fabdffe2e66fac8487b9f9" compoundref="_debug_log_manager_editor_8cs" startline="20">IngameDebugConsole.DebugLogManagerEditor.receiveLogcatLogsInAndroid</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a8fb805da538bc64b306eb2a9cb9d62c1" compoundref="_debug_log_manager_editor_8cs" startline="19">IngameDebugConsole.DebugLogManagerEditor.showCommandSuggestions</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a9702345c682cf79d607045bac608d326" compoundref="_debug_log_manager_editor_8cs" startline="8">IngameDebugConsole.DebugLogManagerEditor.singleton</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ac261f86b5d9839dd50b02f1f476eede0" compoundref="_debug_log_manager_editor_8cs" startline="11">IngameDebugConsole.DebugLogManagerEditor.startInPopupMode</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a4b5b74c3b125d331cef1ce33a7dc8529" compoundref="_debug_log_manager_editor_8cs" startline="12">IngameDebugConsole.DebugLogManagerEditor.startMinimized</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1aeab2a302bbb9dd642c9b14d81059771b" compoundref="_debug_log_manager_editor_8cs" startline="14">IngameDebugConsole.DebugLogManagerEditor.toggleKey</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a4acb1583ec2ea4d34c766de666486caf" compoundref="_debug_log_manager_editor_8cs" startline="13">IngameDebugConsole.DebugLogManagerEditor.toggleWithKey</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a889f20cc900bdeb8ae2ec7c39aa77a51" compoundref="_debug_log_manager_editor_8cs" startline="16">IngameDebugConsole.DebugLogManagerEditor.topSearchbarMinWidth</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a9ec39be83572d138a00ba4dc3f93f926" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogManagerEditor.DrawSubProperty</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>DrawSubProperty</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="76" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="76" bodyend="81"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" compoundref="_debug_log_manager_editor_8cs" startline="41" endline="74">IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void IngameDebugConsole.DebugLogManagerEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="41" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="41" bodyend="74"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a1b9bd1ede0de27cb557377267c3fb364" compoundref="_debug_log_manager_editor_8cs" startline="17">IngameDebugConsole.DebugLogManagerEditor.clearCommandAfterExecution</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a43a8f0128ac5fef86feda2fb97aa2c54" compoundref="_debug_log_manager_editor_8cs" startline="18">IngameDebugConsole.DebugLogManagerEditor.commandHistorySize</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a9ec39be83572d138a00ba4dc3f93f926" compoundref="_debug_log_manager_editor_8cs" startline="76" endline="81">IngameDebugConsole.DebugLogManagerEditor.DrawSubProperty</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a1df93e123ca3cd4e165bd9c910d2256f" compoundref="_debug_log_manager_editor_8cs" startline="10">IngameDebugConsole.DebugLogManagerEditor.enablePopup</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a610c740dc45f5eb0779b38cb34dd0cca" compoundref="_debug_log_manager_editor_8cs" startline="15">IngameDebugConsole.DebugLogManagerEditor.enableSearchbar</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ab31606cc60a615056c759c5147fe5df8" compoundref="_debug_log_manager_editor_8cs" startline="21">IngameDebugConsole.DebugLogManagerEditor.logcatArguments</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a356dbf84a7367e94f8b6665baabe097d" compoundref="_debug_log_manager_editor_8cs" startline="9">IngameDebugConsole.DebugLogManagerEditor.minimumHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a6616c09cb2fabdffe2e66fac8487b9f9" compoundref="_debug_log_manager_editor_8cs" startline="20">IngameDebugConsole.DebugLogManagerEditor.receiveLogcatLogsInAndroid</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a8fb805da538bc64b306eb2a9cb9d62c1" compoundref="_debug_log_manager_editor_8cs" startline="19">IngameDebugConsole.DebugLogManagerEditor.showCommandSuggestions</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a9702345c682cf79d607045bac608d326" compoundref="_debug_log_manager_editor_8cs" startline="8">IngameDebugConsole.DebugLogManagerEditor.singleton</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ac261f86b5d9839dd50b02f1f476eede0" compoundref="_debug_log_manager_editor_8cs" startline="11">IngameDebugConsole.DebugLogManagerEditor.startInPopupMode</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a4b5b74c3b125d331cef1ce33a7dc8529" compoundref="_debug_log_manager_editor_8cs" startline="12">IngameDebugConsole.DebugLogManagerEditor.startMinimized</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1aeab2a302bbb9dd642c9b14d81059771b" compoundref="_debug_log_manager_editor_8cs" startline="14">IngameDebugConsole.DebugLogManagerEditor.toggleKey</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a4acb1583ec2ea4d34c766de666486caf" compoundref="_debug_log_manager_editor_8cs" startline="13">IngameDebugConsole.DebugLogManagerEditor.toggleWithKey</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a889f20cc900bdeb8ae2ec7c39aa77a51" compoundref="_debug_log_manager_editor_8cs" startline="16">IngameDebugConsole.DebugLogManagerEditor.topSearchbarMinWidth</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="100">
+        <label>Editor</label>
+      </node>
+      <node id="99">
+        <label>IngameDebugConsole.DebugLogManagerEditor</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_manager_editor"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="102">
+        <label>Editor</label>
+      </node>
+      <node id="101">
+        <label>IngameDebugConsole.DebugLogManagerEditor</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_manager_editor"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Editor/DebugLogManagerEditor.cs" bodystart="6" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a1b9bd1ede0de27cb557377267c3fb364" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>clearCommandAfterExecution</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a43a8f0128ac5fef86feda2fb97aa2c54" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>commandHistorySize</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a9ec39be83572d138a00ba4dc3f93f926" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>DrawSubProperty</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a1df93e123ca3cd4e165bd9c910d2256f" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>enablePopup</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a610c740dc45f5eb0779b38cb34dd0cca" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>enableSearchbar</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ab31606cc60a615056c759c5147fe5df8" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>logcatArguments</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a356dbf84a7367e94f8b6665baabe097d" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>minimumHeight</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ade83f84d5fa5f321c6b1cfb4e77c1356" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>OnEnable</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a785cc3c633c012d85c14abec4201f53b" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a6616c09cb2fabdffe2e66fac8487b9f9" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>receiveLogcatLogsInAndroid</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a8fb805da538bc64b306eb2a9cb9d62c1" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>showCommandSuggestions</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a9702345c682cf79d607045bac608d326" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>singleton</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1ac261f86b5d9839dd50b02f1f476eede0" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>startInPopupMode</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a4b5b74c3b125d331cef1ce33a7dc8529" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>startMinimized</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1aeab2a302bbb9dd642c9b14d81059771b" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>toggleKey</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a4acb1583ec2ea4d34c766de666486caf" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>toggleWithKey</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_manager_editor_1a889f20cc900bdeb8ae2ec7c39aa77a51" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogManagerEditor</scope><name>topSearchbarMinWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

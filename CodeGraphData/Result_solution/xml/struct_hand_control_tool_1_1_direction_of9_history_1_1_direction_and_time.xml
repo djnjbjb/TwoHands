@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_hand_control_tool_1_1_direction_of9_history_1_1_direction_and_time" kind="struct" prot="public">
+    <compoundname>HandControlTool::DirectionOf9History::DirectionAndTime</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_hand_control_tool_1_1_direction_of9_history_1_1_direction_and_time_1a031e6149237d05007d5a1c43b2d67bb2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HandControlTool.DirectionOf9History.DirectionAndTime.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/DirectionOf9History.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/DirectionOf9History.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_hand_control_tool_1_1_direction_of9_history_1a55b054ab5fefc969fcf37922429cd652" compoundref="_direction_of9_history_8cs" startline="26" endline="133">HandControlTool.DirectionOf9History.GetDirectionOfNineFromHistory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_hand_control_tool_1_1_direction_of9_history_1_1_direction_and_time_1ae7e0c4dcb98eac7a8eb3adf61bb83dc4" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 HandControlTool.DirectionOf9History.DirectionAndTime.direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/DirectionOf9History.cs" line="18" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/DirectionOf9History.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_hand_control_tool_1_1_direction_of9_history_1a55b054ab5fefc969fcf37922429cd652" compoundref="_direction_of9_history_8cs" startline="26" endline="133">HandControlTool.DirectionOf9History.GetDirectionOfNineFromHistory</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/DirectionOf9History.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/DirectionOf9History.cs" bodystart="15" bodyend="19"/>
+    <listofallmembers>
+      <member refid="struct_hand_control_tool_1_1_direction_of9_history_1_1_direction_and_time_1ae7e0c4dcb98eac7a8eb3adf61bb83dc4" prot="public" virt="non-virtual"><scope>HandControlTool::DirectionOf9History::DirectionAndTime</scope><name>direction</name></member>
+      <member refid="struct_hand_control_tool_1_1_direction_of9_history_1_1_direction_and_time_1a031e6149237d05007d5a1c43b2d67bb2" prot="public" virt="non-virtual"><scope>HandControlTool::DirectionOf9History::DirectionAndTime</scope><name>time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

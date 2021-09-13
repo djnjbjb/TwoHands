@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_whole_velocity_while_jumping" kind="class" prot="public">
+    <compoundname>WholeVelocityWhileJumping</compoundname>
+    <basecompoundref refid="class_velocity" prot="public" virt="non-virtual">Velocity</basecompoundref>
+    <innerclass refid="class_whole_velocity_while_jumping_1_1_params" prot="public">WholeVelocityWhileJumping::Params</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aa" prot="public" static="no">
+        <name>StartJump_Direction_Type</name>
+        <enumvalue id="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aaa248993849c4fa84895a3fb43828537a5" prot="public">
+          <name>ZeroCut</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aaa964901af2fac677e1c6e61071dcfbd17" prot="public">
+          <name>SimpleHistory</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aaaa4a3b23af4b78c324b31d2b25ec147fa" prot="public">
+          <name>ComplexHistory</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1a70b769688df242a64ef3d0214378faa6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.gravity</definition>
+        <argsstring></argsstring>
+        <name>gravity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a232ece1da43dedb95212af890191c3fe" compoundref="_whole_velocity_while_jumping_8cs" startline="350" endline="410">FixedUpdateManually</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" compoundref="_whole_velocity_while_jumping_8cs" startline="30" endline="46">WholeVelocityWhileJumping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1a423585ed40642ec2c7e13a1933a6db9d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.friction</definition>
+        <argsstring></argsstring>
+        <name>friction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="21" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" compoundref="_whole_velocity_while_jumping_8cs" startline="30" endline="46">WholeVelocityWhileJumping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1a8f88f6ecdb8a63b38edc707e26498ec4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.speedDownPartMax</definition>
+        <argsstring></argsstring>
+        <name>speedDownPartMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="22" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a232ece1da43dedb95212af890191c3fe" compoundref="_whole_velocity_while_jumping_8cs" startline="350" endline="410">FixedUpdateManually</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" compoundref="_whole_velocity_while_jumping_8cs" startline="30" endline="46">WholeVelocityWhileJumping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1a83fb7c1ed6a67c4b220cb60d3772cb22" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.wholeFistSpeedRatio</definition>
+        <argsstring></argsstring>
+        <name>wholeFistSpeedRatio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="23" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a786cf18520c415613529ed5b6ca5edd4" compoundref="_whole_velocity_while_jumping_8cs" startline="308" endline="321">StartJump_GetSpeed_FromEqualToBeforeJump_ToSpeed</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" compoundref="_whole_velocity_while_jumping_8cs" startline="30" endline="46">WholeVelocityWhileJumping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1ad37ff4c070017ec649c5f58ed51a4bf7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.historyTime</definition>
+        <argsstring></argsstring>
+        <name>historyTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="24" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" compoundref="_whole_velocity_while_jumping_8cs" startline="30" endline="46">WholeVelocityWhileJumping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1aa437aa29834898adf981b42cc5445b6b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.historyZeroCutTime</definition>
+        <argsstring></argsstring>
+        <name>historyZeroCutTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="25" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a51abfa72a0558c0ef740b7237ab3bb27" compoundref="_whole_velocity_while_jumping_8cs" startline="93" endline="237">StartJump_GetDirection</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a2a310bcf9d0fec245ff8877fa0786c25" compoundref="_whole_velocity_while_jumping_8cs" startline="246" endline="306">StartJump_GetSpeed_EqualToBeforeJump</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" compoundref="_whole_velocity_while_jumping_8cs" startline="30" endline="46">WholeVelocityWhileJumping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1a14871428188860f1cb64990e421bee61" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.historySimpleHistoryTime</definition>
+        <argsstring></argsstring>
+        <name>historySimpleHistoryTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="26" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a51abfa72a0558c0ef740b7237ab3bb27" compoundref="_whole_velocity_while_jumping_8cs" startline="93" endline="237">StartJump_GetDirection</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" compoundref="_whole_velocity_while_jumping_8cs" startline="30" endline="46">WholeVelocityWhileJumping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1a41d5ca3a9a1513f71ba33724c86ffe0f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.historyComplexHistoryTime</definition>
+        <argsstring></argsstring>
+        <name>historyComplexHistoryTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="27" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a51abfa72a0558c0ef740b7237ab3bb27" compoundref="_whole_velocity_while_jumping_8cs" startline="93" endline="237">StartJump_GetDirection</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" compoundref="_whole_velocity_while_jumping_8cs" startline="30" endline="46">WholeVelocityWhileJumping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1a3fdb120f6b51eddf4eb6e3df51df0866" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WholeVelocityWhileJumping.jumpSpeedAddedWhenSlanting</definition>
+        <argsstring></argsstring>
+        <name>jumpSpeedAddedWhenSlanting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="28" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a136c400dddd26994d0fcd3e12c418b02" compoundref="_whole_velocity_while_jumping_8cs" startline="323" endline="338">StartJump_SpeedAddedWhenSlanting</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" compoundref="_whole_velocity_while_jumping_8cs" startline="30" endline="46">WholeVelocityWhileJumping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1a2e99ced33c34c229e8465d780203b4d5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WholeVelocityWhileJumping.startJumpLog</definition>
+        <argsstring></argsstring>
+        <name>startJumpLog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="29" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a1dcb0031475eb4e9b5c049d6f1acb218" compoundref="_whole_velocity_while_jumping_8cs" startline="65" endline="91">StartJump</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1aabfa6d0ea7422114ebc27439cde31e78" compoundref="_whole_velocity_while_jumping_8cs" startline="48" endline="63">StartJumpWithLog</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_whole_velocity_while_jumping_1a91905cd8383f2d541be633cd481e4bf8" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 WholeVelocityWhileJumping::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="93" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="93" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_while_jumping_1a232ece1da43dedb95212af890191c3fe" compoundref="_whole_velocity_while_jumping_8cs" startline="350" endline="410">FixedUpdateManually</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a1dcb0031475eb4e9b5c049d6f1acb218" compoundref="_whole_velocity_while_jumping_8cs" startline="65" endline="91">StartJump</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a51abfa72a0558c0ef740b7237ab3bb27" compoundref="_whole_velocity_while_jumping_8cs" startline="93" endline="237">StartJump_GetDirection</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a136c400dddd26994d0fcd3e12c418b02" compoundref="_whole_velocity_while_jumping_8cs" startline="323" endline="338">StartJump_SpeedAddedWhenSlanting</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WholeVelocityWhileJumping.WholeVelocityWhileJumping</definition>
+        <argsstring>(float gravity, float friction, float speedDownPartMax, float wholeFistSpeedRatio, float historyTime, float historyZeroCutTime, float historySimpleHistoryTime, float historyComplexHistoryTime, bool jumpSpeedAddedWhenSlanting)</argsstring>
+        <name>WholeVelocityWhileJumping</name>
+        <param>
+          <type>float</type>
+          <declname>gravity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>friction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speedDownPartMax</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>wholeFistSpeedRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>historyTime</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>historyZeroCutTime</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>historySimpleHistoryTime</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>historyComplexHistoryTime</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>jumpSpeedAddedWhenSlanting</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="30" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="30" bodyend="46"/>
+        <references refid="class_whole_velocity_while_jumping_1a423585ed40642ec2c7e13a1933a6db9d" compoundref="_whole_velocity_while_jumping_8cs" startline="21">friction</references>
+        <references refid="class_whole_velocity_while_jumping_1a70b769688df242a64ef3d0214378faa6" compoundref="_whole_velocity_while_jumping_8cs" startline="20">gravity</references>
+        <references refid="class_whole_velocity_while_jumping_1a41d5ca3a9a1513f71ba33724c86ffe0f" compoundref="_whole_velocity_while_jumping_8cs" startline="27">historyComplexHistoryTime</references>
+        <references refid="class_whole_velocity_while_jumping_1a14871428188860f1cb64990e421bee61" compoundref="_whole_velocity_while_jumping_8cs" startline="26">historySimpleHistoryTime</references>
+        <references refid="class_whole_velocity_while_jumping_1ad37ff4c070017ec649c5f58ed51a4bf7" compoundref="_whole_velocity_while_jumping_8cs" startline="24">historyTime</references>
+        <references refid="class_whole_velocity_while_jumping_1aa437aa29834898adf981b42cc5445b6b" compoundref="_whole_velocity_while_jumping_8cs" startline="25">historyZeroCutTime</references>
+        <references refid="class_whole_velocity_while_jumping_1a3fdb120f6b51eddf4eb6e3df51df0866" compoundref="_whole_velocity_while_jumping_8cs" startline="28">jumpSpeedAddedWhenSlanting</references>
+        <references refid="class_whole_velocity_while_jumping_1a8f88f6ecdb8a63b38edc707e26498ec4" compoundref="_whole_velocity_while_jumping_8cs" startline="22">speedDownPartMax</references>
+        <references refid="class_whole_velocity_while_jumping_1a83fb7c1ed6a67c4b220cb60d3772cb22" compoundref="_whole_velocity_while_jumping_8cs" startline="23">wholeFistSpeedRatio</references>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1aabfa6d0ea7422114ebc27439cde31e78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WholeVelocityWhileJumping.StartJumpWithLog</definition>
+        <argsstring>(WholeVelocityBeforeJump velocityBeforeJump, WholeOffset offset)</argsstring>
+        <name>StartJumpWithLog</name>
+        <param>
+          <type><ref refid="class_whole_velocity_before_jump" kindref="compound">WholeVelocityBeforeJump</ref></type>
+          <declname>velocityBeforeJump</declname>
+        </param>
+        <param>
+          <type><ref refid="class_whole_offset" kindref="compound">WholeOffset</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="48" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="48" bodyend="63"/>
+        <references refid="class_whole_velocity_before_jump_1aa7bf5f9924710fd759b0d8b67bb317b1" compoundref="_whole_velocity_before_jump_8cs" startline="29">WholeVelocityBeforeJump.history</references>
+        <references refid="class_whole_velocity_while_jumping_1a1dcb0031475eb4e9b5c049d6f1acb218" compoundref="_whole_velocity_while_jumping_8cs" startline="65" endline="91">StartJump</references>
+        <references refid="class_whole_velocity_while_jumping_1a2e99ced33c34c229e8465d780203b4d5" compoundref="_whole_velocity_while_jumping_8cs" startline="29">startJumpLog</references>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a2961b8064b7a1ed2a925e386013863d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.Out_GetSpeed_EqualToBeforeJump</definition>
+        <argsstring>(WholeVelocityBeforeJump velocityBeforeJump, StartJump_Direction_Type type)</argsstring>
+        <name>Out_GetSpeed_EqualToBeforeJump</name>
+        <param>
+          <type><ref refid="class_whole_velocity_before_jump" kindref="compound">WholeVelocityBeforeJump</ref></type>
+          <declname>velocityBeforeJump</declname>
+        </param>
+        <param>
+          <type><ref refid="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aa" kindref="member">StartJump_Direction_Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="345" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="345" bodyend="348"/>
+        <references refid="class_whole_velocity_while_jumping_1a2a310bcf9d0fec245ff8877fa0786c25" compoundref="_whole_velocity_while_jumping_8cs" startline="246" endline="306">StartJump_GetSpeed_EqualToBeforeJump</references>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a232ece1da43dedb95212af890191c3fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WholeVelocityWhileJumping.FixedUpdateManually</definition>
+        <argsstring>(Params @params)</argsstring>
+        <name>FixedUpdateManually</name>
+        <param>
+          <type><ref refid="class_whole_velocity_while_jumping_1_1_params" kindref="compound">Params</ref> @</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="350" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="350" bodyend="410"/>
+        <references refid="class_whole_velocity_while_jumping_1a91905cd8383f2d541be633cd481e4bf8" compoundref="_whole_velocity_while_jumping_8cs" startline="93">direction</references>
+        <references refid="class_whole_velocity_while_jumping_1a70b769688df242a64ef3d0214378faa6" compoundref="_whole_velocity_while_jumping_8cs" startline="20">gravity</references>
+        <references refid="class_fist_state_plus_1ab0079f07342d499121b053d4037cd853" compoundref="_fist_state_8cs" startline="70" endline="73">FistStatePlus.IsGrabing_Env_StuffEnv</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_whole_velocity_while_jumping_1a8f88f6ecdb8a63b38edc707e26498ec4" compoundref="_whole_velocity_while_jumping_8cs" startline="22">speedDownPartMax</references>
+        <references refid="class_velocity_1a027993d56ded782d0fde111d823427ee" compoundref="_velocity_8cs" startline="12">Velocity.velocity</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a1dcb0031475eb4e9b5c049d6f1acb218" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WholeVelocityWhileJumping.StartJump</definition>
+        <argsstring>(WholeVelocityBeforeJump velocityBeforeJump, WholeOffset offset)</argsstring>
+        <name>StartJump</name>
+        <param>
+          <type><ref refid="class_whole_velocity_before_jump" kindref="compound">WholeVelocityBeforeJump</ref></type>
+          <declname>velocityBeforeJump</declname>
+        </param>
+        <param>
+          <type><ref refid="class_whole_offset" kindref="compound">WholeOffset</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="65" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="65" bodyend="91"/>
+        <references refid="class_whole_velocity_while_jumping_1a91905cd8383f2d541be633cd481e4bf8" compoundref="_whole_velocity_while_jumping_8cs" startline="93">direction</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_whole_velocity_while_jumping_1a51abfa72a0558c0ef740b7237ab3bb27" compoundref="_whole_velocity_while_jumping_8cs" startline="93" endline="237">StartJump_GetDirection</references>
+        <references refid="class_whole_velocity_while_jumping_1a30c79d8357aea361c5d82c5037de2530" compoundref="_whole_velocity_while_jumping_8cs" startline="239" endline="244">StartJump_GetSpeed</references>
+        <references refid="class_whole_velocity_while_jumping_1a136c400dddd26994d0fcd3e12c418b02" compoundref="_whole_velocity_while_jumping_8cs" startline="323" endline="338">StartJump_SpeedAddedWhenSlanting</references>
+        <references refid="class_whole_velocity_while_jumping_1a2e99ced33c34c229e8465d780203b4d5" compoundref="_whole_velocity_while_jumping_8cs" startline="29">startJumpLog</references>
+        <referencedby refid="class_whole_velocity_while_jumping_1aabfa6d0ea7422114ebc27439cde31e78" compoundref="_whole_velocity_while_jumping_8cs" startline="48" endline="63">StartJumpWithLog</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a51abfa72a0558c0ef740b7237ab3bb27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2 <ref refid="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aa" kindref="member">StartJump_Direction_Type</ref> type</type>
+        <definition>Vector2 StartJump_Direction_Type type WholeVelocityWhileJumping.StartJump_GetDirection</definition>
+        <argsstring>(WholeVelocityBeforeJump velocityBeforeJump)</argsstring>
+        <name>StartJump_GetDirection</name>
+        <param>
+          <type><ref refid="class_whole_velocity_before_jump" kindref="compound">WholeVelocityBeforeJump</ref></type>
+          <declname>velocityBeforeJump</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="93" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="93" bodyend="237"/>
+        <references refid="class_whole_velocity_while_jumping_1a91905cd8383f2d541be633cd481e4bf8" compoundref="_whole_velocity_while_jumping_8cs" startline="93">direction</references>
+        <references refid="class_whole_velocity_before_jump_1aa7bf5f9924710fd759b0d8b67bb317b1" compoundref="_whole_velocity_before_jump_8cs" startline="29">WholeVelocityBeforeJump.history</references>
+        <references refid="class_whole_velocity_while_jumping_1a41d5ca3a9a1513f71ba33724c86ffe0f" compoundref="_whole_velocity_while_jumping_8cs" startline="27">historyComplexHistoryTime</references>
+        <references refid="class_whole_velocity_while_jumping_1a14871428188860f1cb64990e421bee61" compoundref="_whole_velocity_while_jumping_8cs" startline="26">historySimpleHistoryTime</references>
+        <references refid="class_whole_velocity_while_jumping_1aa437aa29834898adf981b42cc5445b6b" compoundref="_whole_velocity_while_jumping_8cs" startline="25">historyZeroCutTime</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <referencedby refid="class_whole_velocity_while_jumping_1a1b2dc23f9a74bbc7439ed092d318ef2e" compoundref="_whole_velocity_while_jumping_8cs" startline="340" endline="343">Out_GetDirection</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a1dcb0031475eb4e9b5c049d6f1acb218" compoundref="_whole_velocity_while_jumping_8cs" startline="65" endline="91">StartJump</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a30c79d8357aea361c5d82c5037de2530" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.StartJump_GetSpeed</definition>
+        <argsstring>(WholeVelocityBeforeJump velocityBeforeJump, StartJump_Direction_Type type, out float lastNoZeroSpeedOut, out float deltaTimeOut)</argsstring>
+        <name>StartJump_GetSpeed</name>
+        <param>
+          <type><ref refid="class_whole_velocity_before_jump" kindref="compound">WholeVelocityBeforeJump</ref></type>
+          <declname>velocityBeforeJump</declname>
+        </param>
+        <param>
+          <type><ref refid="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aa" kindref="member">StartJump_Direction_Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>lastNoZeroSpeedOut</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>deltaTimeOut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="239" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="239" bodyend="244"/>
+        <references refid="class_whole_velocity_while_jumping_1a2a310bcf9d0fec245ff8877fa0786c25" compoundref="_whole_velocity_while_jumping_8cs" startline="246" endline="306">StartJump_GetSpeed_EqualToBeforeJump</references>
+        <references refid="class_whole_velocity_while_jumping_1a786cf18520c415613529ed5b6ca5edd4" compoundref="_whole_velocity_while_jumping_8cs" startline="308" endline="321">StartJump_GetSpeed_FromEqualToBeforeJump_ToSpeed</references>
+        <referencedby refid="class_whole_velocity_while_jumping_1a1dcb0031475eb4e9b5c049d6f1acb218" compoundref="_whole_velocity_while_jumping_8cs" startline="65" endline="91">StartJump</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a2a310bcf9d0fec245ff8877fa0786c25" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.StartJump_GetSpeed_EqualToBeforeJump</definition>
+        <argsstring>(WholeVelocityBeforeJump velocityBeforeJump, StartJump_Direction_Type type, out float lastNoZeroSpeedOut, out float deltaTimeOut)</argsstring>
+        <name>StartJump_GetSpeed_EqualToBeforeJump</name>
+        <param>
+          <type><ref refid="class_whole_velocity_before_jump" kindref="compound">WholeVelocityBeforeJump</ref></type>
+          <declname>velocityBeforeJump</declname>
+        </param>
+        <param>
+          <type><ref refid="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aa" kindref="member">StartJump_Direction_Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>lastNoZeroSpeedOut</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>deltaTimeOut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="246" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="246" bodyend="306"/>
+        <references refid="class_whole_velocity_before_jump_1aa7bf5f9924710fd759b0d8b67bb317b1" compoundref="_whole_velocity_before_jump_8cs" startline="29">WholeVelocityBeforeJump.history</references>
+        <references refid="class_whole_velocity_while_jumping_1aa437aa29834898adf981b42cc5445b6b" compoundref="_whole_velocity_while_jumping_8cs" startline="25">historyZeroCutTime</references>
+        <referencedby refid="class_whole_velocity_while_jumping_1a2961b8064b7a1ed2a925e386013863d8" compoundref="_whole_velocity_while_jumping_8cs" startline="345" endline="348">Out_GetSpeed_EqualToBeforeJump</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a30c79d8357aea361c5d82c5037de2530" compoundref="_whole_velocity_while_jumping_8cs" startline="239" endline="244">StartJump_GetSpeed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a786cf18520c415613529ed5b6ca5edd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float WholeVelocityWhileJumping.StartJump_GetSpeed_FromEqualToBeforeJump_ToSpeed</definition>
+        <argsstring>(float speedEqualToBeforeJump, StartJump_Direction_Type type)</argsstring>
+        <name>StartJump_GetSpeed_FromEqualToBeforeJump_ToSpeed</name>
+        <param>
+          <type>float</type>
+          <declname>speedEqualToBeforeJump</declname>
+        </param>
+        <param>
+          <type><ref refid="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aa" kindref="member">StartJump_Direction_Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="308" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="308" bodyend="321"/>
+        <references refid="class_whole_velocity_while_jumping_1a83fb7c1ed6a67c4b220cb60d3772cb22" compoundref="_whole_velocity_while_jumping_8cs" startline="23">wholeFistSpeedRatio</references>
+        <referencedby refid="class_whole_velocity_while_jumping_1a30c79d8357aea361c5d82c5037de2530" compoundref="_whole_velocity_while_jumping_8cs" startline="239" endline="244">StartJump_GetSpeed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a136c400dddd26994d0fcd3e12c418b02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WholeVelocityWhileJumping.StartJump_SpeedAddedWhenSlanting</definition>
+        <argsstring>()</argsstring>
+        <name>StartJump_SpeedAddedWhenSlanting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="323" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="323" bodyend="338"/>
+        <references refid="class_whole_velocity_while_jumping_1a91905cd8383f2d541be633cd481e4bf8" compoundref="_whole_velocity_while_jumping_8cs" startline="93">direction</references>
+        <references refid="class_whole_velocity_while_jumping_1a3fdb120f6b51eddf4eb6e3df51df0866" compoundref="_whole_velocity_while_jumping_8cs" startline="28">jumpSpeedAddedWhenSlanting</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_velocity_1a027993d56ded782d0fde111d823427ee" compoundref="_velocity_8cs" startline="12">Velocity.velocity</references>
+        <referencedby refid="class_whole_velocity_while_jumping_1a1dcb0031475eb4e9b5c049d6f1acb218" compoundref="_whole_velocity_while_jumping_8cs" startline="65" endline="91">StartJump</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_while_jumping_1a1b2dc23f9a74bbc7439ed092d318ef2e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2 <ref refid="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aa" kindref="member">StartJump_Direction_Type</ref> type</type>
+        <definition>Vector2 StartJump_Direction_Type type WholeVelocityWhileJumping.Out_GetDirection</definition>
+        <argsstring>(WholeVelocityBeforeJump velocityBeforeJump)</argsstring>
+        <name>Out_GetDirection</name>
+        <param>
+          <type><ref refid="class_whole_velocity_before_jump" kindref="compound">WholeVelocityBeforeJump</ref></type>
+          <declname>velocityBeforeJump</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="340" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="340" bodyend="343"/>
+        <references refid="class_whole_velocity_while_jumping_1a51abfa72a0558c0ef740b7237ab3bb27" compoundref="_whole_velocity_while_jumping_8cs" startline="93" endline="237">StartJump_GetDirection</references>
+        <referencedby refid="class_player_control_1a0beb1c5fa849dfba5a69e2267258d86c" compoundref="_player_control___represent_8cs" startline="65" endline="112">PlayerControl.BodyArrowRepresent</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="489">
+        <label>Velocity</label>
+        <link refid="class_velocity"/>
+      </node>
+      <node id="488">
+        <label>WholeVelocityWhileJumping</label>
+        <link refid="class_whole_velocity_while_jumping"/>
+        <childnode refid="489" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="491">
+        <label>Velocity</label>
+        <link refid="class_velocity"/>
+      </node>
+      <node id="490">
+        <label>WholeVelocityWhileJumping</label>
+        <link refid="class_whole_velocity_while_jumping"/>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="5" bodyend="411"/>
+    <listofallmembers>
+      <member refid="class_whole_velocity_while_jumping_1a91905cd8383f2d541be633cd481e4bf8" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>direction</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a232ece1da43dedb95212af890191c3fe" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>FixedUpdateManually</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a423585ed40642ec2c7e13a1933a6db9d" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>friction</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a70b769688df242a64ef3d0214378faa6" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>gravity</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a41d5ca3a9a1513f71ba33724c86ffe0f" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>historyComplexHistoryTime</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a14871428188860f1cb64990e421bee61" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>historySimpleHistoryTime</name></member>
+      <member refid="class_whole_velocity_while_jumping_1ad37ff4c070017ec649c5f58ed51a4bf7" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>historyTime</name></member>
+      <member refid="class_whole_velocity_while_jumping_1aa437aa29834898adf981b42cc5445b6b" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>historyZeroCutTime</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a3fdb120f6b51eddf4eb6e3df51df0866" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>jumpSpeedAddedWhenSlanting</name></member>
+      <member refid="class_velocity_1adc1afea59fa2d2da9b2817f8277153d7" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>operator Vector2</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a1b2dc23f9a74bbc7439ed092d318ef2e" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>Out_GetDirection</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a2961b8064b7a1ed2a925e386013863d8" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>Out_GetSpeed_EqualToBeforeJump</name></member>
+      <member refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>speed</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a8f88f6ecdb8a63b38edc707e26498ec4" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>speedDownPartMax</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a1dcb0031475eb4e9b5c049d6f1acb218" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>StartJump</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a61996ac778050bb0c6443666870180aa" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>StartJump_Direction_Type</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a51abfa72a0558c0ef740b7237ab3bb27" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>StartJump_GetDirection</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a30c79d8357aea361c5d82c5037de2530" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>StartJump_GetSpeed</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a2a310bcf9d0fec245ff8877fa0786c25" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>StartJump_GetSpeed_EqualToBeforeJump</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a786cf18520c415613529ed5b6ca5edd4" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>StartJump_GetSpeed_FromEqualToBeforeJump_ToSpeed</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a136c400dddd26994d0fcd3e12c418b02" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>StartJump_SpeedAddedWhenSlanting</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a2e99ced33c34c229e8465d780203b4d5" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>startJumpLog</name></member>
+      <member refid="class_whole_velocity_while_jumping_1aabfa6d0ea7422114ebc27439cde31e78" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>StartJumpWithLog</name></member>
+      <member refid="class_velocity_1a027993d56ded782d0fde111d823427ee" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>velocity</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a83fb7c1ed6a67c4b220cb60d3772cb22" prot="private" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>wholeFistSpeedRatio</name></member>
+      <member refid="class_whole_velocity_while_jumping_1a138b56f68e5b33acce15da2085521e89" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping</scope><name>WholeVelocityWhileJumping</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

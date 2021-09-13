@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_whole_velocity_before_jump_1_1_params" kind="class" prot="public">
+    <compoundname>WholeVelocityBeforeJump::Params</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_whole_velocity_before_jump_1_1_params_1a1339bf2ad7bb2bc49aa7d37b8ef3393b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_fist_state_plus" kindref="compound">FistStatePlus</ref></type>
+        <definition>FistStatePlus WholeVelocityBeforeJump.Params.leftFistState</definition>
+        <argsstring></argsstring>
+        <name>leftFistState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_before_jump_1_1_params_1a7db2137cd609ba8b97f52d80df17bae2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_fist_state_plus" kindref="compound">FistStatePlus</ref></type>
+        <definition>FistStatePlus WholeVelocityBeforeJump.Params.rightFistState</definition>
+        <argsstring></argsstring>
+        <name>rightFistState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="18" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_before_jump_1_1_params_1adeceb783587865040b9403dade3e99b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_fist_state_plus" kindref="compound">FistStatePlus</ref></type>
+        <definition>FistStatePlus WholeVelocityBeforeJump.Params.leftFistState_GrabStuffEnvProcessed</definition>
+        <argsstring></argsstring>
+        <name>leftFistState_GrabStuffEnvProcessed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="19" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_before_jump_1_1_params_1a376d93c72eabb4198c379e0d99a6ffef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_fist_state_plus" kindref="compound">FistStatePlus</ref></type>
+        <definition>FistStatePlus WholeVelocityBeforeJump.Params.rightFistState_GrabStuffEnvProcessed</definition>
+        <argsstring></argsstring>
+        <name>rightFistState_GrabStuffEnvProcessed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_before_jump_1_1_params_1a2356e67b67e4392f24f658707376d472" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_velocity" kindref="compound">Velocity</ref></type>
+        <definition>Velocity WholeVelocityBeforeJump.Params.leftFistVelocity</definition>
+        <argsstring></argsstring>
+        <name>leftFistVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="21" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_before_jump_1_1_params_1adf51d310407059f1a177c4cf54b82995" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_velocity" kindref="compound">Velocity</ref></type>
+        <definition>Velocity WholeVelocityBeforeJump.Params.rightFistVelocity</definition>
+        <argsstring></argsstring>
+        <name>rightFistVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="22" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_before_jump_1_1_params_1ae4e7822471ddb2e39faf3573ea858242" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector2</type>
+        <definition>Vector2 WholeVelocityBeforeJump.Params.leftFistOffset</definition>
+        <argsstring></argsstring>
+        <name>leftFistOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="23" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_before_jump_1_1_params_1adf5324b7eeefdbebea8ef633d3884aa4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector2</type>
+        <definition>Vector2 WholeVelocityBeforeJump.Params.rightFistOffset</definition>
+        <argsstring></argsstring>
+        <name>rightFistOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="24" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_before_jump_1_1_params_1a0f717fbd926398bf6a6262921644e636" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Matrix4x4</type>
+        <definition>Matrix4x4 WholeVelocityBeforeJump.Params.wholeMatrix</definition>
+        <argsstring></argsstring>
+        <name>wholeMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="25" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="15" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_whole_velocity_before_jump_1_1_params_1ae4e7822471ddb2e39faf3573ea858242" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump::Params</scope><name>leftFistOffset</name></member>
+      <member refid="class_whole_velocity_before_jump_1_1_params_1a1339bf2ad7bb2bc49aa7d37b8ef3393b" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump::Params</scope><name>leftFistState</name></member>
+      <member refid="class_whole_velocity_before_jump_1_1_params_1adeceb783587865040b9403dade3e99b2" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump::Params</scope><name>leftFistState_GrabStuffEnvProcessed</name></member>
+      <member refid="class_whole_velocity_before_jump_1_1_params_1a2356e67b67e4392f24f658707376d472" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump::Params</scope><name>leftFistVelocity</name></member>
+      <member refid="class_whole_velocity_before_jump_1_1_params_1adf5324b7eeefdbebea8ef633d3884aa4" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump::Params</scope><name>rightFistOffset</name></member>
+      <member refid="class_whole_velocity_before_jump_1_1_params_1a7db2137cd609ba8b97f52d80df17bae2" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump::Params</scope><name>rightFistState</name></member>
+      <member refid="class_whole_velocity_before_jump_1_1_params_1a376d93c72eabb4198c379e0d99a6ffef" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump::Params</scope><name>rightFistState_GrabStuffEnvProcessed</name></member>
+      <member refid="class_whole_velocity_before_jump_1_1_params_1adf51d310407059f1a177c4cf54b82995" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump::Params</scope><name>rightFistVelocity</name></member>
+      <member refid="class_whole_velocity_before_jump_1_1_params_1a0f717fbd926398bf6a6262921644e636" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump::Params</scope><name>wholeMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

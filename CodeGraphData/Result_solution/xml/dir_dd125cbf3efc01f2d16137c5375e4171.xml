@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_dd125cbf3efc01f2d16137c5375e4171" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos</compoundname>
+    <innerdir refid="dir_3dd2baab5833e5196e3059ca477dd4aa">D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes</innerdir>
+    <innerdir refid="dir_11d5a8a917ddb5c00d371b5cf1acf8ea">D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Showcase</innerdir>
+    <innerdir refid="dir_2aac7575de601b9a6aa8698c21be51bc">D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect</innerdir>
+    <innerdir refid="dir_d279b56dfb0735f30d13d3ee66576050">D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test</innerdir>
+    <innerfile refid="_drag_camera_8cs">DragCamera.cs</innerfile>
+    <innerfile refid="_input_utils_8cs">InputUtils.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/"/>
+  </compounddef>
+</doxygen>

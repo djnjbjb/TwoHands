@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_shapes2_d_1_1_effect_demo" kind="class" prot="public">
+    <compoundname>Shapes2D::EffectDemo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_shapes2_d_1_1_effect_demo_1a90ca0d7ba09e7326ca3e97afff875a24" prot="public" static="no" mutable="no">
+        <type><ref refid="class_shapes2_d_1_1_tap_effect" kindref="compound">TapEffect</ref></type>
+        <definition>TapEffect Shapes2D.EffectDemo.tapEffect</definition>
+        <argsstring></argsstring>
+        <name>tapEffect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/EffectDemo.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/EffectDemo.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_effect_demo_1ac2d6b57cb4b43c19ce2d1e13861a7731" compoundref="_effect_demo_8cs" startline="11" endline="17">Shapes2D.EffectDemo.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_shapes2_d_1_1_effect_demo_1ac2d6b57cb4b43c19ce2d1e13861a7731" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.EffectDemo.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/EffectDemo.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/EffectDemo.cs" bodystart="11" bodyend="17"/>
+        <references refid="class_shapes2_d_1_1_input_utils_1ac1257442d5adf3a6bade23228172905b" compoundref="_input_utils_8cs" startline="35" endline="45">Shapes2D.InputUtils.MouseDownOrTap</references>
+        <references refid="class_shapes2_d_1_1_effect_demo_1a90ca0d7ba09e7326ca3e97afff875a24" compoundref="_effect_demo_8cs" startline="8">Shapes2D.EffectDemo.tapEffect</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="213">
+        <label>Shapes2D.EffectDemo</label>
+        <link refid="class_shapes2_d_1_1_effect_demo"/>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="217">
+        <label>Shapes2D.TapEffect</label>
+        <link refid="class_shapes2_d_1_1_tap_effect"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="215">
+        <label>Shapes2D.EffectDemo</label>
+        <link refid="class_shapes2_d_1_1_effect_demo"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+        <childnode refid="217" relation="usage">
+          <edgelabel>tapEffect</edgelabel>
+        </childnode>
+      </node>
+      <node id="216">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/EffectDemo.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/EffectDemo.cs" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_shapes2_d_1_1_effect_demo_1a90ca0d7ba09e7326ca3e97afff875a24" prot="public" virt="non-virtual"><scope>Shapes2D::EffectDemo</scope><name>tapEffect</name></member>
+      <member refid="class_shapes2_d_1_1_effect_demo_1ac2d6b57cb4b43c19ce2d1e13861a7731" prot="private" virt="non-virtual"><scope>Shapes2D::EffectDemo</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

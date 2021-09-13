@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_speed_parameter" kind="class" prot="public">
+    <compoundname>SpeedParameter</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_speed_parameter_1ab23a110dfb531ff699b2a06686248aa3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpeedParameter.keyHoldState</definition>
+        <argsstring></argsstring>
+        <name>keyHoldState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="15" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" compoundref="_fist_velocity_8cs" startline="39" endline="51">RefreshOneHand</referencedby>
+        <referencedby refid="class_speed_parameter_1a86a5c8d701abd050305f2418f36f9389" compoundref="_fist_velocity_8cs" startline="67" endline="73">RefreshSpeedBeforeKeyRelease</referencedby>
+        <referencedby refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">FistVelocity.RefreshSpeedOneFistDueToSpeedParameter</referencedby>
+        <referencedby refid="class_speed_parameter_1a0b5ec561e4a41b205dddf744608cf02d" compoundref="_fist_velocity_8cs" startline="75" endline="88">RefreshTime</referencedby>
+        <referencedby refid="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" compoundref="_fist_velocity_8cs" startline="53" endline="65">RefreshTwoHand</referencedby>
+        <referencedby refid="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" compoundref="_fist_velocity_8cs" startline="26" endline="37">SpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_parameter_1ab9c77590f80089689d1a25da125b1b45" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpeedParameter.keyHoldStatePre</definition>
+        <argsstring></argsstring>
+        <name>keyHoldStatePre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" compoundref="_fist_velocity_8cs" startline="39" endline="51">RefreshOneHand</referencedby>
+        <referencedby refid="class_speed_parameter_1a86a5c8d701abd050305f2418f36f9389" compoundref="_fist_velocity_8cs" startline="67" endline="73">RefreshSpeedBeforeKeyRelease</referencedby>
+        <referencedby refid="class_speed_parameter_1a0b5ec561e4a41b205dddf744608cf02d" compoundref="_fist_velocity_8cs" startline="75" endline="88">RefreshTime</referencedby>
+        <referencedby refid="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" compoundref="_fist_velocity_8cs" startline="53" endline="65">RefreshTwoHand</referencedby>
+        <referencedby refid="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" compoundref="_fist_velocity_8cs" startline="26" endline="37">SpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_parameter_1ab0ccfe0965dc76770ad592f7361563de" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SpeedParameter.keyReleaseTime</definition>
+        <argsstring></argsstring>
+        <name>keyReleaseTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">FistVelocity.RefreshSpeedOneFistDueToSpeedParameter</referencedby>
+        <referencedby refid="class_speed_parameter_1a0b5ec561e4a41b205dddf744608cf02d" compoundref="_fist_velocity_8cs" startline="75" endline="88">RefreshTime</referencedby>
+        <referencedby refid="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" compoundref="_fist_velocity_8cs" startline="26" endline="37">SpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_parameter_1a8f4083bc39515c294495f74adda1278a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SpeedParameter.speedBeforeKeyRelease</definition>
+        <argsstring></argsstring>
+        <name>speedBeforeKeyRelease</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="18" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_speed_parameter_1a86a5c8d701abd050305f2418f36f9389" compoundref="_fist_velocity_8cs" startline="67" endline="73">RefreshSpeedBeforeKeyRelease</referencedby>
+        <referencedby refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">FistVelocity.RefreshSpeedOneFistDueToSpeedParameter</referencedby>
+        <referencedby refid="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" compoundref="_fist_velocity_8cs" startline="26" endline="37">SpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_parameter_1a141b62e0662fc7740a84acc03f4f7482" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpeedParameter.preIsTwoHand</definition>
+        <argsstring></argsstring>
+        <name>preIsTwoHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_speed_parameter_1a57881eff030fe43174997654d9a9c5c9" compoundref="_fist_velocity_8cs" startline="90" endline="96">RefreshLastTwoHandGrabedSpeed</referencedby>
+        <referencedby refid="class_speed_parameter_1aa8d366b807509bc444dc2b64a7557a56" compoundref="_fist_velocity_8cs" startline="99" endline="113">RefreshNoTwoHandTime</referencedby>
+        <referencedby refid="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" compoundref="_fist_velocity_8cs" startline="39" endline="51">RefreshOneHand</referencedby>
+        <referencedby refid="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" compoundref="_fist_velocity_8cs" startline="53" endline="65">RefreshTwoHand</referencedby>
+        <referencedby refid="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" compoundref="_fist_velocity_8cs" startline="26" endline="37">SpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_parameter_1a68d2e0d53e389498c29bac086cf703a8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpeedParameter.nowIsTwoHand</definition>
+        <argsstring></argsstring>
+        <name>nowIsTwoHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="21" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_speed_parameter_1a57881eff030fe43174997654d9a9c5c9" compoundref="_fist_velocity_8cs" startline="90" endline="96">RefreshLastTwoHandGrabedSpeed</referencedby>
+        <referencedby refid="class_speed_parameter_1aa8d366b807509bc444dc2b64a7557a56" compoundref="_fist_velocity_8cs" startline="99" endline="113">RefreshNoTwoHandTime</referencedby>
+        <referencedby refid="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" compoundref="_fist_velocity_8cs" startline="39" endline="51">RefreshOneHand</referencedby>
+        <referencedby refid="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" compoundref="_fist_velocity_8cs" startline="53" endline="65">RefreshTwoHand</referencedby>
+        <referencedby refid="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" compoundref="_fist_velocity_8cs" startline="26" endline="37">SpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_parameter_1a0ee85f8c9897590bba14b686da4745e4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SpeedParameter.noTwoHandTime</definition>
+        <argsstring></argsstring>
+        <name>noTwoHandTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="22" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_speed_parameter_1aa8d366b807509bc444dc2b64a7557a56" compoundref="_fist_velocity_8cs" startline="99" endline="113">RefreshNoTwoHandTime</referencedby>
+        <referencedby refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">FistVelocity.RefreshSpeedOneFistDueToSpeedParameter</referencedby>
+        <referencedby refid="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" compoundref="_fist_velocity_8cs" startline="26" endline="37">SpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_parameter_1a9b81c76140f0f699d61db247633f253a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SpeedParameter.lastTwoHandGrabedSpeed</definition>
+        <argsstring></argsstring>
+        <name>lastTwoHandGrabedSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="23" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_speed_parameter_1a57881eff030fe43174997654d9a9c5c9" compoundref="_fist_velocity_8cs" startline="90" endline="96">RefreshLastTwoHandGrabedSpeed</referencedby>
+        <referencedby refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">FistVelocity.RefreshSpeedOneFistDueToSpeedParameter</referencedby>
+        <referencedby refid="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" compoundref="_fist_velocity_8cs" startline="26" endline="37">SpeedParameter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SpeedParameter.SpeedParameter</definition>
+        <argsstring>()</argsstring>
+        <name>SpeedParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="26" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="26" bodyend="37"/>
+        <references refid="class_speed_parameter_1ab23a110dfb531ff699b2a06686248aa3" compoundref="_fist_velocity_8cs" startline="15">keyHoldState</references>
+        <references refid="class_speed_parameter_1ab9c77590f80089689d1a25da125b1b45" compoundref="_fist_velocity_8cs" startline="16">keyHoldStatePre</references>
+        <references refid="class_speed_parameter_1ab0ccfe0965dc76770ad592f7361563de" compoundref="_fist_velocity_8cs" startline="17">keyReleaseTime</references>
+        <references refid="class_speed_parameter_1a9b81c76140f0f699d61db247633f253a" compoundref="_fist_velocity_8cs" startline="23">lastTwoHandGrabedSpeed</references>
+        <references refid="class_speed_parameter_1a0ee85f8c9897590bba14b686da4745e4" compoundref="_fist_velocity_8cs" startline="22">noTwoHandTime</references>
+        <references refid="class_speed_parameter_1a68d2e0d53e389498c29bac086cf703a8" compoundref="_fist_velocity_8cs" startline="21">nowIsTwoHand</references>
+        <references refid="class_speed_parameter_1a141b62e0662fc7740a84acc03f4f7482" compoundref="_fist_velocity_8cs" startline="20">preIsTwoHand</references>
+        <references refid="class_speed_parameter_1a8f4083bc39515c294495f74adda1278a" compoundref="_fist_velocity_8cs" startline="18">speedBeforeKeyRelease</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedParameter.RefreshOneHand</definition>
+        <argsstring>(bool newKeyHoldState, float speed)</argsstring>
+        <name>RefreshOneHand</name>
+        <param>
+          <type>bool</type>
+          <declname>newKeyHoldState</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="39" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="39" bodyend="51"/>
+        <references refid="class_speed_parameter_1ab23a110dfb531ff699b2a06686248aa3" compoundref="_fist_velocity_8cs" startline="15">keyHoldState</references>
+        <references refid="class_speed_parameter_1ab9c77590f80089689d1a25da125b1b45" compoundref="_fist_velocity_8cs" startline="16">keyHoldStatePre</references>
+        <references refid="class_speed_parameter_1a68d2e0d53e389498c29bac086cf703a8" compoundref="_fist_velocity_8cs" startline="21">nowIsTwoHand</references>
+        <references refid="class_speed_parameter_1a141b62e0662fc7740a84acc03f4f7482" compoundref="_fist_velocity_8cs" startline="20">preIsTwoHand</references>
+        <references refid="class_speed_parameter_1a57881eff030fe43174997654d9a9c5c9" compoundref="_fist_velocity_8cs" startline="90" endline="96">RefreshLastTwoHandGrabedSpeed</references>
+        <references refid="class_speed_parameter_1aa8d366b807509bc444dc2b64a7557a56" compoundref="_fist_velocity_8cs" startline="99" endline="113">RefreshNoTwoHandTime</references>
+        <references refid="class_speed_parameter_1a86a5c8d701abd050305f2418f36f9389" compoundref="_fist_velocity_8cs" startline="67" endline="73">RefreshSpeedBeforeKeyRelease</references>
+        <references refid="class_speed_parameter_1a0b5ec561e4a41b205dddf744608cf02d" compoundref="_fist_velocity_8cs" startline="75" endline="88">RefreshTime</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedParameter.RefreshTwoHand</definition>
+        <argsstring>(bool newKeyHoldState, float speed)</argsstring>
+        <name>RefreshTwoHand</name>
+        <param>
+          <type>bool</type>
+          <declname>newKeyHoldState</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="53" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="53" bodyend="65"/>
+        <references refid="class_speed_parameter_1ab23a110dfb531ff699b2a06686248aa3" compoundref="_fist_velocity_8cs" startline="15">keyHoldState</references>
+        <references refid="class_speed_parameter_1ab9c77590f80089689d1a25da125b1b45" compoundref="_fist_velocity_8cs" startline="16">keyHoldStatePre</references>
+        <references refid="class_speed_parameter_1a68d2e0d53e389498c29bac086cf703a8" compoundref="_fist_velocity_8cs" startline="21">nowIsTwoHand</references>
+        <references refid="class_speed_parameter_1a141b62e0662fc7740a84acc03f4f7482" compoundref="_fist_velocity_8cs" startline="20">preIsTwoHand</references>
+        <references refid="class_speed_parameter_1a57881eff030fe43174997654d9a9c5c9" compoundref="_fist_velocity_8cs" startline="90" endline="96">RefreshLastTwoHandGrabedSpeed</references>
+        <references refid="class_speed_parameter_1aa8d366b807509bc444dc2b64a7557a56" compoundref="_fist_velocity_8cs" startline="99" endline="113">RefreshNoTwoHandTime</references>
+        <references refid="class_speed_parameter_1a86a5c8d701abd050305f2418f36f9389" compoundref="_fist_velocity_8cs" startline="67" endline="73">RefreshSpeedBeforeKeyRelease</references>
+        <references refid="class_speed_parameter_1a0b5ec561e4a41b205dddf744608cf02d" compoundref="_fist_velocity_8cs" startline="75" endline="88">RefreshTime</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_speed_parameter_1a86a5c8d701abd050305f2418f36f9389" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedParameter.RefreshSpeedBeforeKeyRelease</definition>
+        <argsstring>(float speed)</argsstring>
+        <name>RefreshSpeedBeforeKeyRelease</name>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="67" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="67" bodyend="73"/>
+        <references refid="class_speed_parameter_1ab23a110dfb531ff699b2a06686248aa3" compoundref="_fist_velocity_8cs" startline="15">keyHoldState</references>
+        <references refid="class_speed_parameter_1ab9c77590f80089689d1a25da125b1b45" compoundref="_fist_velocity_8cs" startline="16">keyHoldStatePre</references>
+        <references refid="class_speed_parameter_1a8f4083bc39515c294495f74adda1278a" compoundref="_fist_velocity_8cs" startline="18">speedBeforeKeyRelease</references>
+        <referencedby refid="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" compoundref="_fist_velocity_8cs" startline="39" endline="51">RefreshOneHand</referencedby>
+        <referencedby refid="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" compoundref="_fist_velocity_8cs" startline="53" endline="65">RefreshTwoHand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_parameter_1a0b5ec561e4a41b205dddf744608cf02d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedParameter.RefreshTime</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="75" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="75" bodyend="88"/>
+        <references refid="class_speed_parameter_1ab23a110dfb531ff699b2a06686248aa3" compoundref="_fist_velocity_8cs" startline="15">keyHoldState</references>
+        <references refid="class_speed_parameter_1ab9c77590f80089689d1a25da125b1b45" compoundref="_fist_velocity_8cs" startline="16">keyHoldStatePre</references>
+        <references refid="class_speed_parameter_1ab0ccfe0965dc76770ad592f7361563de" compoundref="_fist_velocity_8cs" startline="17">keyReleaseTime</references>
+        <referencedby refid="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" compoundref="_fist_velocity_8cs" startline="39" endline="51">RefreshOneHand</referencedby>
+        <referencedby refid="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" compoundref="_fist_velocity_8cs" startline="53" endline="65">RefreshTwoHand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_parameter_1a57881eff030fe43174997654d9a9c5c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedParameter.RefreshLastTwoHandGrabedSpeed</definition>
+        <argsstring>(float speed)</argsstring>
+        <name>RefreshLastTwoHandGrabedSpeed</name>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="90" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="90" bodyend="96"/>
+        <references refid="class_speed_parameter_1a9b81c76140f0f699d61db247633f253a" compoundref="_fist_velocity_8cs" startline="23">lastTwoHandGrabedSpeed</references>
+        <references refid="class_speed_parameter_1a68d2e0d53e389498c29bac086cf703a8" compoundref="_fist_velocity_8cs" startline="21">nowIsTwoHand</references>
+        <references refid="class_speed_parameter_1a141b62e0662fc7740a84acc03f4f7482" compoundref="_fist_velocity_8cs" startline="20">preIsTwoHand</references>
+        <referencedby refid="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" compoundref="_fist_velocity_8cs" startline="39" endline="51">RefreshOneHand</referencedby>
+        <referencedby refid="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" compoundref="_fist_velocity_8cs" startline="53" endline="65">RefreshTwoHand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_parameter_1aa8d366b807509bc444dc2b64a7557a56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedParameter.RefreshNoTwoHandTime</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshNoTwoHandTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="99" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="99" bodyend="113"/>
+        <references refid="class_speed_parameter_1a0ee85f8c9897590bba14b686da4745e4" compoundref="_fist_velocity_8cs" startline="22">noTwoHandTime</references>
+        <references refid="class_speed_parameter_1a68d2e0d53e389498c29bac086cf703a8" compoundref="_fist_velocity_8cs" startline="21">nowIsTwoHand</references>
+        <references refid="class_speed_parameter_1a141b62e0662fc7740a84acc03f4f7482" compoundref="_fist_velocity_8cs" startline="20">preIsTwoHand</references>
+        <referencedby refid="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" compoundref="_fist_velocity_8cs" startline="39" endline="51">RefreshOneHand</referencedby>
+        <referencedby refid="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" compoundref="_fist_velocity_8cs" startline="53" endline="65">RefreshTwoHand</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="13" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_speed_parameter_1ab23a110dfb531ff699b2a06686248aa3" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>keyHoldState</name></member>
+      <member refid="class_speed_parameter_1ab9c77590f80089689d1a25da125b1b45" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>keyHoldStatePre</name></member>
+      <member refid="class_speed_parameter_1ab0ccfe0965dc76770ad592f7361563de" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>keyReleaseTime</name></member>
+      <member refid="class_speed_parameter_1a9b81c76140f0f699d61db247633f253a" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>lastTwoHandGrabedSpeed</name></member>
+      <member refid="class_speed_parameter_1a0ee85f8c9897590bba14b686da4745e4" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>noTwoHandTime</name></member>
+      <member refid="class_speed_parameter_1a68d2e0d53e389498c29bac086cf703a8" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>nowIsTwoHand</name></member>
+      <member refid="class_speed_parameter_1a141b62e0662fc7740a84acc03f4f7482" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>preIsTwoHand</name></member>
+      <member refid="class_speed_parameter_1a57881eff030fe43174997654d9a9c5c9" prot="private" virt="non-virtual"><scope>SpeedParameter</scope><name>RefreshLastTwoHandGrabedSpeed</name></member>
+      <member refid="class_speed_parameter_1aa8d366b807509bc444dc2b64a7557a56" prot="private" virt="non-virtual"><scope>SpeedParameter</scope><name>RefreshNoTwoHandTime</name></member>
+      <member refid="class_speed_parameter_1ad14ca8131d91712cebb5eeaca13f8451" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>RefreshOneHand</name></member>
+      <member refid="class_speed_parameter_1a86a5c8d701abd050305f2418f36f9389" prot="private" virt="non-virtual"><scope>SpeedParameter</scope><name>RefreshSpeedBeforeKeyRelease</name></member>
+      <member refid="class_speed_parameter_1a0b5ec561e4a41b205dddf744608cf02d" prot="private" virt="non-virtual"><scope>SpeedParameter</scope><name>RefreshTime</name></member>
+      <member refid="class_speed_parameter_1ab38a9c712a7713b04862dae6927178d8" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>RefreshTwoHand</name></member>
+      <member refid="class_speed_parameter_1a8f4083bc39515c294495f74adda1278a" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>speedBeforeKeyRelease</name></member>
+      <member refid="class_speed_parameter_1afd1982ba0085f071e798efe3c200e6a1" prot="public" virt="non-virtual"><scope>SpeedParameter</scope><name>SpeedParameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

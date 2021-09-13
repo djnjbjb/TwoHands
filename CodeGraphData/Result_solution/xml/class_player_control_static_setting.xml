@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_control_static_setting" kind="class" prot="public">
+    <compoundname>PlayerControlStaticSetting</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_player_control_static_setting_1a2993d920248dc365aafc9c89260abb40" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int PlayerControlStaticSetting.moveDirectionReverseIfGrabEnv</definition>
+        <argsstring></argsstring>
+        <name>moveDirectionReverseIfGrabEnv</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_player_control_static_setting_1a4e53e6ad2c0dbce5b704588e1ef5eb45" compoundref="_player_control_static_setting_8cs" startline="14" endline="28">ForUI_GetMoveDirectionReverseIfGrabEnv</referencedby>
+        <referencedby refid="class_player_control_static_setting_1abe9bc7db1ca773ae632f0cf553716166" compoundref="_player_control_static_setting_8cs" startline="9" endline="12">GetMoveDirectionReverseIfGrabEnv</referencedby>
+        <referencedby refid="class_player_control_static_setting_1a19b9b91467643a7dab353b0cf8b84964" compoundref="_player_control_static_setting_8cs" startline="30" endline="45">SetMoveDirectionReverseIfGrabEnv</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_player_control_static_setting_1abe9bc7db1ca773ae632f0cf553716166" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PlayerControlStaticSetting.GetMoveDirectionReverseIfGrabEnv</definition>
+        <argsstring>()</argsstring>
+        <name>GetMoveDirectionReverseIfGrabEnv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_player_control_static_setting_1a2993d920248dc365aafc9c89260abb40" compoundref="_player_control_static_setting_8cs" startline="7">moveDirectionReverseIfGrabEnv</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_static_setting_1a4e53e6ad2c0dbce5b704588e1ef5eb45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool PlayerControlStaticSetting.ForUI_GetMoveDirectionReverseIfGrabEnv</definition>
+        <argsstring>()</argsstring>
+        <name>ForUI_GetMoveDirectionReverseIfGrabEnv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" bodystart="14" bodyend="28"/>
+        <references refid="class_player_control_static_setting_1a2993d920248dc365aafc9c89260abb40" compoundref="_player_control_static_setting_8cs" startline="7">moveDirectionReverseIfGrabEnv</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_static_setting_1a19b9b91467643a7dab353b0cf8b84964" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlayerControlStaticSetting.SetMoveDirectionReverseIfGrabEnv</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>SetMoveDirectionReverseIfGrabEnv</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" line="30" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" bodystart="30" bodyend="45"/>
+        <references refid="class_player_control_static_setting_1a2993d920248dc365aafc9c89260abb40" compoundref="_player_control_static_setting_8cs" startline="7">moveDirectionReverseIfGrabEnv</references>
+        <references refid="class_player_control_1a569e01c5d0323ef9273028e712ec3086" compoundref="_player_control_8cs" startline="17">PlayerControl.playerControl</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="368">
+        <label>PlayerControlStaticSetting</label>
+        <link refid="class_player_control_static_setting"/>
+        <childnode refid="369" relation="usage">
+          <edgelabel>moveDirectionReverseIfGrabEnv</edgelabel>
+        </childnode>
+      </node>
+      <node id="369">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControlStaticSetting.cs" bodystart="5" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_player_control_static_setting_1a4e53e6ad2c0dbce5b704588e1ef5eb45" prot="public" virt="non-virtual"><scope>PlayerControlStaticSetting</scope><name>ForUI_GetMoveDirectionReverseIfGrabEnv</name></member>
+      <member refid="class_player_control_static_setting_1abe9bc7db1ca773ae632f0cf553716166" prot="public" virt="non-virtual"><scope>PlayerControlStaticSetting</scope><name>GetMoveDirectionReverseIfGrabEnv</name></member>
+      <member refid="class_player_control_static_setting_1a2993d920248dc365aafc9c89260abb40" prot="private" virt="non-virtual"><scope>PlayerControlStaticSetting</scope><name>moveDirectionReverseIfGrabEnv</name></member>
+      <member refid="class_player_control_static_setting_1a19b9b91467643a7dab353b0cf8b84964" prot="public" virt="non-virtual"><scope>PlayerControlStaticSetting</scope><name>SetMoveDirectionReverseIfGrabEnv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

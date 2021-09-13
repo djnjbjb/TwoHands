@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_fist_state_extension" kind="class" prot="public">
+    <compoundname>FistStateExtension</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_fist_state_extension_1ad1f3b971ca841d31a8a473ec4641bcd3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FistStateExtension.IsFreeToMove</definition>
+        <argsstring>(this FistState state)</argsstring>
+        <name>IsFreeToMove</name>
+        <param>
+          <type>this <ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="28" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="28" bodyend="31"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa1c4272c8f0add1328f5e53acd74e387b">GrabStuff</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_extension_1a69b398de92ad10a30fa09a437fcab368" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FistStateExtension.IsGrabPressed</definition>
+        <argsstring>(this FistState state)</argsstring>
+        <name>IsGrabPressed</name>
+        <param>
+          <type>this <ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="32" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="32" bodyend="35"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa6f5917431d9a7f2f2183067f05814adb">GrabStuffEnv</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_extension_1a7e2b2fa932365552c6e456b19656c748" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FistStateExtension.IsGrabingThings</definition>
+        <argsstring>(this FistState state)</argsstring>
+        <name>IsGrabingThings</name>
+        <param>
+          <type>this <ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="36" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="36" bodyend="39"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa6f5917431d9a7f2f2183067f05814adb">GrabStuffEnv</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_extension_1af3fc85fdcad797984c817937694539c2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FistStateExtension.IsGrabing_Env_StuffEnv</definition>
+        <argsstring>(this FistState state)</argsstring>
+        <name>IsGrabing_Env_StuffEnv</name>
+        <param>
+          <type>this <ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="40" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="40" bodyend="43"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa6f5917431d9a7f2f2183067f05814adb">GrabStuffEnv</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_state_extension_1af9760013b502fc25f343b86156261b45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FistStateExtension.IsGrabing_Stuff_StuffEnv</definition>
+        <argsstring>(this FistState state)</argsstring>
+        <name>IsGrabing_Stuff_StuffEnv</name>
+        <param>
+          <type>this <ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="44" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="44" bodyend="47"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa6f5917431d9a7f2f2183067f05814adb">GrabStuffEnv</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" line="27" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistState.cs" bodystart="26" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_fist_state_extension_1ad1f3b971ca841d31a8a473ec4641bcd3" prot="public" virt="non-virtual"><scope>FistStateExtension</scope><name>IsFreeToMove</name></member>
+      <member refid="class_fist_state_extension_1af3fc85fdcad797984c817937694539c2" prot="public" virt="non-virtual"><scope>FistStateExtension</scope><name>IsGrabing_Env_StuffEnv</name></member>
+      <member refid="class_fist_state_extension_1af9760013b502fc25f343b86156261b45" prot="public" virt="non-virtual"><scope>FistStateExtension</scope><name>IsGrabing_Stuff_StuffEnv</name></member>
+      <member refid="class_fist_state_extension_1a7e2b2fa932365552c6e456b19656c748" prot="public" virt="non-virtual"><scope>FistStateExtension</scope><name>IsGrabingThings</name></member>
+      <member refid="class_fist_state_extension_1a69b398de92ad10a30fa09a437fcab368" prot="public" virt="non-virtual"><scope>FistStateExtension</scope><name>IsGrabPressed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

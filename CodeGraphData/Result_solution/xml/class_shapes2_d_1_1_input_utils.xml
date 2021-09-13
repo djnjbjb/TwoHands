@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_shapes2_d_1_1_input_utils" kind="class" prot="public">
+    <compoundname>Shapes2D::InputUtils</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_shapes2_d_1_1_input_utils_1a1e26344e98220b69e90c181faf31bce8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Shapes2D.InputUtils.InputToWorldPosition</definition>
+        <argsstring>(Vector2 inputPos)</argsstring>
+        <name>InputToWorldPosition</name>
+        <param>
+          <type>Vector2</type>
+          <declname>inputPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_input_utils_1ac1257442d5adf3a6bade23228172905b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Shapes2D.InputUtils.MouseDownOrTap</definition>
+        <argsstring>()</argsstring>
+        <name>MouseDownOrTap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" line="35" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" bodystart="35" bodyend="45"/>
+        <references refid="class_shapes2_d_1_1_input_utils_1a74cb5f95fcca1dce4c4eaad9425384d3" compoundref="_input_utils_8cs" startline="18" endline="24">Shapes2D.InputUtils.WasFingerDown</references>
+        <references refid="class_shapes2_d_1_1_input_utils_1ad2404b9f75442644c65366059fc5b35c" compoundref="_input_utils_8cs" startline="14" endline="16">Shapes2D.InputUtils.WasMouseDown</references>
+        <referencedby refid="class_shapes2_d_1_1_effect_demo_1ac2d6b57cb4b43c19ce2d1e13861a7731" compoundref="_effect_demo_8cs" startline="11" endline="17">Shapes2D.EffectDemo.Update</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_bird_1a8d7bc1f4f568bb24635a55c1cbc85f21" compoundref="_bird_8cs" startline="81" endline="90">Shapes2D.Bird.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_input_utils_1ae54244331cc6328101ac09795355e721" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 Shapes2D.InputUtils.MouseOrTapPosition</definition>
+        <argsstring>()</argsstring>
+        <name>MouseOrTapPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" line="47" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" bodystart="47" bodyend="57"/>
+        <references refid="class_shapes2_d_1_1_input_utils_1ae833b6a4919b994dec1b2d0e08f48bd8" compoundref="_input_utils_8cs" startline="26" endline="33">Shapes2D.InputUtils.FirstTouchPosition</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_shapes2_d_1_1_input_utils_1ad2404b9f75442644c65366059fc5b35c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Shapes2D.InputUtils.WasMouseDown</definition>
+        <argsstring>(int button)</argsstring>
+        <name>WasMouseDown</name>
+        <param>
+          <type>int</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" bodystart="14" bodyend="16"/>
+        <referencedby refid="class_shapes2_d_1_1_input_utils_1ac1257442d5adf3a6bade23228172905b" compoundref="_input_utils_8cs" startline="35" endline="45">Shapes2D.InputUtils.MouseDownOrTap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_input_utils_1a74cb5f95fcca1dce4c4eaad9425384d3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Shapes2D.InputUtils.WasFingerDown</definition>
+        <argsstring>()</argsstring>
+        <name>WasFingerDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" line="18" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" bodystart="18" bodyend="24"/>
+        <referencedby refid="class_shapes2_d_1_1_input_utils_1ac1257442d5adf3a6bade23228172905b" compoundref="_input_utils_8cs" startline="35" endline="45">Shapes2D.InputUtils.MouseDownOrTap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_input_utils_1ae833b6a4919b994dec1b2d0e08f48bd8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 Shapes2D.InputUtils.FirstTouchPosition</definition>
+        <argsstring>()</argsstring>
+        <name>FirstTouchPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" line="26" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" bodystart="26" bodyend="33"/>
+        <referencedby refid="class_shapes2_d_1_1_input_utils_1ae54244331cc6328101ac09795355e721" compoundref="_input_utils_8cs" startline="47" endline="57">Shapes2D.InputUtils.MouseOrTapPosition</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/InputUtils.cs" bodystart="6" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_shapes2_d_1_1_input_utils_1ae833b6a4919b994dec1b2d0e08f48bd8" prot="private" virt="non-virtual"><scope>Shapes2D::InputUtils</scope><name>FirstTouchPosition</name></member>
+      <member refid="class_shapes2_d_1_1_input_utils_1a1e26344e98220b69e90c181faf31bce8" prot="public" virt="non-virtual"><scope>Shapes2D::InputUtils</scope><name>InputToWorldPosition</name></member>
+      <member refid="class_shapes2_d_1_1_input_utils_1ac1257442d5adf3a6bade23228172905b" prot="public" virt="non-virtual"><scope>Shapes2D::InputUtils</scope><name>MouseDownOrTap</name></member>
+      <member refid="class_shapes2_d_1_1_input_utils_1ae54244331cc6328101ac09795355e721" prot="public" virt="non-virtual"><scope>Shapes2D::InputUtils</scope><name>MouseOrTapPosition</name></member>
+      <member refid="class_shapes2_d_1_1_input_utils_1a74cb5f95fcca1dce4c4eaad9425384d3" prot="private" virt="non-virtual"><scope>Shapes2D::InputUtils</scope><name>WasFingerDown</name></member>
+      <member refid="class_shapes2_d_1_1_input_utils_1ad2404b9f75442644c65366059fc5b35c" prot="private" virt="non-virtual"><scope>Shapes2D::InputUtils</scope><name>WasMouseDown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

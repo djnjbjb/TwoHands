@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e15a3b9f0a48e4f1db091c02e561dee8" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor</compoundname>
+    <innerdir refid="dir_1bd61e862e702c4c1f55e1193c9079f2">D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/"/>
+  </compounddef>
+</doxygen>

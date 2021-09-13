@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_shapes2_d_1_1_drag_camera" kind="class" prot="public">
+    <compoundname>Shapes2D::DragCamera</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_shapes2_d_1_1_drag_camera_1abecc06daa6c04627c998236284fc2b7b" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Shapes2D.DragCamera.anchor</definition>
+        <argsstring></argsstring>
+        <name>anchor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_drag_camera_1a0b280f86975dd4b0132922b9918d12f1" compoundref="_drag_camera_8cs" startline="13" endline="37">Shapes2D.DragCamera.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_drag_camera_1a44854c59b88da99469b679812ec8c89e" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Shapes2D.DragCamera.origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_drag_camera_1a0b280f86975dd4b0132922b9918d12f1" compoundref="_drag_camera_8cs" startline="13" endline="37">Shapes2D.DragCamera.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_drag_camera_1a48d824876ba14976a7809a38934aae2f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Shapes2D.DragCamera.dragging</definition>
+        <argsstring></argsstring>
+        <name>dragging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_drag_camera_1a0b280f86975dd4b0132922b9918d12f1" compoundref="_drag_camera_8cs" startline="13" endline="37">Shapes2D.DragCamera.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_drag_camera_1a9d1190ed75013ed8764480fd2bfc6bac" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Shapes2D.DragCamera.zoomed</definition>
+        <argsstring></argsstring>
+        <name>zoomed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_drag_camera_1a0b280f86975dd4b0132922b9918d12f1" compoundref="_drag_camera_8cs" startline="13" endline="37">Shapes2D.DragCamera.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_drag_camera_1a0396724b1abe234e2a2adaa3fd757f6d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2D.DragCamera.lastClick</definition>
+        <argsstring></argsstring>
+        <name>lastClick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_drag_camera_1a0b280f86975dd4b0132922b9918d12f1" compoundref="_drag_camera_8cs" startline="13" endline="37">Shapes2D.DragCamera.LateUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_shapes2_d_1_1_drag_camera_1a0b280f86975dd4b0132922b9918d12f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.DragCamera.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" bodystart="13" bodyend="37"/>
+        <references refid="class_shapes2_d_1_1_drag_camera_1abecc06daa6c04627c998236284fc2b7b" compoundref="_drag_camera_8cs" startline="7">Shapes2D.DragCamera.anchor</references>
+        <references refid="class_shapes2_d_1_1_drag_camera_1a48d824876ba14976a7809a38934aae2f" compoundref="_drag_camera_8cs" startline="9">Shapes2D.DragCamera.dragging</references>
+        <references refid="class_shapes2_d_1_1_drag_camera_1a0396724b1abe234e2a2adaa3fd757f6d" compoundref="_drag_camera_8cs" startline="11">Shapes2D.DragCamera.lastClick</references>
+        <references refid="class_shapes2_d_1_1_drag_camera_1a44854c59b88da99469b679812ec8c89e" compoundref="_drag_camera_8cs" startline="8">Shapes2D.DragCamera.origin</references>
+        <references refid="class_shapes2_d_1_1_drag_camera_1a9d1190ed75013ed8764480fd2bfc6bac" compoundref="_drag_camera_8cs" startline="10">Shapes2D.DragCamera.zoomed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="202">
+        <label>Shapes2D.DragCamera</label>
+        <link refid="class_shapes2_d_1_1_drag_camera"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="204">
+        <label>Shapes2D.DragCamera</label>
+        <link refid="class_shapes2_d_1_1_drag_camera"/>
+        <childnode refid="205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/DragCamera.cs" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_shapes2_d_1_1_drag_camera_1abecc06daa6c04627c998236284fc2b7b" prot="private" virt="non-virtual"><scope>Shapes2D::DragCamera</scope><name>anchor</name></member>
+      <member refid="class_shapes2_d_1_1_drag_camera_1a48d824876ba14976a7809a38934aae2f" prot="private" virt="non-virtual"><scope>Shapes2D::DragCamera</scope><name>dragging</name></member>
+      <member refid="class_shapes2_d_1_1_drag_camera_1a0396724b1abe234e2a2adaa3fd757f6d" prot="private" virt="non-virtual"><scope>Shapes2D::DragCamera</scope><name>lastClick</name></member>
+      <member refid="class_shapes2_d_1_1_drag_camera_1a0b280f86975dd4b0132922b9918d12f1" prot="private" virt="non-virtual"><scope>Shapes2D::DragCamera</scope><name>LateUpdate</name></member>
+      <member refid="class_shapes2_d_1_1_drag_camera_1a44854c59b88da99469b679812ec8c89e" prot="private" virt="non-virtual"><scope>Shapes2D::DragCamera</scope><name>origin</name></member>
+      <member refid="class_shapes2_d_1_1_drag_camera_1a9d1190ed75013ed8764480fd2bfc6bac" prot="private" virt="non-virtual"><scope>Shapes2D::DragCamera</scope><name>zoomed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

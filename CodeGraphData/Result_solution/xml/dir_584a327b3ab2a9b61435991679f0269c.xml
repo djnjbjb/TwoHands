@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_584a327b3ab2a9b61435991679f0269c" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets</compoundname>
+    <innerdir refid="dir_27303504bad06bdcda744e8a38ec9561">D:/Project/TwoHandsWar/Assets/Editor</innerdir>
+    <innerdir refid="dir_45cd075151b7236dbb57e6cef23abeaa">D:/Project/TwoHandsWar/Assets/Plugins</innerdir>
+    <innerdir refid="dir_536356de2c0a4a214e67bcd100f55a71">D:/Project/TwoHandsWar/Assets/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_enemy" kind="namespace">
+    <compoundname>Enemy</compoundname>
+    <innerclass refid="class_enemy_1_1_enemy" prot="public">Enemy::Enemy</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

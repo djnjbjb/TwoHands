@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_plugin_master_1_1_play_mode_save_1_1_component_save_data_key" kind="struct" prot="private">
+    <compoundname>PluginMaster::PlayModeSave::ComponentSaveDataKey</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_plugin_master_1_1_play_mode_save_1_1_component_save_data_key_1a9bc9f0e168f0b517616e7dfb19a93172" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PluginMaster.PlayModeSave.ComponentSaveDataKey.objId</definition>
+        <argsstring></argsstring>
+        <name>objId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="133" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_plugin_master_1_1_play_mode_save_1_1_component_save_data_key_1a80ca26a06f7ba78d9deb06b400aa3556" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PluginMaster.PlayModeSave.ComponentSaveDataKey.compId</definition>
+        <argsstring></argsstring>
+        <name>compId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="134" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_plugin_master_1_1_play_mode_save_1_1_component_save_data_key_1a5bc5898248b8c0c8a76366e22a4c269b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PluginMaster.PlayModeSave.ComponentSaveDataKey.ComponentSaveDataKey</definition>
+        <argsstring>(int objId, int compId)</argsstring>
+        <name>ComponentSaveDataKey</name>
+        <param>
+          <type>int</type>
+          <declname>objId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>compId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="135" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="132" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="131" bodyend="136"/>
+    <listofallmembers>
+      <member refid="struct_plugin_master_1_1_play_mode_save_1_1_component_save_data_key_1a80ca26a06f7ba78d9deb06b400aa3556" prot="public" virt="non-virtual"><scope>PluginMaster::PlayModeSave::ComponentSaveDataKey</scope><name>compId</name></member>
+      <member refid="struct_plugin_master_1_1_play_mode_save_1_1_component_save_data_key_1a5bc5898248b8c0c8a76366e22a4c269b" prot="public" virt="non-virtual"><scope>PluginMaster::PlayModeSave::ComponentSaveDataKey</scope><name>ComponentSaveDataKey</name></member>
+      <member refid="struct_plugin_master_1_1_play_mode_save_1_1_component_save_data_key_1a9bc9f0e168f0b517616e7dfb19a93172" prot="public" virt="non-virtual"><scope>PluginMaster::PlayModeSave::ComponentSaveDataKey</scope><name>objId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

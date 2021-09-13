@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_y" kind="namespace">
+    <compoundname>Y</compoundname>
+    <innerclass refid="class_y_1_1_debug_console" prot="public">Y::DebugConsole</innerclass>
+    <innerclass refid="class_y_1_1_hello_world" prot="public">Y::HelloWorld</innerclass>
+    <innerclass refid="class_y_1_1_scene_research" prot="public">Y::SceneResearch</innerclass>
+    <innerclass refid="class_y_1_1_set_commands" prot="public">Y::SetCommands</innerclass>
+    <innerclass refid="class_y_1_1_i_command" prot="public">Y::ICommand</innerclass>
+    <innerclass refid="class_y_1_1_commands" prot="public">Y::Commands</innerclass>
+    <innerclass refid="class_y_1_1_clear_command" prot="public">Y::ClearCommand</innerclass>
+    <innerclass refid="class_y_1_1_hide_command" prot="public">Y::HideCommand</innerclass>
+    <innerclass refid="class_y_1_1_help_command" prot="public">Y::HelpCommand</innerclass>
+    <innerclass refid="class_y_1_1_debug_panel" prot="public">Y::DebugPanel</innerclass>
+    <innerclass refid="class_y_1_1_debug_console_view" prot="public">Y::DebugConsoleView</innerclass>
+    <innerclass refid="class_y_1_1_debug_panel_view" prot="public">Y::DebugPanelView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/DebugConsole.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_whole_velocity_while_jumping_1_1_params" kind="class" prot="public">
+    <compoundname>WholeVelocityWhileJumping::Params</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_whole_velocity_while_jumping_1_1_params_1a754a86b65ec6a5a5721fc808c56cc6e5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_fist_state_plus" kindref="compound">FistStatePlus</ref></type>
+        <definition>FistStatePlus WholeVelocityWhileJumping.Params.leftFistState</definition>
+        <argsstring></argsstring>
+        <name>leftFistState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_while_jumping_1_1_params_1a7d66c859f7ca592331dddd7802bf64ec" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_fist_state_plus" kindref="compound">FistStatePlus</ref></type>
+        <definition>FistStatePlus WholeVelocityWhileJumping.Params.rightFistState</definition>
+        <argsstring></argsstring>
+        <name>rightFistState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_whole_velocity_while_jumping_1_1_params_1a97379b5e0577c57d01e4823a5f0b86eb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_foot_state_plus" kindref="compound">FootStatePlus</ref></type>
+        <definition>FootStatePlus WholeVelocityWhileJumping.Params.footState</definition>
+        <argsstring></argsstring>
+        <name>footState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityWhileJumping.cs" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_whole_velocity_while_jumping_1_1_params_1a97379b5e0577c57d01e4823a5f0b86eb" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping::Params</scope><name>footState</name></member>
+      <member refid="class_whole_velocity_while_jumping_1_1_params_1a754a86b65ec6a5a5721fc808c56cc6e5" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping::Params</scope><name>leftFistState</name></member>
+      <member refid="class_whole_velocity_while_jumping_1_1_params_1a7d66c859f7ca592331dddd7802bf64ec" prot="public" virt="non-virtual"><scope>WholeVelocityWhileJumping::Params</scope><name>rightFistState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

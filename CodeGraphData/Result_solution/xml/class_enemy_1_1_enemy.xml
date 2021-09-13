@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_enemy_1_1_enemy" kind="class" prot="public">
+    <compoundname>Enemy::Enemy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_1_1_enemy_1af868fd702625f5a1e2b2642f3c023cfc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Enemy.Enemy.xMin</definition>
+        <argsstring></argsstring>
+        <name>xMin</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_1_1_enemy_1a64db749bc435a369274a1489c1c05199" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Enemy.Enemy.xMax</definition>
+        <argsstring></argsstring>
+        <name>xMax</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_1_1_enemy_1ab435feff8c8de1ce9724b46d7b071860" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Enemy.Enemy.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_1_1_enemy_1a2c2a84fdc7bd7c7316473839a2cb01c3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Enemy.Enemy.goingRight</definition>
+        <argsstring></argsstring>
+        <name>goingRight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="12" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_1_1_enemy_1a94bcaffdb523f30dc7ce4aa74b72fa08" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Enemy.Enemy.scaleX</definition>
+        <argsstring></argsstring>
+        <name>scaleX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_1_1_enemy_1a31a9048841387b943e03f46e301fc3cb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Enemy.Enemy.moving</definition>
+        <argsstring></argsstring>
+        <name>moving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_1_1_enemy_1a8bdec5e2dd0d6c08bcfa0448e1d9907e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Enemy.Enemy.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="15" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_1_1_enemy_1ad9e2c5761675dc71e724702f764909c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Enemy.Enemy.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="21" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="21" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_1_1_enemy_1a93a1875b5f9994b3ef3ead688a9fea77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Enemy.Enemy.StopMoving</definition>
+        <argsstring>()</argsstring>
+        <name>StopMoving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="57" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="219">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="218">
+        <label>Enemy.Enemy</label>
+        <link refid="class_enemy_1_1_enemy"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="221">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="220">
+        <label>Enemy.Enemy</label>
+        <link refid="class_enemy_1_1_enemy"/>
+        <childnode refid="221" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy/Enemy.cs" bodystart="7" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_enemy_1_1_enemy_1ad9e2c5761675dc71e724702f764909c9" prot="private" virt="non-virtual"><scope>Enemy::Enemy</scope><name>FixedUpdate</name></member>
+      <member refid="class_enemy_1_1_enemy_1a2c2a84fdc7bd7c7316473839a2cb01c3" prot="private" virt="non-virtual"><scope>Enemy::Enemy</scope><name>goingRight</name></member>
+      <member refid="class_enemy_1_1_enemy_1a31a9048841387b943e03f46e301fc3cb" prot="private" virt="non-virtual"><scope>Enemy::Enemy</scope><name>moving</name></member>
+      <member refid="class_enemy_1_1_enemy_1a94bcaffdb523f30dc7ce4aa74b72fa08" prot="private" virt="non-virtual"><scope>Enemy::Enemy</scope><name>scaleX</name></member>
+      <member refid="class_enemy_1_1_enemy_1ab435feff8c8de1ce9724b46d7b071860" prot="private" virt="non-virtual"><scope>Enemy::Enemy</scope><name>speed</name></member>
+      <member refid="class_enemy_1_1_enemy_1a8bdec5e2dd0d6c08bcfa0448e1d9907e" prot="private" virt="non-virtual"><scope>Enemy::Enemy</scope><name>Start</name></member>
+      <member refid="class_enemy_1_1_enemy_1a93a1875b5f9994b3ef3ead688a9fea77" prot="public" virt="non-virtual"><scope>Enemy::Enemy</scope><name>StopMoving</name></member>
+      <member refid="class_enemy_1_1_enemy_1a64db749bc435a369274a1489c1c05199" prot="private" virt="non-virtual"><scope>Enemy::Enemy</scope><name>xMax</name></member>
+      <member refid="class_enemy_1_1_enemy_1af868fd702625f5a1e2b2642f3c023cfc" prot="private" virt="non-virtual"><scope>Enemy::Enemy</scope><name>xMin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

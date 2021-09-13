@@ -1,0 +1,1488 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_control" kind="class" prot="public">
+    <compoundname>PlayerControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_player_control_1_1_value_for_sword" prot="public">PlayerControl::ValueForSword</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_player_control_1a569e01c5d0323ef9273028e712ec3086" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_player_control" kindref="compound">PlayerControl</ref></type>
+        <definition>PlayerControl PlayerControl.playerControl</definition>
+        <argsstring></argsstring>
+        <name>playerControl</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_player_control_1ae4b5632901b3835d7b74b09e5ec6dfa8" compoundref="_player_control_8cs" startline="95" endline="98">Awake</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a094162da592d53cb8ea127392fab6611" compoundref="_sword_8cs" startline="525" endline="544">Stuff.Sword.CheckAndRemoveFist</referencedby>
+        <referencedby refid="class_easy_debug_1a3dd3a22eff382cf6bbf920a3d94755fa" compoundref="_easy_debug_8cs" startline="22" endline="32">EasyDebug.FixedUpdate</referencedby>
+        <referencedby refid="class_level_manager_1a63e596cf6ff719d91e3594b1ae5dca6e" compoundref="_level_manager_8cs" startline="201" endline="369">LevelManager.GameRestartCoroutine</referencedby>
+        <referencedby refid="class_level_manager_1acebe20c7d882206283fba7ce80494092" compoundref="_level_manager_8cs" startline="122" endline="134">LevelManager.PlayerDiePre</referencedby>
+        <referencedby refid="class_player_control_static_setting_1a19b9b91467643a7dab353b0cf8b84964" compoundref="_player_control_static_setting_8cs" startline="30" endline="45">PlayerControlStaticSetting.SetMoveDirectionReverseIfGrabEnv</referencedby>
+        <referencedby refid="class_win_1a1b162a3751c0a50af642f582e615689c" compoundref="_win_8cs" startline="94" endline="139">Win.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_control_1a04a440be20e810112213ebe20728a47e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.footState_surfaceUpDownOffset</definition>
+        <argsstring></argsstring>
+        <name>footState_surfaceUpDownOffset</name>
+        <initializer>= 0.01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="26" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a5ffda42ba1b5f5ff878bc9997236e3c6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.footState_surfaceLeftRightInaccuracy</definition>
+        <argsstring></argsstring>
+        <name>footState_surfaceLeftRightInaccuracy</name>
+        <initializer>= 0.01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="27" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a66e75e7ae67ad35e73532ee119f6b495" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerControl.moveDirectionReverseIfGrabEnv</definition>
+        <argsstring></argsstring>
+        <name>moveDirectionReverseIfGrabEnv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="28" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" compoundref="_player_control___fixed_update_8cs" startline="184" endline="206">FU_FistOffetInfluenceSpeed</referencedby>
+        <referencedby refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" compoundref="_player_control___fixed_update_8cs" startline="75" endline="105">FU_FistSpeed</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+        <referencedby refid="class_player_control_1a80760832b95675c920ff817491d06140" compoundref="_player_control___out_8cs" startline="81" endline="84">Out_GetMoveDirectionReverseIfGrabEnv</referencedby>
+        <referencedby refid="class_player_control_1a75cf2d4dd3d7c17f0db901374af39bb8" compoundref="_player_control___out_8cs" startline="76" endline="79">Out_SetMoveDirectionReverseIfGrabEnv</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a6fc24afadace235117995d70bcc01237" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerControl.jumpSpeedAddedWhenSlanting</definition>
+        <argsstring></argsstring>
+        <name>jumpSpeedAddedWhenSlanting</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="29" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a5f09eb5343f11a3f2afc05b54cf86bc4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.wholeJumpSpeedHistoryTime</definition>
+        <argsstring></argsstring>
+        <name>wholeJumpSpeedHistoryTime</name>
+        <initializer>= 0.701f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="32" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a7b9b63cd71a26e54febdb3a2b929a6d1" compoundref="_player_control_8cs" startline="160" endline="171">CheckSetting</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a85b2ca2c668538c421fc9cad73cafc04" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.wholeJumpSpeedZeroCutTime</definition>
+        <argsstring></argsstring>
+        <name>wholeJumpSpeedZeroCutTime</name>
+        <initializer>= 0.4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="33" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a7b9b63cd71a26e54febdb3a2b929a6d1" compoundref="_player_control_8cs" startline="160" endline="171">CheckSetting</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1ae30a76b59010fec05b0a05d2215e8eda" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.wholeJumpSpeedSimpleDirectionTime</definition>
+        <argsstring></argsstring>
+        <name>wholeJumpSpeedSimpleDirectionTime</name>
+        <initializer>= 0.101f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="34" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a7b9b63cd71a26e54febdb3a2b929a6d1" compoundref="_player_control_8cs" startline="160" endline="171">CheckSetting</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a79d3c8f55c3872c01f4b4dfb77d2b48e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.wholeJumpSpeedComplexDirectionTime</definition>
+        <argsstring></argsstring>
+        <name>wholeJumpSpeedComplexDirectionTime</name>
+        <initializer>= 0.201f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="35" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1ac6f93abc4e90e0944b06b25cc8664ab4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.wholeSpeedDownPartMax</definition>
+        <argsstring></argsstring>
+        <name>wholeSpeedDownPartMax</name>
+        <initializer>= 48f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="37" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a3e1728cb083e6fd4943732b2e00f6731" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.wholeFistSpeedRatio</definition>
+        <argsstring></argsstring>
+        <name>wholeFistSpeedRatio</name>
+        <initializer>= 1.634f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="38" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1afcb257c3847d049faa123daccc120985" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.gravity</definition>
+        <argsstring></argsstring>
+        <name>gravity</name>
+        <initializer>= 30.864f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="39" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1ab309963049bc631d851fdf4dece16cce" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.friction</definition>
+        <argsstring></argsstring>
+        <name>friction</name>
+        <initializer>= 32f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="40" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1afa09c25bec42da22db9154c2229f737b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.whole</definition>
+        <argsstring></argsstring>
+        <name>whole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="43" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a5a65783d3caec5a900f4d20829fad4aa" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.bottomLeftPoint</definition>
+        <argsstring></argsstring>
+        <name>bottomLeftPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="46" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a4b430d22d7abe8fb2ccdb7fea01f10e1" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.bottomMiddlePoint</definition>
+        <argsstring></argsstring>
+        <name>bottomMiddlePoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="47" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1aefe5282be5b0352572ca20861a770874" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.bottomRightPoint</definition>
+        <argsstring></argsstring>
+        <name>bottomRightPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="48" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1aecae2af44fad3cf38d75307f66bf3a35" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.arrowSign</definition>
+        <argsstring></argsstring>
+        <name>arrowSign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="49" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a8bb5b94f591d030705d0bd36f2245f60" prot="private" static="no" mutable="no">
+        <type><ref refid="class_hand_represent" kindref="compound">HandRepresent</ref></type>
+        <definition>HandRepresent PlayerControl.handRepresent</definition>
+        <argsstring></argsstring>
+        <name>handRepresent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="53" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" prot="private" static="no" mutable="no">
+        <type><ref refid="class_fist_state_plus" kindref="compound">FistStatePlus</ref></type>
+        <definition>FistStatePlus PlayerControl.leftFistState</definition>
+        <argsstring></argsstring>
+        <name>leftFistState</name>
+        <initializer>= <ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aab24ce0cd392a5b0b8dedc66c25213594" kindref="member">FistState.Free</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="58" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a46afe636baf1fc930a82fec73c264100" compoundref="_player_control___represent_8cs" startline="14" endline="63">FistRepresent</referencedby>
+        <referencedby refid="class_player_control_1a1061cf9f09ea7c2e3f1502a641500b9a" compoundref="_player_control___fixed_update_8cs" startline="10" endline="23">FixedUpdate</referencedby>
+        <referencedby refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" compoundref="_player_control___fixed_update_8cs" startline="184" endline="206">FU_FistOffetInfluenceSpeed</referencedby>
+        <referencedby refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" compoundref="_player_control___fixed_update_8cs" startline="75" endline="105">FU_FistSpeed</referencedby>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+        <referencedby refid="class_player_control_1af107882d83813738599b38daa4d21ed5" compoundref="_player_control___fixed_update_8cs" startline="277" endline="317">FU_Whole_Velocity</referencedby>
+        <referencedby refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" compoundref="_player_control___fixed_update_pre_8cs" startline="27" endline="114">HandStuffFixedUpdate</referencedby>
+        <referencedby refid="class_player_control_1ae3ef9127060a978d60160934f50f3ccd" compoundref="_player_control___fixed_update_pre_8cs" startline="116" endline="121">YDebugPanelShow_FUPre</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_fist_state_plus" kindref="compound">FistStatePlus</ref></type>
+        <definition>FistStatePlus PlayerControl.rightFistState</definition>
+        <argsstring></argsstring>
+        <name>rightFistState</name>
+        <initializer>= <ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aab24ce0cd392a5b0b8dedc66c25213594" kindref="member">FistState.Free</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="59" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a46afe636baf1fc930a82fec73c264100" compoundref="_player_control___represent_8cs" startline="14" endline="63">FistRepresent</referencedby>
+        <referencedby refid="class_player_control_1a1061cf9f09ea7c2e3f1502a641500b9a" compoundref="_player_control___fixed_update_8cs" startline="10" endline="23">FixedUpdate</referencedby>
+        <referencedby refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" compoundref="_player_control___fixed_update_8cs" startline="184" endline="206">FU_FistOffetInfluenceSpeed</referencedby>
+        <referencedby refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" compoundref="_player_control___fixed_update_8cs" startline="75" endline="105">FU_FistSpeed</referencedby>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+        <referencedby refid="class_player_control_1af107882d83813738599b38daa4d21ed5" compoundref="_player_control___fixed_update_8cs" startline="277" endline="317">FU_Whole_Velocity</referencedby>
+        <referencedby refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" compoundref="_player_control___fixed_update_pre_8cs" startline="27" endline="114">HandStuffFixedUpdate</referencedby>
+        <referencedby refid="class_player_control_1ae3ef9127060a978d60160934f50f3ccd" compoundref="_player_control___fixed_update_pre_8cs" startline="116" endline="121">YDebugPanelShow_FUPre</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a83b6f471f46464bcfb76cedde939794e" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.leftGrabedStuff</definition>
+        <argsstring></argsstring>
+        <name>leftGrabedStuff</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="60" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a46afe636baf1fc930a82fec73c264100" compoundref="_player_control___represent_8cs" startline="14" endline="63">FistRepresent</referencedby>
+        <referencedby refid="class_player_control_1a88d2f3f55b8a1a6eac6a1769a94336e5" compoundref="_player_control___out_8cs" startline="62" endline="74">ForSword_UnSetGrabedStuff</referencedby>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+        <referencedby refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" compoundref="_player_control___fixed_update_pre_8cs" startline="27" endline="114">HandStuffFixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a1969bb6a2081507290640dbe8048ffd2" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.rightGrabedStuff</definition>
+        <argsstring></argsstring>
+        <name>rightGrabedStuff</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="61" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a46afe636baf1fc930a82fec73c264100" compoundref="_player_control___represent_8cs" startline="14" endline="63">FistRepresent</referencedby>
+        <referencedby refid="class_player_control_1a88d2f3f55b8a1a6eac6a1769a94336e5" compoundref="_player_control___out_8cs" startline="62" endline="74">ForSword_UnSetGrabedStuff</referencedby>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+        <referencedby refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" compoundref="_player_control___fixed_update_pre_8cs" startline="27" endline="114">HandStuffFixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a792b19bc84785ddeff4fc044238ec28c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_foot_state_plus" kindref="compound">FootStatePlus</ref></type>
+        <definition>FootStatePlus PlayerControl.footState</definition>
+        <argsstring></argsstring>
+        <name>footState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="62" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_player_control_1add99248baf7e0cf1ddb24b300af6b60a" compoundref="_player_control___fixed_update_8cs" startline="319" endline="630">FU_Whole_Offset</referencedby>
+        <referencedby refid="class_player_control_1af107882d83813738599b38daa4d21ed5" compoundref="_player_control___fixed_update_8cs" startline="277" endline="317">FU_Whole_Velocity</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+        <referencedby refid="class_player_control_1ae3ef9127060a978d60160934f50f3ccd" compoundref="_player_control___fixed_update_pre_8cs" startline="116" endline="121">YDebugPanelShow_FUPre</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a148446b417478fb603dd9987c6d7e83b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_two_fist_velocity" kindref="compound">TwoFistVelocity</ref></type>
+        <definition>TwoFistVelocity PlayerControl.fistVelocity</definition>
+        <argsstring></argsstring>
+        <name>fistVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="65" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_player_control_1aff43d524769e00394e4809705e6146db" compoundref="_player_control___fixed_update_8cs" startline="107" endline="182">FU_FistOffset</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a6d1ab1db573caf683a5bbc6d4cb6c0f7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_fist_velocity" kindref="compound">FistVelocity</ref></type>
+        <definition>FistVelocity PlayerControl.leftFistVelocity</definition>
+        <argsstring></argsstring>
+        <name>leftFistVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="66" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a2f86a2b543653e112a3c32bc2d20088f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_fist_velocity" kindref="compound">FistVelocity</ref></type>
+        <definition>FistVelocity PlayerControl.rightFistVelocity</definition>
+        <argsstring></argsstring>
+        <name>rightFistVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="67" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a853bc6d22fa675b99c6b263a99cb3e7f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_two_fist_offset" kindref="compound">TwoFistOffset</ref></type>
+        <definition>TwoFistOffset PlayerControl.fistOffset</definition>
+        <argsstring></argsstring>
+        <name>fistOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="68" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_player_control_1afc8c3cf5a44cb36cee0b1c15c7bad639" compoundref="_player_control___fixed_update_8cs" startline="63" endline="73">FU_Fist</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a0b7ded97541a4ab494517243018c2379" prot="private" static="no" mutable="no">
+        <type><ref refid="class_whole_velocity_before_jump" kindref="compound">WholeVelocityBeforeJump</ref></type>
+        <definition>WholeVelocityBeforeJump PlayerControl.wholeVelocityBeforeJump</definition>
+        <argsstring></argsstring>
+        <name>wholeVelocityBeforeJump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="71" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a0beb1c5fa849dfba5a69e2267258d86c" compoundref="_player_control___represent_8cs" startline="65" endline="112">BodyArrowRepresent</referencedby>
+        <referencedby refid="class_player_control_1af107882d83813738599b38daa4d21ed5" compoundref="_player_control___fixed_update_8cs" startline="277" endline="317">FU_Whole_Velocity</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a312f05796a6114a0f59f0a0ab2ac3ae1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_whole_velocity_while_jumping" kindref="compound">WholeVelocityWhileJumping</ref></type>
+        <definition>WholeVelocityWhileJumping PlayerControl.wholeVelocityWhileJumping</definition>
+        <argsstring></argsstring>
+        <name>wholeVelocityWhileJumping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="72" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a0beb1c5fa849dfba5a69e2267258d86c" compoundref="_player_control___represent_8cs" startline="65" endline="112">BodyArrowRepresent</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a31f69aa786b482b3786d1a39393be70d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_whole_offset" kindref="compound">WholeOffset</ref></type>
+        <definition>WholeOffset PlayerControl.wholeOffset</definition>
+        <argsstring></argsstring>
+        <name>wholeOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="73" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a1cf93e84dd05c14ede2c49561a28fb55" compoundref="_player_control___fixed_update_8cs" startline="248" endline="275">FU_Whole</referencedby>
+        <referencedby refid="class_player_control_1af107882d83813738599b38daa4d21ed5" compoundref="_player_control___fixed_update_8cs" startline="277" endline="317">FU_Whole_Velocity</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a50fc494f2b08e3946e574abfe63621fa" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="79" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_player_control_1aff43d524769e00394e4809705e6146db" compoundref="_player_control___fixed_update_8cs" startline="107" endline="182">FU_FistOffset</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+        <referencedby refid="class_player_control_1ab4d27e1410acdae219b68bee8c3e3879" compoundref="_player_control_8cs" startline="173" endline="176">YDebugPanelShow_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a7051c50a6cea448d2fc6ce960858f669" prot="private" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer PlayerControl.normalColorRender</definition>
+        <argsstring></argsstring>
+        <name>normalColorRender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="91" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="91" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a8ef6c51115c29bedee83b9be80a4da38" prot="private" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer PlayerControl.pressedColorRender</definition>
+        <argsstring></argsstring>
+        <name>pressedColorRender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="92" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="92" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_control_1a4d0cb07abd5dc2eb01eb8273b0b9f269" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.leftFist</definition>
+        <argsstring></argsstring>
+        <name>leftFist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="44" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a46afe636baf1fc930a82fec73c264100" compoundref="_player_control___represent_8cs" startline="14" endline="63">FistRepresent</referencedby>
+        <referencedby refid="class_player_control_1a32e9a78c8742c98885efb0a39dfeefbf" compoundref="_player_control___out_8cs" startline="32" endline="60">ForSword_CheckOverlap</referencedby>
+        <referencedby refid="class_player_control_1a5459c7be39fb034160448418c1cafa57" compoundref="_player_control___out_8cs" startline="13" endline="30">ForSword_GiveValue</referencedby>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+        <referencedby refid="class_player_control_1add99248baf7e0cf1ddb24b300af6b60a" compoundref="_player_control___fixed_update_8cs" startline="319" endline="630">FU_Whole_Offset</referencedby>
+        <referencedby refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" compoundref="_player_control___fixed_update_pre_8cs" startline="27" endline="114">HandStuffFixedUpdate</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_player_control_1a5087b897ceac1e71ca9340e2e6bb1770" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.rightFist</definition>
+        <argsstring></argsstring>
+        <name>rightFist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="45" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a46afe636baf1fc930a82fec73c264100" compoundref="_player_control___represent_8cs" startline="14" endline="63">FistRepresent</referencedby>
+        <referencedby refid="class_player_control_1a32e9a78c8742c98885efb0a39dfeefbf" compoundref="_player_control___out_8cs" startline="32" endline="60">ForSword_CheckOverlap</referencedby>
+        <referencedby refid="class_player_control_1a5459c7be39fb034160448418c1cafa57" compoundref="_player_control___out_8cs" startline="13" endline="30">ForSword_GiveValue</referencedby>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+        <referencedby refid="class_player_control_1add99248baf7e0cf1ddb24b300af6b60a" compoundref="_player_control___fixed_update_8cs" startline="319" endline="630">FU_Whole_Offset</referencedby>
+        <referencedby refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" compoundref="_player_control___fixed_update_pre_8cs" startline="27" endline="114">HandStuffFixedUpdate</referencedby>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_control_1ac3156d65777f69e908372d76dbe61b09" prot="public" static="no" mutable="no">
+        <type><ref refid="class_hand_control_fade" kindref="compound">HandControlFade</ref></type>
+        <definition>HandControlFade PlayerControl.handFade</definition>
+        <argsstring></argsstring>
+        <name>handFade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="54" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a1b3a49b144f90255d85471d893ec565c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_h_c_audio" kindref="compound">HCAudio</ref></type>
+        <definition>HCAudio PlayerControl.hcAudio</definition>
+        <argsstring></argsstring>
+        <name>hcAudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="55" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1ab8f64154f79d2c1712a0dd2d3e8a9e1c" prot="public" static="no" mutable="no">
+        <type><ref refid="_whole_state_8cs_1a3241f28c72d913250fbfbe84ac5ea63c" kindref="member">WholeState</ref></type>
+        <definition>WholeState PlayerControl.wholeState</definition>
+        <argsstring></argsstring>
+        <name>wholeState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="74" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_player_control_1a0beb1c5fa849dfba5a69e2267258d86c" compoundref="_player_control___represent_8cs" startline="65" endline="112">BodyArrowRepresent</referencedby>
+        <referencedby refid="class_easy_debug_1a3dd3a22eff382cf6bbf920a3d94755fa" compoundref="_easy_debug_8cs" startline="22" endline="32">EasyDebug.FixedUpdate</referencedby>
+        <referencedby refid="class_player_control_1af107882d83813738599b38daa4d21ed5" compoundref="_player_control___fixed_update_8cs" startline="277" endline="317">FU_Whole_Velocity</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_control_1ae4b5632901b3835d7b74b09e5ec6dfa8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="95" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="95" bodyend="98"/>
+        <references refid="class_player_control_1a569e01c5d0323ef9273028e712ec3086" compoundref="_player_control_8cs" startline="17">playerControl</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1aada0aa26ced08a253dfb12f7f1b8bd06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="99" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="99" bodyend="102"/>
+        <references refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="104" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="104" bodyend="158"/>
+        <references refid="class_player_control_1aecae2af44fad3cf38d75307f66bf3a35" compoundref="_player_control_8cs" startline="49">arrowSign</references>
+        <references refid="class_player_control_1a5a65783d3caec5a900f4d20829fad4aa" compoundref="_player_control_8cs" startline="46">bottomLeftPoint</references>
+        <references refid="class_player_control_1a4b430d22d7abe8fb2ccdb7fea01f10e1" compoundref="_player_control_8cs" startline="47">bottomMiddlePoint</references>
+        <references refid="class_player_control_1aefe5282be5b0352572ca20861a770874" compoundref="_player_control_8cs" startline="48">bottomRightPoint</references>
+        <references refid="class_player_control_1a7b9b63cd71a26e54febdb3a2b929a6d1" compoundref="_player_control_8cs" startline="160" endline="171">CheckSetting</references>
+        <references refid="class_player_control_1a853bc6d22fa675b99c6b263a99cb3e7f" compoundref="_player_control_8cs" startline="68">fistOffset</references>
+        <references refid="class_player_control_1a148446b417478fb603dd9987c6d7e83b" compoundref="_player_control_8cs" startline="65">fistVelocity</references>
+        <references refid="class_player_control_1a792b19bc84785ddeff4fc044238ec28c" compoundref="_player_control_8cs" startline="62">footState</references>
+        <references refid="class_player_control_1a5ffda42ba1b5f5ff878bc9997236e3c6" compoundref="_player_control_8cs" startline="27">footState_surfaceLeftRightInaccuracy</references>
+        <references refid="class_player_control_1a04a440be20e810112213ebe20728a47e" compoundref="_player_control_8cs" startline="26">footState_surfaceUpDownOffset</references>
+        <references refid="class_player_control_1ab309963049bc631d851fdf4dece16cce" compoundref="_player_control_8cs" startline="40">friction</references>
+        <references refid="class_player_control_1afcb257c3847d049faa123daccc120985" compoundref="_player_control_8cs" startline="39">gravity</references>
+        <references refid="class_player_control_1ac3156d65777f69e908372d76dbe61b09" compoundref="_player_control_8cs" startline="54">handFade</references>
+        <references refid="class_player_control_1a8bb5b94f591d030705d0bd36f2245f60" compoundref="_player_control_8cs" startline="53">handRepresent</references>
+        <references refid="class_player_control_1a1b3a49b144f90255d85471d893ec565c" compoundref="_player_control_8cs" startline="55">hcAudio</references>
+        <references refid="class_player_control_1a6fc24afadace235117995d70bcc01237" compoundref="_player_control_8cs" startline="29">jumpSpeedAddedWhenSlanting</references>
+        <references refid="class_player_control_1a4d0cb07abd5dc2eb01eb8273b0b9f269" compoundref="_player_control_8cs" startline="44">leftFist</references>
+        <references refid="class_player_control_1a6d1ab1db573caf683a5bbc6d4cb6c0f7" compoundref="_player_control_8cs" startline="66">leftFistVelocity</references>
+        <references refid="class_player_control_1a50fc494f2b08e3946e574abfe63621fa" compoundref="_player_control_8cs" startline="79">length</references>
+        <references refid="class_player_control_1a66e75e7ae67ad35e73532ee119f6b495" compoundref="_player_control_8cs" startline="28">moveDirectionReverseIfGrabEnv</references>
+        <references refid="class_player_control_1a7051c50a6cea448d2fc6ce960858f669" compoundref="_player_control_8cs" startline="91">normalColorRender</references>
+        <references refid="class_player_control_1a8ef6c51115c29bedee83b9be80a4da38" compoundref="_player_control_8cs" startline="92">pressedColorRender</references>
+        <references refid="class_player_control_1a5087b897ceac1e71ca9340e2e6bb1770" compoundref="_player_control_8cs" startline="45">rightFist</references>
+        <references refid="class_player_control_1a2f86a2b543653e112a3c32bc2d20088f" compoundref="_player_control_8cs" startline="67">rightFistVelocity</references>
+        <references refid="class_player_control_1afa09c25bec42da22db9154c2229f737b" compoundref="_player_control_8cs" startline="43">whole</references>
+        <references refid="class_player_control_1a3e1728cb083e6fd4943732b2e00f6731" compoundref="_player_control_8cs" startline="38">wholeFistSpeedRatio</references>
+        <references refid="class_player_control_1a79d3c8f55c3872c01f4b4dfb77d2b48e" compoundref="_player_control_8cs" startline="35">wholeJumpSpeedComplexDirectionTime</references>
+        <references refid="class_player_control_1a5f09eb5343f11a3f2afc05b54cf86bc4" compoundref="_player_control_8cs" startline="32">wholeJumpSpeedHistoryTime</references>
+        <references refid="class_player_control_1ae30a76b59010fec05b0a05d2215e8eda" compoundref="_player_control_8cs" startline="34">wholeJumpSpeedSimpleDirectionTime</references>
+        <references refid="class_player_control_1a85b2ca2c668538c421fc9cad73cafc04" compoundref="_player_control_8cs" startline="33">wholeJumpSpeedZeroCutTime</references>
+        <references refid="class_player_control_1a31f69aa786b482b3786d1a39393be70d" compoundref="_player_control_8cs" startline="73">wholeOffset</references>
+        <references refid="class_player_control_1ac6f93abc4e90e0944b06b25cc8664ab4" compoundref="_player_control_8cs" startline="37">wholeSpeedDownPartMax</references>
+        <references refid="class_player_control_1a0b7ded97541a4ab494517243018c2379" compoundref="_player_control_8cs" startline="71">wholeVelocityBeforeJump</references>
+        <references refid="class_player_control_1a312f05796a6114a0f59f0a0ab2ac3ae1" compoundref="_player_control_8cs" startline="72">wholeVelocityWhileJumping</references>
+        <references refid="class_player_control_1ab4d27e1410acdae219b68bee8c3e3879" compoundref="_player_control_8cs" startline="173" endline="176">YDebugPanelShow_Init</references>
+        <referencedby refid="class_player_control_1aada0aa26ced08a253dfb12f7f1b8bd06" compoundref="_player_control_8cs" startline="99" endline="102">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a7b9b63cd71a26e54febdb3a2b929a6d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.CheckSetting</definition>
+        <argsstring>()</argsstring>
+        <name>CheckSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="160" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="160" bodyend="171"/>
+        <references refid="class_player_control_1a5f09eb5343f11a3f2afc05b54cf86bc4" compoundref="_player_control_8cs" startline="32">wholeJumpSpeedHistoryTime</references>
+        <references refid="class_player_control_1ae30a76b59010fec05b0a05d2215e8eda" compoundref="_player_control_8cs" startline="34">wholeJumpSpeedSimpleDirectionTime</references>
+        <references refid="class_player_control_1a85b2ca2c668538c421fc9cad73cafc04" compoundref="_player_control_8cs" startline="33">wholeJumpSpeedZeroCutTime</references>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1ab4d27e1410acdae219b68bee8c3e3879" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.YDebugPanelShow_Init</definition>
+        <argsstring>()</argsstring>
+        <name>YDebugPanelShow_Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="173" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="173" bodyend="176"/>
+        <references refid="class_player_control_1a50fc494f2b08e3946e574abfe63621fa" compoundref="_player_control_8cs" startline="79">length</references>
+        <referencedby refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" compoundref="_player_control_8cs" startline="104" endline="158">Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a1061cf9f09ea7c2e3f1502a641500b9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="10" bodyend="23"/>
+        <references refid="class_player_control_1a416df39f1cc38dbbe3e6f3d218568ade" compoundref="_player_control___fixed_update_8cs" startline="25" endline="61">FU_Main</references>
+        <references refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</references>
+        <references refid="class_player_control_1a8164f9ed8fb263f4cd52f14bdaab05b2" compoundref="_player_control___represent_8cs" startline="7" endline="12">FU_Represent</references>
+        <references refid="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" compoundref="_player_control_8cs" startline="58">leftFistState</references>
+        <references refid="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" compoundref="_player_control_8cs" startline="59">rightFistState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a416df39f1cc38dbbe3e6f3d218568ade" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_Main</definition>
+        <argsstring>()</argsstring>
+        <name>FU_Main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="25" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="25" bodyend="61"/>
+        <references refid="class_player_control_1afc8c3cf5a44cb36cee0b1c15c7bad639" compoundref="_player_control___fixed_update_8cs" startline="63" endline="73">FU_Fist</references>
+        <references refid="class_player_control_1a1cf93e84dd05c14ede2c49561a28fb55" compoundref="_player_control___fixed_update_8cs" startline="248" endline="275">FU_Whole</references>
+        <referencedby refid="class_player_control_1a1061cf9f09ea7c2e3f1502a641500b9a" compoundref="_player_control___fixed_update_8cs" startline="10" endline="23">FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1afc8c3cf5a44cb36cee0b1c15c7bad639" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_Fist</definition>
+        <argsstring>()</argsstring>
+        <name>FU_Fist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="63" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="63" bodyend="73"/>
+        <references refid="class_player_control_1a853bc6d22fa675b99c6b263a99cb3e7f" compoundref="_player_control_8cs" startline="68">fistOffset</references>
+        <references refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" compoundref="_player_control___fixed_update_8cs" startline="184" endline="206">FU_FistOffetInfluenceSpeed</references>
+        <references refid="class_player_control_1aff43d524769e00394e4809705e6146db" compoundref="_player_control___fixed_update_8cs" startline="107" endline="182">FU_FistOffset</references>
+        <references refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" compoundref="_player_control___fixed_update_8cs" startline="75" endline="105">FU_FistSpeed</references>
+        <references refid="class_two_fist_offset_1a1fe46d85fe49de9523cc5daa6c38abe2" compoundref="_two_fist_offset_8cs" startline="7">TwoFistOffset.left</references>
+        <referencedby refid="class_player_control_1a416df39f1cc38dbbe3e6f3d218568ade" compoundref="_player_control___fixed_update_8cs" startline="25" endline="61">FU_Main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_FistSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>FU_FistSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="75" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="75" bodyend="105"/>
+        <references refid="class_player_control_1a8bf6ff6c6d481cd40bd5b4e77635207e" compoundref="_player_control___fixed_update_8cs" startline="208" endline="246">FistGrabStuffEnvHelper</references>
+        <references refid="class_h_key_1a2acba1bbc32641e7741ce7b70e2079db" compoundref="_h_key_8cs" startline="51">HKey.lAnyDirKeyHold</references>
+        <references refid="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" compoundref="_player_control_8cs" startline="58">leftFistState</references>
+        <references refid="class_h_key_1a5711333acd4e70226869c181b887ebf3" compoundref="_h_key_8cs" startline="54">HKey.lMvDir</references>
+        <references refid="class_player_control_1a66e75e7ae67ad35e73532ee119f6b495" compoundref="_player_control_8cs" startline="28">moveDirectionReverseIfGrabEnv</references>
+        <references refid="class_h_key_1a733128b9c56910df04e042b125c07f85" compoundref="_h_key_8cs" startline="52">HKey.rAnyDirKeyHold</references>
+        <references refid="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" compoundref="_player_control_8cs" startline="59">rightFistState</references>
+        <references refid="class_h_key_1ad3b773a029272186467cf47ed21cdfd8" compoundref="_h_key_8cs" startline="55">HKey.rMvDir</references>
+        <referencedby refid="class_player_control_1afc8c3cf5a44cb36cee0b1c15c7bad639" compoundref="_player_control___fixed_update_8cs" startline="63" endline="73">FU_Fist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1aff43d524769e00394e4809705e6146db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_FistOffset</definition>
+        <argsstring>()</argsstring>
+        <name>FU_FistOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="107" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="107" bodyend="182"/>
+        <references refid="class_velocity_1ab4270b69937407ac4146bda514635bd2" compoundref="_velocity_8cs" startline="9">Velocity.direction</references>
+        <references refid="class_player_control_1a8bf6ff6c6d481cd40bd5b4e77635207e" compoundref="_player_control___fixed_update_8cs" startline="208" endline="246">FistGrabStuffEnvHelper</references>
+        <references refid="class_player_control_1a148446b417478fb603dd9987c6d7e83b" compoundref="_player_control_8cs" startline="65">fistVelocity</references>
+        <references refid="class_two_fist_velocity_1af1a7f45405516dabdb50f02c18aaf9ef" compoundref="_two_fist_velocity_8cs" startline="8">TwoFistVelocity.left</references>
+        <references refid="class_player_control_1a50fc494f2b08e3946e574abfe63621fa" compoundref="_player_control_8cs" startline="79">length</references>
+        <references refid="class_two_fist_velocity_1a2606d09bb60d48f3dbb380623d14442c" compoundref="_two_fist_velocity_8cs" startline="9">TwoFistVelocity.right</references>
+        <referencedby refid="class_player_control_1afc8c3cf5a44cb36cee0b1c15c7bad639" compoundref="_player_control___fixed_update_8cs" startline="63" endline="73">FU_Fist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a930335c0c69d86fb752227667e9ec121" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_FistOffetInfluenceSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>FU_FistOffetInfluenceSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="184" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="184" bodyend="206"/>
+        <references refid="class_player_control_1a8bf6ff6c6d481cd40bd5b4e77635207e" compoundref="_player_control___fixed_update_8cs" startline="208" endline="246">FistGrabStuffEnvHelper</references>
+        <references refid="class_h_key_1a2acba1bbc32641e7741ce7b70e2079db" compoundref="_h_key_8cs" startline="51">HKey.lAnyDirKeyHold</references>
+        <references refid="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" compoundref="_player_control_8cs" startline="58">leftFistState</references>
+        <references refid="class_h_key_1a5711333acd4e70226869c181b887ebf3" compoundref="_h_key_8cs" startline="54">HKey.lMvDir</references>
+        <references refid="class_player_control_1a66e75e7ae67ad35e73532ee119f6b495" compoundref="_player_control_8cs" startline="28">moveDirectionReverseIfGrabEnv</references>
+        <references refid="class_h_key_1a733128b9c56910df04e042b125c07f85" compoundref="_h_key_8cs" startline="52">HKey.rAnyDirKeyHold</references>
+        <references refid="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" compoundref="_player_control_8cs" startline="59">rightFistState</references>
+        <references refid="class_h_key_1ad3b773a029272186467cf47ed21cdfd8" compoundref="_h_key_8cs" startline="55">HKey.rMvDir</references>
+        <referencedby refid="class_player_control_1afc8c3cf5a44cb36cee0b1c15c7bad639" compoundref="_player_control___fixed_update_8cs" startline="63" endline="73">FU_Fist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a8bf6ff6c6d481cd40bd5b4e77635207e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FistGrabStuffEnvHelper</definition>
+        <argsstring>(ref FistState leftFistStateTemp, ref FistState rightFistStateTemp)</argsstring>
+        <name>FistGrabStuffEnvHelper</name>
+        <param>
+          <type>ref <ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>leftFistStateTemp</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>rightFistStateTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="208" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="208" bodyend="246"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa91baec6227b33d6aa298c6751663ec5c">GrabEnv</references>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa1c4272c8f0add1328f5e53acd74e387b">GrabStuff</references>
+        <referencedby refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" compoundref="_player_control___fixed_update_8cs" startline="184" endline="206">FU_FistOffetInfluenceSpeed</referencedby>
+        <referencedby refid="class_player_control_1aff43d524769e00394e4809705e6146db" compoundref="_player_control___fixed_update_8cs" startline="107" endline="182">FU_FistOffset</referencedby>
+        <referencedby refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" compoundref="_player_control___fixed_update_8cs" startline="75" endline="105">FU_FistSpeed</referencedby>
+        <referencedby refid="class_player_control_1add99248baf7e0cf1ddb24b300af6b60a" compoundref="_player_control___fixed_update_8cs" startline="319" endline="630">FU_Whole_Offset</referencedby>
+        <referencedby refid="class_player_control_1af107882d83813738599b38daa4d21ed5" compoundref="_player_control___fixed_update_8cs" startline="277" endline="317">FU_Whole_Velocity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a1cf93e84dd05c14ede2c49561a28fb55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_Whole</definition>
+        <argsstring>()</argsstring>
+        <name>FU_Whole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="248" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="248" bodyend="275"/>
+        <references refid="class_player_control_1add99248baf7e0cf1ddb24b300af6b60a" compoundref="_player_control___fixed_update_8cs" startline="319" endline="630">FU_Whole_Offset</references>
+        <references refid="class_player_control_1af107882d83813738599b38daa4d21ed5" compoundref="_player_control___fixed_update_8cs" startline="277" endline="317">FU_Whole_Velocity</references>
+        <references refid="class_whole_offset_1a181484a134ae166d4590f437ef0f82ef" compoundref="_whole_offset_8cs" startline="9">WholeOffset.offset</references>
+        <references refid="class_player_control_1a31f69aa786b482b3786d1a39393be70d" compoundref="_player_control_8cs" startline="73">wholeOffset</references>
+        <referencedby refid="class_player_control_1a416df39f1cc38dbbe3e6f3d218568ade" compoundref="_player_control___fixed_update_8cs" startline="25" endline="61">FU_Main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1af107882d83813738599b38daa4d21ed5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_Whole_Velocity</definition>
+        <argsstring>()</argsstring>
+        <name>FU_Whole_Velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="277" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="277" bodyend="317"/>
+        <references refid="_whole_state_8cs_1a3241f28c72d913250fbfbe84ac5ea63caf47cfe7af89ef1184324a0bd967985f7">BeforeJump</references>
+        <references refid="class_player_control_1a8bf6ff6c6d481cd40bd5b4e77635207e" compoundref="_player_control___fixed_update_8cs" startline="208" endline="246">FistGrabStuffEnvHelper</references>
+        <references refid="class_player_control_1a792b19bc84785ddeff4fc044238ec28c" compoundref="_player_control_8cs" startline="62">footState</references>
+        <references refid="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" compoundref="_player_control_8cs" startline="58">leftFistState</references>
+        <references refid="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" compoundref="_player_control_8cs" startline="59">rightFistState</references>
+        <references refid="_whole_state_8cs_1a3241f28c72d913250fbfbe84ac5ea63ca7ca812eaf3158aad419d990f73bff76a">WhileJumping</references>
+        <references refid="class_player_control_1a31f69aa786b482b3786d1a39393be70d" compoundref="_player_control_8cs" startline="73">wholeOffset</references>
+        <references refid="class_player_control_1ab8f64154f79d2c1712a0dd2d3e8a9e1c" compoundref="_player_control_8cs" startline="74">wholeState</references>
+        <references refid="class_player_control_1a0b7ded97541a4ab494517243018c2379" compoundref="_player_control_8cs" startline="71">wholeVelocityBeforeJump</references>
+        <referencedby refid="class_player_control_1a1cf93e84dd05c14ede2c49561a28fb55" compoundref="_player_control___fixed_update_8cs" startline="248" endline="275">FU_Whole</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1add99248baf7e0cf1ddb24b300af6b60a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_Whole_Offset</definition>
+        <argsstring>()</argsstring>
+        <name>FU_Whole_Offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" line="319" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdate.cs" bodystart="319" bodyend="630"/>
+        <references refid="class_player_control_1a8bf6ff6c6d481cd40bd5b4e77635207e" compoundref="_player_control___fixed_update_8cs" startline="208" endline="246">FistGrabStuffEnvHelper</references>
+        <references refid="class_player_control_1a792b19bc84785ddeff4fc044238ec28c" compoundref="_player_control_8cs" startline="62">footState</references>
+        <references refid="class_player_control_1a4d0cb07abd5dc2eb01eb8273b0b9f269" compoundref="_player_control_8cs" startline="44">leftFist</references>
+        <references refid="class_player_control_1a5087b897ceac1e71ca9340e2e6bb1770" compoundref="_player_control_8cs" startline="45">rightFist</references>
+        <referencedby refid="class_player_control_1a1cf93e84dd05c14ede2c49561a28fb55" compoundref="_player_control___fixed_update_8cs" startline="248" endline="275">FU_Whole</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a2097902b4efa9f4f8ed54d46427e5225" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.___________________________</definition>
+        <argsstring>()</argsstring>
+        <name>___________________________</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdatePre.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdatePre.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a606da640543fd62d6c3a744edfef8db1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_Pre</definition>
+        <argsstring>()</argsstring>
+        <name>FU_Pre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdatePre.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdatePre.cs" bodystart="11" bodyend="25"/>
+        <references refid="class_player_control_1a5a65783d3caec5a900f4d20829fad4aa" compoundref="_player_control_8cs" startline="46">bottomLeftPoint</references>
+        <references refid="class_player_control_1aefe5282be5b0352572ca20861a770874" compoundref="_player_control_8cs" startline="48">bottomRightPoint</references>
+        <references refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" compoundref="_player_control___fixed_update_pre_8cs" startline="27" endline="114">HandStuffFixedUpdate</references>
+        <references refid="class_player_control_1a4d0cb07abd5dc2eb01eb8273b0b9f269" compoundref="_player_control_8cs" startline="44">leftFist</references>
+        <references refid="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" compoundref="_player_control_8cs" startline="58">leftFistState</references>
+        <references refid="class_player_control_1a83b6f471f46464bcfb76cedde939794e" compoundref="_player_control_8cs" startline="60">leftGrabedStuff</references>
+        <references refid="class_h_key_1a5a5ffe2afaa8af8003f5e15a916c842b" compoundref="_h_key_8cs" startline="57">HKey.lGrab</references>
+        <references refid="class_fist_state_plus_1afaa041d117a07b5c30e739008ce3b939" compoundref="_fist_state_8cs" startline="53">FistStatePlus.pre</references>
+        <references refid="class_h_key_1aa870d95129c2b69c91a7a789867733f9" compoundref="_h_key_8cs" startline="58">HKey.rGrab</references>
+        <references refid="class_player_control_1a5087b897ceac1e71ca9340e2e6bb1770" compoundref="_player_control_8cs" startline="45">rightFist</references>
+        <references refid="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" compoundref="_player_control_8cs" startline="59">rightFistState</references>
+        <references refid="class_player_control_1a1969bb6a2081507290640dbe8048ffd2" compoundref="_player_control_8cs" startline="61">rightGrabedStuff</references>
+        <references refid="class_player_control_1ae3ef9127060a978d60160934f50f3ccd" compoundref="_player_control___fixed_update_pre_8cs" startline="116" endline="121">YDebugPanelShow_FUPre</references>
+        <referencedby refid="class_player_control_1a1061cf9f09ea7c2e3f1502a641500b9a" compoundref="_player_control___fixed_update_8cs" startline="10" endline="23">FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.HandStuffFixedUpdate</definition>
+        <argsstring>(FistState rightPre, FistState leftPre)</argsstring>
+        <name>HandStuffFixedUpdate</name>
+        <param>
+          <type><ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>rightPre</declname>
+        </param>
+        <param>
+          <type><ref refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3a" kindref="member">FistState</ref></type>
+          <declname>leftPre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdatePre.cs" line="27" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdatePre.cs" bodystart="27" bodyend="114"/>
+        <references refid="class_player_control_1a4d0cb07abd5dc2eb01eb8273b0b9f269" compoundref="_player_control_8cs" startline="44">leftFist</references>
+        <references refid="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" compoundref="_player_control_8cs" startline="58">leftFistState</references>
+        <references refid="class_player_control_1a83b6f471f46464bcfb76cedde939794e" compoundref="_player_control_8cs" startline="60">leftGrabedStuff</references>
+        <references refid="class_h_key_1a5711333acd4e70226869c181b887ebf3" compoundref="_h_key_8cs" startline="54">HKey.lMvDir</references>
+        <references refid="class_player_control_1a5087b897ceac1e71ca9340e2e6bb1770" compoundref="_player_control_8cs" startline="45">rightFist</references>
+        <references refid="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" compoundref="_player_control_8cs" startline="59">rightFistState</references>
+        <references refid="class_player_control_1a1969bb6a2081507290640dbe8048ffd2" compoundref="_player_control_8cs" startline="61">rightGrabedStuff</references>
+        <references refid="class_h_key_1ad3b773a029272186467cf47ed21cdfd8" compoundref="_h_key_8cs" startline="55">HKey.rMvDir</references>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1ae3ef9127060a978d60160934f50f3ccd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.YDebugPanelShow_FUPre</definition>
+        <argsstring>()</argsstring>
+        <name>YDebugPanelShow_FUPre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdatePre.cs" line="116" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_FixedUpdatePre.cs" bodystart="116" bodyend="121"/>
+        <references refid="class_player_control_1a792b19bc84785ddeff4fc044238ec28c" compoundref="_player_control_8cs" startline="62">footState</references>
+        <references refid="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" compoundref="_player_control_8cs" startline="58">leftFistState</references>
+        <references refid="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" compoundref="_player_control_8cs" startline="59">rightFistState</references>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">FU_Pre</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a8164f9ed8fb263f4cd52f14bdaab05b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FU_Represent</definition>
+        <argsstring>()</argsstring>
+        <name>FU_Represent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" bodystart="7" bodyend="12"/>
+        <references refid="class_player_control_1a0beb1c5fa849dfba5a69e2267258d86c" compoundref="_player_control___represent_8cs" startline="65" endline="112">BodyArrowRepresent</references>
+        <references refid="class_player_control_1a46afe636baf1fc930a82fec73c264100" compoundref="_player_control___represent_8cs" startline="14" endline="63">FistRepresent</references>
+        <referencedby refid="class_player_control_1a1061cf9f09ea7c2e3f1502a641500b9a" compoundref="_player_control___fixed_update_8cs" startline="10" endline="23">FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a46afe636baf1fc930a82fec73c264100" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.FistRepresent</definition>
+        <argsstring>()</argsstring>
+        <name>FistRepresent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" bodystart="14" bodyend="63"/>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aa91baec6227b33d6aa298c6751663ec5c">GrabEnv</references>
+        <references refid="class_fist_state_plus_1ae1cd9a3a9d376d59ac0cd89befb5ecb8" compoundref="_fist_state_8cs" startline="62" endline="65">FistStatePlus.IsGrabPressed</references>
+        <references refid="class_player_control_1a4d0cb07abd5dc2eb01eb8273b0b9f269" compoundref="_player_control_8cs" startline="44">leftFist</references>
+        <references refid="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" compoundref="_player_control_8cs" startline="58">leftFistState</references>
+        <references refid="class_player_control_1a83b6f471f46464bcfb76cedde939794e" compoundref="_player_control_8cs" startline="60">leftGrabedStuff</references>
+        <references refid="class_player_control_1a5087b897ceac1e71ca9340e2e6bb1770" compoundref="_player_control_8cs" startline="45">rightFist</references>
+        <references refid="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" compoundref="_player_control_8cs" startline="59">rightFistState</references>
+        <references refid="class_player_control_1a1969bb6a2081507290640dbe8048ffd2" compoundref="_player_control_8cs" startline="61">rightGrabedStuff</references>
+        <referencedby refid="class_player_control_1a8164f9ed8fb263f4cd52f14bdaab05b2" compoundref="_player_control___represent_8cs" startline="7" endline="12">FU_Represent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a0beb1c5fa849dfba5a69e2267258d86c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.BodyArrowRepresent</definition>
+        <argsstring>()</argsstring>
+        <name>BodyArrowRepresent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" line="65" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" bodystart="65" bodyend="112"/>
+        <references refid="class_velocity_1ab4270b69937407ac4146bda514635bd2" compoundref="_velocity_8cs" startline="9">Velocity.direction</references>
+        <references refid="class_player_control_1ae7ceed3ebad0371fd35369be9c1d8e95" compoundref="_player_control___represent_8cs" startline="123" endline="133">GetGreenYellowRedGraduallyColor</references>
+        <references refid="class_whole_velocity_while_jumping_1a1b2dc23f9a74bbc7439ed092d318ef2e" compoundref="_whole_velocity_while_jumping_8cs" startline="340" endline="343">WholeVelocityWhileJumping.Out_GetDirection</references>
+        <references refid="class_player_control_1ad3d954b6fa6dcf4d05133d960a5fb9cd" compoundref="_player_control___represent_8cs" startline="114" endline="121">SetArrowColor</references>
+        <references refid="class_player_control_1ab8f64154f79d2c1712a0dd2d3e8a9e1c" compoundref="_player_control_8cs" startline="74">wholeState</references>
+        <references refid="class_player_control_1a0b7ded97541a4ab494517243018c2379" compoundref="_player_control_8cs" startline="71">wholeVelocityBeforeJump</references>
+        <references refid="class_player_control_1a312f05796a6114a0f59f0a0ab2ac3ae1" compoundref="_player_control_8cs" startline="72">wholeVelocityWhileJumping</references>
+        <referencedby refid="class_player_control_1a8164f9ed8fb263f4cd52f14bdaab05b2" compoundref="_player_control___represent_8cs" startline="7" endline="12">FU_Represent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1ad3d954b6fa6dcf4d05133d960a5fb9cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.SetArrowColor</definition>
+        <argsstring>(Color c)</argsstring>
+        <name>SetArrowColor</name>
+        <param>
+          <type>Color</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" line="114" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" bodystart="114" bodyend="121"/>
+        <referencedby refid="class_player_control_1a0beb1c5fa849dfba5a69e2267258d86c" compoundref="_player_control___represent_8cs" startline="65" endline="112">BodyArrowRepresent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1ae7ceed3ebad0371fd35369be9c1d8e95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color PlayerControl.GetGreenYellowRedGraduallyColor</definition>
+        <argsstring>(float x)</argsstring>
+        <name>GetGreenYellowRedGraduallyColor</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" line="123" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Represent.cs" bodystart="123" bodyend="133"/>
+        <referencedby refid="class_player_control_1a0beb1c5fa849dfba5a69e2267258d86c" compoundref="_player_control___represent_8cs" startline="65" endline="112">BodyArrowRepresent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1aa030b14f9c0fe12153375f5f2bbe5b60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Update.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Update.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_control_1a5459c7be39fb034160448418c1cafa57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_control_1_1_value_for_sword" kindref="compound">ValueForSword</ref></type>
+        <definition>ValueForSword PlayerControl.ForSword_GiveValue</definition>
+        <argsstring>(string fist)</argsstring>
+        <name>ForSword_GiveValue</name>
+        <param>
+          <type>string</type>
+          <declname>fist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" bodystart="13" bodyend="30"/>
+        <references refid="class_player_control_1a4d0cb07abd5dc2eb01eb8273b0b9f269" compoundref="_player_control_8cs" startline="44">leftFist</references>
+        <references refid="class_player_control_1a5087b897ceac1e71ca9340e2e6bb1770" compoundref="_player_control_8cs" startline="45">rightFist</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a32e9a78c8742c98885efb0a39dfeefbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerControl.ForSword_CheckOverlap</definition>
+        <argsstring>(string fist, GameObject stuffObject)</argsstring>
+        <name>ForSword_CheckOverlap</name>
+        <param>
+          <type>string</type>
+          <declname>fist</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>stuffObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" line="32" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" bodystart="32" bodyend="60"/>
+        <references refid="class_player_control_1a4d0cb07abd5dc2eb01eb8273b0b9f269" compoundref="_player_control_8cs" startline="44">leftFist</references>
+        <references refid="class_player_control_1a5087b897ceac1e71ca9340e2e6bb1770" compoundref="_player_control_8cs" startline="45">rightFist</references>
+        <referencedby refid="class_stuff_1_1_sword_1a094162da592d53cb8ea127392fab6611" compoundref="_sword_8cs" startline="525" endline="544">Stuff.Sword.CheckAndRemoveFist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a88d2f3f55b8a1a6eac6a1769a94336e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.ForSword_UnSetGrabedStuff</definition>
+        <argsstring>(string fist)</argsstring>
+        <name>ForSword_UnSetGrabedStuff</name>
+        <param>
+          <type>string</type>
+          <declname>fist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" line="62" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" bodystart="62" bodyend="74"/>
+        <references refid="class_player_control_1a83b6f471f46464bcfb76cedde939794e" compoundref="_player_control_8cs" startline="60">leftGrabedStuff</references>
+        <references refid="class_player_control_1a1969bb6a2081507290640dbe8048ffd2" compoundref="_player_control_8cs" startline="61">rightGrabedStuff</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a75cf2d4dd3d7c17f0db901374af39bb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.Out_SetMoveDirectionReverseIfGrabEnv</definition>
+        <argsstring>(int value)</argsstring>
+        <name>Out_SetMoveDirectionReverseIfGrabEnv</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" line="76" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" bodystart="76" bodyend="79"/>
+        <references refid="class_player_control_1a66e75e7ae67ad35e73532ee119f6b495" compoundref="_player_control_8cs" startline="28">moveDirectionReverseIfGrabEnv</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a80760832b95675c920ff817491d06140" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PlayerControl.Out_GetMoveDirectionReverseIfGrabEnv</definition>
+        <argsstring>()</argsstring>
+        <name>Out_GetMoveDirectionReverseIfGrabEnv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" line="81" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl_Out.cs" bodystart="81" bodyend="84"/>
+        <references refid="class_player_control_1a66e75e7ae67ad35e73532ee119f6b495" compoundref="_player_control_8cs" startline="28">moveDirectionReverseIfGrabEnv</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="348">
+        <label>PlayerControl</label>
+        <link refid="class_player_control"/>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="349">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="354">
+        <label>HandControlFade</label>
+        <link refid="class_hand_control_fade"/>
+      </node>
+      <node id="365">
+        <label>FootStatePlus</label>
+        <link refid="class_foot_state_plus"/>
+      </node>
+      <node id="358">
+        <label>Velocity</label>
+        <link refid="class_velocity"/>
+      </node>
+      <node id="359">
+        <label>SpeedParameter</label>
+        <link refid="class_speed_parameter"/>
+      </node>
+      <node id="350">
+        <label>PlayerControl</label>
+        <link refid="class_player_control"/>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+        <childnode refid="352" relation="usage">
+          <edgelabel>fistOffset</edgelabel>
+        </childnode>
+        <childnode refid="354" relation="usage">
+          <edgelabel>handFade</edgelabel>
+        </childnode>
+        <childnode refid="355" relation="usage">
+          <edgelabel>leftFistState</edgelabel>
+          <edgelabel>rightFistState</edgelabel>
+        </childnode>
+        <childnode refid="356" relation="usage">
+          <edgelabel>fistVelocity</edgelabel>
+        </childnode>
+        <childnode refid="360" relation="usage">
+          <edgelabel>handRepresent</edgelabel>
+        </childnode>
+        <childnode refid="362" relation="usage">
+          <edgelabel>wholeVelocityWhileJumping</edgelabel>
+        </childnode>
+        <childnode refid="363" relation="usage">
+          <edgelabel>wholeOffset</edgelabel>
+        </childnode>
+        <childnode refid="357" relation="usage">
+          <edgelabel>leftFistVelocity</edgelabel>
+          <edgelabel>rightFistVelocity</edgelabel>
+        </childnode>
+        <childnode refid="361" relation="usage">
+          <edgelabel>playerControl</edgelabel>
+        </childnode>
+        <childnode refid="364" relation="usage">
+          <edgelabel>wholeVelocityBeforeJump</edgelabel>
+        </childnode>
+        <childnode refid="365" relation="usage">
+          <edgelabel>footState</edgelabel>
+        </childnode>
+        <childnode refid="366" relation="usage">
+          <edgelabel>hcAudio</edgelabel>
+        </childnode>
+      </node>
+      <node id="352">
+        <label>TwoFistOffset</label>
+        <link refid="class_two_fist_offset"/>
+        <childnode refid="353" relation="usage">
+          <edgelabel>rightDirOf9History</edgelabel>
+          <edgelabel>leftDirOf9History</edgelabel>
+        </childnode>
+      </node>
+      <node id="355">
+        <label>FistStatePlus</label>
+        <link refid="class_fist_state_plus"/>
+      </node>
+      <node id="364">
+        <label>WholeVelocityBeforeJump</label>
+        <link refid="class_whole_velocity_before_jump"/>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>HCAudio</label>
+        <link refid="class_h_c_audio"/>
+      </node>
+      <node id="362">
+        <label>WholeVelocityWhileJumping</label>
+        <link refid="class_whole_velocity_while_jumping"/>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="353">
+        <label>HandControlTool</label>
+      </node>
+      <node id="356">
+        <label>TwoFistVelocity</label>
+        <link refid="class_two_fist_velocity"/>
+        <childnode refid="353" relation="usage">
+          <edgelabel>leftHistoryOfNineDir</edgelabel>
+          <edgelabel>rightHistoryOfNineDir</edgelabel>
+        </childnode>
+        <childnode refid="357" relation="usage">
+          <edgelabel>right</edgelabel>
+          <edgelabel>left</edgelabel>
+        </childnode>
+      </node>
+      <node id="351">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="363">
+        <label>WholeOffset</label>
+        <link refid="class_whole_offset"/>
+      </node>
+      <node id="360">
+        <label>HandRepresent</label>
+        <link refid="class_hand_represent"/>
+        <childnode refid="361" relation="usage">
+          <edgelabel>currentLR</edgelabel>
+        </childnode>
+      </node>
+      <node id="357">
+        <label>FistVelocity</label>
+        <link refid="class_fist_velocity"/>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+        <childnode refid="359" relation="usage">
+          <edgelabel>speedParameter</edgelabel>
+        </childnode>
+      </node>
+      <node id="361">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl/PlayerControl.cs" bodystart="10" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_player_control_1a2097902b4efa9f4f8ed54d46427e5225" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>___________________________</name></member>
+      <member refid="class_player_control_1aecae2af44fad3cf38d75307f66bf3a35" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>arrowSign</name></member>
+      <member refid="class_player_control_1ae4b5632901b3835d7b74b09e5ec6dfa8" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>Awake</name></member>
+      <member refid="class_player_control_1a0beb1c5fa849dfba5a69e2267258d86c" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>BodyArrowRepresent</name></member>
+      <member refid="class_player_control_1a5a65783d3caec5a900f4d20829fad4aa" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>bottomLeftPoint</name></member>
+      <member refid="class_player_control_1a4b430d22d7abe8fb2ccdb7fea01f10e1" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>bottomMiddlePoint</name></member>
+      <member refid="class_player_control_1aefe5282be5b0352572ca20861a770874" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>bottomRightPoint</name></member>
+      <member refid="class_player_control_1a7b9b63cd71a26e54febdb3a2b929a6d1" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>CheckSetting</name></member>
+      <member refid="class_player_control_1a8bf6ff6c6d481cd40bd5b4e77635207e" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FistGrabStuffEnvHelper</name></member>
+      <member refid="class_player_control_1a853bc6d22fa675b99c6b263a99cb3e7f" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>fistOffset</name></member>
+      <member refid="class_player_control_1a46afe636baf1fc930a82fec73c264100" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FistRepresent</name></member>
+      <member refid="class_player_control_1a148446b417478fb603dd9987c6d7e83b" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>fistVelocity</name></member>
+      <member refid="class_player_control_1a1061cf9f09ea7c2e3f1502a641500b9a" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FixedUpdate</name></member>
+      <member refid="class_player_control_1a792b19bc84785ddeff4fc044238ec28c" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>footState</name></member>
+      <member refid="class_player_control_1a5ffda42ba1b5f5ff878bc9997236e3c6" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>footState_surfaceLeftRightInaccuracy</name></member>
+      <member refid="class_player_control_1a04a440be20e810112213ebe20728a47e" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>footState_surfaceUpDownOffset</name></member>
+      <member refid="class_player_control_1a32e9a78c8742c98885efb0a39dfeefbf" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>ForSword_CheckOverlap</name></member>
+      <member refid="class_player_control_1a5459c7be39fb034160448418c1cafa57" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>ForSword_GiveValue</name></member>
+      <member refid="class_player_control_1a88d2f3f55b8a1a6eac6a1769a94336e5" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>ForSword_UnSetGrabedStuff</name></member>
+      <member refid="class_player_control_1ab309963049bc631d851fdf4dece16cce" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>friction</name></member>
+      <member refid="class_player_control_1afc8c3cf5a44cb36cee0b1c15c7bad639" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_Fist</name></member>
+      <member refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_FistOffetInfluenceSpeed</name></member>
+      <member refid="class_player_control_1aff43d524769e00394e4809705e6146db" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_FistOffset</name></member>
+      <member refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_FistSpeed</name></member>
+      <member refid="class_player_control_1a416df39f1cc38dbbe3e6f3d218568ade" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_Main</name></member>
+      <member refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_Pre</name></member>
+      <member refid="class_player_control_1a8164f9ed8fb263f4cd52f14bdaab05b2" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_Represent</name></member>
+      <member refid="class_player_control_1a1cf93e84dd05c14ede2c49561a28fb55" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_Whole</name></member>
+      <member refid="class_player_control_1add99248baf7e0cf1ddb24b300af6b60a" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_Whole_Offset</name></member>
+      <member refid="class_player_control_1af107882d83813738599b38daa4d21ed5" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>FU_Whole_Velocity</name></member>
+      <member refid="class_player_control_1ae7ceed3ebad0371fd35369be9c1d8e95" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>GetGreenYellowRedGraduallyColor</name></member>
+      <member refid="class_player_control_1afcb257c3847d049faa123daccc120985" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>gravity</name></member>
+      <member refid="class_player_control_1ac3156d65777f69e908372d76dbe61b09" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>handFade</name></member>
+      <member refid="class_player_control_1a8bb5b94f591d030705d0bd36f2245f60" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>handRepresent</name></member>
+      <member refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>HandStuffFixedUpdate</name></member>
+      <member refid="class_player_control_1a1b3a49b144f90255d85471d893ec565c" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>hcAudio</name></member>
+      <member refid="class_player_control_1a75b3dec8abe78ba7de8de54e35872a8e" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>Init</name></member>
+      <member refid="class_player_control_1a6fc24afadace235117995d70bcc01237" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>jumpSpeedAddedWhenSlanting</name></member>
+      <member refid="class_player_control_1a4d0cb07abd5dc2eb01eb8273b0b9f269" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>leftFist</name></member>
+      <member refid="class_player_control_1ad33192ea13a448df93973ee2092fc9ba" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>leftFistState</name></member>
+      <member refid="class_player_control_1a6d1ab1db573caf683a5bbc6d4cb6c0f7" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>leftFistVelocity</name></member>
+      <member refid="class_player_control_1a83b6f471f46464bcfb76cedde939794e" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>leftGrabedStuff</name></member>
+      <member refid="class_player_control_1a50fc494f2b08e3946e574abfe63621fa" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>length</name></member>
+      <member refid="class_player_control_1a66e75e7ae67ad35e73532ee119f6b495" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>moveDirectionReverseIfGrabEnv</name></member>
+      <member refid="class_player_control_1a7051c50a6cea448d2fc6ce960858f669" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>normalColorRender</name></member>
+      <member refid="class_player_control_1a80760832b95675c920ff817491d06140" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>Out_GetMoveDirectionReverseIfGrabEnv</name></member>
+      <member refid="class_player_control_1a75cf2d4dd3d7c17f0db901374af39bb8" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>Out_SetMoveDirectionReverseIfGrabEnv</name></member>
+      <member refid="class_player_control_1a569e01c5d0323ef9273028e712ec3086" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>playerControl</name></member>
+      <member refid="class_player_control_1a8ef6c51115c29bedee83b9be80a4da38" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>pressedColorRender</name></member>
+      <member refid="class_player_control_1a5087b897ceac1e71ca9340e2e6bb1770" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>rightFist</name></member>
+      <member refid="class_player_control_1a9b50cfa71431dbfd96062d0badbe813f" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>rightFistState</name></member>
+      <member refid="class_player_control_1a2f86a2b543653e112a3c32bc2d20088f" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>rightFistVelocity</name></member>
+      <member refid="class_player_control_1a1969bb6a2081507290640dbe8048ffd2" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>rightGrabedStuff</name></member>
+      <member refid="class_player_control_1ad3d954b6fa6dcf4d05133d960a5fb9cd" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>SetArrowColor</name></member>
+      <member refid="class_player_control_1aada0aa26ced08a253dfb12f7f1b8bd06" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>Start</name></member>
+      <member refid="class_player_control_1aa030b14f9c0fe12153375f5f2bbe5b60" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>Update</name></member>
+      <member refid="class_player_control_1afa09c25bec42da22db9154c2229f737b" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>whole</name></member>
+      <member refid="class_player_control_1a3e1728cb083e6fd4943732b2e00f6731" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>wholeFistSpeedRatio</name></member>
+      <member refid="class_player_control_1a79d3c8f55c3872c01f4b4dfb77d2b48e" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>wholeJumpSpeedComplexDirectionTime</name></member>
+      <member refid="class_player_control_1a5f09eb5343f11a3f2afc05b54cf86bc4" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>wholeJumpSpeedHistoryTime</name></member>
+      <member refid="class_player_control_1ae30a76b59010fec05b0a05d2215e8eda" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>wholeJumpSpeedSimpleDirectionTime</name></member>
+      <member refid="class_player_control_1a85b2ca2c668538c421fc9cad73cafc04" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>wholeJumpSpeedZeroCutTime</name></member>
+      <member refid="class_player_control_1a31f69aa786b482b3786d1a39393be70d" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>wholeOffset</name></member>
+      <member refid="class_player_control_1ac6f93abc4e90e0944b06b25cc8664ab4" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>wholeSpeedDownPartMax</name></member>
+      <member refid="class_player_control_1ab8f64154f79d2c1712a0dd2d3e8a9e1c" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>wholeState</name></member>
+      <member refid="class_player_control_1a0b7ded97541a4ab494517243018c2379" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>wholeVelocityBeforeJump</name></member>
+      <member refid="class_player_control_1a312f05796a6114a0f59f0a0ab2ac3ae1" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>wholeVelocityWhileJumping</name></member>
+      <member refid="class_player_control_1ae3ef9127060a978d60160934f50f3ccd" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>YDebugPanelShow_FUPre</name></member>
+      <member refid="class_player_control_1ab4d27e1410acdae219b68bee8c3e3879" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>YDebugPanelShow_Init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

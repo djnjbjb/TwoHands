@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_two_fist_offset" kind="class" prot="public">
+    <compoundname>TwoFistOffset</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_two_fist_offset_1a1fe46d85fe49de9523cc5daa6c38abe2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector2</type>
+        <definition>Vector2 TwoFistOffset.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_two_fist_offset_1ae429216afe718642a1089e92d8c7d5a1" compoundref="_two_fist_offset_8cs" startline="17" endline="21">FixedUpdateHistoryManually</referencedby>
+        <referencedby refid="class_player_control_1afc8c3cf5a44cb36cee0b1c15c7bad639" compoundref="_player_control___fixed_update_8cs" startline="63" endline="73">PlayerControl.FU_Fist</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_two_fist_offset_1ad6274619b756c8b539dfc76e2fb5029f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector2</type>
+        <definition>Vector2 TwoFistOffset.right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_two_fist_offset_1ae429216afe718642a1089e92d8c7d5a1" compoundref="_two_fist_offset_8cs" startline="17" endline="21">FixedUpdateHistoryManually</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_two_fist_offset_1af96a56aba87101f365e6d0eaf5f09eab" prot="public" static="no" mutable="no">
+        <type><ref refid="class_hand_control_tool_1_1_direction_of9_history" kindref="compound">HandControlTool.DirectionOf9History</ref></type>
+        <definition>HandControlTool.DirectionOf9History TwoFistOffset.leftDirOf9History</definition>
+        <argsstring></argsstring>
+        <name>leftDirOf9History</name>
+        <initializer>= new <ref refid="class_hand_control_tool_1_1_direction_of9_history" kindref="compound">HandControlTool.DirectionOf9History</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_fist_offset_1a01cff3dc64908564f7f28f53268147d9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_hand_control_tool_1_1_direction_of9_history" kindref="compound">HandControlTool.DirectionOf9History</ref></type>
+        <definition>HandControlTool.DirectionOf9History TwoFistOffset.rightDirOf9History</definition>
+        <argsstring></argsstring>
+        <name>rightDirOf9History</name>
+        <initializer>= new <ref refid="class_hand_control_tool_1_1_direction_of9_history" kindref="compound">HandControlTool.DirectionOf9History</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_two_fist_offset_1a639886d3b8b93aadd13886563bd6886a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TwoFistOffset.TwoFistOffset</definition>
+        <argsstring>()</argsstring>
+        <name>TwoFistOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_two_fist_offset_1ae429216afe718642a1089e92d8c7d5a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TwoFistOffset.FixedUpdateHistoryManually</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdateHistoryManually</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" bodystart="17" bodyend="21"/>
+        <references refid="class_two_fist_offset_1a1fe46d85fe49de9523cc5daa6c38abe2" compoundref="_two_fist_offset_8cs" startline="7">left</references>
+        <references refid="class_two_fist_offset_1ad6274619b756c8b539dfc76e2fb5029f" compoundref="_two_fist_offset_8cs" startline="8">right</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="462">
+        <label>TwoFistOffset</label>
+        <link refid="class_two_fist_offset"/>
+        <childnode refid="463" relation="usage">
+          <edgelabel>rightDirOf9History</edgelabel>
+          <edgelabel>leftDirOf9History</edgelabel>
+        </childnode>
+      </node>
+      <node id="463">
+        <label>HandControlTool</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/TwoFistOffset.cs" bodystart="5" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_two_fist_offset_1ae429216afe718642a1089e92d8c7d5a1" prot="public" virt="non-virtual"><scope>TwoFistOffset</scope><name>FixedUpdateHistoryManually</name></member>
+      <member refid="class_two_fist_offset_1a1fe46d85fe49de9523cc5daa6c38abe2" prot="public" virt="non-virtual"><scope>TwoFistOffset</scope><name>left</name></member>
+      <member refid="class_two_fist_offset_1af96a56aba87101f365e6d0eaf5f09eab" prot="public" virt="non-virtual"><scope>TwoFistOffset</scope><name>leftDirOf9History</name></member>
+      <member refid="class_two_fist_offset_1ad6274619b756c8b539dfc76e2fb5029f" prot="public" virt="non-virtual"><scope>TwoFistOffset</scope><name>right</name></member>
+      <member refid="class_two_fist_offset_1a01cff3dc64908564f7f28f53268147d9" prot="public" virt="non-virtual"><scope>TwoFistOffset</scope><name>rightDirOf9History</name></member>
+      <member refid="class_two_fist_offset_1a639886d3b8b93aadd13886563bd6886a" prot="public" virt="non-virtual"><scope>TwoFistOffset</scope><name>TwoFistOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

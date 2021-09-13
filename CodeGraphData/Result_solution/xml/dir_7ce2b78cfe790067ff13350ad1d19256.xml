@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7ce2b78cfe790067ff13350ad1d19256" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Plugins/Yurowm</compoundname>
+    <innerdir refid="dir_2da423c6ed6b6271f3924094e0a216f7">D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole</innerdir>
+    <innerdir refid="dir_ca0bda1a96f94dc5e844b373298cadcf">D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel</innerdir>
+    <innerdir refid="dir_9b3cd2166bff9a44031e8b2595452966">D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/Test</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/"/>
+  </compounddef>
+</doxygen>

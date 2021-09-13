@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_stuff_1_1_sword_1_1_value_for_fist" kind="class" prot="public">
+    <compoundname>Stuff::Sword::ValueForFist</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1_1_value_for_fist_1a40dbb996d6dd8416eecea1463771ecee" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Stuff.Sword.ValueForFist.overlapWithEnv</definition>
+        <argsstring></argsstring>
+        <name>overlapWithEnv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="607" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="607" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1_1_value_for_fist_1a5e200129aa8c0a38302cf4454906c64c" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 Stuff.Sword.ValueForFist.direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="608" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="608" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="606" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="605" bodyend="609"/>
+    <listofallmembers>
+      <member refid="class_stuff_1_1_sword_1_1_value_for_fist_1a5e200129aa8c0a38302cf4454906c64c" prot="public" virt="non-virtual"><scope>Stuff::Sword::ValueForFist</scope><name>direction</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_value_for_fist_1a40dbb996d6dd8416eecea1463771ecee" prot="public" virt="non-virtual"><scope>Stuff::Sword::ValueForFist</scope><name>overlapWithEnv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

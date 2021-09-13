@@ -29,6 +29,19 @@ namespace Ludo
             float dotP = Vector2.Dot(lhs, lineDirection);
             return lineOrigin + lineDirection * dotP;
         }
+
+        public static (Vector3 position, Quaternion rotation) RotateRoundPoint2D(Vector3 objectPosition, Quaternion objectRotation, Vector2 rotatePoint, float angle)
+        {
+            Vector3 v1 = ((Vector2)objectPosition - rotatePoint);
+            Vector3 v2 = Quaternion.AngleAxis(angle, new Vector3(0, 0, 1)) * v1;
+            Vector3 delta = v2 - v1;
+            
+            Vector3 position = objectPosition + delta;
+            Quaternion rotation = objectRotation * Quaternion.AngleAxis(angle, new Vector3(0, 0, 1));
+
+            return (position, rotation);
+        }
+
     }
 }
 

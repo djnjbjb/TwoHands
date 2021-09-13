@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_y_1_1_hide_command" kind="class" prot="public">
+    <compoundname>Y::HideCommand</compoundname>
+    <basecompoundref refid="class_y_1_1_i_command" prot="public" virt="non-virtual">Y.ICommand</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_y_1_1_hide_command_1a82f9f260c4657ed5aae33b797434cafc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override IEnumerator</type>
+        <definition>override IEnumerator Y.HideCommand.Execute</definition>
+        <argsstring>(params string[] args)</argsstring>
+        <name>Execute</name>
+        <reimplements refid="class_y_1_1_i_command_1af14d78af946dd843f39185c86e4a278b">Execute</reimplements>
+        <param>
+          <type>params string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="86" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_y_1_1_hide_command_1aa3c397e432ebfa3541786db5d693c53e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Y.HideCommand.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplements refid="class_y_1_1_i_command_1a4df442ad02321d69c6a6445ffd94abba">GetName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="91" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="91" bodyend="93"/>
+        <referencedby refid="class_y_1_1_hide_command_1ad3be76d46c636a7bef7e6f1d673ca8ad" compoundref="_i_command_8cs" startline="95" endline="97">Y.HideCommand.Help</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_y_1_1_hide_command_1ad3be76d46c636a7bef7e6f1d673ca8ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Y.HideCommand.Help</definition>
+        <argsstring>()</argsstring>
+        <name>Help</name>
+        <reimplements refid="class_y_1_1_i_command_1a6bfcba7b207aee1c92bc7bcf9611a757">Help</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="95" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="95" bodyend="97"/>
+        <references refid="class_y_1_1_hide_command_1aa3c397e432ebfa3541786db5d693c53e" compoundref="_i_command_8cs" startline="91" endline="93">Y.HideCommand.GetName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="261">
+        <label>ICommand</label>
+        <link refid="class_y_1_1_i_command"/>
+      </node>
+      <node id="260">
+        <label>Y.HideCommand</label>
+        <link refid="class_y_1_1_hide_command"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="263">
+        <label>ICommand</label>
+        <link refid="class_y_1_1_i_command"/>
+      </node>
+      <node id="262">
+        <label>Y.HideCommand</label>
+        <link refid="class_y_1_1_hide_command"/>
+        <childnode refid="263" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="85" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="85" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_y_1_1_hide_command_1a82f9f260c4657ed5aae33b797434cafc" prot="public" virt="virtual"><scope>Y::HideCommand</scope><name>Execute</name></member>
+      <member refid="class_y_1_1_hide_command_1aa3c397e432ebfa3541786db5d693c53e" prot="public" virt="virtual"><scope>Y::HideCommand</scope><name>GetName</name></member>
+      <member refid="class_y_1_1_hide_command_1ad3be76d46c636a7bef7e6f1d673ca8ad" prot="public" virt="virtual"><scope>Y::HideCommand</scope><name>Help</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

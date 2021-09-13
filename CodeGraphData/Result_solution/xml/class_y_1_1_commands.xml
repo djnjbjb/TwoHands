@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_y_1_1_commands" kind="class" prot="public">
+    <compoundname>Y::Commands</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_y_1_1_commands_1a51ad8d45006e3d3f0f1c1495aa090d78" prot="public" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; string, <ref refid="class_y_1_1_i_command" kindref="compound">ICommand</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;string, ICommand&gt; Y.Commands.commands</definition>
+        <argsstring></argsstring>
+        <name>commands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_y_1_1_commands_1ae8842a8afdd7ec036b9172f63d4a6a44" compoundref="_i_command_8cs" startline="21" endline="27">Y.Commands.Commands</referencedby>
+        <referencedby refid="class_y_1_1_commands_1a66ff4f935a6490457f3228e1dc454878" compoundref="_i_command_8cs" startline="30" endline="61">Y.Commands.Execute</referencedby>
+        <referencedby refid="class_y_1_1_help_command_1aa9685bd88ab5eb37f0ca2e9899968a53" compoundref="_i_command_8cs" startline="101" endline="110">Y.HelpCommand.Execute</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_y_1_1_commands_1a7e7dd7993289c4227db30d6b49316222" prot="private" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex Y.Commands.wordSplitter</definition>
+        <argsstring></argsstring>
+        <name>wordSplitter</name>
+        <initializer>= new Regex(@&quot;\s+&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="29" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_y_1_1_commands_1ae8842a8afdd7ec036b9172f63d4a6a44" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Y.Commands.Commands</definition>
+        <argsstring>()</argsstring>
+        <name>Commands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="21" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="21" bodyend="27"/>
+        <references refid="class_y_1_1_commands_1a51ad8d45006e3d3f0f1c1495aa090d78" compoundref="_i_command_8cs" startline="20">Y.Commands.commands</references>
+      </memberdef>
+      <memberdef kind="function" id="class_y_1_1_commands_1a2966bbb374d7ab52d38faff41b3ff3c7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Type &gt;</type>
+        <definition>static List&lt;Type&gt; Y.Commands.FindInheritorTypes</definition>
+        <argsstring>(this Type type)</argsstring>
+        <name>FindInheritorTypes</name>
+        <param>
+          <type>this Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="63" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="63" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_y_1_1_commands_1a66ff4f935a6490457f3228e1dc454878" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>static IEnumerator Y.Commands.Execute</definition>
+        <argsstring>(string command, Action&lt; string &gt; output)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>Action&lt; string &gt;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="30" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="30" bodyend="61"/>
+        <references refid="class_y_1_1_commands_1a51ad8d45006e3d3f0f1c1495aa090d78" compoundref="_i_command_8cs" startline="20">Y.Commands.commands</references>
+        <references refid="class_y_1_1_debug_console_1aeb49e1eecc4bd6f284653d65ecc7c84b" compoundref="_debug_console_8cs" startline="124" endline="126">Y.DebugConsole.Error</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="31">
+        <label>Y.Commands</label>
+        <link refid="class_y_1_1_commands"/>
+        <childnode refid="32" relation="usage">
+          <edgelabel>commands</edgelabel>
+          <edgelabel>wordSplitter</edgelabel>
+        </childnode>
+      </node>
+      <node id="32">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="19" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="19" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_y_1_1_commands_1a51ad8d45006e3d3f0f1c1495aa090d78" prot="public" virt="non-virtual"><scope>Y::Commands</scope><name>commands</name></member>
+      <member refid="class_y_1_1_commands_1ae8842a8afdd7ec036b9172f63d4a6a44" prot="private" virt="non-virtual"><scope>Y::Commands</scope><name>Commands</name></member>
+      <member refid="class_y_1_1_commands_1a66ff4f935a6490457f3228e1dc454878" prot="public" virt="non-virtual"><scope>Y::Commands</scope><name>Execute</name></member>
+      <member refid="class_y_1_1_commands_1a2966bbb374d7ab52d38faff41b3ff3c7" prot="private" virt="non-virtual"><scope>Y::Commands</scope><name>FindInheritorTypes</name></member>
+      <member refid="class_y_1_1_commands_1a7e7dd7993289c4227db30d6b49316222" prot="private" virt="non-virtual"><scope>Y::Commands</scope><name>wordSplitter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

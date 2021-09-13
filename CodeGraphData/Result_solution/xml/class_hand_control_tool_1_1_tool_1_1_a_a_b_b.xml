@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hand_control_tool_1_1_tool_1_1_a_a_b_b" kind="class" prot="public">
+    <compoundname>HandControlTool::Tool::AABB</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_hand_control_tool_1_1_tool_1_1_a_a_b_b_1ab1808d646410c7c0843e012427afef69" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HandControlTool.Tool.AABB.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hand_control_tool_1_1_tool_1_1_a_a_b_b_1a0c0b202e9712371c3e9b64e2f07a0f2f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HandControlTool.Tool.AABB.right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" line="12" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hand_control_tool_1_1_tool_1_1_a_a_b_b_1a7a6487dcfb2746ae3c0b7bdcffccdf2f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HandControlTool.Tool.AABB.bottom</definition>
+        <argsstring></argsstring>
+        <name>bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hand_control_tool_1_1_tool_1_1_a_a_b_b_1a1756c07c556671f37535f88b5ad53df5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HandControlTool.Tool.AABB.top</definition>
+        <argsstring></argsstring>
+        <name>top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool/Tool.cs" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_hand_control_tool_1_1_tool_1_1_a_a_b_b_1a7a6487dcfb2746ae3c0b7bdcffccdf2f" prot="public" virt="non-virtual"><scope>HandControlTool::Tool::AABB</scope><name>bottom</name></member>
+      <member refid="class_hand_control_tool_1_1_tool_1_1_a_a_b_b_1ab1808d646410c7c0843e012427afef69" prot="public" virt="non-virtual"><scope>HandControlTool::Tool::AABB</scope><name>left</name></member>
+      <member refid="class_hand_control_tool_1_1_tool_1_1_a_a_b_b_1a0c0b202e9712371c3e9b64e2f07a0f2f" prot="public" virt="non-virtual"><scope>HandControlTool::Tool::AABB</scope><name>right</name></member>
+      <member refid="class_hand_control_tool_1_1_tool_1_1_a_a_b_b_1a1756c07c556671f37535f88b5ad53df5" prot="public" virt="non-virtual"><scope>HandControlTool::Tool::AABB</scope><name>top</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

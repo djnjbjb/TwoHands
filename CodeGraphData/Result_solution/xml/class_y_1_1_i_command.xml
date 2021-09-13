@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_y_1_1_i_command" kind="class" prot="public" abstract="yes">
+    <compoundname>Y::ICommand</compoundname>
+    <derivedcompoundref refid="class_y_1_1_clear_command" prot="public" virt="non-virtual">Y.ClearCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_y_1_1_hello_world" prot="public" virt="non-virtual">Y.HelloWorld</derivedcompoundref>
+    <derivedcompoundref refid="class_y_1_1_help_command" prot="public" virt="non-virtual">Y.HelpCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_y_1_1_hide_command" prot="public" virt="non-virtual">Y.HideCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_y_1_1_scene_research" prot="public" virt="non-virtual">Y.SceneResearch</derivedcompoundref>
+    <derivedcompoundref refid="class_y_1_1_set_commands" prot="public" virt="non-virtual">Y.SetCommands</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_y_1_1_i_command_1a4df442ad02321d69c6a6445ffd94abba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract string</type>
+        <definition>abstract string Y.ICommand.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplementedby refid="class_y_1_1_hello_world_1a01a855533020df240b8780ec3312e307">GetName</reimplementedby>
+        <reimplementedby refid="class_y_1_1_clear_command_1aff10283ebf587aa58c88489cb425139b">GetName</reimplementedby>
+        <reimplementedby refid="class_y_1_1_hide_command_1aa3c397e432ebfa3541786db5d693c53e">GetName</reimplementedby>
+        <reimplementedby refid="class_y_1_1_help_command_1a0ba3d2bc4fb54a5f6cf8fcf6ee622d15">GetName</reimplementedby>
+        <reimplementedby refid="class_y_1_1_scene_research_1a6714fbbd16e68f38848d6fc434d7c2d7">GetName</reimplementedby>
+        <reimplementedby refid="class_y_1_1_set_commands_1a52bfc38928d65209c3ad86676506394b">GetName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_y_1_1_i_command_1af14d78af946dd843f39185c86e4a278b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract IEnumerator</type>
+        <definition>abstract IEnumerator Y.ICommand.Execute</definition>
+        <argsstring>(params string[] args)</argsstring>
+        <name>Execute</name>
+        <reimplementedby refid="class_y_1_1_hello_world_1aa828ebf2d75b43573db606f92f25e7cf">Execute</reimplementedby>
+        <reimplementedby refid="class_y_1_1_scene_research_1a5604b3bcf03a170679dd63575271c701">Execute</reimplementedby>
+        <reimplementedby refid="class_y_1_1_clear_command_1a2c54d36e515984c370fa6f63b52a963e">Execute</reimplementedby>
+        <reimplementedby refid="class_y_1_1_hide_command_1a82f9f260c4657ed5aae33b797434cafc">Execute</reimplementedby>
+        <reimplementedby refid="class_y_1_1_help_command_1aa9685bd88ab5eb37f0ca2e9899968a53">Execute</reimplementedby>
+        <reimplementedby refid="class_y_1_1_set_commands_1a85693d523885cd0dd532d8880eefbe7e">Execute</reimplementedby>
+        <param>
+          <type>params string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_y_1_1_i_command_1a6bfcba7b207aee1c92bc7bcf9611a757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Y.ICommand.Help</definition>
+        <argsstring>()</argsstring>
+        <name>Help</name>
+        <reimplementedby refid="class_y_1_1_scene_research_1ac939613fcf8fc352060704524b70f318">Help</reimplementedby>
+        <reimplementedby refid="class_y_1_1_clear_command_1ad133c2cea839abad50b52a337d86387f">Help</reimplementedby>
+        <reimplementedby refid="class_y_1_1_hide_command_1ad3be76d46c636a7bef7e6f1d673ca8ad">Help</reimplementedby>
+        <reimplementedby refid="class_y_1_1_help_command_1a896dcd07959df3dda877c2ae75fb54bf">Help</reimplementedby>
+        <reimplementedby refid="class_y_1_1_set_commands_1a2b5e0555cd67f523bef29baacbf35791">Help</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="271">
+        <label>Y.ICommand</label>
+        <link refid="class_y_1_1_i_command"/>
+      </node>
+      <node id="277">
+        <label>Y.SetCommands</label>
+        <link refid="class_y_1_1_set_commands"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>Y.HelloWorld</label>
+        <link refid="class_y_1_1_hello_world"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>Y.SceneResearch</label>
+        <link refid="class_y_1_1_scene_research"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="274">
+        <label>Y.HelpCommand</label>
+        <link refid="class_y_1_1_help_command"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="272">
+        <label>Y.ClearCommand</label>
+        <link refid="class_y_1_1_clear_command"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="275">
+        <label>Y.HideCommand</label>
+        <link refid="class_y_1_1_hide_command"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/ICommand.cs" bodystart="11" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_y_1_1_i_command_1af14d78af946dd843f39185c86e4a278b" prot="public" virt="pure-virtual"><scope>Y::ICommand</scope><name>Execute</name></member>
+      <member refid="class_y_1_1_i_command_1a4df442ad02321d69c6a6445ffd94abba" prot="public" virt="pure-virtual"><scope>Y::ICommand</scope><name>GetName</name></member>
+      <member refid="class_y_1_1_i_command_1a6bfcba7b207aee1c92bc7bcf9611a757" prot="public" virt="virtual"><scope>Y::ICommand</scope><name>Help</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

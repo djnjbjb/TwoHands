@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_53c53e0f5a539ccf52c1ead4cf6f8afd" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff</compoundname>
+    <innerfile refid="_stuff_8cs">Stuff.cs</innerfile>
+    <innerfile refid="_sword_8cs">Sword.cs</innerfile>
+    <innerfile refid="_sword___motion_8cs">Sword_Motion.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/"/>
+  </compounddef>
+</doxygen>

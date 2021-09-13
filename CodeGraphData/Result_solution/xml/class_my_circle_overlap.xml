@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_my_circle_overlap" kind="class" prot="public">
+    <compoundname>MyCircleOverlap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_my_circle_overlap_1ae840877c59a1078b9962b2ce6ecf076e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MyCircleOverlap.overlapped</definition>
+        <argsstring></argsstring>
+        <name>overlapped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_circle_overlap_1ae5255e2cd7ee05100537f919ddcf9ee5" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] MyCircleOverlap.overlappedNames</definition>
+        <argsstring></argsstring>
+        <name>overlappedNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_my_circle_overlap_1a4dd5fb6cc720b27564639faa9c3099a9" compoundref="_my_circle_overlap_8cs" startline="16" endline="27">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_my_circle_overlap_1aacf3be50fcfe08b90e396051e7655617" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyCircleOverlap.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_circle_overlap_1a4dd5fb6cc720b27564639faa9c3099a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyCircleOverlap.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" bodystart="16" bodyend="27"/>
+        <references refid="class_my_circle_overlap_1ae5255e2cd7ee05100537f919ddcf9ee5" compoundref="_my_circle_overlap_8cs" startline="8">overlappedNames</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="329">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="328">
+        <label>MyCircleOverlap</label>
+        <link refid="class_my_circle_overlap"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="331">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="330">
+        <label>MyCircleOverlap</label>
+        <link refid="class_my_circle_overlap"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test/MyCircleOverlap.cs" bodystart="5" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_my_circle_overlap_1ae840877c59a1078b9962b2ce6ecf076e" prot="private" virt="non-virtual"><scope>MyCircleOverlap</scope><name>overlapped</name></member>
+      <member refid="class_my_circle_overlap_1ae5255e2cd7ee05100537f919ddcf9ee5" prot="private" virt="non-virtual"><scope>MyCircleOverlap</scope><name>overlappedNames</name></member>
+      <member refid="class_my_circle_overlap_1aacf3be50fcfe08b90e396051e7655617" prot="private" virt="non-virtual"><scope>MyCircleOverlap</scope><name>Start</name></member>
+      <member refid="class_my_circle_overlap_1a4dd5fb6cc720b27564639faa9c3099a9" prot="private" virt="non-virtual"><scope>MyCircleOverlap</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

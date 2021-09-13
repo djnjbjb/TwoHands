@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_make_paper_cut_from_player_class" kind="class" prot="public">
+    <compoundname>MakePaperCutFromPlayerClass</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_make_paper_cut_from_player_class_1aa02a45e528da135c1335969a3ee93d4b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MakePaperCutFromPlayerClass.MakePaperCutFromPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>MakePaperCutFromPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/MakePaperCutFromPlayer.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/MakePaperCutFromPlayer.cs" bodystart="9" bodyend="50"/>
+        <references refid="class_make_paper_cut_from_player_class_1a953e365e3c38b2324466a00d957b2f92" compoundref="_make_paper_cut_from_player_8cs" startline="72" endline="91">DeleteChildrenNamedPoint</references>
+        <references refid="class_make_paper_cut_from_player_class_1a8bdd3f5fcd12c846fd6b1b4a647eb17e" compoundref="_make_paper_cut_from_player_8cs" startline="52" endline="70">DeleteInactiveChildenRecursively</references>
+      </memberdef>
+      <memberdef kind="function" id="class_make_paper_cut_from_player_class_1a8bdd3f5fcd12c846fd6b1b4a647eb17e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MakePaperCutFromPlayerClass.DeleteInactiveChildenRecursively</definition>
+        <argsstring>(Transform t)</argsstring>
+        <name>DeleteInactiveChildenRecursively</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/MakePaperCutFromPlayer.cs" line="52" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/MakePaperCutFromPlayer.cs" bodystart="52" bodyend="70"/>
+        <referencedby refid="class_make_paper_cut_from_player_class_1aa02a45e528da135c1335969a3ee93d4b" compoundref="_make_paper_cut_from_player_8cs" startline="9" endline="50">MakePaperCutFromPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_make_paper_cut_from_player_class_1a953e365e3c38b2324466a00d957b2f92" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MakePaperCutFromPlayerClass.DeleteChildrenNamedPoint</definition>
+        <argsstring>(Transform t)</argsstring>
+        <name>DeleteChildrenNamedPoint</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/MakePaperCutFromPlayer.cs" line="72" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/MakePaperCutFromPlayer.cs" bodystart="72" bodyend="91"/>
+        <referencedby refid="class_make_paper_cut_from_player_class_1aa02a45e528da135c1335969a3ee93d4b" compoundref="_make_paper_cut_from_player_8cs" startline="9" endline="50">MakePaperCutFromPlayer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Editor/MakePaperCutFromPlayer.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/MakePaperCutFromPlayer.cs" bodystart="6" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_make_paper_cut_from_player_class_1a953e365e3c38b2324466a00d957b2f92" prot="private" virt="non-virtual"><scope>MakePaperCutFromPlayerClass</scope><name>DeleteChildrenNamedPoint</name></member>
+      <member refid="class_make_paper_cut_from_player_class_1a8bdd3f5fcd12c846fd6b1b4a647eb17e" prot="private" virt="non-virtual"><scope>MakePaperCutFromPlayerClass</scope><name>DeleteInactiveChildenRecursively</name></member>
+      <member refid="class_make_paper_cut_from_player_class_1aa02a45e528da135c1335969a3ee93d4b" prot="private" virt="non-virtual"><scope>MakePaperCutFromPlayerClass</scope><name>MakePaperCutFromPlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

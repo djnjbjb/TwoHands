@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ludo_1_1_log_file" kind="class" prot="public">
+    <compoundname>Ludo::LogFile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a84c45ac6637f6bb4308b2779b92f009d" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_ludo_1_1_log_file" kindref="compound">LogFile</ref></type>
+        <definition>LogFile Ludo.LogFile.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+        <referencedby refid="class_ludo_1_1_log_file_1ab987249118180db9426a0691a5e311b2" compoundref="_log_file_8cs" startline="130" endline="135">Ludo.LogFile.Log</referencedby>
+        <referencedby refid="class_ludo_1_1_log_file_1ad4fe827daeb9993c068e087c902e2605" compoundref="_log_file_8cs" startline="137" endline="142">Ludo.LogFile.LogTemp</referencedby>
+        <referencedby refid="class_ludo_1_1_log_file_1aca0672bfe8c0a9a6afd1f78567385577" compoundref="_log_file_8cs" startline="144" endline="149">Ludo.LogFile.LogTemp2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a2814dbe47217e5fd509f964e873dcf74" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Ludo.LogFile.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a047af564ba6b765089209abc519ce7f8" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Ludo.LogFile.filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1ae0e9db8277ecfab665b2a7aa547acb1e" prot="private" static="yes" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Ludo.LogFile.buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <initializer>= new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1af8f412e706c6b6432469b7349264e52b" compoundref="_log_file_8cs" startline="115" endline="128">Ludo.LogFile.Flush</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a4adcf8f73477bf16fa12258105741fbf" prot="private" static="yes" mutable="no">
+        <type>StreamWriter</type>
+        <definition>StreamWriter Ludo.LogFile.writer</definition>
+        <argsstring></argsstring>
+        <name>writer</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a784de080cd9ce4db16a30813f65d0de8" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float Ludo.LogFile.flushTime</definition>
+        <argsstring></argsstring>
+        <name>flushTime</name>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="19" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1a3cafc21630af8e196e56ea226eae2d6e" compoundref="_log_file_8cs" startline="105" endline="113">Ludo.LogFile.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1ab83388988091097be6f64a0fcbd4e61b" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float Ludo.LogFile.flushInterval</definition>
+        <argsstring></argsstring>
+        <name>flushInterval</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1a3cafc21630af8e196e56ea226eae2d6e" compoundref="_log_file_8cs" startline="105" endline="113">Ludo.LogFile.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a2ee12ef31377698d612ab54e532b6258" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Ludo.LogFile.filenameTemp</definition>
+        <argsstring></argsstring>
+        <name>filenameTemp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="25" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a734c2ed4c92e2fe4891109df7634dbb6" prot="private" static="yes" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Ludo.LogFile.bufferTemp</definition>
+        <argsstring></argsstring>
+        <name>bufferTemp</name>
+        <initializer>= new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="27" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1af8f412e706c6b6432469b7349264e52b" compoundref="_log_file_8cs" startline="115" endline="128">Ludo.LogFile.Flush</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a8a0286ac02bb8d39aadeecda295d9619" prot="private" static="yes" mutable="no">
+        <type>StreamWriter</type>
+        <definition>StreamWriter Ludo.LogFile.writerTemp</definition>
+        <argsstring></argsstring>
+        <name>writerTemp</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="28" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a2e81da1e3c8cd5f3ec891e9d04f6b7f2" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Ludo.LogFile.filenameTemp2</definition>
+        <argsstring></argsstring>
+        <name>filenameTemp2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="30" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1aa5fc2fc5d69ca37d23aa898b0b7155cd" prot="private" static="yes" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Ludo.LogFile.bufferTemp2</definition>
+        <argsstring></argsstring>
+        <name>bufferTemp2</name>
+        <initializer>= new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="32" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1af8f412e706c6b6432469b7349264e52b" compoundref="_log_file_8cs" startline="115" endline="128">Ludo.LogFile.Flush</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1ac79465191028bb9a75c687eeeb902bb2" prot="private" static="yes" mutable="no">
+        <type>StreamWriter</type>
+        <definition>StreamWriter Ludo.LogFile.writerTemp2</definition>
+        <argsstring></argsstring>
+        <name>writerTemp2</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="33" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ludo_1_1_log_file_1a0a01756eb58e7dbd75d72165b6329ef9" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Ludo.LogFile.fullFilename</definition>
+        <argsstring></argsstring>
+        <name>fullFilename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="15" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_ludo_1_1_log_file_1ac401298a79114a6f75448aeaadef1b3e" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Ludo.LogFile.fullFilenameTemp</definition>
+        <argsstring></argsstring>
+        <name>fullFilenameTemp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="26" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_ludo_1_1_log_file_1ab2d0f8dfe08169958034054579bee275" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Ludo.LogFile.fullFilenameTemp2</definition>
+        <argsstring></argsstring>
+        <name>fullFilenameTemp2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="31" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a48661d2f92fd18c7b18fc56758d9a996" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ludo.LogFile.createNewFile</definition>
+        <argsstring></argsstring>
+        <name>createNewFile</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="22" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ludo_1_1_log_file_1a17ff30a3dd7c3c7e7b7f016d2e632851" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ludo.LogFile.ifOldFileClearOldFile</definition>
+        <argsstring></argsstring>
+        <name>ifOldFileClearOldFile</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="23" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ludo.LogFile.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="35" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="35" bodyend="85"/>
+        <references refid="class_ludo_1_1_log_file_1a48661d2f92fd18c7b18fc56758d9a996" compoundref="_log_file_8cs" startline="22">Ludo.LogFile.createNewFile</references>
+        <references refid="class_ludo_1_1_log_file_1a047af564ba6b765089209abc519ce7f8" compoundref="_log_file_8cs" startline="14">Ludo.LogFile.filename</references>
+        <references refid="class_ludo_1_1_log_file_1a2ee12ef31377698d612ab54e532b6258" compoundref="_log_file_8cs" startline="25">Ludo.LogFile.filenameTemp</references>
+        <references refid="class_ludo_1_1_log_file_1a2e81da1e3c8cd5f3ec891e9d04f6b7f2" compoundref="_log_file_8cs" startline="30">Ludo.LogFile.filenameTemp2</references>
+        <references refid="class_ludo_1_1_log_file_1a0a01756eb58e7dbd75d72165b6329ef9" compoundref="_log_file_8cs" startline="15">Ludo.LogFile.fullFilename</references>
+        <references refid="class_ludo_1_1_log_file_1ac401298a79114a6f75448aeaadef1b3e" compoundref="_log_file_8cs" startline="26">Ludo.LogFile.fullFilenameTemp</references>
+        <references refid="class_ludo_1_1_log_file_1ab2d0f8dfe08169958034054579bee275" compoundref="_log_file_8cs" startline="31">Ludo.LogFile.fullFilenameTemp2</references>
+        <references refid="class_ludo_1_1_log_file_1a17ff30a3dd7c3c7e7b7f016d2e632851" compoundref="_log_file_8cs" startline="23">Ludo.LogFile.ifOldFileClearOldFile</references>
+        <references refid="class_ludo_1_1_log_file_1a84c45ac6637f6bb4308b2779b92f009d" compoundref="_log_file_8cs" startline="11">Ludo.LogFile.instance</references>
+        <references refid="class_ludo_1_1_log_file_1ab987249118180db9426a0691a5e311b2" compoundref="_log_file_8cs" startline="130" endline="135">Ludo.LogFile.Log</references>
+        <references refid="class_ludo_1_1_log_file_1ad4fe827daeb9993c068e087c902e2605" compoundref="_log_file_8cs" startline="137" endline="142">Ludo.LogFile.LogTemp</references>
+        <references refid="class_ludo_1_1_log_file_1aca0672bfe8c0a9a6afd1f78567385577" compoundref="_log_file_8cs" startline="144" endline="149">Ludo.LogFile.LogTemp2</references>
+        <references refid="class_ludo_1_1_log_file_1a2814dbe47217e5fd509f964e873dcf74" compoundref="_log_file_8cs" startline="13">Ludo.LogFile.path</references>
+        <references refid="class_ludo_1_1_log_file_1a4adcf8f73477bf16fa12258105741fbf" compoundref="_log_file_8cs" startline="17">Ludo.LogFile.writer</references>
+        <references refid="class_ludo_1_1_log_file_1a8a0286ac02bb8d39aadeecda295d9619" compoundref="_log_file_8cs" startline="28">Ludo.LogFile.writerTemp</references>
+        <references refid="class_ludo_1_1_log_file_1ac79465191028bb9a75c687eeeb902bb2" compoundref="_log_file_8cs" startline="33">Ludo.LogFile.writerTemp2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ludo_1_1_log_file_1a81f871b4d753c6727eda9b044872c1fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ludo.LogFile.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="87" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="87" bodyend="103"/>
+        <references refid="class_ludo_1_1_log_file_1af8f412e706c6b6432469b7349264e52b" compoundref="_log_file_8cs" startline="115" endline="128">Ludo.LogFile.Flush</references>
+        <references refid="class_ludo_1_1_log_file_1ab987249118180db9426a0691a5e311b2" compoundref="_log_file_8cs" startline="130" endline="135">Ludo.LogFile.Log</references>
+        <references refid="class_ludo_1_1_log_file_1ad4fe827daeb9993c068e087c902e2605" compoundref="_log_file_8cs" startline="137" endline="142">Ludo.LogFile.LogTemp</references>
+        <references refid="class_ludo_1_1_log_file_1aca0672bfe8c0a9a6afd1f78567385577" compoundref="_log_file_8cs" startline="144" endline="149">Ludo.LogFile.LogTemp2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ludo_1_1_log_file_1a3cafc21630af8e196e56ea226eae2d6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ludo.LogFile.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="105" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="105" bodyend="113"/>
+        <references refid="class_ludo_1_1_log_file_1af8f412e706c6b6432469b7349264e52b" compoundref="_log_file_8cs" startline="115" endline="128">Ludo.LogFile.Flush</references>
+        <references refid="class_ludo_1_1_log_file_1ab83388988091097be6f64a0fcbd4e61b" compoundref="_log_file_8cs" startline="20">Ludo.LogFile.flushInterval</references>
+        <references refid="class_ludo_1_1_log_file_1a784de080cd9ce4db16a30813f65d0de8" compoundref="_log_file_8cs" startline="19">Ludo.LogFile.flushTime</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ludo_1_1_log_file_1af8f412e706c6b6432469b7349264e52b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ludo.LogFile.Flush</definition>
+        <argsstring>()</argsstring>
+        <name>Flush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="115" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="115" bodyend="128"/>
+        <references refid="class_ludo_1_1_log_file_1ae0e9db8277ecfab665b2a7aa547acb1e" compoundref="_log_file_8cs" startline="16">Ludo.LogFile.buffer</references>
+        <references refid="class_ludo_1_1_log_file_1a734c2ed4c92e2fe4891109df7634dbb6" compoundref="_log_file_8cs" startline="27">Ludo.LogFile.bufferTemp</references>
+        <references refid="class_ludo_1_1_log_file_1aa5fc2fc5d69ca37d23aa898b0b7155cd" compoundref="_log_file_8cs" startline="32">Ludo.LogFile.bufferTemp2</references>
+        <referencedby refid="class_ludo_1_1_log_file_1a81f871b4d753c6727eda9b044872c1fe" compoundref="_log_file_8cs" startline="87" endline="103">Ludo.LogFile.OnDestroy</referencedby>
+        <referencedby refid="class_ludo_1_1_log_file_1a3cafc21630af8e196e56ea226eae2d6e" compoundref="_log_file_8cs" startline="105" endline="113">Ludo.LogFile.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ludo_1_1_log_file_1ab987249118180db9426a0691a5e311b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ludo.LogFile.Log</definition>
+        <argsstring>(string message)</argsstring>
+        <name>Log</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="130" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="130" bodyend="135"/>
+        <references refid="class_ludo_1_1_log_file_1a84c45ac6637f6bb4308b2779b92f009d" compoundref="_log_file_8cs" startline="11">Ludo.LogFile.instance</references>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+        <referencedby refid="class_ludo_1_1_log_file_1a81f871b4d753c6727eda9b044872c1fe" compoundref="_log_file_8cs" startline="87" endline="103">Ludo.LogFile.OnDestroy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ludo_1_1_log_file_1ad4fe827daeb9993c068e087c902e2605" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ludo.LogFile.LogTemp</definition>
+        <argsstring>(string message)</argsstring>
+        <name>LogTemp</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="137" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="137" bodyend="142"/>
+        <references refid="class_ludo_1_1_log_file_1a84c45ac6637f6bb4308b2779b92f009d" compoundref="_log_file_8cs" startline="11">Ludo.LogFile.instance</references>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+        <referencedby refid="class_ludo_1_1_log_file_1a81f871b4d753c6727eda9b044872c1fe" compoundref="_log_file_8cs" startline="87" endline="103">Ludo.LogFile.OnDestroy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ludo_1_1_log_file_1aca0672bfe8c0a9a6afd1f78567385577" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ludo.LogFile.LogTemp2</definition>
+        <argsstring>(string message)</argsstring>
+        <name>LogTemp2</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="144" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="144" bodyend="149"/>
+        <references refid="class_ludo_1_1_log_file_1a84c45ac6637f6bb4308b2779b92f009d" compoundref="_log_file_8cs" startline="11">Ludo.LogFile.instance</references>
+        <referencedby refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" compoundref="_log_file_8cs" startline="35" endline="85">Ludo.LogFile.Awake</referencedby>
+        <referencedby refid="class_ludo_1_1_log_file_1a81f871b4d753c6727eda9b044872c1fe" compoundref="_log_file_8cs" startline="87" endline="103">Ludo.LogFile.OnDestroy</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="300">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="299">
+        <label>Ludo.LogFile</label>
+        <link refid="class_ludo_1_1_log_file"/>
+        <childnode refid="300" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="302">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="301">
+        <label>Ludo.LogFile</label>
+        <link refid="class_ludo_1_1_log_file"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+        <childnode refid="303" relation="usage">
+          <edgelabel>writer</edgelabel>
+          <edgelabel>filenameTemp2</edgelabel>
+          <edgelabel>path</edgelabel>
+          <edgelabel>bufferTemp2</edgelabel>
+          <edgelabel>bufferTemp</edgelabel>
+          <edgelabel>writerTemp2</edgelabel>
+          <edgelabel>writerTemp</edgelabel>
+          <edgelabel>flushTime</edgelabel>
+          <edgelabel>instance</edgelabel>
+          <edgelabel>filenameTemp</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="303">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/LogFile.cs" bodystart="8" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_ludo_1_1_log_file_1aab838e703aa27d55ae94a4bef1034dea" prot="public" virt="non-virtual"><scope>Ludo::LogFile</scope><name>Awake</name></member>
+      <member refid="class_ludo_1_1_log_file_1ae0e9db8277ecfab665b2a7aa547acb1e" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>buffer</name></member>
+      <member refid="class_ludo_1_1_log_file_1a734c2ed4c92e2fe4891109df7634dbb6" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>bufferTemp</name></member>
+      <member refid="class_ludo_1_1_log_file_1aa5fc2fc5d69ca37d23aa898b0b7155cd" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>bufferTemp2</name></member>
+      <member refid="class_ludo_1_1_log_file_1a48661d2f92fd18c7b18fc56758d9a996" prot="public" virt="non-virtual"><scope>Ludo::LogFile</scope><name>createNewFile</name></member>
+      <member refid="class_ludo_1_1_log_file_1a047af564ba6b765089209abc519ce7f8" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>filename</name></member>
+      <member refid="class_ludo_1_1_log_file_1a2ee12ef31377698d612ab54e532b6258" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>filenameTemp</name></member>
+      <member refid="class_ludo_1_1_log_file_1a2e81da1e3c8cd5f3ec891e9d04f6b7f2" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>filenameTemp2</name></member>
+      <member refid="class_ludo_1_1_log_file_1af8f412e706c6b6432469b7349264e52b" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>Flush</name></member>
+      <member refid="class_ludo_1_1_log_file_1ab83388988091097be6f64a0fcbd4e61b" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>flushInterval</name></member>
+      <member refid="class_ludo_1_1_log_file_1a784de080cd9ce4db16a30813f65d0de8" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>flushTime</name></member>
+      <member refid="class_ludo_1_1_log_file_1a0a01756eb58e7dbd75d72165b6329ef9" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>fullFilename</name></member>
+      <member refid="class_ludo_1_1_log_file_1ac401298a79114a6f75448aeaadef1b3e" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>fullFilenameTemp</name></member>
+      <member refid="class_ludo_1_1_log_file_1ab2d0f8dfe08169958034054579bee275" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>fullFilenameTemp2</name></member>
+      <member refid="class_ludo_1_1_log_file_1a17ff30a3dd7c3c7e7b7f016d2e632851" prot="public" virt="non-virtual"><scope>Ludo::LogFile</scope><name>ifOldFileClearOldFile</name></member>
+      <member refid="class_ludo_1_1_log_file_1a84c45ac6637f6bb4308b2779b92f009d" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>instance</name></member>
+      <member refid="class_ludo_1_1_log_file_1ab987249118180db9426a0691a5e311b2" prot="public" virt="non-virtual"><scope>Ludo::LogFile</scope><name>Log</name></member>
+      <member refid="class_ludo_1_1_log_file_1ad4fe827daeb9993c068e087c902e2605" prot="public" virt="non-virtual"><scope>Ludo::LogFile</scope><name>LogTemp</name></member>
+      <member refid="class_ludo_1_1_log_file_1aca0672bfe8c0a9a6afd1f78567385577" prot="public" virt="non-virtual"><scope>Ludo::LogFile</scope><name>LogTemp2</name></member>
+      <member refid="class_ludo_1_1_log_file_1a81f871b4d753c6727eda9b044872c1fe" prot="public" virt="non-virtual"><scope>Ludo::LogFile</scope><name>OnDestroy</name></member>
+      <member refid="class_ludo_1_1_log_file_1a2814dbe47217e5fd509f964e873dcf74" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>path</name></member>
+      <member refid="class_ludo_1_1_log_file_1a3cafc21630af8e196e56ea226eae2d6e" prot="public" virt="non-virtual"><scope>Ludo::LogFile</scope><name>Update</name></member>
+      <member refid="class_ludo_1_1_log_file_1a4adcf8f73477bf16fa12258105741fbf" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>writer</name></member>
+      <member refid="class_ludo_1_1_log_file_1a8a0286ac02bb8d39aadeecda295d9619" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>writerTemp</name></member>
+      <member refid="class_ludo_1_1_log_file_1ac79465191028bb9a75c687eeeb902bb2" prot="private" virt="non-virtual"><scope>Ludo::LogFile</scope><name>writerTemp2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

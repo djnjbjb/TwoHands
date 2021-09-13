@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_whole_velocity_before_jump" kind="class" prot="public">
+    <compoundname>WholeVelocityBeforeJump</compoundname>
+    <basecompoundref refid="class_velocity" prot="public" virt="non-virtual">Velocity</basecompoundref>
+    <innerclass refid="struct_whole_velocity_before_jump_1_1_history" prot="public">WholeVelocityBeforeJump::History</innerclass>
+    <innerclass refid="class_whole_velocity_before_jump_1_1_params" prot="public">WholeVelocityBeforeJump::Params</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_whole_velocity_before_jump_1a0e60ad2f7b33569db5701b0b1117e996" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WholeVelocityBeforeJump.historyTime</definition>
+        <argsstring></argsstring>
+        <name>historyTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="28" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_before_jump_1ad1c46c6fb9c49da401eca665828b7d04" compoundref="_whole_velocity_before_jump_8cs" startline="39" endline="216">FixedUpdateManually</referencedby>
+        <referencedby refid="class_whole_velocity_before_jump_1a4a170a324c7ad75509bfdf963917cb6f" compoundref="_whole_velocity_before_jump_8cs" startline="31" endline="37">WholeVelocityBeforeJump</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_whole_velocity_before_jump_1aa7bf5f9924710fd759b0d8b67bb317b1" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_whole_velocity_before_jump_1_1_history" kindref="compound">History</ref> &gt;</type>
+        <definition>List&lt;History&gt; WholeVelocityBeforeJump.history</definition>
+        <argsstring></argsstring>
+        <name>history</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="29" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_whole_velocity_before_jump_1ad1c46c6fb9c49da401eca665828b7d04" compoundref="_whole_velocity_before_jump_8cs" startline="39" endline="216">FixedUpdateManually</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a51abfa72a0558c0ef740b7237ab3bb27" compoundref="_whole_velocity_while_jumping_8cs" startline="93" endline="237">WholeVelocityWhileJumping.StartJump_GetDirection</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1a2a310bcf9d0fec245ff8877fa0786c25" compoundref="_whole_velocity_while_jumping_8cs" startline="246" endline="306">WholeVelocityWhileJumping.StartJump_GetSpeed_EqualToBeforeJump</referencedby>
+        <referencedby refid="class_whole_velocity_while_jumping_1aabfa6d0ea7422114ebc27439cde31e78" compoundref="_whole_velocity_while_jumping_8cs" startline="48" endline="63">WholeVelocityWhileJumping.StartJumpWithLog</referencedby>
+        <referencedby refid="class_whole_velocity_before_jump_1a4a170a324c7ad75509bfdf963917cb6f" compoundref="_whole_velocity_before_jump_8cs" startline="31" endline="37">WholeVelocityBeforeJump</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_whole_velocity_before_jump_1a4a170a324c7ad75509bfdf963917cb6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WholeVelocityBeforeJump.WholeVelocityBeforeJump</definition>
+        <argsstring>(float historyTime)</argsstring>
+        <name>WholeVelocityBeforeJump</name>
+        <param>
+          <type>float</type>
+          <declname>historyTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="31" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="31" bodyend="37"/>
+        <references refid="class_velocity_1ab4270b69937407ac4146bda514635bd2" compoundref="_velocity_8cs" startline="9">Velocity.direction</references>
+        <references refid="class_whole_velocity_before_jump_1aa7bf5f9924710fd759b0d8b67bb317b1" compoundref="_whole_velocity_before_jump_8cs" startline="29">history</references>
+        <references refid="class_whole_velocity_before_jump_1a0e60ad2f7b33569db5701b0b1117e996" compoundref="_whole_velocity_before_jump_8cs" startline="28">historyTime</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+      </memberdef>
+      <memberdef kind="function" id="class_whole_velocity_before_jump_1ad1c46c6fb9c49da401eca665828b7d04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WholeVelocityBeforeJump.FixedUpdateManually</definition>
+        <argsstring>(Params @params)</argsstring>
+        <name>FixedUpdateManually</name>
+        <param>
+          <type><ref refid="class_whole_velocity_before_jump_1_1_params" kindref="compound">Params</ref> @</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="39" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="39" bodyend="216"/>
+        <references refid="class_velocity_1ab4270b69937407ac4146bda514635bd2" compoundref="_velocity_8cs" startline="9">Velocity.direction</references>
+        <references refid="class_whole_velocity_before_jump_1aa7bf5f9924710fd759b0d8b67bb317b1" compoundref="_whole_velocity_before_jump_8cs" startline="29">history</references>
+        <references refid="class_whole_velocity_before_jump_1a0e60ad2f7b33569db5701b0b1117e996" compoundref="_whole_velocity_before_jump_8cs" startline="28">historyTime</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="485">
+        <label>Velocity</label>
+        <link refid="class_velocity"/>
+      </node>
+      <node id="484">
+        <label>WholeVelocityBeforeJump</label>
+        <link refid="class_whole_velocity_before_jump"/>
+        <childnode refid="485" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="487">
+        <label>Velocity</label>
+        <link refid="class_velocity"/>
+      </node>
+      <node id="486">
+        <label>WholeVelocityBeforeJump</label>
+        <link refid="class_whole_velocity_before_jump"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/WholeVelocityBeforeJump.cs" bodystart="6" bodyend="218"/>
+    <listofallmembers>
+      <member refid="class_velocity_1ab4270b69937407ac4146bda514635bd2" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump</scope><name>direction</name></member>
+      <member refid="class_whole_velocity_before_jump_1ad1c46c6fb9c49da401eca665828b7d04" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump</scope><name>FixedUpdateManually</name></member>
+      <member refid="class_whole_velocity_before_jump_1aa7bf5f9924710fd759b0d8b67bb317b1" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump</scope><name>history</name></member>
+      <member refid="class_whole_velocity_before_jump_1a0e60ad2f7b33569db5701b0b1117e996" prot="private" virt="non-virtual"><scope>WholeVelocityBeforeJump</scope><name>historyTime</name></member>
+      <member refid="class_velocity_1adc1afea59fa2d2da9b2817f8277153d7" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump</scope><name>operator Vector2</name></member>
+      <member refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump</scope><name>speed</name></member>
+      <member refid="class_velocity_1a027993d56ded782d0fde111d823427ee" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump</scope><name>velocity</name></member>
+      <member refid="class_whole_velocity_before_jump_1a4a170a324c7ad75509bfdf963917cb6f" prot="public" virt="non-virtual"><scope>WholeVelocityBeforeJump</scope><name>WholeVelocityBeforeJump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

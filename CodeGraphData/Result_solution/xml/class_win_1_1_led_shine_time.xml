@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_win_1_1_led_shine_time" kind="class" prot="private">
+    <compoundname>Win::LedShineTime</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_win_1_1_led_shine_time_1adfafa83f16c9ab45bf2883b58808dc7f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Win.LedShineTime.startTime</definition>
+        <argsstring></argsstring>
+        <name>startTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_win_1_1_led_shine_time_1a2dfdbdca314d34d9dd200cff5e92c776" compoundref="_win_8cs" startline="13" endline="17">Win.LedShineTime.LedShineTime</referencedby>
+        <referencedby refid="class_win_1_1_led_shine_time_1a012b08be66d64a330a7e83f6de49be8b" compoundref="_win_8cs" startline="18" endline="41">Win.LedShineTime.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_win_1_1_led_shine_time_1a37ead070462f20f3a5b4ef25df426689" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Win.LedShineTime.shineTime</definition>
+        <argsstring></argsstring>
+        <name>shineTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_win_1_1_led_shine_time_1a2dfdbdca314d34d9dd200cff5e92c776" compoundref="_win_8cs" startline="13" endline="17">Win.LedShineTime.LedShineTime</referencedby>
+        <referencedby refid="class_win_1_1_led_shine_time_1a012b08be66d64a330a7e83f6de49be8b" compoundref="_win_8cs" startline="18" endline="41">Win.LedShineTime.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_win_1_1_led_shine_time_1a2dfdbdca314d34d9dd200cff5e92c776" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Win.LedShineTime.LedShineTime</definition>
+        <argsstring>()</argsstring>
+        <name>LedShineTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" bodystart="13" bodyend="17"/>
+        <references refid="class_win_1_1_led_shine_time_1a37ead070462f20f3a5b4ef25df426689" compoundref="_win_8cs" startline="11">Win.LedShineTime.shineTime</references>
+        <references refid="class_win_1_1_led_shine_time_1adfafa83f16c9ab45bf2883b58808dc7f" compoundref="_win_8cs" startline="10">Win.LedShineTime.startTime</references>
+      </memberdef>
+      <memberdef kind="function" id="class_win_1_1_led_shine_time_1a012b08be66d64a330a7e83f6de49be8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Win.LedShineTime.Update</definition>
+        <argsstring>(bool sign)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>bool</type>
+          <declname>sign</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" line="18" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" bodystart="18" bodyend="41"/>
+        <references refid="class_win_1_1_led_shine_time_1a37ead070462f20f3a5b4ef25df426689" compoundref="_win_8cs" startline="11">Win.LedShineTime.shineTime</references>
+        <references refid="class_win_1_1_led_shine_time_1adfafa83f16c9ab45bf2883b58808dc7f" compoundref="_win_8cs" startline="10">Win.LedShineTime.startTime</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/Win.cs" bodystart="8" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_win_1_1_led_shine_time_1a2dfdbdca314d34d9dd200cff5e92c776" prot="public" virt="non-virtual"><scope>Win::LedShineTime</scope><name>LedShineTime</name></member>
+      <member refid="class_win_1_1_led_shine_time_1a37ead070462f20f3a5b4ef25df426689" prot="public" virt="non-virtual"><scope>Win::LedShineTime</scope><name>shineTime</name></member>
+      <member refid="class_win_1_1_led_shine_time_1adfafa83f16c9ab45bf2883b58808dc7f" prot="public" virt="non-virtual"><scope>Win::LedShineTime</scope><name>startTime</name></member>
+      <member refid="class_win_1_1_led_shine_time_1a012b08be66d64a330a7e83f6de49be8b" prot="public" virt="non-virtual"><scope>Win::LedShineTime</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

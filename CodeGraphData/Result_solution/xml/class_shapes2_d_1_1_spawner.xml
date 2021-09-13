@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_shapes2_d_1_1_spawner" kind="class" prot="public">
+    <compoundname>Shapes2D::Spawner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1a93e4b8028991b0a74a70519d78260010" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Shapes2D.Spawner.prefab</definition>
+        <argsstring></argsstring>
+        <name>prefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1a08525d095606dd7f51d3806aec492533" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2D.Spawner.interval</definition>
+        <argsstring></argsstring>
+        <name>interval</name>
+        <initializer>= 0.000001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1a25f9037d8b138328a2737bbc66cf708f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Shapes2D.Spawner.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1a9551f7847c236581907b7a4f88a17323" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Shapes2D.Spawner.dynamic</definition>
+        <argsstring></argsstring>
+        <name>dynamic</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="12" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1abb9253b7ff423de15eb3625980a58aa7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Shapes2D.Spawner.optimizePolygons</definition>
+        <argsstring></argsstring>
+        <name>optimizePolygons</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1a37d75f05ed251116faabcbc017dc3d07" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Shapes2D.Spawner.shapeType</definition>
+        <argsstring></argsstring>
+        <name>shapeType</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1adb6f5e12826668c5018c5cf1dcd9e2df" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Shapes2D.Spawner.randomStyle</definition>
+        <argsstring></argsstring>
+        <name>randomStyle</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="15" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1a692816bb849ab9c737196db8ca6d1736" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2D.Spawner.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1ada5022df165b8fe3114ee2792d12c830" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Shapes2D.Spawner.spawned</definition>
+        <argsstring></argsstring>
+        <name>spawned</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1ae9b778f2e3f3d832f529a36a1e2558d7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Shapes2D.Spawner.done</definition>
+        <argsstring></argsstring>
+        <name>done</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="18" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1a78d72dcc56b546b808c2076e7c6536f9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2D.Spawner.scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="19" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1a0d6395df6ea04f7848108b6afd5d0e54" prot="private" static="no" mutable="no">
+        <type>List&lt; Shape &gt;</type>
+        <definition>List&lt;Shape&gt; Shapes2D.Spawner.shapes</definition>
+        <argsstring></argsstring>
+        <name>shapes</name>
+        <initializer>= new List&lt;Shape&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_spawner_1ae3e967bdc871015d71e393a131ab5e60" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2D.Spawner.deltaTime</definition>
+        <argsstring></argsstring>
+        <name>deltaTime</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="21" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" compoundref="_spawner_8cs" startline="28" endline="72">Shapes2D.Spawner.OnGUI</referencedby>
+        <referencedby refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" compoundref="_spawner_8cs" startline="75" endline="142">Shapes2D.Spawner.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_shapes2_d_1_1_spawner_1a03160ffefddbbe4dc8160e3885c3914a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Spawner.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="24" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Spawner.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="28" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="28" bodyend="72"/>
+        <references refid="class_shapes2_d_1_1_spawner_1a25f9037d8b138328a2737bbc66cf708f" compoundref="_spawner_8cs" startline="11">Shapes2D.Spawner.count</references>
+        <references refid="class_shapes2_d_1_1_spawner_1ae3e967bdc871015d71e393a131ab5e60" compoundref="_spawner_8cs" startline="21">Shapes2D.Spawner.deltaTime</references>
+        <references refid="class_shapes2_d_1_1_spawner_1ae9b778f2e3f3d832f529a36a1e2558d7" compoundref="_spawner_8cs" startline="18">Shapes2D.Spawner.done</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a9551f7847c236581907b7a4f88a17323" compoundref="_spawner_8cs" startline="12">Shapes2D.Spawner.dynamic</references>
+        <references refid="class_shapes2_d_1_1_spawner_1abb9253b7ff423de15eb3625980a58aa7" compoundref="_spawner_8cs" startline="13">Shapes2D.Spawner.optimizePolygons</references>
+        <references refid="class_shapes2_d_1_1_spawner_1adb6f5e12826668c5018c5cf1dcd9e2df" compoundref="_spawner_8cs" startline="15">Shapes2D.Spawner.randomStyle</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a78d72dcc56b546b808c2076e7c6536f9" compoundref="_spawner_8cs" startline="19">Shapes2D.Spawner.scale</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a37d75f05ed251116faabcbc017dc3d07" compoundref="_spawner_8cs" startline="14">Shapes2D.Spawner.shapeType</references>
+        <references refid="class_shapes2_d_1_1_spawner_1ada5022df165b8fe3114ee2792d12c830" compoundref="_spawner_8cs" startline="17">Shapes2D.Spawner.spawned</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a692816bb849ab9c737196db8ca6d1736" compoundref="_spawner_8cs" startline="16">Shapes2D.Spawner.timer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.Spawner.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="75" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="75" bodyend="142"/>
+        <references refid="class_shapes2_d_1_1_spawner_1a25f9037d8b138328a2737bbc66cf708f" compoundref="_spawner_8cs" startline="11">Shapes2D.Spawner.count</references>
+        <references refid="class_shapes2_d_1_1_spawner_1ae3e967bdc871015d71e393a131ab5e60" compoundref="_spawner_8cs" startline="21">Shapes2D.Spawner.deltaTime</references>
+        <references refid="class_shapes2_d_1_1_spawner_1ae9b778f2e3f3d832f529a36a1e2558d7" compoundref="_spawner_8cs" startline="18">Shapes2D.Spawner.done</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a9551f7847c236581907b7a4f88a17323" compoundref="_spawner_8cs" startline="12">Shapes2D.Spawner.dynamic</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a08525d095606dd7f51d3806aec492533" compoundref="_spawner_8cs" startline="10">Shapes2D.Spawner.interval</references>
+        <references refid="class_shapes2_d_1_1_spawner_1abb9253b7ff423de15eb3625980a58aa7" compoundref="_spawner_8cs" startline="13">Shapes2D.Spawner.optimizePolygons</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a93e4b8028991b0a74a70519d78260010" compoundref="_spawner_8cs" startline="9">Shapes2D.Spawner.prefab</references>
+        <references refid="class_shapes2_d_1_1_spawner_1adb6f5e12826668c5018c5cf1dcd9e2df" compoundref="_spawner_8cs" startline="15">Shapes2D.Spawner.randomStyle</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a78d72dcc56b546b808c2076e7c6536f9" compoundref="_spawner_8cs" startline="19">Shapes2D.Spawner.scale</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a0d6395df6ea04f7848108b6afd5d0e54" compoundref="_spawner_8cs" startline="20">Shapes2D.Spawner.shapes</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a37d75f05ed251116faabcbc017dc3d07" compoundref="_spawner_8cs" startline="14">Shapes2D.Spawner.shapeType</references>
+        <references refid="class_shapes2_d_1_1_spawner_1ada5022df165b8fe3114ee2792d12c830" compoundref="_spawner_8cs" startline="17">Shapes2D.Spawner.spawned</references>
+        <references refid="class_shapes2_d_1_1_spawner_1a692816bb849ab9c737196db8ca6d1736" compoundref="_spawner_8cs" startline="16">Shapes2D.Spawner.timer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="406">
+        <label>Shapes2D.Spawner</label>
+        <link refid="class_shapes2_d_1_1_spawner"/>
+        <childnode refid="407" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="408">
+        <label>Shapes2D.Spawner</label>
+        <link refid="class_shapes2_d_1_1_spawner"/>
+        <childnode refid="409" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Stress Test/Spawner.cs" bodystart="7" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_shapes2_d_1_1_spawner_1a25f9037d8b138328a2737bbc66cf708f" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>count</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1ae3e967bdc871015d71e393a131ab5e60" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>deltaTime</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1ae9b778f2e3f3d832f529a36a1e2558d7" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>done</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a9551f7847c236581907b7a4f88a17323" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>dynamic</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a08525d095606dd7f51d3806aec492533" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>interval</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a76b7ec9ae123a7a3e3bce4d91a85204a" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>OnGUI</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1abb9253b7ff423de15eb3625980a58aa7" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>optimizePolygons</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a93e4b8028991b0a74a70519d78260010" prot="public" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>prefab</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1adb6f5e12826668c5018c5cf1dcd9e2df" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>randomStyle</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a78d72dcc56b546b808c2076e7c6536f9" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>scale</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a0d6395df6ea04f7848108b6afd5d0e54" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>shapes</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a37d75f05ed251116faabcbc017dc3d07" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>shapeType</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1ada5022df165b8fe3114ee2792d12c830" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>spawned</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a03160ffefddbbe4dc8160e3885c3914a" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>Start</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a692816bb849ab9c737196db8ca6d1736" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>timer</name></member>
+      <member refid="class_shapes2_d_1_1_spawner_1a4015f2175a9e0b417af19552d4a01391" prot="private" virt="non-virtual"><scope>Shapes2D::Spawner</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

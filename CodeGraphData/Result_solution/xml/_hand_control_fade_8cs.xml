@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_hand_control_fade_8cs" kind="file">
+    <compoundname>HandControlFade.cs</compoundname>
+    <innerclass refid="class_hand_control_fade" prot="public">HandControlFade</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_hand_control_fade" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_hand_control_fade" kindref="compound">HandControlFade</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_hand_control_fade_1a3a9f15ae393102f703d9ed4c6f26cfd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_hand_control_fade_1a3a9f15ae393102f703d9ed4c6f26cfd4" kindref="member">alpha</ref><sp/>=<sp/>1f;</highlight></codeline>
+<codeline lineno="8" refid="class_hand_control_fade_1af6d4dd15dee811403c927bdd0244b05f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>readonly<sp/>SpriteRenderer[]<sp/><ref refid="class_hand_control_fade_1af6d4dd15dee811403c927bdd0244b05f" kindref="member">spriteRenderers</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_hand_control_fade_1a70647a263b353c9300bc39d906ba95db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_hand_control_fade_1a70647a263b353c9300bc39d906ba95db" kindref="member">HandControlFade</ref>(GameObject<sp/>whole)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_hand_control_fade_1af6d4dd15dee811403c927bdd0244b05f" kindref="member">spriteRenderers</ref><sp/>=<sp/>whole.transform.GetComponentsInChildren&lt;SpriteRenderer&gt;(includeInactive:<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_hand_control_fade_1ad5fbbc131df3eccde485e0abf2e9ae09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_hand_control_fade_1ad5fbbc131df3eccde485e0abf2e9ae09" kindref="member">Fade</ref>(MonoBehaviour<sp/>mono,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fadeTime)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mono.StartCoroutine(<ref refid="class_hand_control_fade_1a96ae28e6f43feee4ae59ab27322100f2" kindref="member">FadeCoroutine</ref>(fadeTime));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_hand_control_fade_1a96ae28e6f43feee4ae59ab27322100f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>IEnumerator<sp/><ref refid="class_hand_control_fade_1a96ae28e6f43feee4ae59ab27322100f2" kindref="member">FadeCoroutine</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fadeTime)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>startTime<sp/>=<sp/>Time.time;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(Time.time<sp/>-<sp/>startTime<sp/>&lt;<sp/>fadeTime)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_hand_control_fade_1a3a9f15ae393102f703d9ed4c6f26cfd4" kindref="member">alpha</ref><sp/>=<sp/>1<sp/>-<sp/>(Time.time<sp/>-<sp/>startTime)<sp/>/<sp/>fadeTime;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>render<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/><ref refid="class_hand_control_fade_1af6d4dd15dee811403c927bdd0244b05f" kindref="member">spriteRenderers</ref>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>render.color<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Color(render.color.r,<sp/>render.color.g,<sp/>render.color.b,<sp/><ref refid="class_hand_control_fade_1a3a9f15ae393102f703d9ed4c6f26cfd4" kindref="member">alpha</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>null;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_hand_control_fade_1a3a9f15ae393102f703d9ed4c6f26cfd4" kindref="member">alpha</ref><sp/>=<sp/>0f;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>render<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/><ref refid="class_hand_control_fade_1af6d4dd15dee811403c927bdd0244b05f" kindref="member">spriteRenderers</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>render.color<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Color(render.color.r,<sp/>render.color.g,<sp/>render.color.b,<sp/><ref refid="class_hand_control_fade_1a3a9f15ae393102f703d9ed4c6f26cfd4" kindref="member">alpha</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HandControlFade.cs"/>
+  </compounddef>
+</doxygen>

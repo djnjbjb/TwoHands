@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_obsolete_hand_control" kind="class" prot="public">
+    <compoundname>ObsoleteHandControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_obsolete_hand_control_1afaf5f0e707ad61831f8980b66b29eab2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObsoleteHandControl.FU_WholeTemp</definition>
+        <argsstring>()</argsstring>
+        <name>FU_WholeTemp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/HandControl(Old)/ObsoleteHandControl.cs" line="158" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/HandControl(Old)/ObsoleteHandControl.cs" bodystart="158" bodyend="265"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_obsolete_hand_control_1ac3ca24706609e7c68e9eebdb60b4be2d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ObsoleteHandControl.FU_Main_1RotateRoundRight_Params</definition>
+        <argsstring>(in float angle_Deg, in GameObject rhFist, in GameObject wholePerson, out Vector2 offset, out float angleWholePerson_Deg)</argsstring>
+        <name>FU_Main_1RotateRoundRight_Params</name>
+        <param>
+          <type>in float</type>
+          <declname>angle_Deg</declname>
+        </param>
+        <param>
+          <type>in GameObject</type>
+          <declname>rhFist</declname>
+        </param>
+        <param>
+          <type>in GameObject</type>
+          <declname>wholePerson</declname>
+        </param>
+        <param>
+          <type>out Vector2</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>angleWholePerson_Deg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/HandControl(Old)/ObsoleteHandControl.cs" line="267" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/HandControl(Old)/ObsoleteHandControl.cs" bodystart="267" bodyend="290"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="332">
+        <label>ObsoleteHandControl</label>
+        <link refid="class_obsolete_hand_control"/>
+        <childnode refid="333" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="334">
+        <label>ObsoleteHandControl</label>
+        <link refid="class_obsolete_hand_control"/>
+        <childnode refid="335" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/HandControl(Old)/ObsoleteHandControl.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/HandControl(Old)/ObsoleteHandControl.cs" bodystart="7" bodyend="291"/>
+    <listofallmembers>
+      <member refid="class_obsolete_hand_control_1ac3ca24706609e7c68e9eebdb60b4be2d" prot="private" virt="non-virtual"><scope>ObsoleteHandControl</scope><name>FU_Main_1RotateRoundRight_Params</name></member>
+      <member refid="class_obsolete_hand_control_1afaf5f0e707ad61831f8980b66b29eab2" prot="private" virt="non-virtual"><scope>ObsoleteHandControl</scope><name>FU_WholeTemp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

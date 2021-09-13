@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_plugin_master_1_1_play_mode_save_1_1_save_data_value" kind="class" prot="private">
+    <compoundname>PluginMaster::PlayModeSave::SaveDataValue</compoundname>
+    <derivedcompoundref refid="class_plugin_master_1_1_play_mode_save_1_1_sprite_renderer_save_data_value" prot="public" virt="non-virtual">PluginMaster.PlayModeSave.SpriteRendererSaveDataValue</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_plugin_master_1_1_play_mode_save_1_1_save_data_value_1ac33edf1f5313e44ba2fe3fe8e59484d7" prot="public" static="no" mutable="no">
+        <type>SerializedObject</type>
+        <definition>SerializedObject PluginMaster.PlayModeSave.SaveDataValue.serializedObj</definition>
+        <argsstring></argsstring>
+        <name>serializedObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="140" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_plugin_master_1_1_play_mode_save_1_1_save_data_value_1ada0e17b63e169924a183c340012d13c9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_plugin_master_1_1_play_mode_save_1a117f8c006c73ec8b601cc79ce6ea8b4a" kindref="member">SaveCommand</ref></type>
+        <definition>SaveCommand PluginMaster.PlayModeSave.SaveDataValue.saveCmd</definition>
+        <argsstring></argsstring>
+        <name>saveCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="141" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_plugin_master_1_1_play_mode_save_1_1_save_data_value_1aeb929aee059cca680f937891ce1ed85b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PluginMaster.PlayModeSave.SaveDataValue.SaveDataValue</definition>
+        <argsstring>(SerializedObject serializedObj, SaveCommand saveCmd)</argsstring>
+        <name>SaveDataValue</name>
+        <param>
+          <type>SerializedObject</type>
+          <declname>serializedObj</declname>
+        </param>
+        <param>
+          <type><ref refid="class_plugin_master_1_1_play_mode_save_1a117f8c006c73ec8b601cc79ce6ea8b4a" kindref="member">SaveCommand</ref></type>
+          <declname>saveCmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="142" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_plugin_master_1_1_play_mode_save_1_1_save_data_value_1ace8ca2fef081e2a5ad66763948cac79d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void PluginMaster.PlayModeSave.SaveDataValue.Update</definition>
+        <argsstring>(int componentId)</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_plugin_master_1_1_play_mode_save_1_1_sprite_renderer_save_data_value_1aff959c80e51c591f5e63bc6a74a32d5e">Update</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>componentId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="143" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="384">
+        <label>PluginMaster.PlayModeSave.SpriteRendererSaveDataValue</label>
+        <link refid="class_plugin_master_1_1_play_mode_save_1_1_sprite_renderer_save_data_value"/>
+        <childnode refid="383" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>PluginMaster.PlayModeSave.SaveDataValue</label>
+        <link refid="class_plugin_master_1_1_play_mode_save_1_1_save_data_value"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="139" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="138" bodyend="144"/>
+    <listofallmembers>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_save_data_value_1ada0e17b63e169924a183c340012d13c9" prot="public" virt="non-virtual"><scope>PluginMaster::PlayModeSave::SaveDataValue</scope><name>saveCmd</name></member>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_save_data_value_1aeb929aee059cca680f937891ce1ed85b" prot="public" virt="non-virtual"><scope>PluginMaster::PlayModeSave::SaveDataValue</scope><name>SaveDataValue</name></member>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_save_data_value_1ac33edf1f5313e44ba2fe3fe8e59484d7" prot="public" virt="non-virtual"><scope>PluginMaster::PlayModeSave::SaveDataValue</scope><name>serializedObj</name></member>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_save_data_value_1ace8ca2fef081e2a5ad66763948cac79d" prot="public" virt="virtual"><scope>PluginMaster::PlayModeSave::SaveDataValue</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

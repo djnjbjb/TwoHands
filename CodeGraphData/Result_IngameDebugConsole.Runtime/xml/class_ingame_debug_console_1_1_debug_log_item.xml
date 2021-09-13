@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ingame_debug_console_1_1_debug_log_item" kind="class" prot="public">
+    <compoundname>IngameDebugConsole::DebugLogItem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1a593d4a8de7e3b9902256792d06524b2c" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform IngameDebugConsole.DebugLogItem.transformComponent</definition>
+        <argsstring></argsstring>
+        <name>transformComponent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="55" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1abc4619a5250c3756b1280354137354f5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ingame_debug_console_1_1_debug_log_item_1afc9ae7616b7946f32ba8423eb826edfd" kindref="member">Image</ref></type>
+        <definition>Image IngameDebugConsole.DebugLogItem.imageComponent</definition>
+        <argsstring></argsstring>
+        <name>imageComponent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="59" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1a0e82e6da390982131f25365309c25c55" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text IngameDebugConsole.DebugLogItem.logText</definition>
+        <argsstring></argsstring>
+        <name>logText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="63" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1adab5a31a5ded93994d3239c46a5ee029" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ingame_debug_console_1_1_debug_log_item_1afc9ae7616b7946f32ba8423eb826edfd" kindref="member">Image</ref></type>
+        <definition>Image IngameDebugConsole.DebugLogItem.logTypeImage</definition>
+        <argsstring></argsstring>
+        <name>logTypeImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="65" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a10992902f4c8947a79bf18165052b04a" compoundref="_debug_log_item_8cs" startline="99" endline="135">IngameDebugConsole.DebugLogItem.SetContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1af3374d8116ea01a84a1296f29f3c4365" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject IngameDebugConsole.DebugLogItem.logCountParent</definition>
+        <argsstring></argsstring>
+        <name>logCountParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="69" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a60b8634d74e57a14a09c2ba8a178ea84" compoundref="_debug_log_item_8cs" startline="147" endline="151">IngameDebugConsole.DebugLogItem.HideCount</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a00f06940cd5a25927db8539af62365b1" compoundref="_debug_log_item_8cs" startline="138" endline="144">IngameDebugConsole.DebugLogItem.ShowCount</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1a186aef5ec446cfb9d4072f1d3a2e8e65" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text IngameDebugConsole.DebugLogItem.logCountText</definition>
+        <argsstring></argsstring>
+        <name>logCountText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="71" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1ab1d88aecf314d39d5553adf95785e48f" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform IngameDebugConsole.DebugLogItem.copyLogButton</definition>
+        <argsstring></argsstring>
+        <name>copyLogButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="74" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a10992902f4c8947a79bf18165052b04a" compoundref="_debug_log_item_8cs" startline="99" endline="135">IngameDebugConsole.DebugLogItem.SetContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1aa063ad604c237c29bb4b3e55a1a80371" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ingame_debug_console_1_1_debug_log_entry" kindref="compound">DebugLogEntry</ref></type>
+        <definition>DebugLogEntry IngameDebugConsole.DebugLogItem.logEntry</definition>
+        <argsstring></argsstring>
+        <name>logEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="78" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a10992902f4c8947a79bf18165052b04a" compoundref="_debug_log_item_8cs" startline="99" endline="135">IngameDebugConsole.DebugLogItem.SetContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1a010047531e25e8e009adf2c8c8354348" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IngameDebugConsole.DebugLogItem.entryIndex</definition>
+        <argsstring></argsstring>
+        <name>entryIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="81" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a10992902f4c8947a79bf18165052b04a" compoundref="_debug_log_item_8cs" startline="99" endline="135">IngameDebugConsole.DebugLogItem.SetContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1a43d95c9a65b39f761eff24652351a8ce" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 IngameDebugConsole.DebugLogItem.logTextOriginalPosition</definition>
+        <argsstring></argsstring>
+        <name>logTextOriginalPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="84" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a81aa89378cd74ca96db10558820f09fe" compoundref="_debug_log_item_8cs" startline="90" endline="97">IngameDebugConsole.DebugLogItem.Initialize</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a10992902f4c8947a79bf18165052b04a" compoundref="_debug_log_item_8cs" startline="99" endline="135">IngameDebugConsole.DebugLogItem.SetContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1a051e291b7f082a5088706dfb18aa5120" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 IngameDebugConsole.DebugLogItem.logTextOriginalSize</definition>
+        <argsstring></argsstring>
+        <name>logTextOriginalSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="85" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="85" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a81aa89378cd74ca96db10558820f09fe" compoundref="_debug_log_item_8cs" startline="90" endline="97">IngameDebugConsole.DebugLogItem.Initialize</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a10992902f4c8947a79bf18165052b04a" compoundref="_debug_log_item_8cs" startline="99" endline="135">IngameDebugConsole.DebugLogItem.SetContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1aa46db5a65698073f0cb211f0737375e5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogItem.copyLogButtonHeight</definition>
+        <argsstring></argsstring>
+        <name>copyLogButtonHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="86" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="86" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a3a4e6bec1df051ca40ef66a04bd9010a" compoundref="_debug_log_item_8cs" startline="191" endline="205">IngameDebugConsole.DebugLogItem.CalculateExpandedHeight</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a81aa89378cd74ca96db10558820f09fe" compoundref="_debug_log_item_8cs" startline="90" endline="97">IngameDebugConsole.DebugLogItem.Initialize</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a10992902f4c8947a79bf18165052b04a" compoundref="_debug_log_item_8cs" startline="99" endline="135">IngameDebugConsole.DebugLogItem.SetContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_item_1ad0aae94b52ddaae70126bb4f29d03d22" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view" kindref="compound">DebugLogRecycledListView</ref></type>
+        <definition>DebugLogRecycledListView IngameDebugConsole.DebugLogItem.manager</definition>
+        <argsstring></argsstring>
+        <name>manager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="88" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="88" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_item_1a81aa89378cd74ca96db10558820f09fe" compoundref="_debug_log_item_8cs" startline="90" endline="97">IngameDebugConsole.DebugLogItem.Initialize</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ingame_debug_console_1_1_debug_log_item_1a6c4115fec5f3dd12566f7d110378e909" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform IngameDebugConsole.DebugLogItem.Transform</definition>
+        <argsstring></argsstring>
+        <name>Transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="56" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ingame_debug_console_1_1_debug_log_item_1afc9ae7616b7946f32ba8423eb826edfd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Image</type>
+        <definition>Image IngameDebugConsole.DebugLogItem.Image</definition>
+        <argsstring></argsstring>
+        <name>Image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="60" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ingame_debug_console_1_1_debug_log_item_1af0717252b60f33f677f97e9cdcf5db69" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int IngameDebugConsole.DebugLogItem.Index</definition>
+        <argsstring></argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="82" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a7add49abad969ed057788d725ea2b895" compoundref="_debug_log_recycled_list_view_8cs" startline="80" endline="83">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClicked</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_item_1a81aa89378cd74ca96db10558820f09fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogItem.Initialize</definition>
+        <argsstring>(DebugLogRecycledListView manager)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type><ref refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view" kindref="compound">DebugLogRecycledListView</ref></type>
+          <declname>manager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="90" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="90" bodyend="97"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1aa46db5a65698073f0cb211f0737375e5" compoundref="_debug_log_item_8cs" startline="86">IngameDebugConsole.DebugLogItem.copyLogButtonHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1a43d95c9a65b39f761eff24652351a8ce" compoundref="_debug_log_item_8cs" startline="84">IngameDebugConsole.DebugLogItem.logTextOriginalPosition</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1a051e291b7f082a5088706dfb18aa5120" compoundref="_debug_log_item_8cs" startline="85">IngameDebugConsole.DebugLogItem.logTextOriginalSize</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1ad0aae94b52ddaae70126bb4f29d03d22" compoundref="_debug_log_item_8cs" startline="88">IngameDebugConsole.DebugLogItem.manager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_item_1a10992902f4c8947a79bf18165052b04a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogItem.SetContent</definition>
+        <argsstring>(DebugLogEntry logEntry, int entryIndex, bool isExpanded)</argsstring>
+        <name>SetContent</name>
+        <param>
+          <type><ref refid="class_ingame_debug_console_1_1_debug_log_entry" kindref="compound">DebugLogEntry</ref></type>
+          <declname>logEntry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>entryIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isExpanded</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="99" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="99" bodyend="135"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1ab1d88aecf314d39d5553adf95785e48f" compoundref="_debug_log_item_8cs" startline="74">IngameDebugConsole.DebugLogItem.copyLogButton</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1aa46db5a65698073f0cb211f0737375e5" compoundref="_debug_log_item_8cs" startline="86">IngameDebugConsole.DebugLogItem.copyLogButtonHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1a010047531e25e8e009adf2c8c8354348" compoundref="_debug_log_item_8cs" startline="81">IngameDebugConsole.DebugLogItem.entryIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1aa063ad604c237c29bb4b3e55a1a80371" compoundref="_debug_log_item_8cs" startline="78">IngameDebugConsole.DebugLogItem.logEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_entry_1af644a19d85579304f5cc6195b98c28e7" compoundref="_debug_log_entry_8cs" startline="10">IngameDebugConsole.DebugLogEntry.logString</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1a43d95c9a65b39f761eff24652351a8ce" compoundref="_debug_log_item_8cs" startline="84">IngameDebugConsole.DebugLogItem.logTextOriginalPosition</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1a051e291b7f082a5088706dfb18aa5120" compoundref="_debug_log_item_8cs" startline="85">IngameDebugConsole.DebugLogItem.logTextOriginalSize</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1adab5a31a5ded93994d3239c46a5ee029" compoundref="_debug_log_item_8cs" startline="65">IngameDebugConsole.DebugLogItem.logTypeImage</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_entry_1a13c72eb0750a50be7b9d7740d08cfe60" compoundref="_debug_log_entry_8cs" startline="16">IngameDebugConsole.DebugLogEntry.logTypeSpriteRepresentation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_item_1a00f06940cd5a25927db8539af62365b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogItem.ShowCount</definition>
+        <argsstring>()</argsstring>
+        <name>ShowCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="138" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="138" bodyend="144"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1af3374d8116ea01a84a1296f29f3c4365" compoundref="_debug_log_item_8cs" startline="69">IngameDebugConsole.DebugLogItem.logCountParent</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a30b07d299ee1a3b5d8a99f35ca090be8" compoundref="_debug_log_recycled_list_view_8cs" startline="163" endline="168">IngameDebugConsole.DebugLogRecycledListView.OnCollapsedLogEntryAtIndexUpdated</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_item_1a60b8634d74e57a14a09c2ba8a178ea84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogItem.HideCount</definition>
+        <argsstring>()</argsstring>
+        <name>HideCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="147" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="147" bodyend="151"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1af3374d8116ea01a84a1296f29f3c4365" compoundref="_debug_log_item_8cs" startline="69">IngameDebugConsole.DebugLogItem.logCountParent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_item_1aa3543cda9715bafb10cd7064c42035eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogItem.OnPointerClick</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerClick</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="154" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="154" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_item_1a87bb5f4e9861bcf7ed9d6cda6ce9180a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogItem.CopyLog</definition>
+        <argsstring>()</argsstring>
+        <name>CopyLog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="176" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="176" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_item_1a3a4e6bec1df051ca40ef66a04bd9010a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogItem.CalculateExpandedHeight</definition>
+        <argsstring>(string content)</argsstring>
+        <name>CalculateExpandedHeight</name>
+        <param>
+          <type>string</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="191" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="191" bodyend="205"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1aa46db5a65698073f0cb211f0737375e5" compoundref="_debug_log_item_8cs" startline="86">IngameDebugConsole.DebugLogItem.copyLogButtonHeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_item_1a070b55c2be5bf77e271f28305d4bd1a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string IngameDebugConsole.DebugLogItem.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="208" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="208" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>IngameDebugConsole.DebugLogItem</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_item"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="17">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>IngameDebugConsole.DebugLogEntry</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_entry"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>IngameDebugConsole.DebugLogPopup</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_popup"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>newErrorCountText</edgelabel>
+          <edgelabel>newWarningCountText</edgelabel>
+          <edgelabel>newInfoCountText</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>debugManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="32">
+        <label>System::IEquatable&lt; DebugLogEntry &gt;</label>
+      </node>
+      <node id="29">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="24">
+        <label>IngameDebugConsole.DebugLogIndexList</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_index_list"/>
+      </node>
+      <node id="19">
+        <label>IngameDebugConsole.DebugLogItem</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_item"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>logCountText</edgelabel>
+          <edgelabel>logText</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>manager</edgelabel>
+        </childnode>
+        <childnode refid="31" relation="usage">
+          <edgelabel>logEntry</edgelabel>
+        </childnode>
+      </node>
+      <node id="30">
+        <label>System</label>
+      </node>
+      <node id="22">
+        <label>Text</label>
+      </node>
+      <node id="27">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="25">
+        <label>IngameDebugConsole.DebugLogManager</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_manager"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>uncollapsedLogEntriesIndices</edgelabel>
+          <edgelabel>indicesOfListEntriesToShow</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>commandSuggestionPrefab</edgelabel>
+          <edgelabel>errorEntryCountText</edgelabel>
+          <edgelabel>warningEntryCountText</edgelabel>
+          <edgelabel>infoEntryCountText</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>recycledListView</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>logItemPrefab</edgelabel>
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>popupManager</edgelabel>
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>OnLogWindowShown</edgelabel>
+          <edgelabel>OnLogWindowHidden</edgelabel>
+        </childnode>
+      </node>
+      <node id="23">
+        <label>IngameDebugConsole.DebugLogRecycledListView</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>indicesOfEntriesToShow</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>debugManager</edgelabel>
+          <edgelabel>manager</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="20">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="28">
+        <label>IDragHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItem.cs" bodystart="12" bodyend="212"/>
+    <listofallmembers>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a3a4e6bec1df051ca40ef66a04bd9010a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>CalculateExpandedHeight</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a87bb5f4e9861bcf7ed9d6cda6ce9180a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>CopyLog</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1ab1d88aecf314d39d5553adf95785e48f" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>copyLogButton</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1aa46db5a65698073f0cb211f0737375e5" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>copyLogButtonHeight</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a010047531e25e8e009adf2c8c8354348" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>entryIndex</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a60b8634d74e57a14a09c2ba8a178ea84" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>HideCount</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1afc9ae7616b7946f32ba8423eb826edfd" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>Image</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1abc4619a5250c3756b1280354137354f5" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>imageComponent</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1af0717252b60f33f677f97e9cdcf5db69" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>Index</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a81aa89378cd74ca96db10558820f09fe" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>Initialize</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1af3374d8116ea01a84a1296f29f3c4365" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>logCountParent</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a186aef5ec446cfb9d4072f1d3a2e8e65" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>logCountText</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1aa063ad604c237c29bb4b3e55a1a80371" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>logEntry</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a0e82e6da390982131f25365309c25c55" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>logText</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a43d95c9a65b39f761eff24652351a8ce" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>logTextOriginalPosition</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a051e291b7f082a5088706dfb18aa5120" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>logTextOriginalSize</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1adab5a31a5ded93994d3239c46a5ee029" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>logTypeImage</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1ad0aae94b52ddaae70126bb4f29d03d22" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>manager</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1aa3543cda9715bafb10cd7064c42035eb" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>OnPointerClick</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a10992902f4c8947a79bf18165052b04a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>SetContent</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a00f06940cd5a25927db8539af62365b1" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>ShowCount</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a070b55c2be5bf77e271f28305d4bd1a1" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>ToString</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a6c4115fec5f3dd12566f7d110378e909" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>Transform</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_item_1a593d4a8de7e3b9902256792d06524b2c" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogItem</scope><name>transformComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

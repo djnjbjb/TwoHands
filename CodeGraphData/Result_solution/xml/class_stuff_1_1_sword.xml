@@ -1,0 +1,1316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_stuff_1_1_sword" kind="class" prot="public">
+    <compoundname>Stuff::Sword</compoundname>
+    <basecompoundref refid="class_stuff_1_1_stuff" prot="public" virt="non-virtual">Stuff.Stuff</basecompoundref>
+    <basecompoundref refid="class_stuff_1_1_stuff" prot="public" virt="non-virtual">Stuff.Stuff</basecompoundref>
+    <innerclass refid="class_stuff_1_1_sword_1_1_state_pack" prot="private">Stuff::Sword::StatePack</innerclass>
+    <innerclass refid="class_stuff_1_1_sword_1_1_value_for_fist" prot="public">Stuff::Sword::ValueForFist</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_stuff_1_1_sword_1a8965f0cae536ec9ba4cc2b1785c67350" prot="public" static="no">
+        <name>State</name>
+        <enumvalue id="class_stuff_1_1_sword_1a8965f0cae536ec9ba4cc2b1785c67350afde6f03305d95b3a425f4d6811d19234" prot="public">
+          <name>NoHand</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_stuff_1_1_sword_1a8965f0cae536ec9ba4cc2b1785c67350aa4041f6a2365a1bea1af9b32d171f352" prot="public">
+          <name>WithHand</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="12" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_stuff_1_1_sword_1aa9b77d02694107a7e05f2a89e0017a57" prot="public" static="no">
+        <name>WithHandState</name>
+        <enumvalue id="class_stuff_1_1_sword_1aa9b77d02694107a7e05f2a89e0017a57ab24ce0cd392a5b0b8dedc66c25213594" prot="public">
+          <name>Free</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_stuff_1_1_sword_1aa9b77d02694107a7e05f2a89e0017a57aaa9f9a8454a370443372f6259447844e" prot="public">
+          <name>Env</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_stuff_1_1_sword_1aa9b77d02694107a7e05f2a89e0017a57a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="18" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfe" prot="public" static="no">
+        <name>NoHandState</name>
+        <enumvalue id="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfeaac51deb7d2c3f9663a6df72c7c9b2b51" prot="public">
+          <name>Fly</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfea3e679cff5b3a6f6f8f32aead541a0a12" prot="public">
+          <name>Drop</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfeaaa9f9a8454a370443372f6259447844e" prot="public">
+          <name>Env</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfea6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="25" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="24" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a4d66771034f9b3500caf2e61a4e1c17b" prot="public" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_stuff_1_1_sword" kindref="compound">Sword</ref> &gt;</type>
+        <definition>List&lt;Sword&gt; Stuff.Sword.instanceList</definition>
+        <argsstring></argsstring>
+        <name>instanceList</name>
+        <initializer>= new List&lt;<ref refid="class_stuff_1_1_sword" kindref="compound">Sword</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="32" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a7dc56ebf4ea375f5cc2508b459548700" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D Stuff.Sword.swordRigid</definition>
+        <argsstring></argsstring>
+        <name>swordRigid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="215" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="215" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1aa06e048b7cbc745b3276463914c75530" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Stuff.Sword.angleSpeed</definition>
+        <argsstring></argsstring>
+        <name>angleSpeed</name>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="216" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="216" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a01ecff5014f353573a2a1118aea89365" compoundref="_sword___motion_8cs" startline="50" endline="158">Stuff.Sword.Motion_HandAndFree_Rotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a03c695eb8349aea8751d204f456ff272" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Stuff.Sword.toHolderPositionSpeed</definition>
+        <argsstring></argsstring>
+        <name>toHolderPositionSpeed</name>
+        <initializer>= 0.87f / 0.3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="217" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="217" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a8e9d34ee397e49fd50c58d4d88c65fb6" compoundref="_sword___motion_8cs" startline="29" endline="48">Stuff.Sword.Motion_HandAndFree_Position</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a2bae8b9a7315289ed58b1a8811dbbe6e" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Stuff.Sword.tip</definition>
+        <argsstring></argsstring>
+        <name>tip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="218" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="218" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1afccf04a637508f73db7cf7191e1d6ba9" compoundref="_sword_8cs" startline="610" endline="626">Stuff.Sword.GetValueForFist_AtFUPre</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a075657040c6ec5962fd9b1892b248316" compoundref="_sword___motion_8cs" startline="213" endline="250">Stuff.Sword.Motion_NoHand_AdjustDirection</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1ac7f5b1057369d6ad51d79be79e50ed8c" compoundref="_sword___motion_8cs" startline="252" endline="299">Stuff.Sword.Motion_NoHand_OutOfCameraRegion</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a11edbf8d73ce52bf557a58d10ee6a26b" compoundref="_sword_8cs" startline="331" endline="334">Stuff.Sword.StateRenewDueToFistAndEnv</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a6c32cc04aaa0cfb291fa47010819a988" prot="private" static="no" mutable="no">
+        <type>Collider2D</type>
+        <definition>Collider2D Stuff.Sword.tipEnvCollider</definition>
+        <argsstring></argsstring>
+        <name>tipEnvCollider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="219" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="219" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a722536b1334f0011cc5653b4912a5945" compoundref="_sword_8cs" startline="336" endline="434">Stuff.Sword.Visual</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1ac584fc5a4fbde47e3611e613c4a5400c" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Stuff.Sword.tipEnvVisual</definition>
+        <argsstring></argsstring>
+        <name>tipEnvVisual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="220" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="220" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a90285c973207ce9f39df5c4627bb574e" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Stuff.Sword.body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="221" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="221" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1afccf04a637508f73db7cf7191e1d6ba9" compoundref="_sword_8cs" startline="610" endline="626">Stuff.Sword.GetValueForFist_AtFUPre</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a075657040c6ec5962fd9b1892b248316" compoundref="_sword___motion_8cs" startline="213" endline="250">Stuff.Sword.Motion_NoHand_AdjustDirection</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a11edbf8d73ce52bf557a58d10ee6a26b" compoundref="_sword_8cs" startline="331" endline="334">Stuff.Sword.StateRenewDueToFistAndEnv</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1adf1eac517732b0895ae133bf063087e8" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Stuff.Sword.rayPoint1</definition>
+        <argsstring></argsstring>
+        <name>rayPoint1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="222" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="222" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a82a49c03e7d9921607eaefb591856596" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Stuff.Sword.rayPoint2</definition>
+        <argsstring></argsstring>
+        <name>rayPoint2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="223" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="223" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a0112b41cdec91a27f30d4839cf69c960" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Stuff.Sword.rayPoint3</definition>
+        <argsstring></argsstring>
+        <name>rayPoint3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="224" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="224" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1abe87cb3be4f53150bb7efe2f07789b88" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Stuff.Sword.centerPoint</definition>
+        <argsstring></argsstring>
+        <name>centerPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="225" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="225" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1ae918946f6765e7a4fb72b9213332ba36" prot="private" static="no" mutable="no">
+        <type>List&lt; Collider2D &gt;</type>
+        <definition>List&lt;Collider2D&gt; Stuff.Sword.bodyEnvColliderList</definition>
+        <argsstring></argsstring>
+        <name>bodyEnvColliderList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="226" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="226" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a722536b1334f0011cc5653b4912a5945" compoundref="_sword_8cs" startline="336" endline="434">Stuff.Sword.Visual</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1ad7a3398cd65457f04f306049741b0867" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; Stuff.Sword.bodyEnvVisualList</definition>
+        <argsstring></argsstring>
+        <name>bodyEnvVisualList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="227" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="227" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a722536b1334f0011cc5653b4912a5945" compoundref="_sword_8cs" startline="336" endline="434">Stuff.Sword.Visual</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1afb2f87ca99dab59d8119e4142967b840" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Stuff.Sword.gem</definition>
+        <argsstring></argsstring>
+        <name>gem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="228" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="228" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a56d5ee60deaf04f2acfe87a29018f124" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Stuff.Sword.freeSign</definition>
+        <argsstring></argsstring>
+        <name>freeSign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="229" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="229" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1af642f88833e4566ad736b6fcf24f7dc9" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Stuff.Sword.holdPosition</definition>
+        <argsstring></argsstring>
+        <name>holdPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="230" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="230" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a8e9d34ee397e49fd50c58d4d88c65fb6" compoundref="_sword___motion_8cs" startline="29" endline="48">Stuff.Sword.Motion_HandAndFree_Position</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a54320116db4979e78177f2a96777f1e6" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Stuff.Sword.startingPosition</definition>
+        <argsstring></argsstring>
+        <name>startingPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="231" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="231" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1aa123bc81c09e6003519571d963a21ffa" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion Stuff.Sword.startingRotation</definition>
+        <argsstring></argsstring>
+        <name>startingRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="232" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="232" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stuff_1_1_sword_1_1_state_pack" kindref="compound">StatePack</ref></type>
+        <definition>StatePack Stuff.Sword.states</definition>
+        <argsstring></argsstring>
+        <name>states</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="234" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="234" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" compoundref="_sword_8cs" startline="479" endline="523">Stuff.Sword.Motion</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a01ecff5014f353573a2a1118aea89365" compoundref="_sword___motion_8cs" startline="50" endline="158">Stuff.Sword.Motion_HandAndFree_Rotation</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" compoundref="_sword___motion_8cs" startline="178" endline="201">Stuff.Sword.Motion_NoHand</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" compoundref="_sword_8cs" startline="436" endline="477">Stuff.Sword.SoundEffect</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a7ca55ac97e9fc2f888f0b50323646427" compoundref="_sword_8cs" startline="546" endline="603">Stuff.Sword.ThrowSword</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a722536b1334f0011cc5653b4912a5945" compoundref="_sword_8cs" startline="336" endline="434">Stuff.Sword.Visual</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a1b85642ffee56f31bbdd1de2c3717038" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 Stuff.Sword.handAndFree_LastNonZeroHandOffset</definition>
+        <argsstring></argsstring>
+        <name>handAndFree_LastNonZeroHandOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="235" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="235" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a01ecff5014f353573a2a1118aea89365" compoundref="_sword___motion_8cs" startline="50" endline="158">Stuff.Sword.Motion_HandAndFree_Rotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1aca443c00478537fcd033850e4763e24a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Stuff.Sword.noHand_speed</definition>
+        <argsstring></argsstring>
+        <name>noHand_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="236" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="236" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a51857dc259691ea39707813ed0136eeb" compoundref="_sword___motion_8cs" startline="492" endline="542">Stuff.Sword.Motion_NoHand_Dropping</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a68e6114b077e6f1f9460ca5450186add" compoundref="_sword___motion_8cs" startline="462" endline="490">Stuff.Sword.Motion_NoHand_Flying</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a7ca55ac97e9fc2f888f0b50323646427" compoundref="_sword_8cs" startline="546" endline="603">Stuff.Sword.ThrowSword</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a2c22388f771e1fba347dc82a401a0c10" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 Stuff.Sword.noHand_direction</definition>
+        <argsstring></argsstring>
+        <name>noHand_direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="237" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="237" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a075657040c6ec5962fd9b1892b248316" compoundref="_sword___motion_8cs" startline="213" endline="250">Stuff.Sword.Motion_NoHand_AdjustDirection</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a51857dc259691ea39707813ed0136eeb" compoundref="_sword___motion_8cs" startline="492" endline="542">Stuff.Sword.Motion_NoHand_Dropping</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a68e6114b077e6f1f9460ca5450186add" compoundref="_sword___motion_8cs" startline="462" endline="490">Stuff.Sword.Motion_NoHand_Flying</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1ac7f5b1057369d6ad51d79be79e50ed8c" compoundref="_sword___motion_8cs" startline="252" endline="299">Stuff.Sword.Motion_NoHand_OutOfCameraRegion</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a7ca55ac97e9fc2f888f0b50323646427" compoundref="_sword_8cs" startline="546" endline="603">Stuff.Sword.ThrowSword</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a85ff3f55ac5336d74817196a13fed58b" prot="private" static="no" mutable="no">
+        <type>List&lt; Vector2 &gt;</type>
+        <definition>List&lt;Vector2&gt; Stuff.Sword.handAndFreeOffsetHistory</definition>
+        <argsstring></argsstring>
+        <name>handAndFreeOffsetHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="238" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="238" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" compoundref="_sword_8cs" startline="436" endline="477">Stuff.Sword.SoundEffect</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" compoundref="_sword_8cs" startline="284" endline="320">Stuff.Sword.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1af9ae785d56a4670a87a247786d418885" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float Stuff.Sword.noHand_stopedAngleSpeed</definition>
+        <argsstring></argsstring>
+        <name>noHand_stopedAngleSpeed</name>
+        <initializer>= 22.5f / 0.3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="239" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="239" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1ac5de7c69bd99d30f5e458644fd4a47f6" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float Stuff.Sword.noHand_swordFly_fistToSwordSpeedRatio</definition>
+        <argsstring></argsstring>
+        <name>noHand_swordFly_fistToSwordSpeedRatio</name>
+        <initializer>= 22f / 6.8f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="240" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="240" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a7ca55ac97e9fc2f888f0b50323646427" compoundref="_sword_8cs" startline="546" endline="603">Stuff.Sword.ThrowSword</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a27016db04ff50f3caca42dffeb555a6b" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float Stuff.Sword.noHand_swordFly_minSpeed</definition>
+        <argsstring></argsstring>
+        <name>noHand_swordFly_minSpeed</name>
+        <initializer>= 12f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="241" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="241" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a68e6114b077e6f1f9460ca5450186add" compoundref="_sword___motion_8cs" startline="462" endline="490">Stuff.Sword.Motion_NoHand_Flying</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a3aa4c47863e18f9555a4052abf449ce7" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float Stuff.Sword.noHand_swordFly_deceleration</definition>
+        <argsstring></argsstring>
+        <name>noHand_swordFly_deceleration</name>
+        <initializer>= 4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="242" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="242" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a51857dc259691ea39707813ed0136eeb" compoundref="_sword___motion_8cs" startline="492" endline="542">Stuff.Sword.Motion_NoHand_Dropping</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a68e6114b077e6f1f9460ca5450186add" compoundref="_sword___motion_8cs" startline="462" endline="490">Stuff.Sword.Motion_NoHand_Flying</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1ac9eae3fbc62b2493815a83ecaa81ad5b" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float Stuff.Sword.noHand_swordDrop_downMax</definition>
+        <argsstring></argsstring>
+        <name>noHand_swordDrop_downMax</name>
+        <initializer>= 22f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="243" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="243" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a51857dc259691ea39707813ed0136eeb" compoundref="_sword___motion_8cs" startline="492" endline="542">Stuff.Sword.Motion_NoHand_Dropping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a403a1ea2a2e1840fb85d34bea1510c00" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float Stuff.Sword.noHand_swordDrop_acceleration</definition>
+        <argsstring></argsstring>
+        <name>noHand_swordDrop_acceleration</name>
+        <initializer>= 30f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="244" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="244" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a51857dc259691ea39707813ed0136eeb" compoundref="_sword___motion_8cs" startline="492" endline="542">Stuff.Sword.Motion_NoHand_Dropping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a8819268866ad7494b52caf8fb196afe2" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float Stuff.Sword.noHandEnvSpeedThreshold</definition>
+        <argsstring></argsstring>
+        <name>noHandEnvSpeedThreshold</name>
+        <initializer>= 20f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="245" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="245" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1a55addd8becb8141fa412c96e282d44c3" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float Stuff.Sword.nohandEnvMoveDistance</definition>
+        <argsstring></argsstring>
+        <name>nohandEnvMoveDistance</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="246" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="246" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1aa9082dbb3d1b857e44d3d20dc3f8f98d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stuff.Sword.soundEffect_LastWhooshNum</definition>
+        <argsstring></argsstring>
+        <name>soundEffect_LastWhooshNum</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="248" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="248" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" compoundref="_sword_8cs" startline="436" endline="477">Stuff.Sword.SoundEffect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1aea9e381d153e96a2c1285e4c79527596" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Stuff.Sword.soundEffect_whooshInterval</definition>
+        <argsstring></argsstring>
+        <name>soundEffect_whooshInterval</name>
+        <initializer>= 0.4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="249" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="249" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" compoundref="_sword_8cs" startline="436" endline="477">Stuff.Sword.SoundEffect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1ad64fd7208a5035998953cc8160d781c8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Stuff.Sword.soundEffect_lastWhooshTime</definition>
+        <argsstring></argsstring>
+        <name>soundEffect_lastWhooshTime</name>
+        <initializer>= -100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="250" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="250" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" compoundref="_sword_8cs" startline="436" endline="477">Stuff.Sword.SoundEffect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1af32b9e2aa9a63f2f309bc53f4e9c357e" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Stuff.Sword::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" compoundref="_sword_8cs" startline="479" endline="523">Stuff.Sword.Motion</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" compoundref="_sword___motion_8cs" startline="178" endline="201">Stuff.Sword.Motion_NoHand</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a461fbaec4d631b56f3b9e3508d9c3f62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Stuff.Sword.AddAssociatedFist</definition>
+        <argsstring>(string fist)</argsstring>
+        <name>AddAssociatedFist</name>
+        <reimplements refid="class_stuff_1_1_stuff_1a244bfd551a1f0b1539c08430669323d1">AddAssociatedFist</reimplements>
+        <param>
+          <type>string</type>
+          <declname>fist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="252" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="252" bodyend="264"/>
+        <references refid="class_stuff_1_1_stuff_1a2cceb5a440a80834d66fc496daef89ec" compoundref="_stuff_8cs" startline="14">Stuff.Stuff.fists</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a6e3889c6388944f7ec7c84ff72a5fb3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Stuff.Sword.RemoveAssociatedFist</definition>
+        <argsstring>(string fist)</argsstring>
+        <name>RemoveAssociatedFist</name>
+        <reimplements refid="class_stuff_1_1_stuff_1ae1f14e8b234114780331ce09ec97fb47">RemoveAssociatedFist</reimplements>
+        <param>
+          <type>string</type>
+          <declname>fist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="265" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="265" bodyend="282"/>
+        <references refid="class_stuff_1_1_stuff_1a2cceb5a440a80834d66fc496daef89ec" compoundref="_stuff_8cs" startline="14">Stuff.Stuff.fists</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a7ca55ac97e9fc2f888f0b50323646427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.ThrowSword</definition>
+        <argsstring>(float speed, HandControlTool.DirectionOf9History offsetHistoryOfNineDir)</argsstring>
+        <name>ThrowSword</name>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type><ref refid="class_hand_control_tool_1_1_direction_of9_history" kindref="compound">HandControlTool.DirectionOf9History</ref></type>
+          <declname>offsetHistoryOfNineDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="546" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="546" bodyend="603"/>
+        <references refid="class_stuff_1_1_sword_1aaafc21052209398add98bf822675ef06" compoundref="_sword___motion_8cs" startline="208" endline="211">Stuff.Sword.Motion_NoHand_AdjustDirectionRotateByHoldPosition</references>
+        <references refid="class_stuff_1_1_sword_1a2c22388f771e1fba347dc82a401a0c10" compoundref="_sword_8cs" startline="237">Stuff.Sword.noHand_direction</references>
+        <references refid="class_stuff_1_1_sword_1aca443c00478537fcd033850e4763e24a" compoundref="_sword_8cs" startline="236">Stuff.Sword.noHand_speed</references>
+        <references refid="class_stuff_1_1_sword_1ac5de7c69bd99d30f5e458644fd4a47f6" compoundref="_sword_8cs" startline="240">Stuff.Sword.noHand_swordFly_fistToSwordSpeedRatio</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1ad462ca8b5d78b91de5f57e2289423405" compoundref="_sword_8cs" startline="98">Stuff.Sword.StatePack.noHandState</references>
+        <references refid="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" compoundref="_sword_8cs" startline="234">Stuff.Sword.states</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1afccf04a637508f73db7cf7191e1d6ba9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_stuff_1_1_sword_1_1_value_for_fist" kindref="compound">ValueForFist</ref></type>
+        <definition>ValueForFist Stuff.Sword.GetValueForFist_AtFUPre</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueForFist_AtFUPre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="610" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="610" bodyend="626"/>
+        <references refid="class_stuff_1_1_sword_1a90285c973207ce9f39df5c4627bb574e" compoundref="_sword_8cs" startline="221">Stuff.Sword.body</references>
+        <references refid="class_stuff_1_1_sword_1a2bae8b9a7315289ed58b1a8811dbbe6e" compoundref="_sword_8cs" startline="218">Stuff.Sword.tip</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new void</type>
+        <definition>new void Stuff.Sword.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="284" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="284" bodyend="320"/>
+        <references refid="class_stuff_1_1_sword_1a90285c973207ce9f39df5c4627bb574e" compoundref="_sword_8cs" startline="221">Stuff.Sword.body</references>
+        <references refid="class_stuff_1_1_sword_1ae918946f6765e7a4fb72b9213332ba36" compoundref="_sword_8cs" startline="226">Stuff.Sword.bodyEnvColliderList</references>
+        <references refid="class_stuff_1_1_sword_1ad7a3398cd65457f04f306049741b0867" compoundref="_sword_8cs" startline="227">Stuff.Sword.bodyEnvVisualList</references>
+        <references refid="class_stuff_1_1_sword_1abe87cb3be4f53150bb7efe2f07789b88" compoundref="_sword_8cs" startline="225">Stuff.Sword.centerPoint</references>
+        <references refid="class_stuff_1_1_sword_1a56d5ee60deaf04f2acfe87a29018f124" compoundref="_sword_8cs" startline="229">Stuff.Sword.freeSign</references>
+        <references refid="class_stuff_1_1_sword_1afb2f87ca99dab59d8119e4142967b840" compoundref="_sword_8cs" startline="228">Stuff.Sword.gem</references>
+        <references refid="class_stuff_1_1_sword_1a85ff3f55ac5336d74817196a13fed58b" compoundref="_sword_8cs" startline="238">Stuff.Sword.handAndFreeOffsetHistory</references>
+        <references refid="class_stuff_1_1_sword_1af642f88833e4566ad736b6fcf24f7dc9" compoundref="_sword_8cs" startline="230">Stuff.Sword.holdPosition</references>
+        <references refid="class_stuff_1_1_sword_1a2c22388f771e1fba347dc82a401a0c10" compoundref="_sword_8cs" startline="237">Stuff.Sword.noHand_direction</references>
+        <references refid="class_stuff_1_1_sword_1aca443c00478537fcd033850e4763e24a" compoundref="_sword_8cs" startline="236">Stuff.Sword.noHand_speed</references>
+        <references refid="class_stuff_1_1_sword_1adf1eac517732b0895ae133bf063087e8" compoundref="_sword_8cs" startline="222">Stuff.Sword.rayPoint1</references>
+        <references refid="class_stuff_1_1_sword_1a82a49c03e7d9921607eaefb591856596" compoundref="_sword_8cs" startline="223">Stuff.Sword.rayPoint2</references>
+        <references refid="class_stuff_1_1_sword_1a0112b41cdec91a27f30d4839cf69c960" compoundref="_sword_8cs" startline="224">Stuff.Sword.rayPoint3</references>
+        <references refid="class_stuff_1_1_sword_1a54320116db4979e78177f2a96777f1e6" compoundref="_sword_8cs" startline="231">Stuff.Sword.startingPosition</references>
+        <references refid="class_stuff_1_1_sword_1aa123bc81c09e6003519571d963a21ffa" compoundref="_sword_8cs" startline="232">Stuff.Sword.startingRotation</references>
+        <references refid="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" compoundref="_sword_8cs" startline="234">Stuff.Sword.states</references>
+        <references refid="class_stuff_1_1_sword_1a7dc56ebf4ea375f5cc2508b459548700" compoundref="_sword_8cs" startline="215">Stuff.Sword.swordRigid</references>
+        <references refid="class_stuff_1_1_sword_1a2bae8b9a7315289ed58b1a8811dbbe6e" compoundref="_sword_8cs" startline="218">Stuff.Sword.tip</references>
+        <references refid="class_stuff_1_1_sword_1a6c32cc04aaa0cfb291fa47010819a988" compoundref="_sword_8cs" startline="219">Stuff.Sword.tipEnvCollider</references>
+        <references refid="class_stuff_1_1_sword_1ac584fc5a4fbde47e3611e613c4a5400c" compoundref="_sword_8cs" startline="220">Stuff.Sword.tipEnvVisual</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1acb524046fe0be288bd861e2ae0377866" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="322" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="322" bodyend="329"/>
+        <references refid="class_stuff_1_1_sword_1a094162da592d53cb8ea127392fab6611" compoundref="_sword_8cs" startline="525" endline="544">Stuff.Sword.CheckAndRemoveFist</references>
+        <references refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" compoundref="_sword_8cs" startline="479" endline="523">Stuff.Sword.Motion</references>
+        <references refid="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" compoundref="_sword_8cs" startline="436" endline="477">Stuff.Sword.SoundEffect</references>
+        <references refid="class_stuff_1_1_sword_1a11edbf8d73ce52bf557a58d10ee6a26b" compoundref="_sword_8cs" startline="331" endline="334">Stuff.Sword.StateRenewDueToFistAndEnv</references>
+        <references refid="class_stuff_1_1_sword_1a722536b1334f0011cc5653b4912a5945" compoundref="_sword_8cs" startline="336" endline="434">Stuff.Sword.Visual</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a11edbf8d73ce52bf557a58d10ee6a26b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.StateRenewDueToFistAndEnv</definition>
+        <argsstring>()</argsstring>
+        <name>StateRenewDueToFistAndEnv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="331" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="331" bodyend="334"/>
+        <references refid="class_stuff_1_1_sword_1a90285c973207ce9f39df5c4627bb574e" compoundref="_sword_8cs" startline="221">Stuff.Sword.body</references>
+        <references refid="class_stuff_1_1_stuff_1a08dcad6f3a43e0b0f98692003277a261" compoundref="_stuff_8cs" startline="17">Stuff.Stuff.firstFist</references>
+        <references refid="class_stuff_1_1_sword_1a2bae8b9a7315289ed58b1a8811dbbe6e" compoundref="_sword_8cs" startline="218">Stuff.Sword.tip</references>
+        <referencedby refid="class_stuff_1_1_sword_1acb524046fe0be288bd861e2ae0377866" compoundref="_sword_8cs" startline="322" endline="329">Stuff.Sword.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a722536b1334f0011cc5653b4912a5945" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.Visual</definition>
+        <argsstring>()</argsstring>
+        <name>Visual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="336" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="336" bodyend="434"/>
+        <references refid="class_stuff_1_1_sword_1ae918946f6765e7a4fb72b9213332ba36" compoundref="_sword_8cs" startline="226">Stuff.Sword.bodyEnvColliderList</references>
+        <references refid="class_stuff_1_1_sword_1ad7a3398cd65457f04f306049741b0867" compoundref="_sword_8cs" startline="227">Stuff.Sword.bodyEnvVisualList</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a3b11d1d22d70339b8019df036ce0793b" compoundref="_sword_8cs" startline="82">Stuff.Sword.StatePack.state</references>
+        <references refid="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" compoundref="_sword_8cs" startline="234">Stuff.Sword.states</references>
+        <references refid="class_stuff_1_1_sword_1a6c32cc04aaa0cfb291fa47010819a988" compoundref="_sword_8cs" startline="219">Stuff.Sword.tipEnvCollider</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1ad78ab11c77c98fe804a2d9bc205895c4" compoundref="_sword_8cs" startline="90">Stuff.Sword.StatePack.withHandState</references>
+        <referencedby refid="class_stuff_1_1_sword_1acb524046fe0be288bd861e2ae0377866" compoundref="_sword_8cs" startline="322" endline="329">Stuff.Sword.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.SoundEffect</definition>
+        <argsstring>()</argsstring>
+        <name>SoundEffect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="436" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="436" bodyend="477"/>
+        <references refid="class_stuff_1_1_sword_1a85ff3f55ac5336d74817196a13fed58b" compoundref="_sword_8cs" startline="238">Stuff.Sword.handAndFreeOffsetHistory</references>
+        <references refid="class_stuff_1_1_sword_1aa9082dbb3d1b857e44d3d20dc3f8f98d" compoundref="_sword_8cs" startline="248">Stuff.Sword.soundEffect_LastWhooshNum</references>
+        <references refid="class_stuff_1_1_sword_1ad64fd7208a5035998953cc8160d781c8" compoundref="_sword_8cs" startline="250">Stuff.Sword.soundEffect_lastWhooshTime</references>
+        <references refid="class_stuff_1_1_sword_1aea9e381d153e96a2c1285e4c79527596" compoundref="_sword_8cs" startline="249">Stuff.Sword.soundEffect_whooshInterval</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a3b11d1d22d70339b8019df036ce0793b" compoundref="_sword_8cs" startline="82">Stuff.Sword.StatePack.state</references>
+        <references refid="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" compoundref="_sword_8cs" startline="234">Stuff.Sword.states</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1ad78ab11c77c98fe804a2d9bc205895c4" compoundref="_sword_8cs" startline="90">Stuff.Sword.StatePack.withHandState</references>
+        <referencedby refid="class_stuff_1_1_sword_1acb524046fe0be288bd861e2ae0377866" compoundref="_sword_8cs" startline="322" endline="329">Stuff.Sword.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.Motion</definition>
+        <argsstring>()</argsstring>
+        <name>Motion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="479" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="479" bodyend="523"/>
+        <references refid="class_stuff_1_1_stuff_1a08dcad6f3a43e0b0f98692003277a261" compoundref="_stuff_8cs" startline="17">Stuff.Stuff.firstFist</references>
+        <references refid="class_stuff_1_1_sword_1a2790c4376feeae490bfbb19608ef5f1a" compoundref="_sword___motion_8cs" startline="160" endline="176">Stuff.Sword.Motion_HandAndEnv</references>
+        <references refid="class_stuff_1_1_sword_1a3396e1f95f3d7b4b8ac270cfe74042be" compoundref="_sword___motion_8cs" startline="10" endline="27">Stuff.Sword.Motion_HandAndFree</references>
+        <references refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" compoundref="_sword___motion_8cs" startline="178" endline="201">Stuff.Sword.Motion_NoHand</references>
+        <references refid="class_stuff_1_1_sword_1af32b9e2aa9a63f2f309bc53f4e9c357e" compoundref="_sword___motion_8cs" startline="10">Stuff.Sword.position</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a3b11d1d22d70339b8019df036ce0793b" compoundref="_sword_8cs" startline="82">Stuff.Sword.StatePack.state</references>
+        <references refid="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" compoundref="_sword_8cs" startline="234">Stuff.Sword.states</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1ad78ab11c77c98fe804a2d9bc205895c4" compoundref="_sword_8cs" startline="90">Stuff.Sword.StatePack.withHandState</references>
+        <referencedby refid="class_stuff_1_1_sword_1acb524046fe0be288bd861e2ae0377866" compoundref="_sword_8cs" startline="322" endline="329">Stuff.Sword.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a094162da592d53cb8ea127392fab6611" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.CheckAndRemoveFist</definition>
+        <argsstring>()</argsstring>
+        <name>CheckAndRemoveFist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="525" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="525" bodyend="544"/>
+        <references refid="class_stuff_1_1_stuff_1a08dcad6f3a43e0b0f98692003277a261" compoundref="_stuff_8cs" startline="17">Stuff.Stuff.firstFist</references>
+        <references refid="class_stuff_1_1_stuff_1a2cceb5a440a80834d66fc496daef89ec" compoundref="_stuff_8cs" startline="14">Stuff.Stuff.fists</references>
+        <references refid="class_player_control_1a32e9a78c8742c98885efb0a39dfeefbf" compoundref="_player_control___out_8cs" startline="32" endline="60">PlayerControl.ForSword_CheckOverlap</references>
+        <references refid="class_player_control_1a569e01c5d0323ef9273028e712ec3086" compoundref="_player_control_8cs" startline="17">PlayerControl.playerControl</references>
+        <referencedby refid="class_stuff_1_1_sword_1acb524046fe0be288bd861e2ae0377866" compoundref="_sword_8cs" startline="322" endline="329">Stuff.Sword.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a3396e1f95f3d7b4b8ac270cfe74042be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3 Quaternion rotation</type>
+        <definition>Vector3 Quaternion rotation Stuff.Sword.Motion_HandAndFree</definition>
+        <argsstring>(Vector2 handOffset, Vector2 positionOffset, GameObject fistObject)</argsstring>
+        <name>Motion_HandAndFree</name>
+        <param>
+          <type>Vector2</type>
+          <declname>handOffset</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>positionOffset</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>fistObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="10" bodyend="27"/>
+        <referencedby refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" compoundref="_sword_8cs" startline="479" endline="523">Stuff.Sword.Motion</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a8e9d34ee397e49fd50c58d4d88c65fb6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 Stuff.Sword.Motion_HandAndFree_Position</definition>
+        <argsstring>(Vector2 handOffset, Vector2 positionOffset, GameObject fistObject)</argsstring>
+        <name>Motion_HandAndFree_Position</name>
+        <param>
+          <type>Vector2</type>
+          <declname>handOffset</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>positionOffset</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>fistObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="29" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="29" bodyend="48"/>
+        <references refid="class_stuff_1_1_sword_1af642f88833e4566ad736b6fcf24f7dc9" compoundref="_sword_8cs" startline="230">Stuff.Sword.holdPosition</references>
+        <references refid="class_stuff_1_1_sword_1a03c695eb8349aea8751d204f456ff272" compoundref="_sword_8cs" startline="217">Stuff.Sword.toHolderPositionSpeed</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a01ecff5014f353573a2a1118aea89365" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Quaternion</type>
+        <definition>Quaternion Stuff.Sword.Motion_HandAndFree_Rotation</definition>
+        <argsstring>(Vector2 handOffset)</argsstring>
+        <name>Motion_HandAndFree_Rotation</name>
+        <param>
+          <type>Vector2</type>
+          <declname>handOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="50" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="50" bodyend="158"/>
+        <references refid="class_stuff_1_1_sword_1aa06e048b7cbc745b3276463914c75530" compoundref="_sword_8cs" startline="216">Stuff.Sword.angleSpeed</references>
+        <references refid="class_stuff_1_1_sword_1a1b85642ffee56f31bbdd1de2c3717038" compoundref="_sword_8cs" startline="235">Stuff.Sword.handAndFree_LastNonZeroHandOffset</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1ab1eaba134c85f246b6b0bec585b367cf" compoundref="_sword_8cs" startline="86">Stuff.Sword.StatePack.statePre</references>
+        <references refid="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" compoundref="_sword_8cs" startline="234">Stuff.Sword.states</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a3875d7fc4a5f5b4f8fdde86d87eea6ac" compoundref="_sword_8cs" startline="94">Stuff.Sword.StatePack.withHandStatePre</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a2790c4376feeae490bfbb19608ef5f1a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3 Quaternion rotation</type>
+        <definition>Vector3 Quaternion rotation Stuff.Sword.Motion_HandAndEnv</definition>
+        <argsstring>(Vector2 positionOffset)</argsstring>
+        <name>Motion_HandAndEnv</name>
+        <param>
+          <type>Vector2</type>
+          <declname>positionOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="160" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="160" bodyend="176"/>
+        <referencedby refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" compoundref="_sword_8cs" startline="479" endline="523">Stuff.Sword.Motion</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3 Quaternion rotation</type>
+        <definition>Vector3 Quaternion rotation Stuff.Sword.Motion_NoHand</definition>
+        <argsstring>()</argsstring>
+        <name>Motion_NoHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="178" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="178" bodyend="201"/>
+        <references refid="class_stuff_1_1_sword_1a697da2359db12ef80cc9818a8150caef" compoundref="_sword___motion_8cs" startline="203" endline="206">Stuff.Sword.Motion_NoHand_AdjustDirectionRotateByCenter</references>
+        <references refid="class_stuff_1_1_sword_1a51857dc259691ea39707813ed0136eeb" compoundref="_sword___motion_8cs" startline="492" endline="542">Stuff.Sword.Motion_NoHand_Dropping</references>
+        <references refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</references>
+        <references refid="class_stuff_1_1_sword_1a68e6114b077e6f1f9460ca5450186add" compoundref="_sword___motion_8cs" startline="462" endline="490">Stuff.Sword.Motion_NoHand_Flying</references>
+        <references refid="class_stuff_1_1_sword_1ac7f5b1057369d6ad51d79be79e50ed8c" compoundref="_sword___motion_8cs" startline="252" endline="299">Stuff.Sword.Motion_NoHand_OutOfCameraRegion</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1ad462ca8b5d78b91de5f57e2289423405" compoundref="_sword_8cs" startline="98">Stuff.Sword.StatePack.noHandState</references>
+        <references refid="class_stuff_1_1_sword_1af32b9e2aa9a63f2f309bc53f4e9c357e" compoundref="_sword___motion_8cs" startline="10">Stuff.Sword.position</references>
+        <references refid="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" compoundref="_sword_8cs" startline="234">Stuff.Sword.states</references>
+        <referencedby refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" compoundref="_sword_8cs" startline="479" endline="523">Stuff.Sword.Motion</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a697da2359db12ef80cc9818a8150caef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3 Quaternion rotation</type>
+        <definition>Vector3 Quaternion rotation Stuff.Sword.Motion_NoHand_AdjustDirectionRotateByCenter</definition>
+        <argsstring>()</argsstring>
+        <name>Motion_NoHand_AdjustDirectionRotateByCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="203" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="203" bodyend="206"/>
+        <references refid="class_stuff_1_1_sword_1a075657040c6ec5962fd9b1892b248316" compoundref="_sword___motion_8cs" startline="213" endline="250">Stuff.Sword.Motion_NoHand_AdjustDirection</references>
+        <referencedby refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" compoundref="_sword___motion_8cs" startline="178" endline="201">Stuff.Sword.Motion_NoHand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1aaafc21052209398add98bf822675ef06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3 Quaternion rotation</type>
+        <definition>Vector3 Quaternion rotation Stuff.Sword.Motion_NoHand_AdjustDirectionRotateByHoldPosition</definition>
+        <argsstring>()</argsstring>
+        <name>Motion_NoHand_AdjustDirectionRotateByHoldPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="208" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="208" bodyend="211"/>
+        <references refid="class_stuff_1_1_sword_1a075657040c6ec5962fd9b1892b248316" compoundref="_sword___motion_8cs" startline="213" endline="250">Stuff.Sword.Motion_NoHand_AdjustDirection</references>
+        <referencedby refid="class_stuff_1_1_sword_1a7ca55ac97e9fc2f888f0b50323646427" compoundref="_sword_8cs" startline="546" endline="603">Stuff.Sword.ThrowSword</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a075657040c6ec5962fd9b1892b248316" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3 Quaternion rotation</type>
+        <definition>Vector3 Quaternion rotation Stuff.Sword.Motion_NoHand_AdjustDirection</definition>
+        <argsstring>(string rotateBy)</argsstring>
+        <name>Motion_NoHand_AdjustDirection</name>
+        <param>
+          <type>string</type>
+          <declname>rotateBy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="213" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="213" bodyend="250"/>
+        <references refid="class_stuff_1_1_sword_1a90285c973207ce9f39df5c4627bb574e" compoundref="_sword_8cs" startline="221">Stuff.Sword.body</references>
+        <references refid="class_stuff_1_1_sword_1a2c22388f771e1fba347dc82a401a0c10" compoundref="_sword_8cs" startline="237">Stuff.Sword.noHand_direction</references>
+        <references refid="class_stuff_1_1_sword_1a2bae8b9a7315289ed58b1a8811dbbe6e" compoundref="_sword_8cs" startline="218">Stuff.Sword.tip</references>
+        <referencedby refid="class_stuff_1_1_sword_1a697da2359db12ef80cc9818a8150caef" compoundref="_sword___motion_8cs" startline="203" endline="206">Stuff.Sword.Motion_NoHand_AdjustDirectionRotateByCenter</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1aaafc21052209398add98bf822675ef06" compoundref="_sword___motion_8cs" startline="208" endline="211">Stuff.Sword.Motion_NoHand_AdjustDirectionRotateByHoldPosition</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1ac7f5b1057369d6ad51d79be79e50ed8c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.Motion_NoHand_OutOfCameraRegion</definition>
+        <argsstring>()</argsstring>
+        <name>Motion_NoHand_OutOfCameraRegion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="252" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="252" bodyend="299"/>
+        <references refid="class_stuff_1_1_sword_1a2c22388f771e1fba347dc82a401a0c10" compoundref="_sword_8cs" startline="237">Stuff.Sword.noHand_direction</references>
+        <references refid="class_camera_follow_1a7d197af313a13a98ae77f87501c2ae3d" compoundref="_camera_follow_8cs" startline="8">CameraFollow.screenRatio</references>
+        <references refid="class_stuff_1_1_sword_1a2bae8b9a7315289ed58b1a8811dbbe6e" compoundref="_sword_8cs" startline="218">Stuff.Sword.tip</references>
+        <referencedby refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" compoundref="_sword___motion_8cs" startline="178" endline="201">Stuff.Sword.Motion_NoHand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a8b5eb9b3f54548522e12446724adcff3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Stuff.Sword.Motion_NoHand_RayCastEnv</definition>
+        <argsstring>(ref Vector2 movement)</argsstring>
+        <name>Motion_NoHand_RayCastEnv</name>
+        <param>
+          <type>ref Vector2</type>
+          <declname>movement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="301" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="301" bodyend="332"/>
+        <referencedby refid="class_stuff_1_1_sword_1a51857dc259691ea39707813ed0136eeb" compoundref="_sword___motion_8cs" startline="492" endline="542">Stuff.Sword.Motion_NoHand_Dropping</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a68e6114b077e6f1f9460ca5450186add" compoundref="_sword___motion_8cs" startline="462" endline="490">Stuff.Sword.Motion_NoHand_Flying</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3 Quaternion rotation</type>
+        <definition>Vector3 Quaternion rotation Stuff.Sword.Motion_NoHand_Env</definition>
+        <argsstring>(Vector3 positionIn, Quaternion rotationIn)</argsstring>
+        <name>Motion_NoHand_Env</name>
+        <param>
+          <type>Vector3</type>
+          <declname>positionIn</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotationIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="334" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="334" bodyend="460"/>
+        <references refid="class_stuff_1_1_sword_1a90285c973207ce9f39df5c4627bb574e" compoundref="_sword_8cs" startline="221">Stuff.Sword.body</references>
+        <references refid="class_stuff_1_1_sword_1a2c22388f771e1fba347dc82a401a0c10" compoundref="_sword_8cs" startline="237">Stuff.Sword.noHand_direction</references>
+        <references refid="class_stuff_1_1_sword_1aca443c00478537fcd033850e4763e24a" compoundref="_sword_8cs" startline="236">Stuff.Sword.noHand_speed</references>
+        <references refid="class_stuff_1_1_sword_1af9ae785d56a4670a87a247786d418885" compoundref="_sword_8cs" startline="239">Stuff.Sword.noHand_stopedAngleSpeed</references>
+        <references refid="class_stuff_1_1_sword_1a55addd8becb8141fa412c96e282d44c3" compoundref="_sword_8cs" startline="246">Stuff.Sword.nohandEnvMoveDistance</references>
+        <references refid="class_stuff_1_1_sword_1a8819268866ad7494b52caf8fb196afe2" compoundref="_sword_8cs" startline="245">Stuff.Sword.noHandEnvSpeedThreshold</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1ad462ca8b5d78b91de5f57e2289423405" compoundref="_sword_8cs" startline="98">Stuff.Sword.StatePack.noHandState</references>
+        <references refid="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" compoundref="_sword_8cs" startline="234">Stuff.Sword.states</references>
+        <references refid="class_stuff_1_1_sword_1a2bae8b9a7315289ed58b1a8811dbbe6e" compoundref="_sword_8cs" startline="218">Stuff.Sword.tip</references>
+        <referencedby refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" compoundref="_sword___motion_8cs" startline="178" endline="201">Stuff.Sword.Motion_NoHand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a68e6114b077e6f1f9460ca5450186add" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3 Quaternion rotation</type>
+        <definition>Vector3 Quaternion rotation Stuff.Sword.Motion_NoHand_Flying</definition>
+        <argsstring>(Vector3 positionIn, Quaternion rotationIn)</argsstring>
+        <name>Motion_NoHand_Flying</name>
+        <param>
+          <type>Vector3</type>
+          <declname>positionIn</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotationIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="462" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="462" bodyend="490"/>
+        <references refid="class_stuff_1_1_sword_1a8b5eb9b3f54548522e12446724adcff3" compoundref="_sword___motion_8cs" startline="301" endline="332">Stuff.Sword.Motion_NoHand_RayCastEnv</references>
+        <references refid="class_stuff_1_1_sword_1a2c22388f771e1fba347dc82a401a0c10" compoundref="_sword_8cs" startline="237">Stuff.Sword.noHand_direction</references>
+        <references refid="class_stuff_1_1_sword_1aca443c00478537fcd033850e4763e24a" compoundref="_sword_8cs" startline="236">Stuff.Sword.noHand_speed</references>
+        <references refid="class_stuff_1_1_sword_1a3aa4c47863e18f9555a4052abf449ce7" compoundref="_sword_8cs" startline="242">Stuff.Sword.noHand_swordFly_deceleration</references>
+        <references refid="class_stuff_1_1_sword_1a27016db04ff50f3caca42dffeb555a6b" compoundref="_sword_8cs" startline="241">Stuff.Sword.noHand_swordFly_minSpeed</references>
+        <referencedby refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" compoundref="_sword___motion_8cs" startline="178" endline="201">Stuff.Sword.Motion_NoHand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1a51857dc259691ea39707813ed0136eeb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3 Quaternion rotation</type>
+        <definition>Vector3 Quaternion rotation Stuff.Sword.Motion_NoHand_Dropping</definition>
+        <argsstring>(Vector3 positionIn, Quaternion rotationIn)</argsstring>
+        <name>Motion_NoHand_Dropping</name>
+        <param>
+          <type>Vector3</type>
+          <declname>positionIn</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotationIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" line="492" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword_Motion.cs" bodystart="492" bodyend="542"/>
+        <references refid="class_stuff_1_1_sword_1a8b5eb9b3f54548522e12446724adcff3" compoundref="_sword___motion_8cs" startline="301" endline="332">Stuff.Sword.Motion_NoHand_RayCastEnv</references>
+        <references refid="class_stuff_1_1_sword_1a2c22388f771e1fba347dc82a401a0c10" compoundref="_sword_8cs" startline="237">Stuff.Sword.noHand_direction</references>
+        <references refid="class_stuff_1_1_sword_1aca443c00478537fcd033850e4763e24a" compoundref="_sword_8cs" startline="236">Stuff.Sword.noHand_speed</references>
+        <references refid="class_stuff_1_1_sword_1a403a1ea2a2e1840fb85d34bea1510c00" compoundref="_sword_8cs" startline="244">Stuff.Sword.noHand_swordDrop_acceleration</references>
+        <references refid="class_stuff_1_1_sword_1ac9eae3fbc62b2493815a83ecaa81ad5b" compoundref="_sword_8cs" startline="243">Stuff.Sword.noHand_swordDrop_downMax</references>
+        <references refid="class_stuff_1_1_sword_1a3aa4c47863e18f9555a4052abf449ce7" compoundref="_sword_8cs" startline="242">Stuff.Sword.noHand_swordFly_deceleration</references>
+        <referencedby refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" compoundref="_sword___motion_8cs" startline="178" endline="201">Stuff.Sword.Motion_NoHand</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="424">
+        <label>Stuff.Sword</label>
+        <link refid="class_stuff_1_1_sword"/>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>Stuff</label>
+        <link refid="class_stuff_1_1_stuff"/>
+        <childnode refid="426" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="427">
+        <label>Stuff.Sword</label>
+        <link refid="class_stuff_1_1_sword"/>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+        <childnode refid="431" relation="usage">
+          <edgelabel>states</edgelabel>
+        </childnode>
+        <childnode refid="430" relation="usage">
+          <edgelabel>instanceList</edgelabel>
+        </childnode>
+      </node>
+      <node id="431">
+        <label>Stuff.Sword.StatePack</label>
+        <link refid="class_stuff_1_1_sword_1_1_state_pack"/>
+      </node>
+      <node id="428">
+        <label>Stuff</label>
+        <link refid="class_stuff_1_1_stuff"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="430" relation="usage">
+          <edgelabel>nextZ</edgelabel>
+        </childnode>
+      </node>
+      <node id="429">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="430">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="9" bodyend="627"/>
+    <listofallmembers>
+      <member refid="class_stuff_1_1_sword_1a461fbaec4d631b56f3b9e3508d9c3f62" prot="public" virt="virtual"><scope>Stuff::Sword</scope><name>AddAssociatedFist</name></member>
+      <member refid="class_stuff_1_1_sword_1aa06e048b7cbc745b3276463914c75530" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>angleSpeed</name></member>
+      <member refid="class_stuff_1_1_sword_1a90285c973207ce9f39df5c4627bb574e" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>body</name></member>
+      <member refid="class_stuff_1_1_sword_1ae918946f6765e7a4fb72b9213332ba36" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>bodyEnvColliderList</name></member>
+      <member refid="class_stuff_1_1_sword_1ad7a3398cd65457f04f306049741b0867" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>bodyEnvVisualList</name></member>
+      <member refid="class_stuff_1_1_sword_1abe87cb3be4f53150bb7efe2f07789b88" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>centerPoint</name></member>
+      <member refid="class_stuff_1_1_sword_1a094162da592d53cb8ea127392fab6611" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>CheckAndRemoveFist</name></member>
+      <member refid="class_stuff_1_1_stuff_1a08dcad6f3a43e0b0f98692003277a261" prot="protected" virt="non-virtual"><scope>Stuff::Sword</scope><name>firstFist</name></member>
+      <member refid="class_stuff_1_1_stuff_1a2cceb5a440a80834d66fc496daef89ec" prot="protected" virt="non-virtual"><scope>Stuff::Sword</scope><name>fists</name></member>
+      <member refid="class_stuff_1_1_sword_1acb524046fe0be288bd861e2ae0377866" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>FixedUpdate</name></member>
+      <member refid="class_stuff_1_1_sword_1a56d5ee60deaf04f2acfe87a29018f124" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>freeSign</name></member>
+      <member refid="class_stuff_1_1_sword_1afb2f87ca99dab59d8119e4142967b840" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>gem</name></member>
+      <member refid="class_stuff_1_1_sword_1afccf04a637508f73db7cf7191e1d6ba9" prot="public" virt="non-virtual"><scope>Stuff::Sword</scope><name>GetValueForFist_AtFUPre</name></member>
+      <member refid="class_stuff_1_1_sword_1a1b85642ffee56f31bbdd1de2c3717038" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>handAndFree_LastNonZeroHandOffset</name></member>
+      <member refid="class_stuff_1_1_sword_1a85ff3f55ac5336d74817196a13fed58b" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>handAndFreeOffsetHistory</name></member>
+      <member refid="class_stuff_1_1_sword_1af642f88833e4566ad736b6fcf24f7dc9" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>holdPosition</name></member>
+      <member refid="class_stuff_1_1_sword_1a4d66771034f9b3500caf2e61a4e1c17b" prot="public" virt="non-virtual"><scope>Stuff::Sword</scope><name>instanceList</name></member>
+      <member refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion</name></member>
+      <member refid="class_stuff_1_1_sword_1a2790c4376feeae490bfbb19608ef5f1a" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_HandAndEnv</name></member>
+      <member refid="class_stuff_1_1_sword_1a3396e1f95f3d7b4b8ac270cfe74042be" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_HandAndFree</name></member>
+      <member refid="class_stuff_1_1_sword_1a8e9d34ee397e49fd50c58d4d88c65fb6" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_HandAndFree_Position</name></member>
+      <member refid="class_stuff_1_1_sword_1a01ecff5014f353573a2a1118aea89365" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_HandAndFree_Rotation</name></member>
+      <member refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_NoHand</name></member>
+      <member refid="class_stuff_1_1_sword_1a075657040c6ec5962fd9b1892b248316" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_NoHand_AdjustDirection</name></member>
+      <member refid="class_stuff_1_1_sword_1a697da2359db12ef80cc9818a8150caef" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_NoHand_AdjustDirectionRotateByCenter</name></member>
+      <member refid="class_stuff_1_1_sword_1aaafc21052209398add98bf822675ef06" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_NoHand_AdjustDirectionRotateByHoldPosition</name></member>
+      <member refid="class_stuff_1_1_sword_1a51857dc259691ea39707813ed0136eeb" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_NoHand_Dropping</name></member>
+      <member refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_NoHand_Env</name></member>
+      <member refid="class_stuff_1_1_sword_1a68e6114b077e6f1f9460ca5450186add" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_NoHand_Flying</name></member>
+      <member refid="class_stuff_1_1_sword_1ac7f5b1057369d6ad51d79be79e50ed8c" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_NoHand_OutOfCameraRegion</name></member>
+      <member refid="class_stuff_1_1_sword_1a8b5eb9b3f54548522e12446724adcff3" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Motion_NoHand_RayCastEnv</name></member>
+      <member refid="class_stuff_1_1_sword_1a2c22388f771e1fba347dc82a401a0c10" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>noHand_direction</name></member>
+      <member refid="class_stuff_1_1_sword_1aca443c00478537fcd033850e4763e24a" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>noHand_speed</name></member>
+      <member refid="class_stuff_1_1_sword_1af9ae785d56a4670a87a247786d418885" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>noHand_stopedAngleSpeed</name></member>
+      <member refid="class_stuff_1_1_sword_1a403a1ea2a2e1840fb85d34bea1510c00" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>noHand_swordDrop_acceleration</name></member>
+      <member refid="class_stuff_1_1_sword_1ac9eae3fbc62b2493815a83ecaa81ad5b" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>noHand_swordDrop_downMax</name></member>
+      <member refid="class_stuff_1_1_sword_1a3aa4c47863e18f9555a4052abf449ce7" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>noHand_swordFly_deceleration</name></member>
+      <member refid="class_stuff_1_1_sword_1ac5de7c69bd99d30f5e458644fd4a47f6" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>noHand_swordFly_fistToSwordSpeedRatio</name></member>
+      <member refid="class_stuff_1_1_sword_1a27016db04ff50f3caca42dffeb555a6b" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>noHand_swordFly_minSpeed</name></member>
+      <member refid="class_stuff_1_1_sword_1a55addd8becb8141fa412c96e282d44c3" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>nohandEnvMoveDistance</name></member>
+      <member refid="class_stuff_1_1_sword_1a8819268866ad7494b52caf8fb196afe2" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>noHandEnvSpeedThreshold</name></member>
+      <member refid="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfe" prot="public" virt="non-virtual"><scope>Stuff::Sword</scope><name>NoHandState</name></member>
+      <member refid="class_stuff_1_1_sword_1af32b9e2aa9a63f2f309bc53f4e9c357e" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>position</name></member>
+      <member refid="class_stuff_1_1_sword_1adf1eac517732b0895ae133bf063087e8" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>rayPoint1</name></member>
+      <member refid="class_stuff_1_1_sword_1a82a49c03e7d9921607eaefb591856596" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>rayPoint2</name></member>
+      <member refid="class_stuff_1_1_sword_1a0112b41cdec91a27f30d4839cf69c960" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>rayPoint3</name></member>
+      <member refid="class_stuff_1_1_sword_1a6e3889c6388944f7ec7c84ff72a5fb3e" prot="public" virt="virtual"><scope>Stuff::Sword</scope><name>RemoveAssociatedFist</name></member>
+      <member refid="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>SoundEffect</name></member>
+      <member refid="class_stuff_1_1_sword_1aa9082dbb3d1b857e44d3d20dc3f8f98d" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>soundEffect_LastWhooshNum</name></member>
+      <member refid="class_stuff_1_1_sword_1ad64fd7208a5035998953cc8160d781c8" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>soundEffect_lastWhooshTime</name></member>
+      <member refid="class_stuff_1_1_sword_1aea9e381d153e96a2c1285e4c79527596" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>soundEffect_whooshInterval</name></member>
+      <member refid="class_stuff_1_1_sword_1a29529063ea4adbc17da434c8c49b75b3" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Start</name></member>
+      <member refid="class_stuff_1_1_sword_1a54320116db4979e78177f2a96777f1e6" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>startingPosition</name></member>
+      <member refid="class_stuff_1_1_sword_1aa123bc81c09e6003519571d963a21ffa" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>startingRotation</name></member>
+      <member refid="class_stuff_1_1_sword_1a8965f0cae536ec9ba4cc2b1785c67350" prot="public" virt="non-virtual"><scope>Stuff::Sword</scope><name>State</name></member>
+      <member refid="class_stuff_1_1_sword_1a11edbf8d73ce52bf557a58d10ee6a26b" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>StateRenewDueToFistAndEnv</name></member>
+      <member refid="class_stuff_1_1_sword_1a5fd4796fd8e4cf656aaf002b96ca3eae" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>states</name></member>
+      <member refid="class_stuff_1_1_sword_1a7dc56ebf4ea375f5cc2508b459548700" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>swordRigid</name></member>
+      <member refid="class_stuff_1_1_sword_1a7ca55ac97e9fc2f888f0b50323646427" prot="public" virt="non-virtual"><scope>Stuff::Sword</scope><name>ThrowSword</name></member>
+      <member refid="class_stuff_1_1_sword_1a2bae8b9a7315289ed58b1a8811dbbe6e" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>tip</name></member>
+      <member refid="class_stuff_1_1_sword_1a6c32cc04aaa0cfb291fa47010819a988" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>tipEnvCollider</name></member>
+      <member refid="class_stuff_1_1_sword_1ac584fc5a4fbde47e3611e613c4a5400c" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>tipEnvVisual</name></member>
+      <member refid="class_stuff_1_1_sword_1a03c695eb8349aea8751d204f456ff272" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>toHolderPositionSpeed</name></member>
+      <member refid="class_stuff_1_1_sword_1a722536b1334f0011cc5653b4912a5945" prot="private" virt="non-virtual"><scope>Stuff::Sword</scope><name>Visual</name></member>
+      <member refid="class_stuff_1_1_sword_1aa9b77d02694107a7e05f2a89e0017a57" prot="public" virt="non-virtual"><scope>Stuff::Sword</scope><name>WithHandState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

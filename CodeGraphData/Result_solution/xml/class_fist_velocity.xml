@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_fist_velocity" kind="class" prot="public">
+    <compoundname>FistVelocity</compoundname>
+    <basecompoundref refid="class_velocity" prot="public" virt="non-virtual">Velocity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_fist_velocity_1ac7b4beb32e32f822d62ae626ededdd30" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FistVelocity.speedPre</definition>
+        <argsstring></argsstring>
+        <name>speedPre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="131" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="131" bodyend="-1"/>
+        <referencedby refid="class_fist_velocity_1a3f2f7f9b3652c4da86225b723d39c603" compoundref="_fist_velocity_8cs" startline="285" endline="293">AccelerateSpeedTwoFistGrabed</referencedby>
+        <referencedby refid="class_fist_velocity_1a1c01b744c6541fc57392dc76f1251d66" compoundref="_fist_velocity_8cs" startline="139" endline="151">FistVelocity</referencedby>
+        <referencedby refid="class_fist_velocity_1abffb24c753636049fa2dc64420b12e04" compoundref="_fist_velocity_8cs" startline="168" endline="171">IsSpeedPreNoBiggerThanMaxOneFist</referencedby>
+        <referencedby refid="class_fist_velocity_1a5b0420d24ea3a9cc8a193d3db4d599f7" compoundref="_fist_velocity_8cs" startline="157" endline="166">OffsetZeroOneHand</referencedby>
+        <referencedby refid="class_fist_velocity_1adf93689d465050c4f81d52274b110f8c" compoundref="_fist_velocity_8cs" startline="274" endline="283">OffsetZeroTwoHand</referencedby>
+        <referencedby refid="class_fist_velocity_1aa10ea4748598bbd6a8bfd4ca43e4f46f" compoundref="_fist_velocity_8cs" startline="173" endline="180">RefreshSpeedOneFist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_fist_velocity_1aaa9864a3052713486ea6d6f4361ebbf7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_speed_parameter" kindref="compound">SpeedParameter</ref></type>
+        <definition>SpeedParameter FistVelocity.speedParameter</definition>
+        <argsstring></argsstring>
+        <name>speedParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="133" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="133" bodyend="-1"/>
+        <referencedby refid="class_fist_velocity_1a1c01b744c6541fc57392dc76f1251d66" compoundref="_fist_velocity_8cs" startline="139" endline="151">FistVelocity</referencedby>
+        <referencedby refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">RefreshSpeedOneFistDueToSpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_fist_velocity_1a238a471deb9fda30447fe4da57ac8e03" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FistVelocity.length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="134" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class_fist_velocity_1aed77371ee0879ce0e51cc241f8527df3" compoundref="_fist_velocity_8cs" startline="219" endline="237">Accelerate</referencedby>
+        <referencedby refid="class_fist_velocity_1a59d541e30415c8f080c77c5916c13b22" compoundref="_fist_velocity_8cs" startline="304" endline="322">AccelerateTwoFistGrabed</referencedby>
+        <referencedby refid="class_fist_velocity_1a9977c977e2dad3ec1246eaec176555be" compoundref="_fist_velocity_8cs" startline="239" endline="265">Decelerate</referencedby>
+        <referencedby refid="class_fist_velocity_1a1c01b744c6541fc57392dc76f1251d66" compoundref="_fist_velocity_8cs" startline="139" endline="151">FistVelocity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_fist_velocity_1a78129d345b1591dd6f32527863b91b14" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FistVelocity.speedStart</definition>
+        <argsstring></argsstring>
+        <name>speedStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="135" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="135" bodyend="-1"/>
+        <referencedby refid="class_fist_velocity_1aed77371ee0879ce0e51cc241f8527df3" compoundref="_fist_velocity_8cs" startline="219" endline="237">Accelerate</referencedby>
+        <referencedby refid="class_fist_velocity_1a59d541e30415c8f080c77c5916c13b22" compoundref="_fist_velocity_8cs" startline="304" endline="322">AccelerateTwoFistGrabed</referencedby>
+        <referencedby refid="class_fist_velocity_1a9977c977e2dad3ec1246eaec176555be" compoundref="_fist_velocity_8cs" startline="239" endline="265">Decelerate</referencedby>
+        <referencedby refid="class_fist_velocity_1a1c01b744c6541fc57392dc76f1251d66" compoundref="_fist_velocity_8cs" startline="139" endline="151">FistVelocity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_fist_velocity_1ab3a8a0b8c6fec176af6984116c13b2ab" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FistVelocity.speedMaxOneFist</definition>
+        <argsstring></argsstring>
+        <name>speedMaxOneFist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="136" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="136" bodyend="-1"/>
+        <referencedby refid="class_fist_velocity_1aed77371ee0879ce0e51cc241f8527df3" compoundref="_fist_velocity_8cs" startline="219" endline="237">Accelerate</referencedby>
+        <referencedby refid="class_fist_velocity_1a1c01b744c6541fc57392dc76f1251d66" compoundref="_fist_velocity_8cs" startline="139" endline="151">FistVelocity</referencedby>
+        <referencedby refid="class_fist_velocity_1abffb24c753636049fa2dc64420b12e04" compoundref="_fist_velocity_8cs" startline="168" endline="171">IsSpeedPreNoBiggerThanMaxOneFist</referencedby>
+        <referencedby refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">RefreshSpeedOneFistDueToSpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_fist_velocity_1a1db24dbdc91255c1061b970222c62831" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FistVelocity.speedMaxTwoFist</definition>
+        <argsstring></argsstring>
+        <name>speedMaxTwoFist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="137" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="137" bodyend="-1"/>
+        <referencedby refid="class_fist_velocity_1a59d541e30415c8f080c77c5916c13b22" compoundref="_fist_velocity_8cs" startline="304" endline="322">AccelerateTwoFistGrabed</referencedby>
+        <referencedby refid="class_fist_velocity_1a1c01b744c6541fc57392dc76f1251d66" compoundref="_fist_velocity_8cs" startline="139" endline="151">FistVelocity</referencedby>
+        <referencedby refid="class_fist_velocity_1add156ac42e0e2c3bd421dfcaffcbaa45" compoundref="_fist_velocity_8cs" startline="328" endline="331">GetSpeedMaxTwoFist</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_fist_velocity_1a1c01b744c6541fc57392dc76f1251d66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FistVelocity.FistVelocity</definition>
+        <argsstring>(float length)</argsstring>
+        <name>FistVelocity</name>
+        <param>
+          <type>float</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="139" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="139" bodyend="151"/>
+        <references refid="class_velocity_1ab4270b69937407ac4146bda514635bd2" compoundref="_velocity_8cs" startline="9">Velocity.direction</references>
+        <references refid="class_fist_velocity_1a238a471deb9fda30447fe4da57ac8e03" compoundref="_fist_velocity_8cs" startline="134">length</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_fist_velocity_1ab3a8a0b8c6fec176af6984116c13b2ab" compoundref="_fist_velocity_8cs" startline="136">speedMaxOneFist</references>
+        <references refid="class_fist_velocity_1a1db24dbdc91255c1061b970222c62831" compoundref="_fist_velocity_8cs" startline="137">speedMaxTwoFist</references>
+        <references refid="class_fist_velocity_1aaa9864a3052713486ea6d6f4361ebbf7" compoundref="_fist_velocity_8cs" startline="133">speedParameter</references>
+        <references refid="class_fist_velocity_1ac7b4beb32e32f822d62ae626ededdd30" compoundref="_fist_velocity_8cs" startline="131">speedPre</references>
+        <references refid="class_fist_velocity_1a78129d345b1591dd6f32527863b91b14" compoundref="_fist_velocity_8cs" startline="135">speedStart</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1a5b0420d24ea3a9cc8a193d3db4d599f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FistVelocity.OffsetZeroOneHand</definition>
+        <argsstring>()</argsstring>
+        <name>OffsetZeroOneHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="157" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="157" bodyend="166"/>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_fist_velocity_1ac7b4beb32e32f822d62ae626ededdd30" compoundref="_fist_velocity_8cs" startline="131">speedPre</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1abffb24c753636049fa2dc64420b12e04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FistVelocity.IsSpeedPreNoBiggerThanMaxOneFist</definition>
+        <argsstring>()</argsstring>
+        <name>IsSpeedPreNoBiggerThanMaxOneFist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="168" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="168" bodyend="171"/>
+        <references refid="class_fist_velocity_1ab3a8a0b8c6fec176af6984116c13b2ab" compoundref="_fist_velocity_8cs" startline="136">speedMaxOneFist</references>
+        <references refid="class_fist_velocity_1ac7b4beb32e32f822d62ae626ededdd30" compoundref="_fist_velocity_8cs" startline="131">speedPre</references>
+        <referencedby refid="class_two_fist_velocity_1a45436d1a77242040336798aaca5c0b57" compoundref="_two_fist_velocity_8cs" startline="54" endline="110">TwoFistVelocity.OffsetReflectSpeed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1aa10ea4748598bbd6a8bfd4ca43e4f46f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FistVelocity.RefreshSpeedOneFist</definition>
+        <argsstring>(ParameterForFistVelocity parameter)</argsstring>
+        <name>RefreshSpeedOneFist</name>
+        <param>
+          <type><ref refid="struct_parameter_for_fist_velocity" kindref="compound">ParameterForFistVelocity</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="173" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="173" bodyend="180"/>
+        <references refid="class_velocity_1ab4270b69937407ac4146bda514635bd2" compoundref="_velocity_8cs" startline="9">Velocity.direction</references>
+        <references refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">RefreshSpeedOneFistDueToSpeedParameter</references>
+        <references refid="class_fist_velocity_1a903d58cf6ee463279684d2c5d594e0e5" compoundref="_fist_velocity_8cs" startline="183" endline="186">RefreshSpeedParameterOneHand</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_fist_velocity_1ac7b4beb32e32f822d62ae626ededdd30" compoundref="_fist_velocity_8cs" startline="131">speedPre</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1adf93689d465050c4f81d52274b110f8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FistVelocity.OffsetZeroTwoHand</definition>
+        <argsstring>()</argsstring>
+        <name>OffsetZeroTwoHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="274" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="274" bodyend="283"/>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_fist_velocity_1ac7b4beb32e32f822d62ae626ededdd30" compoundref="_fist_velocity_8cs" startline="131">speedPre</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1a3f2f7f9b3652c4da86225b723d39c603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FistVelocity.AccelerateSpeedTwoFistGrabed</definition>
+        <argsstring>(ParameterForFistVelocity parameter, float speedBigger)</argsstring>
+        <name>AccelerateSpeedTwoFistGrabed</name>
+        <param>
+          <type><ref refid="struct_parameter_for_fist_velocity" kindref="compound">ParameterForFistVelocity</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speedBigger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="285" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="285" bodyend="293"/>
+        <references refid="class_fist_velocity_1a9d2a984bac73b41473b1ee468debc486" compoundref="_fist_velocity_8cs" startline="300" endline="303">AccelerateSpeedTwoFistGrabedDueToSpeedParameter</references>
+        <references refid="class_velocity_1ab4270b69937407ac4146bda514635bd2" compoundref="_velocity_8cs" startline="9">Velocity.direction</references>
+        <references refid="class_fist_velocity_1ad3c67ff06fff6c7cf682f920059e9c16" compoundref="_fist_velocity_8cs" startline="295" endline="298">RefreshSpeedParameterTwoHand</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_fist_velocity_1ac7b4beb32e32f822d62ae626ededdd30" compoundref="_fist_velocity_8cs" startline="131">speedPre</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1add156ac42e0e2c3bd421dfcaffcbaa45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FistVelocity.GetSpeedMaxTwoFist</definition>
+        <argsstring>()</argsstring>
+        <name>GetSpeedMaxTwoFist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="328" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="328" bodyend="331"/>
+        <references refid="class_fist_velocity_1a1db24dbdc91255c1061b970222c62831" compoundref="_fist_velocity_8cs" startline="137">speedMaxTwoFist</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_fist_velocity_1a903d58cf6ee463279684d2c5d594e0e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FistVelocity.RefreshSpeedParameterOneHand</definition>
+        <argsstring>(ParameterForFistVelocity parameter)</argsstring>
+        <name>RefreshSpeedParameterOneHand</name>
+        <param>
+          <type><ref refid="struct_parameter_for_fist_velocity" kindref="compound">ParameterForFistVelocity</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="183" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="183" bodyend="186"/>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <referencedby refid="class_fist_velocity_1aa10ea4748598bbd6a8bfd4ca43e4f46f" compoundref="_fist_velocity_8cs" startline="173" endline="180">RefreshSpeedOneFist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FistVelocity.RefreshSpeedOneFistDueToSpeedParameter</definition>
+        <argsstring>(ParameterForFistVelocity parameter)</argsstring>
+        <name>RefreshSpeedOneFistDueToSpeedParameter</name>
+        <param>
+          <type><ref refid="struct_parameter_for_fist_velocity" kindref="compound">ParameterForFistVelocity</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="188" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="188" bodyend="217"/>
+        <references refid="class_fist_velocity_1aed77371ee0879ce0e51cc241f8527df3" compoundref="_fist_velocity_8cs" startline="219" endline="237">Accelerate</references>
+        <references refid="class_fist_velocity_1a9977c977e2dad3ec1246eaec176555be" compoundref="_fist_velocity_8cs" startline="239" endline="265">Decelerate</references>
+        <references refid="struct_parameter_for_fist_velocity_1a13dc8c126e6982af95a6855641c0178e" compoundref="_fist_velocity_8cs" startline="8">ParameterForFistVelocity.keyDir</references>
+        <references refid="class_speed_parameter_1ab23a110dfb531ff699b2a06686248aa3" compoundref="_fist_velocity_8cs" startline="15">SpeedParameter.keyHoldState</references>
+        <references refid="class_speed_parameter_1ab0ccfe0965dc76770ad592f7361563de" compoundref="_fist_velocity_8cs" startline="17">SpeedParameter.keyReleaseTime</references>
+        <references refid="class_speed_parameter_1a9b81c76140f0f699d61db247633f253a" compoundref="_fist_velocity_8cs" startline="23">SpeedParameter.lastTwoHandGrabedSpeed</references>
+        <references refid="class_speed_parameter_1a0ee85f8c9897590bba14b686da4745e4" compoundref="_fist_velocity_8cs" startline="22">SpeedParameter.noTwoHandTime</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_speed_parameter_1a8f4083bc39515c294495f74adda1278a" compoundref="_fist_velocity_8cs" startline="18">SpeedParameter.speedBeforeKeyRelease</references>
+        <references refid="class_fist_velocity_1ab3a8a0b8c6fec176af6984116c13b2ab" compoundref="_fist_velocity_8cs" startline="136">speedMaxOneFist</references>
+        <references refid="class_fist_velocity_1aaa9864a3052713486ea6d6f4361ebbf7" compoundref="_fist_velocity_8cs" startline="133">speedParameter</references>
+        <referencedby refid="class_fist_velocity_1aa10ea4748598bbd6a8bfd4ca43e4f46f" compoundref="_fist_velocity_8cs" startline="173" endline="180">RefreshSpeedOneFist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1aed77371ee0879ce0e51cc241f8527df3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FistVelocity.Accelerate</definition>
+        <argsstring>(float speedPre)</argsstring>
+        <name>Accelerate</name>
+        <param>
+          <type>float</type>
+          <declname>speedPre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="219" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="219" bodyend="237"/>
+        <references refid="class_fist_velocity_1a238a471deb9fda30447fe4da57ac8e03" compoundref="_fist_velocity_8cs" startline="134">length</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_fist_velocity_1ab3a8a0b8c6fec176af6984116c13b2ab" compoundref="_fist_velocity_8cs" startline="136">speedMaxOneFist</references>
+        <references refid="class_fist_velocity_1a78129d345b1591dd6f32527863b91b14" compoundref="_fist_velocity_8cs" startline="135">speedStart</references>
+        <referencedby refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">RefreshSpeedOneFistDueToSpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1a9977c977e2dad3ec1246eaec176555be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FistVelocity.Decelerate</definition>
+        <argsstring>(float v0, float time)</argsstring>
+        <name>Decelerate</name>
+        <param>
+          <type>float</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="239" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="239" bodyend="265"/>
+        <references refid="class_fist_velocity_1a238a471deb9fda30447fe4da57ac8e03" compoundref="_fist_velocity_8cs" startline="134">length</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_fist_velocity_1a78129d345b1591dd6f32527863b91b14" compoundref="_fist_velocity_8cs" startline="135">speedStart</references>
+        <referencedby refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" compoundref="_fist_velocity_8cs" startline="188" endline="217">RefreshSpeedOneFistDueToSpeedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1ad3c67ff06fff6c7cf682f920059e9c16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FistVelocity.RefreshSpeedParameterTwoHand</definition>
+        <argsstring>(ParameterForFistVelocity parameter)</argsstring>
+        <name>RefreshSpeedParameterTwoHand</name>
+        <param>
+          <type><ref refid="struct_parameter_for_fist_velocity" kindref="compound">ParameterForFistVelocity</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="295" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="295" bodyend="298"/>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <referencedby refid="class_fist_velocity_1a3f2f7f9b3652c4da86225b723d39c603" compoundref="_fist_velocity_8cs" startline="285" endline="293">AccelerateSpeedTwoFistGrabed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1a9d2a984bac73b41473b1ee468debc486" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FistVelocity.AccelerateSpeedTwoFistGrabedDueToSpeedParameter</definition>
+        <argsstring>()</argsstring>
+        <name>AccelerateSpeedTwoFistGrabedDueToSpeedParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="300" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="300" bodyend="303"/>
+        <references refid="class_fist_velocity_1a59d541e30415c8f080c77c5916c13b22" compoundref="_fist_velocity_8cs" startline="304" endline="322">AccelerateTwoFistGrabed</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <referencedby refid="class_fist_velocity_1a3f2f7f9b3652c4da86225b723d39c603" compoundref="_fist_velocity_8cs" startline="285" endline="293">AccelerateSpeedTwoFistGrabed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fist_velocity_1a59d541e30415c8f080c77c5916c13b22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FistVelocity.AccelerateTwoFistGrabed</definition>
+        <argsstring>(float speedPre)</argsstring>
+        <name>AccelerateTwoFistGrabed</name>
+        <param>
+          <type>float</type>
+          <declname>speedPre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="304" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="304" bodyend="322"/>
+        <references refid="class_fist_velocity_1a238a471deb9fda30447fe4da57ac8e03" compoundref="_fist_velocity_8cs" startline="134">length</references>
+        <references refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" compoundref="_velocity_8cs" startline="8">Velocity.speed</references>
+        <references refid="class_fist_velocity_1a1db24dbdc91255c1061b970222c62831" compoundref="_fist_velocity_8cs" startline="137">speedMaxTwoFist</references>
+        <references refid="class_fist_velocity_1a78129d345b1591dd6f32527863b91b14" compoundref="_fist_velocity_8cs" startline="135">speedStart</references>
+        <referencedby refid="class_fist_velocity_1a9d2a984bac73b41473b1ee468debc486" compoundref="_fist_velocity_8cs" startline="300" endline="303">AccelerateSpeedTwoFistGrabedDueToSpeedParameter</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="229">
+        <label>Velocity</label>
+        <link refid="class_velocity"/>
+      </node>
+      <node id="228">
+        <label>FistVelocity</label>
+        <link refid="class_fist_velocity"/>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="231">
+        <label>Velocity</label>
+        <link refid="class_velocity"/>
+      </node>
+      <node id="232">
+        <label>SpeedParameter</label>
+        <link refid="class_speed_parameter"/>
+      </node>
+      <node id="230">
+        <label>FistVelocity</label>
+        <link refid="class_fist_velocity"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+        <childnode refid="232" relation="usage">
+          <edgelabel>speedParameter</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" line="117" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/FistVelocity.cs" bodystart="116" bodyend="332"/>
+    <listofallmembers>
+      <member refid="class_fist_velocity_1aed77371ee0879ce0e51cc241f8527df3" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>Accelerate</name></member>
+      <member refid="class_fist_velocity_1a3f2f7f9b3652c4da86225b723d39c603" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>AccelerateSpeedTwoFistGrabed</name></member>
+      <member refid="class_fist_velocity_1a9d2a984bac73b41473b1ee468debc486" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>AccelerateSpeedTwoFistGrabedDueToSpeedParameter</name></member>
+      <member refid="class_fist_velocity_1a59d541e30415c8f080c77c5916c13b22" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>AccelerateTwoFistGrabed</name></member>
+      <member refid="class_fist_velocity_1a9977c977e2dad3ec1246eaec176555be" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>Decelerate</name></member>
+      <member refid="class_velocity_1ab4270b69937407ac4146bda514635bd2" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>direction</name></member>
+      <member refid="class_fist_velocity_1a1c01b744c6541fc57392dc76f1251d66" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>FistVelocity</name></member>
+      <member refid="class_fist_velocity_1add156ac42e0e2c3bd421dfcaffcbaa45" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>GetSpeedMaxTwoFist</name></member>
+      <member refid="class_fist_velocity_1abffb24c753636049fa2dc64420b12e04" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>IsSpeedPreNoBiggerThanMaxOneFist</name></member>
+      <member refid="class_fist_velocity_1a238a471deb9fda30447fe4da57ac8e03" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>length</name></member>
+      <member refid="class_fist_velocity_1a5b0420d24ea3a9cc8a193d3db4d599f7" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>OffsetZeroOneHand</name></member>
+      <member refid="class_fist_velocity_1adf93689d465050c4f81d52274b110f8c" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>OffsetZeroTwoHand</name></member>
+      <member refid="class_velocity_1adc1afea59fa2d2da9b2817f8277153d7" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>operator Vector2</name></member>
+      <member refid="class_fist_velocity_1aa10ea4748598bbd6a8bfd4ca43e4f46f" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>RefreshSpeedOneFist</name></member>
+      <member refid="class_fist_velocity_1aecf251fa8f2d17ffc7c93d4b09ad9c90" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>RefreshSpeedOneFistDueToSpeedParameter</name></member>
+      <member refid="class_fist_velocity_1a903d58cf6ee463279684d2c5d594e0e5" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>RefreshSpeedParameterOneHand</name></member>
+      <member refid="class_fist_velocity_1ad3c67ff06fff6c7cf682f920059e9c16" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>RefreshSpeedParameterTwoHand</name></member>
+      <member refid="class_velocity_1a96e13ca515461f9e3148622cfb2baa87" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>speed</name></member>
+      <member refid="class_fist_velocity_1ab3a8a0b8c6fec176af6984116c13b2ab" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>speedMaxOneFist</name></member>
+      <member refid="class_fist_velocity_1a1db24dbdc91255c1061b970222c62831" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>speedMaxTwoFist</name></member>
+      <member refid="class_fist_velocity_1aaa9864a3052713486ea6d6f4361ebbf7" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>speedParameter</name></member>
+      <member refid="class_fist_velocity_1ac7b4beb32e32f822d62ae626ededdd30" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>speedPre</name></member>
+      <member refid="class_fist_velocity_1a78129d345b1591dd6f32527863b91b14" prot="private" virt="non-virtual"><scope>FistVelocity</scope><name>speedStart</name></member>
+      <member refid="class_velocity_1a027993d56ded782d0fde111d823427ee" prot="public" virt="non-virtual"><scope>FistVelocity</scope><name>velocity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

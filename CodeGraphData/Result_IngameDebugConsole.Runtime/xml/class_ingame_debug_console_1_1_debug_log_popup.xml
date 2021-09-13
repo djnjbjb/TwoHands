@@ -1,0 +1,692 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ingame_debug_console_1_1_debug_log_popup" kind="class" prot="public">
+    <compoundname>IngameDebugConsole::DebugLogPopup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IBeginDragHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDragHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEndDragHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a1c38b1434340e4be180ed1ac560cf32e" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform IngameDebugConsole.DebugLogPopup.popupTransform</definition>
+        <argsstring></argsstring>
+        <name>popupTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a55897a41d224724c9e4fce57032db25b" compoundref="_debug_log_popup_8cs" startline="51" endline="58">IngameDebugConsole.DebugLogPopup.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a1d8eb9722f21c16b2d003c7d8821d9e5" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 IngameDebugConsole.DebugLogPopup.halfSize</definition>
+        <argsstring></argsstring>
+        <name>halfSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a5b865fbee0df1b834655d09e3ed5d88a" compoundref="_debug_log_popup_8cs" startline="179" endline="225">IngameDebugConsole.DebugLogPopup.OnEndDrag</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a9e28f86edd408860cc9e87ae25b1ea25" compoundref="_debug_log_popup_8cs" startline="65" endline="72">IngameDebugConsole.DebugLogPopup.OnViewportDimensionsChanged</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1af590bfe26e0bbc401be653e3809e184d" compoundref="_debug_log_popup_8cs" startline="60" endline="63">IngameDebugConsole.DebugLogPopup.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1adacbd47bba2db7035e827d8a6f807344" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image IngameDebugConsole.DebugLogPopup.backgroundImage</definition>
+        <argsstring></argsstring>
+        <name>backgroundImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a55897a41d224724c9e4fce57032db25b" compoundref="_debug_log_popup_8cs" startline="51" endline="58">IngameDebugConsole.DebugLogPopup.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a2c78ce3d5a73eae887fa43e44a7b8fe6" prot="private" static="no" mutable="no">
+        <type>CanvasGroup</type>
+        <definition>CanvasGroup IngameDebugConsole.DebugLogPopup.canvasGroup</definition>
+        <argsstring></argsstring>
+        <name>canvasGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a55897a41d224724c9e4fce57032db25b" compoundref="_debug_log_popup_8cs" startline="51" endline="58">IngameDebugConsole.DebugLogPopup.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1af8bff9fbe7bb218caf5e0da0f451a675" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ingame_debug_console_1_1_debug_log_manager" kindref="compound">DebugLogManager</ref></type>
+        <definition>DebugLogManager IngameDebugConsole.DebugLogPopup.debugManager</definition>
+        <argsstring></argsstring>
+        <name>debugManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="24" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a015187613ac39f5d24dce1cf73d340d8" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text IngameDebugConsole.DebugLogPopup.newInfoCountText</definition>
+        <argsstring></argsstring>
+        <name>newInfoCountText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="27" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a9c1a80503c056ab5c514916dce592cc3" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text IngameDebugConsole.DebugLogPopup.newWarningCountText</definition>
+        <argsstring></argsstring>
+        <name>newWarningCountText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="29" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a31c4e66b454c489b0d3c178c4000fe6a" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text IngameDebugConsole.DebugLogPopup.newErrorCountText</definition>
+        <argsstring></argsstring>
+        <name>newErrorCountText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="31" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a3bea8d9878c11c87b974d76174eb0e4b" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color IngameDebugConsole.DebugLogPopup.alertColorInfo</definition>
+        <argsstring></argsstring>
+        <name>alertColorInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="34" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1ac68f54aac4ec56d64c98d64964de4950" compoundref="_debug_log_popup_8cs" startline="74" endline="81">IngameDebugConsole.DebugLogPopup.NewInfoLogArrived</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1afb780cbf50f05d200d345d1d49ba8b50" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color IngameDebugConsole.DebugLogPopup.alertColorWarning</definition>
+        <argsstring></argsstring>
+        <name>alertColorWarning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="36" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1ad56f9d7e3908d466b47a0881a79ac799" compoundref="_debug_log_popup_8cs" startline="83" endline="90">IngameDebugConsole.DebugLogPopup.NewWarningLogArrived</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a231039c1c808d2809fdade95f5980269" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color IngameDebugConsole.DebugLogPopup.alertColorError</definition>
+        <argsstring></argsstring>
+        <name>alertColorError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="38" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1af38c7ba23d0897dd97af5d81e4180fc6" compoundref="_debug_log_popup_8cs" startline="92" endline="98">IngameDebugConsole.DebugLogPopup.NewErrorLogArrived</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a482f0fd0dc008d1adf17130e23f89d51" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IngameDebugConsole.DebugLogPopup.newInfoCount</definition>
+        <argsstring></argsstring>
+        <name>newInfoCount</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="42" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1ac68f54aac4ec56d64c98d64964de4950" compoundref="_debug_log_popup_8cs" startline="74" endline="81">IngameDebugConsole.DebugLogPopup.NewInfoLogArrived</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a4956d306a5fc6ea7184534b820d6fce7" compoundref="_debug_log_popup_8cs" startline="100" endline="111">IngameDebugConsole.DebugLogPopup.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1af90ae242689116716494287fbdf63781" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IngameDebugConsole.DebugLogPopup.newWarningCount</definition>
+        <argsstring></argsstring>
+        <name>newWarningCount</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="42" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1ac68f54aac4ec56d64c98d64964de4950" compoundref="_debug_log_popup_8cs" startline="74" endline="81">IngameDebugConsole.DebugLogPopup.NewInfoLogArrived</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1ad56f9d7e3908d466b47a0881a79ac799" compoundref="_debug_log_popup_8cs" startline="83" endline="90">IngameDebugConsole.DebugLogPopup.NewWarningLogArrived</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a4956d306a5fc6ea7184534b820d6fce7" compoundref="_debug_log_popup_8cs" startline="100" endline="111">IngameDebugConsole.DebugLogPopup.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a8e5b822f10f583577735284688430058" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IngameDebugConsole.DebugLogPopup.newErrorCount</definition>
+        <argsstring></argsstring>
+        <name>newErrorCount</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="42" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1af38c7ba23d0897dd97af5d81e4180fc6" compoundref="_debug_log_popup_8cs" startline="92" endline="98">IngameDebugConsole.DebugLogPopup.NewErrorLogArrived</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1ac68f54aac4ec56d64c98d64964de4950" compoundref="_debug_log_popup_8cs" startline="74" endline="81">IngameDebugConsole.DebugLogPopup.NewInfoLogArrived</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1ad56f9d7e3908d466b47a0881a79ac799" compoundref="_debug_log_popup_8cs" startline="83" endline="90">IngameDebugConsole.DebugLogPopup.NewWarningLogArrived</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a4956d306a5fc6ea7184534b820d6fce7" compoundref="_debug_log_popup_8cs" startline="100" endline="111">IngameDebugConsole.DebugLogPopup.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1a4083235b2caedfffd3399609838c1f91" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color IngameDebugConsole.DebugLogPopup.normalColor</definition>
+        <argsstring></argsstring>
+        <name>normalColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="44" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a55897a41d224724c9e4fce57032db25b" compoundref="_debug_log_popup_8cs" startline="51" endline="58">IngameDebugConsole.DebugLogPopup.Awake</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a4956d306a5fc6ea7184534b820d6fce7" compoundref="_debug_log_popup_8cs" startline="100" endline="111">IngameDebugConsole.DebugLogPopup.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1af741cb0af778c3dceb67cd7484cd193b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool IngameDebugConsole.DebugLogPopup.isPopupBeingDragged</definition>
+        <argsstring></argsstring>
+        <name>isPopupBeingDragged</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="46" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a4b95702eaea6772b2aaeac943843176c" compoundref="_debug_log_popup_8cs" startline="151" endline="158">IngameDebugConsole.DebugLogPopup.Hide</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1aaff05da471a54e8fef398466de61933a" compoundref="_debug_log_popup_8cs" startline="160" endline="170">IngameDebugConsole.DebugLogPopup.OnBeginDrag</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a5b865fbee0df1b834655d09e3ed5d88a" compoundref="_debug_log_popup_8cs" startline="179" endline="225">IngameDebugConsole.DebugLogPopup.OnEndDrag</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a94fe6f42d7da9307da671ab0db78a8cc" compoundref="_debug_log_popup_8cs" startline="129" endline="134">IngameDebugConsole.DebugLogPopup.OnPointerClick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_popup_1ae004f892ee3609e50b73cb4839a6bf9e" prot="private" static="no" mutable="no">
+        <type>IEnumerator</type>
+        <definition>IEnumerator IngameDebugConsole.DebugLogPopup.moveToPosCoroutine</definition>
+        <argsstring></argsstring>
+        <name>moveToPosCoroutine</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="49" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1aaff05da471a54e8fef398466de61933a" compoundref="_debug_log_popup_8cs" startline="160" endline="170">IngameDebugConsole.DebugLogPopup.OnBeginDrag</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a5b865fbee0df1b834655d09e3ed5d88a" compoundref="_debug_log_popup_8cs" startline="179" endline="225">IngameDebugConsole.DebugLogPopup.OnEndDrag</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1a55897a41d224724c9e4fce57032db25b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="51" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="51" bodyend="58"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1adacbd47bba2db7035e827d8a6f807344" compoundref="_debug_log_popup_8cs" startline="17">IngameDebugConsole.DebugLogPopup.backgroundImage</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a2c78ce3d5a73eae887fa43e44a7b8fe6" compoundref="_debug_log_popup_8cs" startline="20">IngameDebugConsole.DebugLogPopup.canvasGroup</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a4083235b2caedfffd3399609838c1f91" compoundref="_debug_log_popup_8cs" startline="44">IngameDebugConsole.DebugLogPopup.normalColor</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a1c38b1434340e4be180ed1ac560cf32e" compoundref="_debug_log_popup_8cs" startline="11">IngameDebugConsole.DebugLogPopup.popupTransform</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1af590bfe26e0bbc401be653e3809e184d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="60" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="60" bodyend="63"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a1d8eb9722f21c16b2d003c7d8821d9e5" compoundref="_debug_log_popup_8cs" startline="14">IngameDebugConsole.DebugLogPopup.halfSize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1a4956d306a5fc6ea7184534b820d6fce7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="100" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="100" bodyend="111"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a8e5b822f10f583577735284688430058" compoundref="_debug_log_popup_8cs" startline="42">IngameDebugConsole.DebugLogPopup.newErrorCount</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a482f0fd0dc008d1adf17130e23f89d51" compoundref="_debug_log_popup_8cs" startline="42">IngameDebugConsole.DebugLogPopup.newInfoCount</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1af90ae242689116716494287fbdf63781" compoundref="_debug_log_popup_8cs" startline="42">IngameDebugConsole.DebugLogPopup.newWarningCount</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a4083235b2caedfffd3399609838c1f91" compoundref="_debug_log_popup_8cs" startline="44">IngameDebugConsole.DebugLogPopup.normalColor</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1aa0ac6fcd3396e525074d4d1726185aca" compoundref="_debug_log_popup_8cs" startline="137" endline="148">IngameDebugConsole.DebugLogPopup.Show</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1a8fbe81d3f5fcb73a191ad3805b83b18d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator IngameDebugConsole.DebugLogPopup.MoveToPosAnimation</definition>
+        <argsstring>(Vector3 targetPos)</argsstring>
+        <name>MoveToPosAnimation</name>
+        <param>
+          <type>Vector3</type>
+          <declname>targetPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="114" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="114" bodyend="126"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a5b865fbee0df1b834655d09e3ed5d88a" compoundref="_debug_log_popup_8cs" startline="179" endline="225">IngameDebugConsole.DebugLogPopup.OnEndDrag</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1a9e28f86edd408860cc9e87ae25b1ea25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.OnViewportDimensionsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnViewportDimensionsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="65" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="65" bodyend="72"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a1d8eb9722f21c16b2d003c7d8821d9e5" compoundref="_debug_log_popup_8cs" startline="14">IngameDebugConsole.DebugLogPopup.halfSize</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a5b865fbee0df1b834655d09e3ed5d88a" compoundref="_debug_log_popup_8cs" startline="179" endline="225">IngameDebugConsole.DebugLogPopup.OnEndDrag</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1aa0ac6fcd3396e525074d4d1726185aca" compoundref="_debug_log_popup_8cs" startline="137" endline="148">IngameDebugConsole.DebugLogPopup.Show</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1ac68f54aac4ec56d64c98d64964de4950" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.NewInfoLogArrived</definition>
+        <argsstring>()</argsstring>
+        <name>NewInfoLogArrived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="74" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="74" bodyend="81"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a3bea8d9878c11c87b974d76174eb0e4b" compoundref="_debug_log_popup_8cs" startline="34">IngameDebugConsole.DebugLogPopup.alertColorInfo</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a8e5b822f10f583577735284688430058" compoundref="_debug_log_popup_8cs" startline="42">IngameDebugConsole.DebugLogPopup.newErrorCount</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a482f0fd0dc008d1adf17130e23f89d51" compoundref="_debug_log_popup_8cs" startline="42">IngameDebugConsole.DebugLogPopup.newInfoCount</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1af90ae242689116716494287fbdf63781" compoundref="_debug_log_popup_8cs" startline="42">IngameDebugConsole.DebugLogPopup.newWarningCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1ad56f9d7e3908d466b47a0881a79ac799" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.NewWarningLogArrived</definition>
+        <argsstring>()</argsstring>
+        <name>NewWarningLogArrived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="83" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="83" bodyend="90"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1afb780cbf50f05d200d345d1d49ba8b50" compoundref="_debug_log_popup_8cs" startline="36">IngameDebugConsole.DebugLogPopup.alertColorWarning</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a8e5b822f10f583577735284688430058" compoundref="_debug_log_popup_8cs" startline="42">IngameDebugConsole.DebugLogPopup.newErrorCount</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1af90ae242689116716494287fbdf63781" compoundref="_debug_log_popup_8cs" startline="42">IngameDebugConsole.DebugLogPopup.newWarningCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1af38c7ba23d0897dd97af5d81e4180fc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.NewErrorLogArrived</definition>
+        <argsstring>()</argsstring>
+        <name>NewErrorLogArrived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="92" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="92" bodyend="98"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a231039c1c808d2809fdade95f5980269" compoundref="_debug_log_popup_8cs" startline="38">IngameDebugConsole.DebugLogPopup.alertColorError</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a8e5b822f10f583577735284688430058" compoundref="_debug_log_popup_8cs" startline="42">IngameDebugConsole.DebugLogPopup.newErrorCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1a94fe6f42d7da9307da671ab0db78a8cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.OnPointerClick</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnPointerClick</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="129" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="129" bodyend="134"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1af741cb0af778c3dceb67cd7484cd193b" compoundref="_debug_log_popup_8cs" startline="46">IngameDebugConsole.DebugLogPopup.isPopupBeingDragged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1aa0ac6fcd3396e525074d4d1726185aca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.Show</definition>
+        <argsstring>()</argsstring>
+        <name>Show</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="137" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="137" bodyend="148"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a9e28f86edd408860cc9e87ae25b1ea25" compoundref="_debug_log_popup_8cs" startline="65" endline="72">IngameDebugConsole.DebugLogPopup.OnViewportDimensionsChanged</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a4956d306a5fc6ea7184534b820d6fce7" compoundref="_debug_log_popup_8cs" startline="100" endline="111">IngameDebugConsole.DebugLogPopup.Reset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1a4b95702eaea6772b2aaeac943843176c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.Hide</definition>
+        <argsstring>()</argsstring>
+        <name>Hide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="151" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="151" bodyend="158"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1af741cb0af778c3dceb67cd7484cd193b" compoundref="_debug_log_popup_8cs" startline="46">IngameDebugConsole.DebugLogPopup.isPopupBeingDragged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1aaff05da471a54e8fef398466de61933a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.OnBeginDrag</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnBeginDrag</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="160" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="160" bodyend="170"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1af741cb0af778c3dceb67cd7484cd193b" compoundref="_debug_log_popup_8cs" startline="46">IngameDebugConsole.DebugLogPopup.isPopupBeingDragged</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1ae004f892ee3609e50b73cb4839a6bf9e" compoundref="_debug_log_popup_8cs" startline="49">IngameDebugConsole.DebugLogPopup.moveToPosCoroutine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1a1a956c23e0b427af3e664707634a7543" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.OnDrag</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnDrag</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="173" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="173" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_popup_1a5b865fbee0df1b834655d09e3ed5d88a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogPopup.OnEndDrag</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnEndDrag</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="179" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="179" bodyend="225"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a1d8eb9722f21c16b2d003c7d8821d9e5" compoundref="_debug_log_popup_8cs" startline="14">IngameDebugConsole.DebugLogPopup.halfSize</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1af741cb0af778c3dceb67cd7484cd193b" compoundref="_debug_log_popup_8cs" startline="46">IngameDebugConsole.DebugLogPopup.isPopupBeingDragged</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1a8fbe81d3f5fcb73a191ad3805b83b18d" compoundref="_debug_log_popup_8cs" startline="114" endline="126">IngameDebugConsole.DebugLogPopup.MoveToPosAnimation</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_popup_1ae004f892ee3609e50b73cb4839a6bf9e" compoundref="_debug_log_popup_8cs" startline="49">IngameDebugConsole.DebugLogPopup.moveToPosCoroutine</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_popup_1a9e28f86edd408860cc9e87ae25b1ea25" compoundref="_debug_log_popup_8cs" startline="65" endline="72">IngameDebugConsole.DebugLogPopup.OnViewportDimensionsChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="49">
+        <label>IngameDebugConsole.DebugLogPopup</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_popup"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="52">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="51">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="50">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="53">
+        <label>IDragHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="66">
+        <label>IngameDebugConsole.DebugLogEntry</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_entry"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>IngameDebugConsole.DebugLogPopup</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_popup"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>newErrorCountText</edgelabel>
+          <edgelabel>newWarningCountText</edgelabel>
+          <edgelabel>newInfoCountText</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>debugManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="67">
+        <label>System::IEquatable&lt; DebugLogEntry &gt;</label>
+      </node>
+      <node id="60">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="63">
+        <label>IngameDebugConsole.DebugLogIndexList</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_index_list"/>
+      </node>
+      <node id="65">
+        <label>IngameDebugConsole.DebugLogItem</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_item"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>logCountText</edgelabel>
+          <edgelabel>logText</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>manager</edgelabel>
+        </childnode>
+        <childnode refid="66" relation="usage">
+          <edgelabel>logEntry</edgelabel>
+        </childnode>
+      </node>
+      <node id="68">
+        <label>System</label>
+      </node>
+      <node id="61">
+        <label>Text</label>
+      </node>
+      <node id="58">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="62">
+        <label>IngameDebugConsole.DebugLogManager</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_manager"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>uncollapsedLogEntriesIndices</edgelabel>
+          <edgelabel>indicesOfListEntriesToShow</edgelabel>
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>commandSuggestionPrefab</edgelabel>
+          <edgelabel>errorEntryCountText</edgelabel>
+          <edgelabel>warningEntryCountText</edgelabel>
+          <edgelabel>infoEntryCountText</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>recycledListView</edgelabel>
+        </childnode>
+        <childnode refid="65" relation="usage">
+          <edgelabel>logItemPrefab</edgelabel>
+        </childnode>
+        <childnode refid="55" relation="usage">
+          <edgelabel>popupManager</edgelabel>
+        </childnode>
+        <childnode refid="68" relation="usage">
+          <edgelabel>OnLogWindowShown</edgelabel>
+          <edgelabel>OnLogWindowHidden</edgelabel>
+        </childnode>
+      </node>
+      <node id="64">
+        <label>IngameDebugConsole.DebugLogRecycledListView</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>indicesOfEntriesToShow</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>debugManager</edgelabel>
+          <edgelabel>manager</edgelabel>
+        </childnode>
+      </node>
+      <node id="57">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="56">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="59">
+        <label>IDragHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs" bodystart="9" bodyend="226"/>
+    <listofallmembers>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a231039c1c808d2809fdade95f5980269" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>alertColorError</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a3bea8d9878c11c87b974d76174eb0e4b" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>alertColorInfo</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1afb780cbf50f05d200d345d1d49ba8b50" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>alertColorWarning</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a55897a41d224724c9e4fce57032db25b" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>Awake</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1adacbd47bba2db7035e827d8a6f807344" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>backgroundImage</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a2c78ce3d5a73eae887fa43e44a7b8fe6" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>canvasGroup</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1af8bff9fbe7bb218caf5e0da0f451a675" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>debugManager</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a1d8eb9722f21c16b2d003c7d8821d9e5" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>halfSize</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a4b95702eaea6772b2aaeac943843176c" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>Hide</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1af741cb0af778c3dceb67cd7484cd193b" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>isPopupBeingDragged</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a8fbe81d3f5fcb73a191ad3805b83b18d" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>MoveToPosAnimation</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1ae004f892ee3609e50b73cb4839a6bf9e" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>moveToPosCoroutine</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a8e5b822f10f583577735284688430058" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>newErrorCount</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a31c4e66b454c489b0d3c178c4000fe6a" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>newErrorCountText</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1af38c7ba23d0897dd97af5d81e4180fc6" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>NewErrorLogArrived</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a482f0fd0dc008d1adf17130e23f89d51" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>newInfoCount</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a015187613ac39f5d24dce1cf73d340d8" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>newInfoCountText</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1ac68f54aac4ec56d64c98d64964de4950" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>NewInfoLogArrived</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1af90ae242689116716494287fbdf63781" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>newWarningCount</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a9c1a80503c056ab5c514916dce592cc3" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>newWarningCountText</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1ad56f9d7e3908d466b47a0881a79ac799" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>NewWarningLogArrived</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a4083235b2caedfffd3399609838c1f91" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>normalColor</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1aaff05da471a54e8fef398466de61933a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>OnBeginDrag</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a1a956c23e0b427af3e664707634a7543" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>OnDrag</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a5b865fbee0df1b834655d09e3ed5d88a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>OnEndDrag</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a94fe6f42d7da9307da671ab0db78a8cc" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>OnPointerClick</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a9e28f86edd408860cc9e87ae25b1ea25" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>OnViewportDimensionsChanged</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a1c38b1434340e4be180ed1ac560cf32e" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>popupTransform</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1a4956d306a5fc6ea7184534b820d6fce7" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>Reset</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1aa0ac6fcd3396e525074d4d1726185aca" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>Show</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_popup_1af590bfe26e0bbc401be653e3809e184d" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogPopup</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

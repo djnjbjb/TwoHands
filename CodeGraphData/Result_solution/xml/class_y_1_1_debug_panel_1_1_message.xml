@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_y_1_1_debug_panel_1_1_message" kind="class" prot="public">
+    <compoundname>Y::DebugPanel::Message</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_y_1_1_debug_panel_1_1_message_1a10e4a9536174c4c8198eed1b17ac5916" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Y.DebugPanel.Message.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="332" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_y_1_1_debug_panel_1_1_message_1a5906415dd8b31fa4c8c98619a0194b04" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Y.DebugPanel.Message.category</definition>
+        <argsstring></argsstring>
+        <name>category</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="333" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="333" bodyend="-1"/>
+        <referencedby refid="class_y_1_1_debug_panel_1_1_category_1a936dd87b7cbc30236a8906eeae25a9d7" compoundref="_debug_panel_8cs" startline="348" endline="356">Y.DebugPanel.Category.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_y_1_1_debug_panel_1_1_message_1aaa83b74b1ee2e392ffeec9d5a7487f36" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Y.DebugPanel.Message.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="334" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_y_1_1_debug_panel_1_1_message_1a5061000f29c37123a145d62e8bcf2686" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text Y.DebugPanel.Message.display</definition>
+        <argsstring></argsstring>
+        <name>display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="335" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="335" bodyend="-1"/>
+        <referencedby refid="class_y_1_1_debug_panel_1a3faf45af15c12d257b8db3879d6b19e6" compoundref="_debug_panel_8cs" startline="200" endline="204">Y.DebugPanel.Clear</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_y_1_1_debug_panel_1_1_message_1a37a2cbb14f32a4d70e3a349e671f44d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Y.DebugPanel.Message.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="337" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="337" bodyend="340"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="326">
+        <label>Y.DebugPanel.Message</label>
+        <link refid="class_y_1_1_debug_panel_1_1_message"/>
+        <childnode refid="327" relation="usage">
+          <edgelabel>display</edgelabel>
+        </childnode>
+      </node>
+      <node id="327">
+        <label>Text</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="331" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="331" bodyend="341"/>
+    <listofallmembers>
+      <member refid="class_y_1_1_debug_panel_1_1_message_1a5906415dd8b31fa4c8c98619a0194b04" prot="public" virt="non-virtual"><scope>Y::DebugPanel::Message</scope><name>category</name></member>
+      <member refid="class_y_1_1_debug_panel_1_1_message_1a5061000f29c37123a145d62e8bcf2686" prot="public" virt="non-virtual"><scope>Y::DebugPanel::Message</scope><name>display</name></member>
+      <member refid="class_y_1_1_debug_panel_1_1_message_1a10e4a9536174c4c8198eed1b17ac5916" prot="public" virt="non-virtual"><scope>Y::DebugPanel::Message</scope><name>name</name></member>
+      <member refid="class_y_1_1_debug_panel_1_1_message_1aaa83b74b1ee2e392ffeec9d5a7487f36" prot="public" virt="non-virtual"><scope>Y::DebugPanel::Message</scope><name>text</name></member>
+      <member refid="class_y_1_1_debug_panel_1_1_message_1a37a2cbb14f32a4d70e3a349e671f44d7" prot="public" virt="non-virtual"><scope>Y::DebugPanel::Message</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

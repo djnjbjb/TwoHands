@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ludo_1_1_extensions_1_1_extensions" kind="class" prot="public">
+    <compoundname>Ludo::Extensions::Extensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ludo_1_1_extensions_1_1_extensions_1af09703aeb21543b77cf7e29a4efba165" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Quaternion</type>
+        <definition>static Quaternion Ludo.Extensions.Extensions.ExtractRotation</definition>
+        <argsstring>(this Matrix4x4 matrix)</argsstring>
+        <name>ExtractRotation</name>
+        <param>
+          <type>this Matrix4x4</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" bodystart="11" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ludo_1_1_extensions_1_1_extensions_1a9a5be85ffa42725256b7bc218850f23e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Ludo.Extensions.Extensions.ExtractPosition</definition>
+        <argsstring>(this Matrix4x4 matrix)</argsstring>
+        <name>ExtractPosition</name>
+        <param>
+          <type>this Matrix4x4</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" line="26" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" bodystart="26" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ludo_1_1_extensions_1_1_extensions_1aea7e819278858fde745f1170fee6979b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Ludo.Extensions.Extensions.ExtractScale</definition>
+        <argsstring>(this Matrix4x4 matrix)</argsstring>
+        <name>ExtractScale</name>
+        <param>
+          <type>this Matrix4x4</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" line="35" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ludo_1_1_extensions_1_1_extensions_1ac106bc1a796b8901cbc3557c31f1cfeb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Transform</type>
+        <definition>static Transform Ludo.Extensions.Extensions.LudoFind</definition>
+        <argsstring>(this Transform t, string n, bool includeInactive=false, bool recursive=false)</argsstring>
+        <name>LudoFind</name>
+        <param>
+          <type>this Transform</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeInactive</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>recursive</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" line="44" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" bodystart="44" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" bodystart="9" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_ludo_1_1_extensions_1_1_extensions_1a9a5be85ffa42725256b7bc218850f23e" prot="public" virt="non-virtual"><scope>Ludo::Extensions::Extensions</scope><name>ExtractPosition</name></member>
+      <member refid="class_ludo_1_1_extensions_1_1_extensions_1af09703aeb21543b77cf7e29a4efba165" prot="public" virt="non-virtual"><scope>Ludo::Extensions::Extensions</scope><name>ExtractRotation</name></member>
+      <member refid="class_ludo_1_1_extensions_1_1_extensions_1aea7e819278858fde745f1170fee6979b" prot="public" virt="non-virtual"><scope>Ludo::Extensions::Extensions</scope><name>ExtractScale</name></member>
+      <member refid="class_ludo_1_1_extensions_1_1_extensions_1ac106bc1a796b8901cbc3557c31f1cfeb" prot="public" virt="non-virtual"><scope>Ludo::Extensions::Extensions</scope><name>LudoFind</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

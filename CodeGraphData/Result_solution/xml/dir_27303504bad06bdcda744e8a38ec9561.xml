@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_27303504bad06bdcda744e8a38ec9561" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Editor</compoundname>
+    <innerfile refid="_a_a_b_b_utilities_8cs">AABBUtilities.cs</innerfile>
+    <innerfile refid="_count_code_lines_8cs">CountCodeLines.cs</innerfile>
+    <innerfile refid="_make_paper_cut_from_player_8cs">MakePaperCutFromPlayer.cs</innerfile>
+    <innerfile refid="_pivot_utilities_8cs">PivotUtilities.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Editor/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_18396beff802954de99bc354648546e6" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts</compoundname>
+    <innerfile refid="_circular_buffer_8cs">CircularBuffer.cs</innerfile>
+    <innerfile refid="_console_method_attribute_8cs">ConsoleMethodAttribute.cs</innerfile>
+    <innerfile refid="_debug_log_console_8cs">DebugLogConsole.cs</innerfile>
+    <innerfile refid="_debug_log_entry_8cs">DebugLogEntry.cs</innerfile>
+    <innerfile refid="_debug_log_index_list_8cs">DebugLogIndexList.cs</innerfile>
+    <innerfile refid="_debug_log_item_8cs">DebugLogItem.cs</innerfile>
+    <innerfile refid="_debug_log_manager_8cs">DebugLogManager.cs</innerfile>
+    <innerfile refid="_debug_log_popup_8cs">DebugLogPopup.cs</innerfile>
+    <innerfile refid="_debug_log_recycled_list_view_8cs">DebugLogRecycledListView.cs</innerfile>
+    <innerfile refid="_debug_log_resize_listener_8cs">DebugLogResizeListener.cs</innerfile>
+    <innerfile refid="_debugs_on_scroll_listener_8cs">DebugsOnScrollListener.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/"/>
+  </compounddef>
+</doxygen>

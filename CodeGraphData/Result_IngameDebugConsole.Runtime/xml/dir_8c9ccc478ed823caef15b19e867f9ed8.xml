@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8c9ccc478ed823caef15b19e867f9ed8" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole</compoundname>
+    <innerdir refid="dir_ef57d973fadf909227e42e8438794d9c">D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Android</innerdir>
+    <innerdir refid="dir_18396beff802954de99bc354648546e6">D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/"/>
+  </compounddef>
+</doxygen>

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class PlayerControlStaticSetting
 {
-    static int moveDirectionReverseIfGrabEnv = -1;
+    static int moveDirectionReverseIfGrabEnv = 1;
 
     public static int GetMoveDirectionReverseIfGrabEnv()
     {

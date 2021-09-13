@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_fast_file_log_1_1_drag_and_log_1_1_game_object_log_config" kind="class" prot="public">
+    <compoundname>FastFileLog::DragAndLog::GameObjectLogConfig</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_fast_file_log_1_1_drag_and_log_1_1_game_object_log_config_1a9746601c134fb3d0995bd4ffc8ac3c27" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FastFileLog.DragAndLog.GameObjectLogConfig.gameObject</definition>
+        <argsstring></argsstring>
+        <name>gameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_fast_file_log_1_1_drag_and_log_1a4ca469fddf9c5832ab03572f7c87982f" compoundref="_drag_and_log_8cs" startline="20" endline="31">FastFileLog.DragAndLog.DoLoggerConfig</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_fast_file_log_1_1_drag_and_log_1_1_game_object_log_config_1a06592579cf29b776ab01d3e380d151be" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FastFileLog.DragAndLog.GameObjectLogConfig.enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_fast_file_log_1_1_drag_and_log_1a4ca469fddf9c5832ab03572f7c87982f" compoundref="_drag_and_log_8cs" startline="20" endline="31">FastFileLog.DragAndLog.DoLoggerConfig</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_fast_file_log_1_1_drag_and_log_1_1_game_object_log_config_1a326ac632990c2c6b8dcb818856234b55" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FastFileLog.DragAndLog.GameObjectLogConfig.printToScreen</definition>
+        <argsstring></argsstring>
+        <name>printToScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fast_file_log_1_1_drag_and_log_1_1_game_object_log_config_1a92752790b698386676e3d9092797099a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FastFileLog.DragAndLog.GameObjectLogConfig.printToFile</definition>
+        <argsstring></argsstring>
+        <name>printToFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/DragAndLog.cs" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_fast_file_log_1_1_drag_and_log_1_1_game_object_log_config_1a06592579cf29b776ab01d3e380d151be" prot="public" virt="non-virtual"><scope>FastFileLog::DragAndLog::GameObjectLogConfig</scope><name>enabled</name></member>
+      <member refid="class_fast_file_log_1_1_drag_and_log_1_1_game_object_log_config_1a9746601c134fb3d0995bd4ffc8ac3c27" prot="public" virt="non-virtual"><scope>FastFileLog::DragAndLog::GameObjectLogConfig</scope><name>gameObject</name></member>
+      <member refid="class_fast_file_log_1_1_drag_and_log_1_1_game_object_log_config_1a92752790b698386676e3d9092797099a" prot="public" virt="non-virtual"><scope>FastFileLog::DragAndLog::GameObjectLogConfig</scope><name>printToFile</name></member>
+      <member refid="class_fast_file_log_1_1_drag_and_log_1_1_game_object_log_config_1a326ac632990c2c6b8dcb818856234b55" prot="public" virt="non-virtual"><scope>FastFileLog::DragAndLog::GameObjectLogConfig</scope><name>printToScreen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

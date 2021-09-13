@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_test_logger_8cs" kind="file">
+    <compoundname>TestLogger.cs</compoundname>
+    <innerclass refid="class_fast_file_log_1_1_test_logger" prot="public">FastFileLog::TestLogger</innerclass>
+    <innernamespace refid="namespace_fast_file_log">FastFileLog</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">FastFileLog<sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_fast_file_log_1_1_test_logger" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_fast_file_log_1_1_test_logger" kindref="compound">TestLogger</ref><sp/>:<sp/>MonoBehaviour<sp/>{</highlight></codeline>
+<codeline lineno="6" refid="class_fast_file_log_1_1_test_logger_1a937b41c1e016675aaff90160ae068d26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_fast_file_log_1_1_test_logger_1a937b41c1e016675aaff90160ae068d26" kindref="member">Start</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>register<sp/>first<sp/>before<sp/>log</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>format:<sp/>logger<sp/>key,<sp/>log<sp/>filename,<sp/>enable<sp/>screen<sp/>log,<sp/>enable<sp/>file<sp/>log</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>note<sp/>#1:<sp/>you<sp/>can<sp/>simply<sp/>use<sp/>gameObject<sp/>as<sp/>the<sp/>logger<sp/>key;<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>note<sp/>#2:<sp/>logger<sp/>key<sp/>must<sp/>be<sp/>unique<sp/>for<sp/>every<sp/>instance<sp/>and<sp/>script</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LogManager.Register(</highlight><highlight class="stringliteral">&quot;testLogger&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;aTestFile.txt&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>output<sp/>log</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>format:<sp/>logger<sp/>key,<sp/>log<sp/>msg<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LogManager.Log(</highlight><highlight class="stringliteral">&quot;testLogger&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a<sp/>test<sp/>msg&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/FastFileLog/Scripts/Example/TestLogger.cs"/>
+  </compounddef>
+</doxygen>

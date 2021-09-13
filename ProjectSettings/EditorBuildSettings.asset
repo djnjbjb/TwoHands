@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes2/Level4_Sword.unity
     guid: 62651f90d607e0744a2c3653dcda7507
   - enabled: 1
-    path: Assets/Scenes2/Level5_Temp.unity
+    path: Assets/Scenes2/Level5_Sword2.unity
+    guid: 408e1339df6992e408847f241fd1ad2a
+  - enabled: 1
+    path: Assets/Scenes2/Level6_Temp.unity
     guid: 3edcb172abb64ee4890edea7dc8ebb0d
   m_configObjects: {}

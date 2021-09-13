@@ -18,14 +18,18 @@ public class LevelManager : MonoBehaviour
     }
 
     //设计用变量
-    float firstStartScreenStillTime = 0.5f;
-    float firstStartScreenFadeTime = 1f;
+    [ReadOnly] [SerializeField] float firstStartScreenStillTime = 0.5f;
+    [ReadOnly] [SerializeField] float firstStartScreenFadeTime = 1f;
     float fadeOffTime = 0.5f;
     float litUpTime = 0.5f;
-    float collideEnemyTime = 0.5f;
+    float collideEnemyOrShurikenTime = 0.5f;
     bool playerRestartOn = false;
     bool playerMeetEnemyOn = false;
+    bool playerMeetShurikenOn = false;
 
+    bool shurikenKill = true;
+
+    //cache
     GameObject playerHead;
     Collider2D playerCollider;
     public AABB region;
@@ -84,12 +88,6 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-
-    void Update()
-    {
-
-    }
-
     void FixedUpdate()
     {
         if (playerRestartOn)
@@ -117,28 +115,30 @@ public class LevelManager : MonoBehaviour
                 StartCoroutine(PlayerCollideEnemy(enemy));
             }
         }
-    }
 
-    void PlayerDiePre()
-    {
-        PlayerControl playeControl = PlayerControl.playerControl;
-        if (playeControl == null)
+        //shuriken
+        if (shurikenKill)
         {
-            throw new Exception("Can not find HandControl");
+            if (playerMeetShurikenOn == false)
+            {
+                LayerMask env = LayerMask.GetMask("Shuriken");
+                ContactFilter2D filter = new ContactFilter2D();
+                filter.SetLayerMask(env);
+                Collider2D[] result = new Collider2D[1];
+                if (Physics2D.OverlapCollider(playerCollider, filter, result) > 0)
+                {
+                    playerMeetShurikenOn = true;
+                    GameObject shuriken = result[0].gameObject;
+                    StartCoroutine(PlayerCollideShuriken(shuriken));
+                }
+            }
         }
-        //播放音效
-        playeControl.hcAudio.PlayDeath();
-
-        //停止玩家操作
-        playeControl.enabled = false;
     }
-
-    void PlayerOutOfRange()
-    {
-        PlayerDiePre();
-        StartCoroutine(GameRestartCoroutine());
-    }
-
+    /*****************************************************************/
+    /*
+                                 开始关卡
+    */
+    /*****************************************************************/
     IEnumerator FirstStartCoroutine()
     {
         GameObject blackScreen = GameObject.Find("Canvas").transform.LudoFind("BlackScreen", includeInactive: true, recursive: false).gameObject;
@@ -181,22 +181,66 @@ public class LevelManager : MonoBehaviour
         blackScreen.SetActive(false);
     }
 
+
+    /*****************************************************************/
+    /*
+                            结束/重开 关卡
+    */
+    /*****************************************************************/
+
+    void PlayerOutOfRange()
+    {
+        LevelEndOperation();
+        StartCoroutine(GameRestartCoroutine());
+    }
+
+    IEnumerator PlayerCollideShuriken(GameObject shurikenObject)
+    {
+        LevelEndOperation();
+
+        PlayerControl.playerControl.BeKilledEffect();
+        Shuriken shuriken = shurikenObject.GetComponent<Shuriken>();
+        shuriken.KillPlayerEffect();
+
+        yield return new WaitForSeconds(collideEnemyOrShurikenTime);
+        yield return StartCoroutine(GameRestartCoroutine());
+
+        playerMeetShurikenOn = false;
+    }
+
     IEnumerator PlayerCollideEnemy(GameObject enemyObj)
     {
-        PlayerDiePre();
-        GameObject crying = playerHead.transform.LudoFind("Crying", includeInactive: true, recursive: false).gameObject;
-        crying.SetActive(true);
+        LevelEndOperation();
+        PlayerControl.playerControl.BeKilledEffect();
         GameObject enemy_evil = enemyObj.transform.LudoFind("Evil", includeInactive: true, recursive: false).gameObject;
         enemy_evil.SetActive(true);
         Enemy.Enemy enemy = enemyObj.GetComponent<Enemy.Enemy>();
         enemy.StopMoving();
 
-        yield return new WaitForSeconds(collideEnemyTime);
+        yield return new WaitForSeconds(collideEnemyOrShurikenTime);
 
         yield return StartCoroutine(GameRestartCoroutine());
 
         playerMeetEnemyOn = false;
     }
+
+    /// <summary>
+    /// 两个效果：1. 停止玩家操作, 2.播放音效
+    /// </summary>
+    void LevelEndOperation()
+    {
+        PlayerControl playeControl = PlayerControl.playerControl;
+        if (playeControl == null)
+        {
+            throw new Exception("Can not find HandControl");
+        }
+        //播放音效
+        playeControl.hcAudio.PlayDeath();
+
+        //停止玩家操作
+        playeControl.enabled = false;
+    }
+
 
     IEnumerator GameRestartCoroutine()
     {

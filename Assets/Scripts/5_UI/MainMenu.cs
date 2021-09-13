@@ -37,6 +37,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Level4_Sword");
     }
 
+    public void Level5()
+    {
+        SceneManager.LoadScene("Level5_Sword2");
+    }
+
     public void SettingButton()
     {
         setting.SetActive(true);

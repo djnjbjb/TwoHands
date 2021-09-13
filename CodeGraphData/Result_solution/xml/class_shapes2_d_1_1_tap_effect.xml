@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_shapes2_d_1_1_tap_effect" kind="class" prot="public">
+    <compoundname>Shapes2D::TapEffect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_shapes2_d_1_1_tap_effect_1ab3a10050620968b341f78b54fc0466c4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2D.TapEffect.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_tap_effect_1a20755fe27b94924507556116a38cdfc9" compoundref="_tap_effect_8cs" startline="19" endline="31">Shapes2D.TapEffect.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_tap_effect_1a543c33b8318987e53d1bf6d2c2600539" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2D.TapEffect.length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <initializer>= 1.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_tap_effect_1a20755fe27b94924507556116a38cdfc9" compoundref="_tap_effect_8cs" startline="19" endline="31">Shapes2D.TapEffect.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_shapes2_d_1_1_tap_effect_1a896a2d41dadd682b04ec534968fbdef1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Shapes2D.TapEffect.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_tap_effect_1a20755fe27b94924507556116a38cdfc9" compoundref="_tap_effect_8cs" startline="19" endline="31">Shapes2D.TapEffect.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shapes2_d_1_1_tap_effect_1a93e68eb7bf9837a9f73d4f75fba5f6f5" prot="private" static="no" mutable="no">
+        <type>Shapes2D.Shape</type>
+        <definition>Shapes2D.Shape Shapes2D.TapEffect.shape</definition>
+        <argsstring></argsstring>
+        <name>shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_shapes2_d_1_1_tap_effect_1a366e4221011ffc79d02e23434cc1e51a" compoundref="_tap_effect_8cs" startline="14" endline="16">Shapes2D.TapEffect.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_shapes2_d_1_1_tap_effect_1a366e4221011ffc79d02e23434cc1e51a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.TapEffect.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" bodystart="14" bodyend="16"/>
+        <references refid="class_shapes2_d_1_1_tap_effect_1a93e68eb7bf9837a9f73d4f75fba5f6f5" compoundref="_tap_effect_8cs" startline="11">Shapes2D.TapEffect.shape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shapes2_d_1_1_tap_effect_1a20755fe27b94924507556116a38cdfc9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shapes2D.TapEffect.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" line="19" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" bodystart="19" bodyend="31"/>
+        <references refid="class_shapes2_d_1_1_tap_effect_1a543c33b8318987e53d1bf6d2c2600539" compoundref="_tap_effect_8cs" startline="9">Shapes2D.TapEffect.length</references>
+        <references refid="class_shapes2_d_1_1_tap_effect_1ab3a10050620968b341f78b54fc0466c4" compoundref="_tap_effect_8cs" startline="8">Shapes2D.TapEffect.speed</references>
+        <references refid="class_shapes2_d_1_1_tap_effect_1a896a2d41dadd682b04ec534968fbdef1" compoundref="_tap_effect_8cs" startline="10">Shapes2D.TapEffect.timer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="432">
+        <label>Shapes2D.TapEffect</label>
+        <link refid="class_shapes2_d_1_1_tap_effect"/>
+        <childnode refid="433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="434">
+        <label>Shapes2D.TapEffect</label>
+        <link refid="class_shapes2_d_1_1_tap_effect"/>
+        <childnode refid="435" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="435">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Simple Effect/TapEffect.cs" bodystart="6" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_shapes2_d_1_1_tap_effect_1a543c33b8318987e53d1bf6d2c2600539" prot="public" virt="non-virtual"><scope>Shapes2D::TapEffect</scope><name>length</name></member>
+      <member refid="class_shapes2_d_1_1_tap_effect_1a93e68eb7bf9837a9f73d4f75fba5f6f5" prot="private" virt="non-virtual"><scope>Shapes2D::TapEffect</scope><name>shape</name></member>
+      <member refid="class_shapes2_d_1_1_tap_effect_1ab3a10050620968b341f78b54fc0466c4" prot="public" virt="non-virtual"><scope>Shapes2D::TapEffect</scope><name>speed</name></member>
+      <member refid="class_shapes2_d_1_1_tap_effect_1a366e4221011ffc79d02e23434cc1e51a" prot="private" virt="non-virtual"><scope>Shapes2D::TapEffect</scope><name>Start</name></member>
+      <member refid="class_shapes2_d_1_1_tap_effect_1a896a2d41dadd682b04ec534968fbdef1" prot="private" virt="non-virtual"><scope>Shapes2D::TapEffect</scope><name>timer</name></member>
+      <member refid="class_shapes2_d_1_1_tap_effect_1a20755fe27b94924507556116a38cdfc9" prot="private" virt="non-virtual"><scope>Shapes2D::TapEffect</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

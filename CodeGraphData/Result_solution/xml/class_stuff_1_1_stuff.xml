@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_stuff_1_1_stuff" kind="class" prot="public">
+    <compoundname>Stuff::Stuff</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_stuff_1_1_sword" prot="public" virt="non-virtual">Stuff.Sword</derivedcompoundref>
+    <derivedcompoundref refid="class_stuff_1_1_sword" prot="public" virt="non-virtual">Stuff.Sword</derivedcompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_stuff_1_1_stuff_1adc39b9d3e7f70bcb00334de00ec2112a" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Stuff.Stuff.nextZ</definition>
+        <argsstring></argsstring>
+        <name>nextZ</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_stuff_1_1_stuff_1a2cceb5a440a80834d66fc496daef89ec" prot="protected" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Stuff.Stuff.fists</definition>
+        <argsstring></argsstring>
+        <name>fists</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a461fbaec4d631b56f3b9e3508d9c3f62" compoundref="_sword_8cs" startline="252" endline="264">Stuff.Sword.AddAssociatedFist</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a094162da592d53cb8ea127392fab6611" compoundref="_sword_8cs" startline="525" endline="544">Stuff.Sword.CheckAndRemoveFist</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a6e3889c6388944f7ec7c84ff72a5fb3e" compoundref="_sword_8cs" startline="265" endline="282">Stuff.Sword.RemoveAssociatedFist</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stuff_1_1_stuff_1a08dcad6f3a43e0b0f98692003277a261" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Stuff.Stuff.firstFist</definition>
+        <argsstring></argsstring>
+        <name>firstFist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a094162da592d53cb8ea127392fab6611" compoundref="_sword_8cs" startline="525" endline="544">Stuff.Sword.CheckAndRemoveFist</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" compoundref="_sword_8cs" startline="479" endline="523">Stuff.Sword.Motion</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a11edbf8d73ce52bf557a58d10ee6a26b" compoundref="_sword_8cs" startline="331" endline="334">Stuff.Sword.StateRenewDueToFistAndEnv</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stuff_1_1_stuff_1a55de944053b47f42d56ad02ef8ecec3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Stuff.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" line="23" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_stuff_1a244bfd551a1f0b1539c08430669323d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Stuff.Stuff.AddAssociatedFist</definition>
+        <argsstring>(string fist)</argsstring>
+        <name>AddAssociatedFist</name>
+        <reimplementedby refid="class_stuff_1_1_sword_1a461fbaec4d631b56f3b9e3508d9c3f62">AddAssociatedFist</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>fist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" line="30" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" bodystart="30" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_stuff_1ae1f14e8b234114780331ce09ec97fb47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Stuff.Stuff.RemoveAssociatedFist</definition>
+        <argsstring>(string fist)</argsstring>
+        <name>RemoveAssociatedFist</name>
+        <reimplementedby refid="class_stuff_1_1_sword_1a6e3889c6388944f7ec7c84ff72a5fb3e">RemoveAssociatedFist</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>fist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" line="43" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" bodystart="43" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="420">
+        <label>Stuff.Sword</label>
+        <link refid="class_stuff_1_1_sword"/>
+        <childnode refid="418" relation="public-inheritance">
+        </childnode>
+        <childnode refid="418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>Stuff.Stuff</label>
+        <link refid="class_stuff_1_1_stuff"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="419">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="421">
+        <label>Stuff.Stuff</label>
+        <link refid="class_stuff_1_1_stuff"/>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+        <childnode refid="423" relation="usage">
+          <edgelabel>nextZ</edgelabel>
+        </childnode>
+      </node>
+      <node id="422">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="423">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" line="9" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Stuff.cs" bodystart="8" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_stuff_1_1_stuff_1a244bfd551a1f0b1539c08430669323d1" prot="public" virt="virtual"><scope>Stuff::Stuff</scope><name>AddAssociatedFist</name></member>
+      <member refid="class_stuff_1_1_stuff_1a08dcad6f3a43e0b0f98692003277a261" prot="protected" virt="non-virtual"><scope>Stuff::Stuff</scope><name>firstFist</name></member>
+      <member refid="class_stuff_1_1_stuff_1a2cceb5a440a80834d66fc496daef89ec" prot="protected" virt="non-virtual"><scope>Stuff::Stuff</scope><name>fists</name></member>
+      <member refid="class_stuff_1_1_stuff_1adc39b9d3e7f70bcb00334de00ec2112a" prot="private" virt="non-virtual"><scope>Stuff::Stuff</scope><name>nextZ</name></member>
+      <member refid="class_stuff_1_1_stuff_1ae1f14e8b234114780331ce09ec97fb47" prot="public" virt="virtual"><scope>Stuff::Stuff</scope><name>RemoveAssociatedFist</name></member>
+      <member refid="class_stuff_1_1_stuff_1a55de944053b47f42d56ad02ef8ecec3e" prot="public" virt="non-virtual"><scope>Stuff::Stuff</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

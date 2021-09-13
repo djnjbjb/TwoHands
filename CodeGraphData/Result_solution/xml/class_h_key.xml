@@ -1,0 +1,730 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_key" kind="class" prot="public">
+    <compoundname>HKey</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_h_key_1_1_debug_mod" prot="public">HKey::DebugMod</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_h_key_1a7fd5b1215b98b8e0ce46cbb881061624" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.debugModOn</definition>
+        <argsstring></argsstring>
+        <name>debugModOn</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="12" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_easy_debug_1a7a3b7b5507b2b9a6f2f445556197f13b" compoundref="_easy_debug_8cs" startline="34" endline="68">EasyDebug.Update</referencedby>
+        <referencedby refid="class_h_key_1a9a210bfb10cc79b3c1eb32cea0d315d5" compoundref="_h_key_8cs" startline="79" endline="91">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1afdadba4dd782c3d9fe7ad59b390a5b21" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_h_key_1_1_debug_mod" kindref="compound">DebugMod</ref></type>
+        <definition>DebugMod HKey.debugMod</definition>
+        <argsstring></argsstring>
+        <name>debugMod</name>
+        <initializer>= new <ref refid="class_h_key_1_1_debug_mod" kindref="compound">DebugMod</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" compoundref="_h_key_8cs" startline="286" endline="305">DebugModUpdateRefresh</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a2e3a3beda372709eeb86a391160ee541" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.lAnyDirKeyHold_Keyboard</definition>
+        <argsstring></argsstring>
+        <name>lAnyDirKeyHold_Keyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="37" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a9103a561b74335d3a621e9e1f3b4cef9" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rAnyDirKeyHold_Keyboard</definition>
+        <argsstring></argsstring>
+        <name>rAnyDirKeyHold_Keyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="38" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a6bb64fcfa4980449ee2c890ec4b1758b" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.lAnyDirKeyHold_Gamepad</definition>
+        <argsstring></argsstring>
+        <name>lAnyDirKeyHold_Gamepad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="46" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" compoundref="_h_key_8cs" startline="119" endline="152">GamePad</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a102c7fc2f9179c804857d14ae81eb38e" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rAnyDirKeyHold_Gamepad</definition>
+        <argsstring></argsstring>
+        <name>rAnyDirKeyHold_Gamepad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="47" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" compoundref="_h_key_8cs" startline="119" endline="152">GamePad</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a2acba1bbc32641e7741ce7b70e2079db" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.lAnyDirKeyHold</definition>
+        <argsstring></argsstring>
+        <name>lAnyDirKeyHold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="51" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" compoundref="_player_control___fixed_update_8cs" startline="184" endline="206">PlayerControl.FU_FistOffetInfluenceSpeed</referencedby>
+        <referencedby refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" compoundref="_player_control___fixed_update_8cs" startline="75" endline="105">PlayerControl.FU_FistSpeed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a733128b9c56910df04e042b125c07f85" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rAnyDirKeyHold</definition>
+        <argsstring></argsstring>
+        <name>rAnyDirKeyHold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="52" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" compoundref="_player_control___fixed_update_8cs" startline="184" endline="206">PlayerControl.FU_FistOffetInfluenceSpeed</referencedby>
+        <referencedby refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" compoundref="_player_control___fixed_update_8cs" startline="75" endline="105">PlayerControl.FU_FistSpeed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a5711333acd4e70226869c181b887ebf3" prot="public" static="yes" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 HKey.lMvDir</definition>
+        <argsstring></argsstring>
+        <name>lMvDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="54" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" compoundref="_player_control___fixed_update_8cs" startline="184" endline="206">PlayerControl.FU_FistOffetInfluenceSpeed</referencedby>
+        <referencedby refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" compoundref="_player_control___fixed_update_8cs" startline="75" endline="105">PlayerControl.FU_FistSpeed</referencedby>
+        <referencedby refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" compoundref="_player_control___fixed_update_pre_8cs" startline="27" endline="114">PlayerControl.HandStuffFixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1ad3b773a029272186467cf47ed21cdfd8" prot="public" static="yes" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 HKey.rMvDir</definition>
+        <argsstring></argsstring>
+        <name>rMvDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="55" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_player_control_1a930335c0c69d86fb752227667e9ec121" compoundref="_player_control___fixed_update_8cs" startline="184" endline="206">PlayerControl.FU_FistOffetInfluenceSpeed</referencedby>
+        <referencedby refid="class_player_control_1a7c9e53cc5c68f98c4038e833ad53cef3" compoundref="_player_control___fixed_update_8cs" startline="75" endline="105">PlayerControl.FU_FistSpeed</referencedby>
+        <referencedby refid="class_player_control_1ae3e9ac52b26fd79a45a9581ecd4db140" compoundref="_player_control___fixed_update_pre_8cs" startline="27" endline="114">PlayerControl.HandStuffFixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a5a5ffe2afaa8af8003f5e15a916c842b" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.lGrab</definition>
+        <argsstring></argsstring>
+        <name>lGrab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="57" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" compoundref="_h_key_8cs" startline="286" endline="305">DebugModUpdateRefresh</referencedby>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">PlayerControl.FU_Pre</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1aa870d95129c2b69c91a7a789867733f9" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rGrab</definition>
+        <argsstring></argsstring>
+        <name>rGrab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="58" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" compoundref="_h_key_8cs" startline="286" endline="305">DebugModUpdateRefresh</referencedby>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_player_control_1a606da640543fd62d6c3a744edfef8db1" compoundref="_player_control___fixed_update_pre_8cs" startline="11" endline="25">PlayerControl.FU_Pre</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_h_key_1ab6e44dcda8626a816e958667d3eeb2ca" prot="private" static="yes" mutable="no">
+        <type>UnityEngine.InputSystem.Gamepad</type>
+        <definition>UnityEngine.InputSystem.Gamepad HKey.gamepad</definition>
+        <argsstring></argsstring>
+        <name>gamepad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" compoundref="_h_key_8cs" startline="119" endline="152">GamePad</referencedby>
+        <referencedby refid="class_h_key_1afb7406473aec5cbd53e5ada7d38dd3c0" compoundref="_h_key_8cs" startline="60" endline="77">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a43c3b5ba342b0bd4c8775935033eb3c7" prot="private" static="yes" mutable="no">
+        <type>UnityEngine.InputSystem.Keyboard</type>
+        <definition>UnityEngine.InputSystem.Keyboard HKey.keyboard</definition>
+        <argsstring></argsstring>
+        <name>keyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" compoundref="_h_key_8cs" startline="286" endline="305">DebugModUpdateRefresh</referencedby>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+        <referencedby refid="class_h_key_1afb7406473aec5cbd53e5ada7d38dd3c0" compoundref="_h_key_8cs" startline="60" endline="77">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a59b5ea1fc727cd58a19da9fb65fb7770" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.lUp</definition>
+        <argsstring></argsstring>
+        <name>lUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="20" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a0748771c8f4604eda9a10091fe14a41a" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.lDown</definition>
+        <argsstring></argsstring>
+        <name>lDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="21" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a07b34682bb0daaac5fdb032964e5549d" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.lLeft</definition>
+        <argsstring></argsstring>
+        <name>lLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="22" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a317b10ee36f57a367b45078066c7cc7e" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.lRight</definition>
+        <argsstring></argsstring>
+        <name>lRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="23" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a148b886fe52a69998fa62a30e20c2b15" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int HKey.lMvRight</definition>
+        <argsstring></argsstring>
+        <name>lMvRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="24" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a66ed9c78dbb6f6136b5566e9f349feda" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int HKey.lMvUp</definition>
+        <argsstring></argsstring>
+        <name>lMvUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="25" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1af9534f78df7d38cb82e7982e30504ade" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rUp</definition>
+        <argsstring></argsstring>
+        <name>rUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="27" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a82b9198bfde9d8d1d6f6edefcccc700d" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rDown</definition>
+        <argsstring></argsstring>
+        <name>rDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="28" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a864fafaea08899bf1f3f9f864d42c601" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rLeft</definition>
+        <argsstring></argsstring>
+        <name>rLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="29" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a1ebe1d3c7e44f6cc4aa7ade51ff216ca" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rRight</definition>
+        <argsstring></argsstring>
+        <name>rRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="30" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1aee2e9b1d6a039542dd8a3cb709b9caa0" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int HKey.rMvRight</definition>
+        <argsstring></argsstring>
+        <name>rMvRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="31" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a9e62280d3528f89af45e626df41b68e0" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int HKey.rMvUp</definition>
+        <argsstring></argsstring>
+        <name>rMvUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="32" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a0121a11ec142a1e448fd98923b61838b" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.lAlt</definition>
+        <argsstring></argsstring>
+        <name>lAlt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="34" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a876ce0a024776d59ffd77e740b360cdb" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rAlt</definition>
+        <argsstring></argsstring>
+        <name>rAlt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="35" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a7a4b4c737dd7ffdec04db896bcb07df0" prot="private" static="yes" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 HKey.leftStick</definition>
+        <argsstring></argsstring>
+        <name>leftStick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="41" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" compoundref="_h_key_8cs" startline="119" endline="152">GamePad</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1af12b7ec31413464c5ce9365238c72308" prot="private" static="yes" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 HKey.rightStick</definition>
+        <argsstring></argsstring>
+        <name>rightStick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="42" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" compoundref="_h_key_8cs" startline="119" endline="152">GamePad</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1aa2fab729bb090589d8df2f4e9596203b" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.leftTrigger</definition>
+        <argsstring></argsstring>
+        <name>leftTrigger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="43" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" compoundref="_h_key_8cs" startline="119" endline="152">GamePad</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_key_1a323015c85f11cfea1b3825fb2b7e5a62" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HKey.rightTrigger</definition>
+        <argsstring></argsstring>
+        <name>rightTrigger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="44" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</referencedby>
+        <referencedby refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" compoundref="_h_key_8cs" startline="119" endline="152">GamePad</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_key_1afb7406473aec5cbd53e5ada7d38dd3c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HKey.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="60" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="60" bodyend="77"/>
+        <references refid="class_h_key_1ab6e44dcda8626a816e958667d3eeb2ca" compoundref="_h_key_8cs" startline="16">gamepad</references>
+        <references refid="class_h_key_1a43c3b5ba342b0bd4c8775935033eb3c7" compoundref="_h_key_8cs" startline="17">keyboard</references>
+      </memberdef>
+      <memberdef kind="function" id="class_h_key_1a9a210bfb10cc79b3c1eb32cea0d315d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HKey.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="79" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="79" bodyend="91"/>
+        <references refid="class_h_key_1a7fd5b1215b98b8e0ce46cbb881061624" compoundref="_h_key_8cs" startline="12">debugModOn</references>
+        <references refid="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" compoundref="_h_key_8cs" startline="286" endline="305">DebugModUpdateRefresh</references>
+        <references refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</references>
+        <references refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" compoundref="_h_key_8cs" startline="119" endline="152">GamePad</references>
+        <references refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void HKey.Keyboard</definition>
+        <argsstring>()</argsstring>
+        <name>Keyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="93" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="93" bodyend="117"/>
+        <references refid="class_h_key_1a43c3b5ba342b0bd4c8775935033eb3c7" compoundref="_h_key_8cs" startline="17">keyboard</references>
+        <references refid="class_h_key_1a0121a11ec142a1e448fd98923b61838b" compoundref="_h_key_8cs" startline="34">lAlt</references>
+        <references refid="class_h_key_1a2e3a3beda372709eeb86a391160ee541" compoundref="_h_key_8cs" startline="37">lAnyDirKeyHold_Keyboard</references>
+        <references refid="class_h_key_1a0748771c8f4604eda9a10091fe14a41a" compoundref="_h_key_8cs" startline="21">lDown</references>
+        <references refid="class_h_key_1a07b34682bb0daaac5fdb032964e5549d" compoundref="_h_key_8cs" startline="22">lLeft</references>
+        <references refid="class_h_key_1a148b886fe52a69998fa62a30e20c2b15" compoundref="_h_key_8cs" startline="24">lMvRight</references>
+        <references refid="class_h_key_1a66ed9c78dbb6f6136b5566e9f349feda" compoundref="_h_key_8cs" startline="25">lMvUp</references>
+        <references refid="class_h_key_1a317b10ee36f57a367b45078066c7cc7e" compoundref="_h_key_8cs" startline="23">lRight</references>
+        <references refid="class_h_key_1a59b5ea1fc727cd58a19da9fb65fb7770" compoundref="_h_key_8cs" startline="20">lUp</references>
+        <references refid="class_h_key_1a876ce0a024776d59ffd77e740b360cdb" compoundref="_h_key_8cs" startline="35">rAlt</references>
+        <references refid="class_h_key_1a9103a561b74335d3a621e9e1f3b4cef9" compoundref="_h_key_8cs" startline="38">rAnyDirKeyHold_Keyboard</references>
+        <references refid="class_h_key_1a82b9198bfde9d8d1d6f6edefcccc700d" compoundref="_h_key_8cs" startline="28">rDown</references>
+        <references refid="class_h_key_1a864fafaea08899bf1f3f9f864d42c601" compoundref="_h_key_8cs" startline="29">rLeft</references>
+        <references refid="class_h_key_1aee2e9b1d6a039542dd8a3cb709b9caa0" compoundref="_h_key_8cs" startline="31">rMvRight</references>
+        <references refid="class_h_key_1a9e62280d3528f89af45e626df41b68e0" compoundref="_h_key_8cs" startline="32">rMvUp</references>
+        <references refid="class_h_key_1a1ebe1d3c7e44f6cc4aa7ade51ff216ca" compoundref="_h_key_8cs" startline="30">rRight</references>
+        <references refid="class_h_key_1af9534f78df7d38cb82e7982e30504ade" compoundref="_h_key_8cs" startline="27">rUp</references>
+        <referencedby refid="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" compoundref="_h_key_8cs" startline="286" endline="305">DebugModUpdateRefresh</referencedby>
+        <referencedby refid="class_h_key_1a9a210bfb10cc79b3c1eb32cea0d315d5" compoundref="_h_key_8cs" startline="79" endline="91">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void HKey.GamePad</definition>
+        <argsstring>()</argsstring>
+        <name>GamePad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="119" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="119" bodyend="152"/>
+        <references refid="class_h_key_1ab6e44dcda8626a816e958667d3eeb2ca" compoundref="_h_key_8cs" startline="16">gamepad</references>
+        <references refid="class_h_key_1a6bb64fcfa4980449ee2c890ec4b1758b" compoundref="_h_key_8cs" startline="46">lAnyDirKeyHold_Gamepad</references>
+        <references refid="class_h_key_1a7a4b4c737dd7ffdec04db896bcb07df0" compoundref="_h_key_8cs" startline="41">leftStick</references>
+        <references refid="class_h_key_1aa2fab729bb090589d8df2f4e9596203b" compoundref="_h_key_8cs" startline="43">leftTrigger</references>
+        <references refid="class_h_key_1a102c7fc2f9179c804857d14ae81eb38e" compoundref="_h_key_8cs" startline="47">rAnyDirKeyHold_Gamepad</references>
+        <references refid="class_h_key_1af12b7ec31413464c5ce9365238c72308" compoundref="_h_key_8cs" startline="42">rightStick</references>
+        <references refid="class_h_key_1a323015c85f11cfea1b3825fb2b7e5a62" compoundref="_h_key_8cs" startline="44">rightTrigger</references>
+        <referencedby refid="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" compoundref="_h_key_8cs" startline="286" endline="305">DebugModUpdateRefresh</referencedby>
+        <referencedby refid="class_h_key_1a9a210bfb10cc79b3c1eb32cea0d315d5" compoundref="_h_key_8cs" startline="79" endline="91">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void HKey.DeviceToOperation</definition>
+        <argsstring>()</argsstring>
+        <name>DeviceToOperation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="154" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="154" bodyend="284"/>
+        <references refid="class_h_key_1ab6e44dcda8626a816e958667d3eeb2ca" compoundref="_h_key_8cs" startline="16">gamepad</references>
+        <references refid="class_h_key_1a43c3b5ba342b0bd4c8775935033eb3c7" compoundref="_h_key_8cs" startline="17">keyboard</references>
+        <references refid="class_h_key_1a0121a11ec142a1e448fd98923b61838b" compoundref="_h_key_8cs" startline="34">lAlt</references>
+        <references refid="class_h_key_1a2acba1bbc32641e7741ce7b70e2079db" compoundref="_h_key_8cs" startline="51">lAnyDirKeyHold</references>
+        <references refid="class_h_key_1a6bb64fcfa4980449ee2c890ec4b1758b" compoundref="_h_key_8cs" startline="46">lAnyDirKeyHold_Gamepad</references>
+        <references refid="class_h_key_1a2e3a3beda372709eeb86a391160ee541" compoundref="_h_key_8cs" startline="37">lAnyDirKeyHold_Keyboard</references>
+        <references refid="class_h_key_1a7a4b4c737dd7ffdec04db896bcb07df0" compoundref="_h_key_8cs" startline="41">leftStick</references>
+        <references refid="class_h_key_1aa2fab729bb090589d8df2f4e9596203b" compoundref="_h_key_8cs" startline="43">leftTrigger</references>
+        <references refid="class_h_key_1a5a5ffe2afaa8af8003f5e15a916c842b" compoundref="_h_key_8cs" startline="57">lGrab</references>
+        <references refid="class_h_key_1a5711333acd4e70226869c181b887ebf3" compoundref="_h_key_8cs" startline="54">lMvDir</references>
+        <references refid="class_h_key_1a148b886fe52a69998fa62a30e20c2b15" compoundref="_h_key_8cs" startline="24">lMvRight</references>
+        <references refid="class_h_key_1a66ed9c78dbb6f6136b5566e9f349feda" compoundref="_h_key_8cs" startline="25">lMvUp</references>
+        <references refid="class_h_key_1a876ce0a024776d59ffd77e740b360cdb" compoundref="_h_key_8cs" startline="35">rAlt</references>
+        <references refid="class_h_key_1a733128b9c56910df04e042b125c07f85" compoundref="_h_key_8cs" startline="52">rAnyDirKeyHold</references>
+        <references refid="class_h_key_1a102c7fc2f9179c804857d14ae81eb38e" compoundref="_h_key_8cs" startline="47">rAnyDirKeyHold_Gamepad</references>
+        <references refid="class_h_key_1a9103a561b74335d3a621e9e1f3b4cef9" compoundref="_h_key_8cs" startline="38">rAnyDirKeyHold_Keyboard</references>
+        <references refid="class_h_key_1aa870d95129c2b69c91a7a789867733f9" compoundref="_h_key_8cs" startline="58">rGrab</references>
+        <references refid="class_h_key_1af12b7ec31413464c5ce9365238c72308" compoundref="_h_key_8cs" startline="42">rightStick</references>
+        <references refid="class_h_key_1a323015c85f11cfea1b3825fb2b7e5a62" compoundref="_h_key_8cs" startline="44">rightTrigger</references>
+        <references refid="class_h_key_1ad3b773a029272186467cf47ed21cdfd8" compoundref="_h_key_8cs" startline="55">rMvDir</references>
+        <references refid="class_h_key_1aee2e9b1d6a039542dd8a3cb709b9caa0" compoundref="_h_key_8cs" startline="31">rMvRight</references>
+        <references refid="class_h_key_1a9e62280d3528f89af45e626df41b68e0" compoundref="_h_key_8cs" startline="32">rMvUp</references>
+        <referencedby refid="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" compoundref="_h_key_8cs" startline="286" endline="305">DebugModUpdateRefresh</referencedby>
+        <referencedby refid="class_h_key_1a9a210bfb10cc79b3c1eb32cea0d315d5" compoundref="_h_key_8cs" startline="79" endline="91">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void HKey.DebugModUpdateRefresh</definition>
+        <argsstring>()</argsstring>
+        <name>DebugModUpdateRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="286" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="286" bodyend="305"/>
+        <references refid="class_h_key_1afdadba4dd782c3d9fe7ad59b390a5b21" compoundref="_h_key_8cs" startline="13">debugMod</references>
+        <references refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" compoundref="_h_key_8cs" startline="154" endline="284">DeviceToOperation</references>
+        <references refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" compoundref="_h_key_8cs" startline="119" endline="152">GamePad</references>
+        <references refid="class_h_key_1a43c3b5ba342b0bd4c8775935033eb3c7" compoundref="_h_key_8cs" startline="17">keyboard</references>
+        <references refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" compoundref="_h_key_8cs" startline="93" endline="117">Keyboard</references>
+        <references refid="class_h_key_1a5a5ffe2afaa8af8003f5e15a916c842b" compoundref="_h_key_8cs" startline="57">lGrab</references>
+        <references refid="class_h_key_1_1_debug_mod_1ab50a9506536d2af85e8773992fcc4e64" compoundref="_h_key_8cs" startline="9">HKey.DebugMod.lGrabAlways</references>
+        <references refid="class_h_key_1aa870d95129c2b69c91a7a789867733f9" compoundref="_h_key_8cs" startline="58">rGrab</references>
+        <references refid="class_h_key_1_1_debug_mod_1ab81f4bcb4cbee8c47f2779080be93a1c" compoundref="_h_key_8cs" startline="10">HKey.DebugMod.rGrabAlways</references>
+        <referencedby refid="class_h_key_1a9a210bfb10cc79b3c1eb32cea0d315d5" compoundref="_h_key_8cs" startline="79" endline="91">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="266">
+        <label>HKey</label>
+        <link refid="class_h_key"/>
+        <childnode refid="267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="268">
+        <label>HKey</label>
+        <link refid="class_h_key"/>
+        <childnode refid="269" relation="public-inheritance">
+        </childnode>
+        <childnode refid="270" relation="usage">
+          <edgelabel>lAnyDirKeyHold_Gamepad</edgelabel>
+          <edgelabel>leftTrigger</edgelabel>
+          <edgelabel>rLeft</edgelabel>
+          <edgelabel>lRight</edgelabel>
+          <edgelabel>lMvRight</edgelabel>
+          <edgelabel>rAnyDirKeyHold_Keyboard</edgelabel>
+          <edgelabel>rGrab</edgelabel>
+          <edgelabel>rUp</edgelabel>
+          <edgelabel>gamepad</edgelabel>
+          <edgelabel>leftStick</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="269">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="270">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn/HKey.cs" bodystart="5" bodyend="307"/>
+    <listofallmembers>
+      <member refid="class_h_key_1afdadba4dd782c3d9fe7ad59b390a5b21" prot="public" virt="non-virtual"><scope>HKey</scope><name>debugMod</name></member>
+      <member refid="class_h_key_1a7fd5b1215b98b8e0ce46cbb881061624" prot="public" virt="non-virtual"><scope>HKey</scope><name>debugModOn</name></member>
+      <member refid="class_h_key_1a1912ceb3809ccee6409e544ea49efeec" prot="private" virt="non-virtual"><scope>HKey</scope><name>DebugModUpdateRefresh</name></member>
+      <member refid="class_h_key_1ad89d50693bb18e01ee99c36dbfe5b1f5" prot="private" virt="non-virtual"><scope>HKey</scope><name>DeviceToOperation</name></member>
+      <member refid="class_h_key_1aee20ae7c08d2782d478233b52b297e0f" prot="private" virt="non-virtual"><scope>HKey</scope><name>GamePad</name></member>
+      <member refid="class_h_key_1ab6e44dcda8626a816e958667d3eeb2ca" prot="private" virt="non-virtual"><scope>HKey</scope><name>gamepad</name></member>
+      <member refid="class_h_key_1a10017ec7ba869869ce5eeaf4ef7e4834" prot="private" virt="non-virtual"><scope>HKey</scope><name>Keyboard</name></member>
+      <member refid="class_h_key_1a43c3b5ba342b0bd4c8775935033eb3c7" prot="private" virt="non-virtual"><scope>HKey</scope><name>keyboard</name></member>
+      <member refid="class_h_key_1a0121a11ec142a1e448fd98923b61838b" prot="private" virt="non-virtual"><scope>HKey</scope><name>lAlt</name></member>
+      <member refid="class_h_key_1a2acba1bbc32641e7741ce7b70e2079db" prot="public" virt="non-virtual"><scope>HKey</scope><name>lAnyDirKeyHold</name></member>
+      <member refid="class_h_key_1a6bb64fcfa4980449ee2c890ec4b1758b" prot="public" virt="non-virtual"><scope>HKey</scope><name>lAnyDirKeyHold_Gamepad</name></member>
+      <member refid="class_h_key_1a2e3a3beda372709eeb86a391160ee541" prot="public" virt="non-virtual"><scope>HKey</scope><name>lAnyDirKeyHold_Keyboard</name></member>
+      <member refid="class_h_key_1a0748771c8f4604eda9a10091fe14a41a" prot="private" virt="non-virtual"><scope>HKey</scope><name>lDown</name></member>
+      <member refid="class_h_key_1a7a4b4c737dd7ffdec04db896bcb07df0" prot="private" virt="non-virtual"><scope>HKey</scope><name>leftStick</name></member>
+      <member refid="class_h_key_1aa2fab729bb090589d8df2f4e9596203b" prot="private" virt="non-virtual"><scope>HKey</scope><name>leftTrigger</name></member>
+      <member refid="class_h_key_1a5a5ffe2afaa8af8003f5e15a916c842b" prot="public" virt="non-virtual"><scope>HKey</scope><name>lGrab</name></member>
+      <member refid="class_h_key_1a07b34682bb0daaac5fdb032964e5549d" prot="private" virt="non-virtual"><scope>HKey</scope><name>lLeft</name></member>
+      <member refid="class_h_key_1a5711333acd4e70226869c181b887ebf3" prot="public" virt="non-virtual"><scope>HKey</scope><name>lMvDir</name></member>
+      <member refid="class_h_key_1a148b886fe52a69998fa62a30e20c2b15" prot="private" virt="non-virtual"><scope>HKey</scope><name>lMvRight</name></member>
+      <member refid="class_h_key_1a66ed9c78dbb6f6136b5566e9f349feda" prot="private" virt="non-virtual"><scope>HKey</scope><name>lMvUp</name></member>
+      <member refid="class_h_key_1a317b10ee36f57a367b45078066c7cc7e" prot="private" virt="non-virtual"><scope>HKey</scope><name>lRight</name></member>
+      <member refid="class_h_key_1a59b5ea1fc727cd58a19da9fb65fb7770" prot="private" virt="non-virtual"><scope>HKey</scope><name>lUp</name></member>
+      <member refid="class_h_key_1a876ce0a024776d59ffd77e740b360cdb" prot="private" virt="non-virtual"><scope>HKey</scope><name>rAlt</name></member>
+      <member refid="class_h_key_1a733128b9c56910df04e042b125c07f85" prot="public" virt="non-virtual"><scope>HKey</scope><name>rAnyDirKeyHold</name></member>
+      <member refid="class_h_key_1a102c7fc2f9179c804857d14ae81eb38e" prot="public" virt="non-virtual"><scope>HKey</scope><name>rAnyDirKeyHold_Gamepad</name></member>
+      <member refid="class_h_key_1a9103a561b74335d3a621e9e1f3b4cef9" prot="public" virt="non-virtual"><scope>HKey</scope><name>rAnyDirKeyHold_Keyboard</name></member>
+      <member refid="class_h_key_1a82b9198bfde9d8d1d6f6edefcccc700d" prot="private" virt="non-virtual"><scope>HKey</scope><name>rDown</name></member>
+      <member refid="class_h_key_1aa870d95129c2b69c91a7a789867733f9" prot="public" virt="non-virtual"><scope>HKey</scope><name>rGrab</name></member>
+      <member refid="class_h_key_1af12b7ec31413464c5ce9365238c72308" prot="private" virt="non-virtual"><scope>HKey</scope><name>rightStick</name></member>
+      <member refid="class_h_key_1a323015c85f11cfea1b3825fb2b7e5a62" prot="private" virt="non-virtual"><scope>HKey</scope><name>rightTrigger</name></member>
+      <member refid="class_h_key_1a864fafaea08899bf1f3f9f864d42c601" prot="private" virt="non-virtual"><scope>HKey</scope><name>rLeft</name></member>
+      <member refid="class_h_key_1ad3b773a029272186467cf47ed21cdfd8" prot="public" virt="non-virtual"><scope>HKey</scope><name>rMvDir</name></member>
+      <member refid="class_h_key_1aee2e9b1d6a039542dd8a3cb709b9caa0" prot="private" virt="non-virtual"><scope>HKey</scope><name>rMvRight</name></member>
+      <member refid="class_h_key_1a9e62280d3528f89af45e626df41b68e0" prot="private" virt="non-virtual"><scope>HKey</scope><name>rMvUp</name></member>
+      <member refid="class_h_key_1a1ebe1d3c7e44f6cc4aa7ade51ff216ca" prot="private" virt="non-virtual"><scope>HKey</scope><name>rRight</name></member>
+      <member refid="class_h_key_1af9534f78df7d38cb82e7982e30504ade" prot="private" virt="non-virtual"><scope>HKey</scope><name>rUp</name></member>
+      <member refid="class_h_key_1afb7406473aec5cbd53e5ada7d38dd3c0" prot="public" virt="non-virtual"><scope>HKey</scope><name>Start</name></member>
+      <member refid="class_h_key_1a9a210bfb10cc79b3c1eb32cea0d315d5" prot="public" virt="non-virtual"><scope>HKey</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

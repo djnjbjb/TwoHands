@@ -1,0 +1,1982 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ingame_debug_console_1_1_debug_log_console" kind="class" prot="public">
+    <compoundname>IngameDebugConsole::DebugLogConsole</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; <ref refid="class_ingame_debug_console_1_1_console_method_info" kindref="compound">ConsoleMethodInfo</ref> &gt;</type>
+        <definition>readonly List&lt;ConsoleMethodInfo&gt; IngameDebugConsole.DebugLogConsole.methods</definition>
+        <argsstring></argsstring>
+        <name>methods</name>
+        <initializer>= new List&lt;<ref refid="class_ingame_debug_console_1_1_console_method_info" kindref="compound">ConsoleMethodInfo</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="50" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ad0b215b3b8e3f94a015472d737cc18f7" compoundref="_debug_log_console_8cs" startline="365" endline="478">IngameDebugConsole.DebugLogConsole.AddCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" compoundref="_debug_log_console_8cs" startline="539" endline="650">IngameDebugConsole.DebugLogConsole.ExecuteCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a833699714ec171cd1f75c20d6a2f2ade" compoundref="_debug_log_console_8cs" startline="814" endline="831">IngameDebugConsole.DebugLogConsole.FindCommandIndex</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a635c344568d777e31cc23f2213c5f66d" compoundref="_debug_log_console_8cs" startline="519" endline="536">IngameDebugConsole.DebugLogConsole.GetAutoCompleteCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1abaa390a14c832dfcf1d09dbc6d2eb91e" compoundref="_debug_log_console_8cs" startline="679" endline="769">IngameDebugConsole.DebugLogConsole.GetCommandSuggestions</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a766bbd83cb2979f7a0b738f55f3fc2d4" compoundref="_debug_log_console_8cs" startline="194" endline="217">IngameDebugConsole.DebugLogConsole.LogAllCommands</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_console_1a5474129ec288db0e17c7a6ea149ae83c" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; <ref refid="class_ingame_debug_console_1_1_console_method_info" kindref="compound">ConsoleMethodInfo</ref> &gt;</type>
+        <definition>readonly List&lt;ConsoleMethodInfo&gt; IngameDebugConsole.DebugLogConsole.matchingMethods</definition>
+        <argsstring></argsstring>
+        <name>matchingMethods</name>
+        <initializer>= new List&lt;<ref refid="class_ingame_debug_console_1_1_console_method_info" kindref="compound">ConsoleMethodInfo</ref>&gt;( 4 )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="51" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" compoundref="_debug_log_console_8cs" startline="539" endline="650">IngameDebugConsole.DebugLogConsole.ExecuteCommand</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_console_1ad0cf063334836969942d1c81d8e1af5d" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Type, <ref refid="class_ingame_debug_console_1_1_debug_log_console_1a80f76e3a83821c8f558710f2439a492e" kindref="member">ParseFunction</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;Type, ParseFunction&gt; IngameDebugConsole.DebugLogConsole.parseFunctions</definition>
+        <argsstring></argsstring>
+        <name>parseFunctions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="54" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ad0b215b3b8e3f94a015472d737cc18f7" compoundref="_debug_log_console_8cs" startline="365" endline="478">IngameDebugConsole.DebugLogConsole.AddCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a4e84da39c42528e407986e6babb854d6" compoundref="_debug_log_console_8cs" startline="294" endline="311">IngameDebugConsole.DebugLogConsole.AddCustomParameterType</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a000a0f098fc4f574590205bedd2651a8" compoundref="_debug_log_console_8cs" startline="873" endline="889">IngameDebugConsole.DebugLogConsole.ParseArgument</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_console_1a3527c1d896b3dd938887a608c583c2f8" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Type, string &gt;</type>
+        <definition>readonly Dictionary&lt;Type, string&gt; IngameDebugConsole.DebugLogConsole.typeReadableNames</definition>
+        <argsstring></argsstring>
+        <name>typeReadableNames</name>
+        <initializer>= new Dictionary&lt;Type, string&gt;()
+		{
+			{ typeof( string ), &quot;String&quot; },
+			{ typeof( bool ), &quot;Boolean&quot; },
+			{ typeof( int ), &quot;Integer&quot; },
+			{ typeof( uint ), &quot;Unsigned Integer&quot; },
+			{ typeof( long ), &quot;Long&quot; },
+			{ typeof( ulong ), &quot;Unsigned Long&quot; },
+			{ typeof( byte ), &quot;Byte&quot; },
+			{ typeof( sbyte ), &quot;Short Byte&quot; },
+			{ typeof( short ), &quot;Short&quot; },
+			{ typeof( ushort ), &quot;Unsigned Short&quot; },
+			{ typeof( char ), &quot;Char&quot; },
+			{ typeof( float ), &quot;Float&quot; },
+			{ typeof( double ), &quot;Double&quot; },
+			{ typeof( decimal ), &quot;Decimal&quot; }
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="89" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="89" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a4e84da39c42528e407986e6babb854d6" compoundref="_debug_log_console_8cs" startline="294" endline="311">IngameDebugConsole.DebugLogConsole.AddCustomParameterType</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1afc4e5c96cc4a9b845d0a39749f7860fe" compoundref="_debug_log_console_8cs" startline="855" endline="871">IngameDebugConsole.DebugLogConsole.GetTypeReadableName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_console_1ac0344c857917d2eab18510f8f6e78345" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; string &gt;</type>
+        <definition>readonly List&lt;string&gt; IngameDebugConsole.DebugLogConsole.commandArguments</definition>
+        <argsstring></argsstring>
+        <name>commandArguments</name>
+        <initializer>= new List&lt;string&gt;( 8 )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="108" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="108" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" compoundref="_debug_log_console_8cs" startline="539" endline="650">IngameDebugConsole.DebugLogConsole.ExecuteCommand</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_console_1a2deee437f2355760262b86fc37276c76" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] IngameDebugConsole.DebugLogConsole.inputDelimiters</definition>
+        <argsstring></argsstring>
+        <name>inputDelimiters</name>
+        <initializer>= new string[] { &quot;\&quot;\&quot;&quot;, &quot;&apos;&apos;&quot;, &quot;{}&quot;, &quot;()&quot;, &quot;[]&quot; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="111" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="111" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ae577c7388d6b41bd159b976a2ca4798a" compoundref="_debug_log_console_8cs" startline="772" endline="781">IngameDebugConsole.DebugLogConsole.IndexOfDelimiterGroup</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a33d6cc118abec7a5452df3ba0da55191" compoundref="_debug_log_console_8cs" startline="783" endline="801">IngameDebugConsole.DebugLogConsole.IndexOfDelimiterGroupEnd</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_console_1a87885419e78fc3854c140d4a2804a20f" prot="private" static="yes" mutable="no">
+        <type>readonly CompareInfo</type>
+        <definition>readonly CompareInfo IngameDebugConsole.DebugLogConsole.caseInsensitiveComparer</definition>
+        <argsstring></argsstring>
+        <name>caseInsensitiveComparer</name>
+        <initializer>= new CultureInfo( &quot;en-US&quot; ).CompareInfo</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="114" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="114" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ad0b215b3b8e3f94a015472d737cc18f7" compoundref="_debug_log_console_8cs" startline="365" endline="478">IngameDebugConsole.DebugLogConsole.AddCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a11bb197203c84e58141ee1ab7a5ab6fa" compoundref="_debug_log_console_8cs" startline="116" endline="191">IngameDebugConsole.DebugLogConsole.DebugLogConsole</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" compoundref="_debug_log_console_8cs" startline="539" endline="650">IngameDebugConsole.DebugLogConsole.ExecuteCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1abaa390a14c832dfcf1d09dbc6d2eb91e" compoundref="_debug_log_console_8cs" startline="679" endline="769">IngameDebugConsole.DebugLogConsole.GetCommandSuggestions</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a80f76e3a83821c8f558710f2439a492e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate bool</type>
+        <definition>delegate bool IngameDebugConsole.DebugLogConsole.ParseFunction</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseFunction</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a11bb197203c84e58141ee1ab7a5ab6fa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static IngameDebugConsole.DebugLogConsole.DebugLogConsole</definition>
+        <argsstring>()</argsstring>
+        <name>DebugLogConsole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="116" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="116" bodyend="191"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a87885419e78fc3854c140d4a2804a20f" compoundref="_debug_log_console_8cs" startline="114">IngameDebugConsole.DebugLogConsole.caseInsensitiveComparer</references>
+        <references refid="class_ingame_debug_console_1_1_console_method_attribute_1ab86a5d4faa9c66a225199c58fc5ed657" compoundref="_console_method_attribute_8cs" startline="11">IngameDebugConsole.ConsoleMethodAttribute.Command</references>
+        <references refid="class_ingame_debug_console_1_1_console_method_attribute_1a9c11557bc0caaf666310afe8091cbbeb" compoundref="_console_method_attribute_8cs" startline="12">IngameDebugConsole.ConsoleMethodAttribute.Description</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a766bbd83cb2979f7a0b738f55f3fc2d4" compoundref="_debug_log_console_8cs" startline="194" endline="217">IngameDebugConsole.DebugLogConsole.LogAllCommands</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a34b1c32256dfeaee4f3dc18c2362afb4" compoundref="_debug_log_console_8cs" startline="220" endline="261">IngameDebugConsole.DebugLogConsole.LogSystemInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a7e3ce9f51b631070d3d0d6677c90b252" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>StringBuilder</type>
+        <definition>static StringBuilder IngameDebugConsole.DebugLogConsole.AppendSysInfoIfPresent</definition>
+        <argsstring>(this StringBuilder sb, string info, string postfix=null)</argsstring>
+        <name>AppendSysInfoIfPresent</name>
+        <param>
+          <type>this StringBuilder</type>
+          <declname>sb</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>postfix</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="263" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="263" bodyend="276"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a34b1c32256dfeaee4f3dc18c2362afb4" compoundref="_debug_log_console_8cs" startline="220" endline="261">IngameDebugConsole.DebugLogConsole.LogSystemInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a472a316f7d4f6febdfa63f72166e4000" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>StringBuilder</type>
+        <definition>static StringBuilder IngameDebugConsole.DebugLogConsole.AppendSysInfoIfPresent</definition>
+        <argsstring>(this StringBuilder sb, int info, string postfix=null)</argsstring>
+        <name>AppendSysInfoIfPresent</name>
+        <param>
+          <type>this StringBuilder</type>
+          <declname>sb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>postfix</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="278" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="278" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1abdd4db362b7e2be1ca3b1a87ab7429bf" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand</definition>
+        <argsstring>(string command, string description, string methodName, Type ownerType, object instance=null)</argsstring>
+        <name>AddCommand</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>methodName</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>ownerType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>instance</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="352" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="352" bodyend="363"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ad0b215b3b8e3f94a015472d737cc18f7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand</definition>
+        <argsstring>(string command, string description, MethodInfo method, object instance=null)</argsstring>
+        <name>AddCommand</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>MethodInfo</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>instance</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="365" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="365" bodyend="478"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a87885419e78fc3854c140d4a2804a20f" compoundref="_debug_log_console_8cs" startline="114">IngameDebugConsole.DebugLogConsole.caseInsensitiveComparer</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a833699714ec171cd1f75c20d6a2f2ade" compoundref="_debug_log_console_8cs" startline="814" endline="831">IngameDebugConsole.DebugLogConsole.FindCommandIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1afc4e5c96cc4a9b845d0a39749f7860fe" compoundref="_debug_log_console_8cs" startline="855" endline="871">IngameDebugConsole.DebugLogConsole.GetTypeReadableName</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ae773c3e57291ca3311f20f67e8cacf8e" compoundref="_debug_log_console_8cs" startline="833" endline="853">IngameDebugConsole.DebugLogConsole.IsSupportedArrayType</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" compoundref="_debug_log_console_8cs" startline="50">IngameDebugConsole.DebugLogConsole.methods</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ad0cf063334836969942d1c81d8e1af5d" compoundref="_debug_log_console_8cs" startline="54">IngameDebugConsole.DebugLogConsole.parseFunctions</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ae577c7388d6b41bd159b976a2ca4798a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int IngameDebugConsole.DebugLogConsole.IndexOfDelimiterGroup</definition>
+        <argsstring>(char c)</argsstring>
+        <name>IndexOfDelimiterGroup</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="772" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="772" bodyend="781"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a2deee437f2355760262b86fc37276c76" compoundref="_debug_log_console_8cs" startline="111">IngameDebugConsole.DebugLogConsole.inputDelimiters</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a9eddd79dd856221459a552e6b0405e16" compoundref="_debug_log_console_8cs" startline="652" endline="673">IngameDebugConsole.DebugLogConsole.FetchArgumentsFromCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1abaa390a14c832dfcf1d09dbc6d2eb91e" compoundref="_debug_log_console_8cs" startline="679" endline="769">IngameDebugConsole.DebugLogConsole.GetCommandSuggestions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a33d6cc118abec7a5452df3ba0da55191" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int IngameDebugConsole.DebugLogConsole.IndexOfDelimiterGroupEnd</definition>
+        <argsstring>(string command, int delimiterIndex, int startIndex)</argsstring>
+        <name>IndexOfDelimiterGroupEnd</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delimiterIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="783" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="783" bodyend="801"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a2deee437f2355760262b86fc37276c76" compoundref="_debug_log_console_8cs" startline="111">IngameDebugConsole.DebugLogConsole.inputDelimiters</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a9eddd79dd856221459a552e6b0405e16" compoundref="_debug_log_console_8cs" startline="652" endline="673">IngameDebugConsole.DebugLogConsole.FetchArgumentsFromCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1abaa390a14c832dfcf1d09dbc6d2eb91e" compoundref="_debug_log_console_8cs" startline="679" endline="769">IngameDebugConsole.DebugLogConsole.GetCommandSuggestions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a66d0898422e0d61cb1baaa06aa526aca" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int IngameDebugConsole.DebugLogConsole.IndexOfChar</definition>
+        <argsstring>(string command, char c, int startIndex)</argsstring>
+        <name>IndexOfChar</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="804" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="804" bodyend="811"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a9eddd79dd856221459a552e6b0405e16" compoundref="_debug_log_console_8cs" startline="652" endline="673">IngameDebugConsole.DebugLogConsole.FetchArgumentsFromCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1abaa390a14c832dfcf1d09dbc6d2eb91e" compoundref="_debug_log_console_8cs" startline="679" endline="769">IngameDebugConsole.DebugLogConsole.GetCommandSuggestions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a833699714ec171cd1f75c20d6a2f2ade" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int IngameDebugConsole.DebugLogConsole.FindCommandIndex</definition>
+        <argsstring>(string command)</argsstring>
+        <name>FindCommandIndex</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="814" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="814" bodyend="831"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" compoundref="_debug_log_console_8cs" startline="50">IngameDebugConsole.DebugLogConsole.methods</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ad0b215b3b8e3f94a015472d737cc18f7" compoundref="_debug_log_console_8cs" startline="365" endline="478">IngameDebugConsole.DebugLogConsole.AddCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" compoundref="_debug_log_console_8cs" startline="539" endline="650">IngameDebugConsole.DebugLogConsole.ExecuteCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a635c344568d777e31cc23f2213c5f66d" compoundref="_debug_log_console_8cs" startline="519" endline="536">IngameDebugConsole.DebugLogConsole.GetAutoCompleteCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1abaa390a14c832dfcf1d09dbc6d2eb91e" compoundref="_debug_log_console_8cs" startline="679" endline="769">IngameDebugConsole.DebugLogConsole.GetCommandSuggestions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseVector</definition>
+        <argsstring>(string input, Type vectorType, out object output)</argsstring>
+        <name>ParseVector</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>vectorType</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1201" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1201" bodyend="1386"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a1ab6297309f46dd28ed664308df1d46b" compoundref="_debug_log_console_8cs" startline="1063" endline="1066">IngameDebugConsole.DebugLogConsole.ParseBounds</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1af3445afca29fde4d9bd5444c4aecfa51" compoundref="_debug_log_console_8cs" startline="1043" endline="1046">IngameDebugConsole.DebugLogConsole.ParseColor</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a0b857528d8ab08355f67a8e7ec6dd918" compoundref="_debug_log_console_8cs" startline="1048" endline="1051">IngameDebugConsole.DebugLogConsole.ParseColor32</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ac68ad541ee730d7f3f5f8538b12fe2a1" compoundref="_debug_log_console_8cs" startline="1038" endline="1041">IngameDebugConsole.DebugLogConsole.ParseQuaternion</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a9abc636dfa0c938b692e28e3ff041347" compoundref="_debug_log_console_8cs" startline="1053" endline="1056">IngameDebugConsole.DebugLogConsole.ParseRect</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a0762ef474ac96a02e4b0ede16614767f" compoundref="_debug_log_console_8cs" startline="1058" endline="1061">IngameDebugConsole.DebugLogConsole.ParseRectOffset</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aec474f2ed6374f700be4351840f6a15d" compoundref="_debug_log_console_8cs" startline="1023" endline="1026">IngameDebugConsole.DebugLogConsole.ParseVector2</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a5fc280aa870392cd31de76ad01fa6b72" compoundref="_debug_log_console_8cs" startline="1028" endline="1031">IngameDebugConsole.DebugLogConsole.ParseVector3</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1abc5fdb5c35eb01a80105235de51600d3" compoundref="_debug_log_console_8cs" startline="1033" endline="1036">IngameDebugConsole.DebugLogConsole.ParseVector4</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a766bbd83cb2979f7a0b738f55f3fc2d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.LogAllCommands</definition>
+        <argsstring>()</argsstring>
+        <name>LogAllCommands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="194" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="194" bodyend="217"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_1a4be6c6469d9499cf5e80f0082e988f30" compoundref="_debug_log_manager_8cs" startline="34">IngameDebugConsole.DebugLogManager.Instance</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" compoundref="_debug_log_console_8cs" startline="50">IngameDebugConsole.DebugLogConsole.methods</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a11bb197203c84e58141ee1ab7a5ab6fa" compoundref="_debug_log_console_8cs" startline="116" endline="191">IngameDebugConsole.DebugLogConsole.DebugLogConsole</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a34b1c32256dfeaee4f3dc18c2362afb4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.LogSystemInfo</definition>
+        <argsstring>()</argsstring>
+        <name>LogSystemInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="220" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="220" bodyend="261"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a7e3ce9f51b631070d3d0d6677c90b252" compoundref="_debug_log_console_8cs" startline="263" endline="276">IngameDebugConsole.DebugLogConsole.AppendSysInfoIfPresent</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_1a4be6c6469d9499cf5e80f0082e988f30" compoundref="_debug_log_manager_8cs" startline="34">IngameDebugConsole.DebugLogManager.Instance</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a11bb197203c84e58141ee1ab7a5ab6fa" compoundref="_debug_log_console_8cs" startline="116" endline="191">IngameDebugConsole.DebugLogConsole.DebugLogConsole</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a4e84da39c42528e407986e6babb854d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCustomParameterType</definition>
+        <argsstring>(Type type, ParseFunction parseFunction, string typeReadableName=null)</argsstring>
+        <name>AddCustomParameterType</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ingame_debug_console_1_1_debug_log_console_1a80f76e3a83821c8f558710f2439a492e" kindref="member">ParseFunction</ref></type>
+          <declname>parseFunction</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>typeReadableName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="294" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="294" bodyend="311"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ad0cf063334836969942d1c81d8e1af5d" compoundref="_debug_log_console_8cs" startline="54">IngameDebugConsole.DebugLogConsole.parseFunctions</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a3527c1d896b3dd938887a608c583c2f8" compoundref="_debug_log_console_8cs" startline="89">IngameDebugConsole.DebugLogConsole.typeReadableNames</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1adf6ca05f24f7242246c83e3da6187aa3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCustomParameterType</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>RemoveCustomParameterType</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="314" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="314" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a499b389f72ce6cb333a330d33f2f0940" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommandInstance</definition>
+        <argsstring>(string command, string description, string methodName, object instance)</argsstring>
+        <name>AddCommandInstance</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>methodName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="321" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="321" bodyend="330"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ada9e9dc773ffb709fd788c99ff78f95e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommandStatic</definition>
+        <argsstring>(string command, string description, string methodName, Type ownerType)</argsstring>
+        <name>AddCommandStatic</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>methodName</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>ownerType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="333" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="333" bodyend="336"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand</definition>
+        <argsstring>(string command, string description, Action method)</argsstring>
+        <name>AddCommand</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="339" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="339" bodyend="339"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a8e886f97cec5558af4b422843a42dc43" compoundref="_debug_log_console_8cs" startline="340" endline="340">IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1 &gt;</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ad4a68f6e62a61dc6ff568e141f529fc0" compoundref="_debug_log_console_8cs" startline="342" endline="342">IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2 &gt;</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ab24de3de9e60f6e1ce9d81bf52c1c3f5" compoundref="_debug_log_console_8cs" startline="344" endline="344">IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2, T3 &gt;</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a9828d697ac2b950ccc688fc7576ae0b5" compoundref="_debug_log_console_8cs" startline="346" endline="346">IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2, T3, T4 &gt;</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a73b39d579bacfa567d9280ff14feebf9" compoundref="_debug_log_console_8cs" startline="348" endline="348">IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2, T3, T4, T5 &gt;</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a499b389f72ce6cb333a330d33f2f0940" compoundref="_debug_log_console_8cs" startline="321" endline="330">IngameDebugConsole.DebugLogConsole.AddCommandInstance</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ada9e9dc773ffb709fd788c99ff78f95e" compoundref="_debug_log_console_8cs" startline="333" endline="336">IngameDebugConsole.DebugLogConsole.AddCommandStatic</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a11bb197203c84e58141ee1ab7a5ab6fa" compoundref="_debug_log_console_8cs" startline="116" endline="191">IngameDebugConsole.DebugLogConsole.DebugLogConsole</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a8e886f97cec5558af4b422843a42dc43" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1 &gt;</definition>
+        <argsstring>(string command, string description, Action&lt; T1 &gt; method)</argsstring>
+        <name>AddCommand&lt; T1 &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Action&lt; T1 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="340" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="340" bodyend="340"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1aa3c89ac0ee45f41cc3c5ec1b0fcc1835" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1 &gt;</definition>
+        <argsstring>(string command, string description, Func&lt; T1 &gt; method)</argsstring>
+        <name>AddCommand&lt; T1 &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Func&lt; T1 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="341" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="341" bodyend="341"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ad4a68f6e62a61dc6ff568e141f529fc0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2 &gt;</definition>
+        <argsstring>(string command, string description, Action&lt; T1, T2 &gt; method)</argsstring>
+        <name>AddCommand&lt; T1, T2 &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Action&lt; T1, T2 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="342" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="342" bodyend="342"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ad7859681b328ff0fafda28feab144e3a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2 &gt;</definition>
+        <argsstring>(string command, string description, Func&lt; T1, T2 &gt; method)</argsstring>
+        <name>AddCommand&lt; T1, T2 &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Func&lt; T1, T2 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="343" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="343" bodyend="343"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ab24de3de9e60f6e1ce9d81bf52c1c3f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2, T3 &gt;</definition>
+        <argsstring>(string command, string description, Action&lt; T1, T2, T3 &gt; method)</argsstring>
+        <name>AddCommand&lt; T1, T2, T3 &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Action&lt; T1, T2, T3 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="344" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="344" bodyend="344"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ade1b80f5b72ca241cce698ff44535c2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2, T3 &gt;</definition>
+        <argsstring>(string command, string description, Func&lt; T1, T2, T3 &gt; method)</argsstring>
+        <name>AddCommand&lt; T1, T2, T3 &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Func&lt; T1, T2, T3 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="345" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="345" bodyend="345"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a9828d697ac2b950ccc688fc7576ae0b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2, T3, T4 &gt;</definition>
+        <argsstring>(string command, string description, Action&lt; T1, T2, T3, T4 &gt; method)</argsstring>
+        <name>AddCommand&lt; T1, T2, T3, T4 &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Action&lt; T1, T2, T3, T4 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="346" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="346" bodyend="346"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1aab0a08505f73b52ec0f3b5379dfe13b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2, T3, T4 &gt;</definition>
+        <argsstring>(string command, string description, Func&lt; T1, T2, T3, T4 &gt; method)</argsstring>
+        <name>AddCommand&lt; T1, T2, T3, T4 &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Func&lt; T1, T2, T3, T4 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="347" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="347" bodyend="347"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a73b39d579bacfa567d9280ff14feebf9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand&lt; T1, T2, T3, T4, T5 &gt;</definition>
+        <argsstring>(string command, string description, Func&lt; T1, T2, T3, T4, T5 &gt; method)</argsstring>
+        <name>AddCommand&lt; T1, T2, T3, T4, T5 &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Func&lt; T1, T2, T3, T4, T5 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="348" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="348" bodyend="348"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" compoundref="_debug_log_console_8cs" startline="339" endline="339">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a2046e80df91edd1b59e56b89f695278b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.AddCommand</definition>
+        <argsstring>(string command, string description, Delegate method)</argsstring>
+        <name>AddCommand</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Delegate</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="349" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="349" bodyend="349"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a2046e80df91edd1b59e56b89f695278b" compoundref="_debug_log_console_8cs" startline="349" endline="349">IngameDebugConsole.DebugLogConsole.AddCommand</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a2046e80df91edd1b59e56b89f695278b" compoundref="_debug_log_console_8cs" startline="349" endline="349">IngameDebugConsole.DebugLogConsole.AddCommand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand</definition>
+        <argsstring>(string command)</argsstring>
+        <name>RemoveCommand</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="481" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="481" bodyend="491"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a87885419e78fc3854c140d4a2804a20f" compoundref="_debug_log_console_8cs" startline="114">IngameDebugConsole.DebugLogConsole.caseInsensitiveComparer</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" compoundref="_debug_log_console_8cs" startline="50">IngameDebugConsole.DebugLogConsole.methods</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aa106f23be8f08557919027ff42830908" compoundref="_debug_log_console_8cs" startline="495" endline="495">IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1 &gt;</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aa6fa487ebcfc615a75354922db5cd6b5" compoundref="_debug_log_console_8cs" startline="497" endline="497">IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2 &gt;</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1abe2868ef6c3cf54a4864b141e2d29efe" compoundref="_debug_log_console_8cs" startline="499" endline="499">IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2, T3 &gt;</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aa9cde0eb449ebec3aa70b6bbf08fc45c" compoundref="_debug_log_console_8cs" startline="501" endline="501">IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2, T3, T4 &gt;</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a74af6b2d812bf0e9ec6f963aedba4eab" compoundref="_debug_log_console_8cs" startline="503" endline="503">IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2, T3, T4, T5 &gt;</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1af4b965a034ee07020e2e40399a7fb1bc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand</definition>
+        <argsstring>(Action method)</argsstring>
+        <name>RemoveCommand</name>
+        <param>
+          <type>Action</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="494" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="494" bodyend="494"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1af4b965a034ee07020e2e40399a7fb1bc" compoundref="_debug_log_console_8cs" startline="494" endline="494">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1af4b965a034ee07020e2e40399a7fb1bc" compoundref="_debug_log_console_8cs" startline="494" endline="494">IngameDebugConsole.DebugLogConsole.RemoveCommand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1aa106f23be8f08557919027ff42830908" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1 &gt;</definition>
+        <argsstring>(Action&lt; T1 &gt; method)</argsstring>
+        <name>RemoveCommand&lt; T1 &gt;</name>
+        <param>
+          <type>Action&lt; T1 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="495" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="495" bodyend="495"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a8f3d3ffd612f5ad754ddb4e9d0a68630" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1 &gt;</definition>
+        <argsstring>(Func&lt; T1 &gt; method)</argsstring>
+        <name>RemoveCommand&lt; T1 &gt;</name>
+        <param>
+          <type>Func&lt; T1 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="496" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="496" bodyend="496"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1aa6fa487ebcfc615a75354922db5cd6b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2 &gt;</definition>
+        <argsstring>(Action&lt; T1, T2 &gt; method)</argsstring>
+        <name>RemoveCommand&lt; T1, T2 &gt;</name>
+        <param>
+          <type>Action&lt; T1, T2 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="497" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="497" bodyend="497"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1af5c62007197b91094f3ea20a4f835d80" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2 &gt;</definition>
+        <argsstring>(Func&lt; T1, T2 &gt; method)</argsstring>
+        <name>RemoveCommand&lt; T1, T2 &gt;</name>
+        <param>
+          <type>Func&lt; T1, T2 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="498" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="498" bodyend="498"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1abe2868ef6c3cf54a4864b141e2d29efe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2, T3 &gt;</definition>
+        <argsstring>(Action&lt; T1, T2, T3 &gt; method)</argsstring>
+        <name>RemoveCommand&lt; T1, T2, T3 &gt;</name>
+        <param>
+          <type>Action&lt; T1, T2, T3 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="499" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="499" bodyend="499"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a729ccfe250add8f1d8996d4924323ef5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2, T3 &gt;</definition>
+        <argsstring>(Func&lt; T1, T2, T3 &gt; method)</argsstring>
+        <name>RemoveCommand&lt; T1, T2, T3 &gt;</name>
+        <param>
+          <type>Func&lt; T1, T2, T3 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="500" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="500" bodyend="500"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1aa9cde0eb449ebec3aa70b6bbf08fc45c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2, T3, T4 &gt;</definition>
+        <argsstring>(Action&lt; T1, T2, T3, T4 &gt; method)</argsstring>
+        <name>RemoveCommand&lt; T1, T2, T3, T4 &gt;</name>
+        <param>
+          <type>Action&lt; T1, T2, T3, T4 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="501" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="501" bodyend="501"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1abc794b9f5d7b11b12288f94a6893ad2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2, T3, T4 &gt;</definition>
+        <argsstring>(Func&lt; T1, T2, T3, T4 &gt; method)</argsstring>
+        <name>RemoveCommand&lt; T1, T2, T3, T4 &gt;</name>
+        <param>
+          <type>Func&lt; T1, T2, T3, T4 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="502" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="502" bodyend="502"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a74af6b2d812bf0e9ec6f963aedba4eab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand&lt; T1, T2, T3, T4, T5 &gt;</definition>
+        <argsstring>(Func&lt; T1, T2, T3, T4, T5 &gt; method)</argsstring>
+        <name>RemoveCommand&lt; T1, T2, T3, T4, T5 &gt;</name>
+        <param>
+          <type>Func&lt; T1, T2, T3, T4, T5 &gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="503" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="503" bodyend="503"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" compoundref="_debug_log_console_8cs" startline="481" endline="491">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a8e420450ac571365e7300809e0a1c13e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand</definition>
+        <argsstring>(Delegate method)</argsstring>
+        <name>RemoveCommand</name>
+        <param>
+          <type>Delegate</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="504" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="504" bodyend="504"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a8e420450ac571365e7300809e0a1c13e" compoundref="_debug_log_console_8cs" startline="504" endline="504">IngameDebugConsole.DebugLogConsole.RemoveCommand</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a8e420450ac571365e7300809e0a1c13e" compoundref="_debug_log_console_8cs" startline="504" endline="504">IngameDebugConsole.DebugLogConsole.RemoveCommand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a3eaa406f53e4342fcc5e1341c369ba58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.RemoveCommand</definition>
+        <argsstring>(MethodInfo method)</argsstring>
+        <name>RemoveCommand</name>
+        <param>
+          <type>MethodInfo</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="506" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="506" bodyend="516"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" compoundref="_debug_log_console_8cs" startline="50">IngameDebugConsole.DebugLogConsole.methods</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a635c344568d777e31cc23f2213c5f66d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string IngameDebugConsole.DebugLogConsole.GetAutoCompleteCommand</definition>
+        <argsstring>(string commandStart)</argsstring>
+        <name>GetAutoCompleteCommand</name>
+        <param>
+          <type>string</type>
+          <declname>commandStart</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="519" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="519" bodyend="536"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a833699714ec171cd1f75c20d6a2f2ade" compoundref="_debug_log_console_8cs" startline="814" endline="831">IngameDebugConsole.DebugLogConsole.FindCommandIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" compoundref="_debug_log_console_8cs" startline="50">IngameDebugConsole.DebugLogConsole.methods</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.ExecuteCommand</definition>
+        <argsstring>(string command)</argsstring>
+        <name>ExecuteCommand</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="539" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="539" bodyend="650"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a87885419e78fc3854c140d4a2804a20f" compoundref="_debug_log_console_8cs" startline="114">IngameDebugConsole.DebugLogConsole.caseInsensitiveComparer</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ac0344c857917d2eab18510f8f6e78345" compoundref="_debug_log_console_8cs" startline="108">IngameDebugConsole.DebugLogConsole.commandArguments</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a9eddd79dd856221459a552e6b0405e16" compoundref="_debug_log_console_8cs" startline="652" endline="673">IngameDebugConsole.DebugLogConsole.FetchArgumentsFromCommand</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a833699714ec171cd1f75c20d6a2f2ade" compoundref="_debug_log_console_8cs" startline="814" endline="831">IngameDebugConsole.DebugLogConsole.FindCommandIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1afc4e5c96cc4a9b845d0a39749f7860fe" compoundref="_debug_log_console_8cs" startline="855" endline="871">IngameDebugConsole.DebugLogConsole.GetTypeReadableName</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a5474129ec288db0e17c7a6ea149ae83c" compoundref="_debug_log_console_8cs" startline="51">IngameDebugConsole.DebugLogConsole.matchingMethods</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" compoundref="_debug_log_console_8cs" startline="50">IngameDebugConsole.DebugLogConsole.methods</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a000a0f098fc4f574590205bedd2651a8" compoundref="_debug_log_console_8cs" startline="873" endline="889">IngameDebugConsole.DebugLogConsole.ParseArgument</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a9eddd79dd856221459a552e6b0405e16" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.FetchArgumentsFromCommand</definition>
+        <argsstring>(string command, List&lt; string &gt; commandArguments)</argsstring>
+        <name>FetchArgumentsFromCommand</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>commandArguments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="652" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="652" bodyend="673"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a66d0898422e0d61cb1baaa06aa526aca" compoundref="_debug_log_console_8cs" startline="804" endline="811">IngameDebugConsole.DebugLogConsole.IndexOfChar</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ae577c7388d6b41bd159b976a2ca4798a" compoundref="_debug_log_console_8cs" startline="772" endline="781">IngameDebugConsole.DebugLogConsole.IndexOfDelimiterGroup</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a33d6cc118abec7a5452df3ba0da55191" compoundref="_debug_log_console_8cs" startline="783" endline="801">IngameDebugConsole.DebugLogConsole.IndexOfDelimiterGroupEnd</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" compoundref="_debug_log_console_8cs" startline="539" endline="650">IngameDebugConsole.DebugLogConsole.ExecuteCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a7c30f47bc91a94503dda89bc7ed7a9d0" compoundref="_debug_log_console_8cs" startline="1164" endline="1198">IngameDebugConsole.DebugLogConsole.ParseArray</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ae773c3e57291ca3311f20f67e8cacf8e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.IsSupportedArrayType</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>IsSupportedArrayType</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="833" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="833" bodyend="853"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ad0b215b3b8e3f94a015472d737cc18f7" compoundref="_debug_log_console_8cs" startline="365" endline="478">IngameDebugConsole.DebugLogConsole.AddCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1afc4e5c96cc4a9b845d0a39749f7860fe" compoundref="_debug_log_console_8cs" startline="855" endline="871">IngameDebugConsole.DebugLogConsole.GetTypeReadableName</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a000a0f098fc4f574590205bedd2651a8" compoundref="_debug_log_console_8cs" startline="873" endline="889">IngameDebugConsole.DebugLogConsole.ParseArgument</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1afc4e5c96cc4a9b845d0a39749f7860fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string IngameDebugConsole.DebugLogConsole.GetTypeReadableName</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>GetTypeReadableName</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="855" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="855" bodyend="871"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ae773c3e57291ca3311f20f67e8cacf8e" compoundref="_debug_log_console_8cs" startline="833" endline="853">IngameDebugConsole.DebugLogConsole.IsSupportedArrayType</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a3527c1d896b3dd938887a608c583c2f8" compoundref="_debug_log_console_8cs" startline="89">IngameDebugConsole.DebugLogConsole.typeReadableNames</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1ad0b215b3b8e3f94a015472d737cc18f7" compoundref="_debug_log_console_8cs" startline="365" endline="478">IngameDebugConsole.DebugLogConsole.AddCommand</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" compoundref="_debug_log_console_8cs" startline="539" endline="650">IngameDebugConsole.DebugLogConsole.ExecuteCommand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a000a0f098fc4f574590205bedd2651a8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseArgument</definition>
+        <argsstring>(string input, Type argumentType, out object output)</argsstring>
+        <name>ParseArgument</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>argumentType</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="873" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="873" bodyend="889"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ae773c3e57291ca3311f20f67e8cacf8e" compoundref="_debug_log_console_8cs" startline="833" endline="853">IngameDebugConsole.DebugLogConsole.IsSupportedArrayType</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a7c30f47bc91a94503dda89bc7ed7a9d0" compoundref="_debug_log_console_8cs" startline="1164" endline="1198">IngameDebugConsole.DebugLogConsole.ParseArray</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ab1ef59463888a3c10c8c6d9445af5a9d" compoundref="_debug_log_console_8cs" startline="1096" endline="1101">IngameDebugConsole.DebugLogConsole.ParseComponent</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a645ad1b73b90b43a23543cf3535dd35a" compoundref="_debug_log_console_8cs" startline="1103" endline="1162">IngameDebugConsole.DebugLogConsole.ParseEnum</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ad0cf063334836969942d1c81d8e1af5d" compoundref="_debug_log_console_8cs" startline="54">IngameDebugConsole.DebugLogConsole.parseFunctions</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" compoundref="_debug_log_console_8cs" startline="539" endline="650">IngameDebugConsole.DebugLogConsole.ExecuteCommand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ad9e50c103559040e43d570f009db8c93" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseString</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseString</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="891" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="891" bodyend="895"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ae14f9026d67a7dc05c0d8ca05731bcaf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseBool</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseBool</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="897" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="897" bodyend="913"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ae3d4c68af9e8ef9783fc24d46e45754f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseInt</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseInt</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="915" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="915" bodyend="922"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1af1d149e4c65ae8ff650e0bbadf6628af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseUInt</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseUInt</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="924" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="924" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a433b8cf8ab93ba58c56bf621ae2a3074" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseLong</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseLong</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="933" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="933" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1adcd785423d11833c0022118c28ac301a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseULong</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseULong</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="942" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="942" bodyend="949"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1af3300d4c67f2a9cb142c9774b1b4c97c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseByte</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseByte</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="951" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="951" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a20fc988578149f25fbbaf84a44ca6bb8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseSByte</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseSByte</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="960" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="960" bodyend="967"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a02f750a73873731e76f53de5c5aecf7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseShort</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseShort</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="969" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="969" bodyend="976"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a10437cda75435617382c3b369578b37a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseUShort</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseUShort</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="978" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="978" bodyend="985"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a8dd96bf72b33125202ab4dc99ed1e5f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseChar</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseChar</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="987" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="987" bodyend="994"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a1dd9bf7a93093b6736d5eb301b49a987" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseFloat</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseFloat</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="996" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="996" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ace08fd6dbda71c01cdec2e9353348f9a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseDouble</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseDouble</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1005" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1005" bodyend="1012"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a26a5db99f8cfc2e8ee334176ccedc401" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseDecimal</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseDecimal</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1014" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1014" bodyend="1021"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1aec474f2ed6374f700be4351840f6a15d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseVector2</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseVector2</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1023" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1023" bodyend="1026"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" compoundref="_debug_log_console_8cs" startline="1201" endline="1386">IngameDebugConsole.DebugLogConsole.ParseVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a5fc280aa870392cd31de76ad01fa6b72" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseVector3</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseVector3</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1028" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1028" bodyend="1031"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" compoundref="_debug_log_console_8cs" startline="1201" endline="1386">IngameDebugConsole.DebugLogConsole.ParseVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1abc5fdb5c35eb01a80105235de51600d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseVector4</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseVector4</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1033" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1033" bodyend="1036"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" compoundref="_debug_log_console_8cs" startline="1201" endline="1386">IngameDebugConsole.DebugLogConsole.ParseVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ac68ad541ee730d7f3f5f8538b12fe2a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseQuaternion</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseQuaternion</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1038" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1038" bodyend="1041"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" compoundref="_debug_log_console_8cs" startline="1201" endline="1386">IngameDebugConsole.DebugLogConsole.ParseVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1af3445afca29fde4d9bd5444c4aecfa51" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseColor</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseColor</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1043" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1043" bodyend="1046"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" compoundref="_debug_log_console_8cs" startline="1201" endline="1386">IngameDebugConsole.DebugLogConsole.ParseVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a0b857528d8ab08355f67a8e7ec6dd918" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseColor32</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseColor32</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1048" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1048" bodyend="1051"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" compoundref="_debug_log_console_8cs" startline="1201" endline="1386">IngameDebugConsole.DebugLogConsole.ParseVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a9abc636dfa0c938b692e28e3ff041347" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseRect</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseRect</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1053" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1053" bodyend="1056"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" compoundref="_debug_log_console_8cs" startline="1201" endline="1386">IngameDebugConsole.DebugLogConsole.ParseVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a0762ef474ac96a02e4b0ede16614767f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseRectOffset</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseRectOffset</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1058" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1058" bodyend="1061"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" compoundref="_debug_log_console_8cs" startline="1201" endline="1386">IngameDebugConsole.DebugLogConsole.ParseVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a1ab6297309f46dd28ed664308df1d46b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseBounds</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseBounds</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1063" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1063" bodyend="1066"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" compoundref="_debug_log_console_8cs" startline="1201" endline="1386">IngameDebugConsole.DebugLogConsole.ParseVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a691185b441ef19a27436bf3afaff08a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseGameObject</definition>
+        <argsstring>(string input, out object output)</argsstring>
+        <name>ParseGameObject</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1090" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1090" bodyend="1094"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1ab1ef59463888a3c10c8c6d9445af5a9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseComponent</definition>
+        <argsstring>(string input, Type componentType, out object output)</argsstring>
+        <name>ParseComponent</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>componentType</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1096" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1096" bodyend="1101"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a000a0f098fc4f574590205bedd2651a8" compoundref="_debug_log_console_8cs" startline="873" endline="889">IngameDebugConsole.DebugLogConsole.ParseArgument</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a645ad1b73b90b43a23543cf3535dd35a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseEnum</definition>
+        <argsstring>(string input, Type enumType, out object output)</argsstring>
+        <name>ParseEnum</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>enumType</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1103" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1103" bodyend="1162"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a000a0f098fc4f574590205bedd2651a8" compoundref="_debug_log_console_8cs" startline="873" endline="889">IngameDebugConsole.DebugLogConsole.ParseArgument</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1a7c30f47bc91a94503dda89bc7ed7a9d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IngameDebugConsole.DebugLogConsole.ParseArray</definition>
+        <argsstring>(string input, Type arrayType, out object output)</argsstring>
+        <name>ParseArray</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>arrayType</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="1164" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="1164" bodyend="1198"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a9eddd79dd856221459a552e6b0405e16" compoundref="_debug_log_console_8cs" startline="652" endline="673">IngameDebugConsole.DebugLogConsole.FetchArgumentsFromCommand</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_console_1a000a0f098fc4f574590205bedd2651a8" compoundref="_debug_log_console_8cs" startline="873" endline="889">IngameDebugConsole.DebugLogConsole.ParseArgument</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_console_1abaa390a14c832dfcf1d09dbc6d2eb91e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IngameDebugConsole.DebugLogConsole.GetCommandSuggestions</definition>
+        <argsstring>(string command, List&lt; ConsoleMethodInfo &gt; matchingCommands, List&lt; int &gt; caretIndexIncrements, ref string commandName, out int numberOfParameters)</argsstring>
+        <name>GetCommandSuggestions</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_ingame_debug_console_1_1_console_method_info" kindref="compound">ConsoleMethodInfo</ref> &gt;</type>
+          <declname>matchingCommands</declname>
+        </param>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>caretIndexIncrements</declname>
+        </param>
+        <param>
+          <type>ref string</type>
+          <declname>commandName</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numberOfParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="679" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="679" bodyend="769"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a87885419e78fc3854c140d4a2804a20f" compoundref="_debug_log_console_8cs" startline="114">IngameDebugConsole.DebugLogConsole.caseInsensitiveComparer</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a833699714ec171cd1f75c20d6a2f2ade" compoundref="_debug_log_console_8cs" startline="814" endline="831">IngameDebugConsole.DebugLogConsole.FindCommandIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a66d0898422e0d61cb1baaa06aa526aca" compoundref="_debug_log_console_8cs" startline="804" endline="811">IngameDebugConsole.DebugLogConsole.IndexOfChar</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1ae577c7388d6b41bd159b976a2ca4798a" compoundref="_debug_log_console_8cs" startline="772" endline="781">IngameDebugConsole.DebugLogConsole.IndexOfDelimiterGroup</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a33d6cc118abec7a5452df3ba0da55191" compoundref="_debug_log_console_8cs" startline="783" endline="801">IngameDebugConsole.DebugLogConsole.IndexOfDelimiterGroupEnd</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" compoundref="_debug_log_console_8cs" startline="50">IngameDebugConsole.DebugLogConsole.methods</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" line="46" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs" bodystart="45" bodyend="1387"/>
+    <listofallmembers>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a4f06cc2b4e9e552b9a9db3bd01cf015a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a2046e80df91edd1b59e56b89f695278b" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1abdd4db362b7e2be1ca3b1a87ab7429bf" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ad0b215b3b8e3f94a015472d737cc18f7" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a8e886f97cec5558af4b422843a42dc43" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand&lt; T1 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1aa3c89ac0ee45f41cc3c5ec1b0fcc1835" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand&lt; T1 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ad4a68f6e62a61dc6ff568e141f529fc0" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand&lt; T1, T2 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ad7859681b328ff0fafda28feab144e3a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand&lt; T1, T2 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ab24de3de9e60f6e1ce9d81bf52c1c3f5" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand&lt; T1, T2, T3 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ade1b80f5b72ca241cce698ff44535c2e" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand&lt; T1, T2, T3 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a9828d697ac2b950ccc688fc7576ae0b5" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand&lt; T1, T2, T3, T4 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1aab0a08505f73b52ec0f3b5379dfe13b6" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand&lt; T1, T2, T3, T4 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a73b39d579bacfa567d9280ff14feebf9" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommand&lt; T1, T2, T3, T4, T5 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a499b389f72ce6cb333a330d33f2f0940" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommandInstance</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ada9e9dc773ffb709fd788c99ff78f95e" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCommandStatic</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a4e84da39c42528e407986e6babb854d6" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AddCustomParameterType</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a7e3ce9f51b631070d3d0d6677c90b252" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AppendSysInfoIfPresent</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a472a316f7d4f6febdfa63f72166e4000" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>AppendSysInfoIfPresent</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a87885419e78fc3854c140d4a2804a20f" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>caseInsensitiveComparer</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ac0344c857917d2eab18510f8f6e78345" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>commandArguments</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a11bb197203c84e58141ee1ab7a5ab6fa" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>DebugLogConsole</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1aad6c0ec56ff881ba8fb70cc637b42cf7" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ExecuteCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a9eddd79dd856221459a552e6b0405e16" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>FetchArgumentsFromCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a833699714ec171cd1f75c20d6a2f2ade" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>FindCommandIndex</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a635c344568d777e31cc23f2213c5f66d" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>GetAutoCompleteCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1abaa390a14c832dfcf1d09dbc6d2eb91e" prot="package" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>GetCommandSuggestions</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1afc4e5c96cc4a9b845d0a39749f7860fe" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>GetTypeReadableName</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a66d0898422e0d61cb1baaa06aa526aca" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>IndexOfChar</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ae577c7388d6b41bd159b976a2ca4798a" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>IndexOfDelimiterGroup</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a33d6cc118abec7a5452df3ba0da55191" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>IndexOfDelimiterGroupEnd</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a2deee437f2355760262b86fc37276c76" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>inputDelimiters</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ae773c3e57291ca3311f20f67e8cacf8e" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>IsSupportedArrayType</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a766bbd83cb2979f7a0b738f55f3fc2d4" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>LogAllCommands</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a34b1c32256dfeaee4f3dc18c2362afb4" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>LogSystemInfo</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a5474129ec288db0e17c7a6ea149ae83c" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>matchingMethods</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a42af1290162d1c2e47636e5e6da1604d" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>methods</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a000a0f098fc4f574590205bedd2651a8" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseArgument</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a7c30f47bc91a94503dda89bc7ed7a9d0" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseArray</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ae14f9026d67a7dc05c0d8ca05731bcaf" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseBool</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a1ab6297309f46dd28ed664308df1d46b" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseBounds</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1af3300d4c67f2a9cb142c9774b1b4c97c" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseByte</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a8dd96bf72b33125202ab4dc99ed1e5f8" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseChar</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1af3445afca29fde4d9bd5444c4aecfa51" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseColor</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a0b857528d8ab08355f67a8e7ec6dd918" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseColor32</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ab1ef59463888a3c10c8c6d9445af5a9d" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseComponent</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a26a5db99f8cfc2e8ee334176ccedc401" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseDecimal</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ace08fd6dbda71c01cdec2e9353348f9a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseDouble</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a645ad1b73b90b43a23543cf3535dd35a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseEnum</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a1dd9bf7a93093b6736d5eb301b49a987" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseFloat</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a80f76e3a83821c8f558710f2439a492e" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseFunction</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ad0cf063334836969942d1c81d8e1af5d" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>parseFunctions</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a691185b441ef19a27436bf3afaff08a3" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseGameObject</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ae3d4c68af9e8ef9783fc24d46e45754f" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseInt</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a433b8cf8ab93ba58c56bf621ae2a3074" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseLong</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ac68ad541ee730d7f3f5f8538b12fe2a1" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseQuaternion</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a9abc636dfa0c938b692e28e3ff041347" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseRect</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a0762ef474ac96a02e4b0ede16614767f" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseRectOffset</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a20fc988578149f25fbbaf84a44ca6bb8" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseSByte</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a02f750a73873731e76f53de5c5aecf7a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseShort</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1ad9e50c103559040e43d570f009db8c93" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseString</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1af1d149e4c65ae8ff650e0bbadf6628af" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseUInt</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1adcd785423d11833c0022118c28ac301a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseULong</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a10437cda75435617382c3b369578b37a" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseUShort</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a0d77a3a0bc5efd52b211512786ed85bb" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseVector</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1aec474f2ed6374f700be4351840f6a15d" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseVector2</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a5fc280aa870392cd31de76ad01fa6b72" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseVector3</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1abc5fdb5c35eb01a80105235de51600d3" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>ParseVector4</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a6f432aa3be9aeffb8afe96974540b0ee" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1af4b965a034ee07020e2e40399a7fb1bc" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a8e420450ac571365e7300809e0a1c13e" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a3eaa406f53e4342fcc5e1341c369ba58" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1aa106f23be8f08557919027ff42830908" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand&lt; T1 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a8f3d3ffd612f5ad754ddb4e9d0a68630" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand&lt; T1 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1aa6fa487ebcfc615a75354922db5cd6b5" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand&lt; T1, T2 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1af5c62007197b91094f3ea20a4f835d80" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand&lt; T1, T2 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1abe2868ef6c3cf54a4864b141e2d29efe" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand&lt; T1, T2, T3 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a729ccfe250add8f1d8996d4924323ef5" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand&lt; T1, T2, T3 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1aa9cde0eb449ebec3aa70b6bbf08fc45c" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand&lt; T1, T2, T3, T4 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1abc794b9f5d7b11b12288f94a6893ad2e" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand&lt; T1, T2, T3, T4 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a74af6b2d812bf0e9ec6f963aedba4eab" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCommand&lt; T1, T2, T3, T4, T5 &gt;</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1adf6ca05f24f7242246c83e3da6187aa3" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>RemoveCustomParameterType</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_console_1a3527c1d896b3dd938887a608c583c2f8" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogConsole</scope><name>typeReadableNames</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

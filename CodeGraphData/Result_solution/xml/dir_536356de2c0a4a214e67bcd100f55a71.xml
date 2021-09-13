@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_536356de2c0a4a214e67bcd100f55a71" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Scripts</compoundname>
+    <innerdir refid="dir_ee15e4edc76dc3248202e9330fed9380">D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControl</innerdir>
+    <innerdir refid="dir_e8a7506e0cbabff3b309e0910cb7c636">D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlAddOn</innerdir>
+    <innerdir refid="dir_37794b7afbe0ccc17ce56d7a72d4c862">D:/Project/TwoHandsWar/Assets/Scripts/1_PlayerControlTool</innerdir>
+    <innerdir refid="dir_d5b43465deeb5616a9d519a1ebb1847a">D:/Project/TwoHandsWar/Assets/Scripts/2_Level</innerdir>
+    <innerdir refid="dir_4c30d1b356b9a3c5e668f81524deb3d8">D:/Project/TwoHandsWar/Assets/Scripts/3_Enemy</innerdir>
+    <innerdir refid="dir_53c53e0f5a539ccf52c1ead4cf6f8afd">D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff</innerdir>
+    <innerdir refid="dir_1091aadbd9a1c790f0aa3ea09fda4729">D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo</innerdir>
+    <innerdir refid="dir_4de751605764e6f0d9c4cfe1bcf25801">D:/Project/TwoHandsWar/Assets/Scripts/5_UI</innerdir>
+    <innerdir refid="dir_5ce4df553a0f31be8fed167986d34f5f">D:/Project/TwoHandsWar/Assets/Scripts/Y_EasyDebug</innerdir>
+    <innerdir refid="dir_0f09801d268355f1e2a35357afd817e9">D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_stuff_1_1_sword_1_1_state_pack" kind="class" prot="private">
+    <compoundname>Stuff::Sword::StatePack</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1_1_state_pack_1a136bf7addc9ee014cadd505b8cec421f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stuff_1_1_sword_1a8965f0cae536ec9ba4cc2b1785c67350" kindref="member">State</ref></type>
+        <definition>State Stuff.Sword.StatePack._state</definition>
+        <argsstring></argsstring>
+        <name>_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="75" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" compoundref="_sword_8cs" startline="107" endline="163">Stuff.Sword.StatePack.Set</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1_1_state_pack_1a5838cbd8d2a5e396e54e973603be8c5d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stuff_1_1_sword_1a8965f0cae536ec9ba4cc2b1785c67350" kindref="member">State</ref></type>
+        <definition>State Stuff.Sword.StatePack._statePre</definition>
+        <argsstring></argsstring>
+        <name>_statePre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="76" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" compoundref="_sword_8cs" startline="107" endline="163">Stuff.Sword.StatePack.Set</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1_1_state_pack_1a7c08ca49163f60f780566a94f05bb62b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stuff_1_1_sword_1aa9b77d02694107a7e05f2a89e0017a57" kindref="member">WithHandState</ref></type>
+        <definition>WithHandState Stuff.Sword.StatePack._withHandState</definition>
+        <argsstring></argsstring>
+        <name>_withHandState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="77" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="77" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" compoundref="_sword_8cs" startline="107" endline="163">Stuff.Sword.StatePack.Set</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1_1_state_pack_1abe253a2f63ba2cea16eb473818a64172" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stuff_1_1_sword_1aa9b77d02694107a7e05f2a89e0017a57" kindref="member">WithHandState</ref></type>
+        <definition>WithHandState Stuff.Sword.StatePack._withHandStatePre</definition>
+        <argsstring></argsstring>
+        <name>_withHandStatePre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="78" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" compoundref="_sword_8cs" startline="107" endline="163">Stuff.Sword.StatePack.Set</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1_1_state_pack_1a9a208959e4b6501c723e637b62736f31" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfe" kindref="member">NoHandState</ref></type>
+        <definition>NoHandState Stuff.Sword.StatePack._noHandState</definition>
+        <argsstring></argsstring>
+        <name>_noHandState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="79" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" compoundref="_sword_8cs" startline="107" endline="163">Stuff.Sword.StatePack.Set</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stuff_1_1_sword_1_1_state_pack_1a3237a48d7eba10bc33b001e4eeac62c6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfe" kindref="member">NoHandState</ref></type>
+        <definition>NoHandState Stuff.Sword.StatePack._noHandStatePre</definition>
+        <argsstring></argsstring>
+        <name>_noHandStatePre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="80" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" compoundref="_sword_8cs" startline="107" endline="163">Stuff.Sword.StatePack.Set</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stuff_1_1_sword_1_1_state_pack_1a3b11d1d22d70339b8019df036ce0793b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_stuff_1_1_sword_1a8965f0cae536ec9ba4cc2b1785c67350" kindref="member">State</ref></type>
+        <definition>State Stuff.Sword.StatePack.state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="81" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" compoundref="_sword_8cs" startline="479" endline="523">Stuff.Sword.Motion</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1afb1b60e8f019e10a889420b3d6fc7091" compoundref="_sword_8cs" startline="171" endline="212">Stuff.Sword.StatePack.RenewManuallyDueToFistAndEnv</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" compoundref="_sword_8cs" startline="436" endline="477">Stuff.Sword.SoundEffect</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a722536b1334f0011cc5653b4912a5945" compoundref="_sword_8cs" startline="336" endline="434">Stuff.Sword.Visual</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_stuff_1_1_sword_1_1_state_pack_1ab1eaba134c85f246b6b0bec585b367cf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_stuff_1_1_sword_1a8965f0cae536ec9ba4cc2b1785c67350" kindref="member">State</ref></type>
+        <definition>State Stuff.Sword.StatePack.statePre</definition>
+        <argsstring></argsstring>
+        <name>statePre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="85" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="86" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a01ecff5014f353573a2a1118aea89365" compoundref="_sword___motion_8cs" startline="50" endline="158">Stuff.Sword.Motion_HandAndFree_Rotation</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_stuff_1_1_sword_1_1_state_pack_1ad78ab11c77c98fe804a2d9bc205895c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_stuff_1_1_sword_1aa9b77d02694107a7e05f2a89e0017a57" kindref="member">WithHandState</ref></type>
+        <definition>WithHandState Stuff.Sword.StatePack.withHandState</definition>
+        <argsstring></argsstring>
+        <name>withHandState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="89" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="90" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1ae01bc2dcdce91ec91a76a88f0e5ff010" compoundref="_sword_8cs" startline="479" endline="523">Stuff.Sword.Motion</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1afb1b60e8f019e10a889420b3d6fc7091" compoundref="_sword_8cs" startline="171" endline="212">Stuff.Sword.StatePack.RenewManuallyDueToFistAndEnv</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a43871c483fc67aa522af06f39754abc8" compoundref="_sword_8cs" startline="436" endline="477">Stuff.Sword.SoundEffect</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a722536b1334f0011cc5653b4912a5945" compoundref="_sword_8cs" startline="336" endline="434">Stuff.Sword.Visual</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_stuff_1_1_sword_1_1_state_pack_1a3875d7fc4a5f5b4f8fdde86d87eea6ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_stuff_1_1_sword_1aa9b77d02694107a7e05f2a89e0017a57" kindref="member">WithHandState</ref></type>
+        <definition>WithHandState Stuff.Sword.StatePack.withHandStatePre</definition>
+        <argsstring></argsstring>
+        <name>withHandStatePre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="93" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="94" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1a01ecff5014f353573a2a1118aea89365" compoundref="_sword___motion_8cs" startline="50" endline="158">Stuff.Sword.Motion_HandAndFree_Rotation</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_stuff_1_1_sword_1_1_state_pack_1ad462ca8b5d78b91de5f57e2289423405" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfe" kindref="member">NoHandState</ref></type>
+        <definition>NoHandState Stuff.Sword.StatePack.noHandState</definition>
+        <argsstring></argsstring>
+        <name>noHandState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="97" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="98" bodyend="-1"/>
+        <referencedby refid="class_stuff_1_1_sword_1ac1fbe52b58733990419437709fa10c20" compoundref="_sword___motion_8cs" startline="178" endline="201">Stuff.Sword.Motion_NoHand</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a62b87797a2f10be03a39c2bcaf987c7b" compoundref="_sword___motion_8cs" startline="334" endline="460">Stuff.Sword.Motion_NoHand_Env</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1a7ca55ac97e9fc2f888f0b50323646427" compoundref="_sword_8cs" startline="546" endline="603">Stuff.Sword.ThrowSword</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_stuff_1_1_sword_1_1_state_pack_1a11d7224327864b89b633c1a28f0d3f3b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_stuff_1_1_sword_1af2fe61f27262b1b601f84ff67377adfe" kindref="member">NoHandState</ref></type>
+        <definition>NoHandState Stuff.Sword.StatePack.noHandStatePre</definition>
+        <argsstring></argsstring>
+        <name>noHandStatePre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="102" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.StatePack.Set</definition>
+        <argsstring>(string state, string subState)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>string</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>subState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="107" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="107" bodyend="163"/>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a9a208959e4b6501c723e637b62736f31" compoundref="_sword_8cs" startline="79">Stuff.Sword.StatePack._noHandState</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a3237a48d7eba10bc33b001e4eeac62c6" compoundref="_sword_8cs" startline="80">Stuff.Sword.StatePack._noHandStatePre</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a136bf7addc9ee014cadd505b8cec421f" compoundref="_sword_8cs" startline="75">Stuff.Sword.StatePack._state</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a5838cbd8d2a5e396e54e973603be8c5d" compoundref="_sword_8cs" startline="76">Stuff.Sword.StatePack._statePre</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a7c08ca49163f60f780566a94f05bb62b" compoundref="_sword_8cs" startline="77">Stuff.Sword.StatePack._withHandState</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1abe253a2f63ba2cea16eb473818a64172" compoundref="_sword_8cs" startline="78">Stuff.Sword.StatePack._withHandStatePre</references>
+        <references refid="_fist_state_8cs_1aec3d1d71d0930788a229b3e466c1da3aab24ce0cd392a5b0b8dedc66c25213594">Free</references>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1afb1b60e8f019e10a889420b3d6fc7091" compoundref="_sword_8cs" startline="171" endline="212">Stuff.Sword.StatePack.RenewManuallyDueToFistAndEnv</referencedby>
+        <referencedby refid="class_stuff_1_1_sword_1_1_state_pack_1a7133428f45aa0a580183f052fe16f6ca" compoundref="_sword_8cs" startline="166" endline="169">Stuff.Sword.StatePack.StatePack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1_1_state_pack_1a7133428f45aa0a580183f052fe16f6ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Stuff.Sword.StatePack.StatePack</definition>
+        <argsstring>(string state, string subState)</argsstring>
+        <name>StatePack</name>
+        <param>
+          <type>string</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>subState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="166" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="166" bodyend="169"/>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" compoundref="_sword_8cs" startline="107" endline="163">Stuff.Sword.StatePack.Set</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stuff_1_1_sword_1_1_state_pack_1afb1b60e8f019e10a889420b3d6fc7091" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stuff.Sword.StatePack.RenewManuallyDueToFistAndEnv</definition>
+        <argsstring>(string lastFist, GameObject tip, GameObject body)</argsstring>
+        <name>RenewManuallyDueToFistAndEnv</name>
+        <param>
+          <type>string</type>
+          <declname>lastFist</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>tip</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="171" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="171" bodyend="212"/>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" compoundref="_sword_8cs" startline="107" endline="163">Stuff.Sword.StatePack.Set</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1a3b11d1d22d70339b8019df036ce0793b" compoundref="_sword_8cs" startline="82">Stuff.Sword.StatePack.state</references>
+        <references refid="class_stuff_1_1_sword_1_1_state_pack_1ad78ab11c77c98fe804a2d9bc205895c4" compoundref="_sword_8cs" startline="90">Stuff.Sword.StatePack.withHandState</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" line="74" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/3_Stuff/Sword.cs" bodystart="73" bodyend="213"/>
+    <listofallmembers>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1a9a208959e4b6501c723e637b62736f31" prot="private" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>_noHandState</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1a3237a48d7eba10bc33b001e4eeac62c6" prot="private" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>_noHandStatePre</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1a136bf7addc9ee014cadd505b8cec421f" prot="private" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>_state</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1a5838cbd8d2a5e396e54e973603be8c5d" prot="private" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>_statePre</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1a7c08ca49163f60f780566a94f05bb62b" prot="private" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>_withHandState</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1abe253a2f63ba2cea16eb473818a64172" prot="private" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>_withHandStatePre</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1ad462ca8b5d78b91de5f57e2289423405" prot="public" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>noHandState</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1a11d7224327864b89b633c1a28f0d3f3b" prot="public" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>noHandStatePre</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1afb1b60e8f019e10a889420b3d6fc7091" prot="public" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>RenewManuallyDueToFistAndEnv</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1adc8106f463dcc122aa836a664273613b" prot="public" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>Set</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1a3b11d1d22d70339b8019df036ce0793b" prot="public" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>state</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1a7133428f45aa0a580183f052fe16f6ca" prot="public" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>StatePack</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1ab1eaba134c85f246b6b0bec585b367cf" prot="public" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>statePre</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1ad78ab11c77c98fe804a2d9bc205895c4" prot="public" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>withHandState</name></member>
+      <member refid="class_stuff_1_1_sword_1_1_state_pack_1a3875d7fc4a5f5b4f8fdde86d87eea6ac" prot="public" virt="non-virtual"><scope>Stuff::Sword::StatePack</scope><name>withHandStatePre</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

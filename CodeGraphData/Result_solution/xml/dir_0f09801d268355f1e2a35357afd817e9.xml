@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0f09801d268355f1e2a35357afd817e9" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode</compoundname>
+    <innerdir refid="dir_54ff0902956b15abd4e3bbe1d7993f0b">D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/HandControl(Old)</innerdir>
+    <innerdir refid="dir_8cac5fab1765f90ab967b8a419a17a1d">D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/Test</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/"/>
+  </compounddef>
+</doxygen>

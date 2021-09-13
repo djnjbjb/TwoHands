@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_54ff0902956b15abd4e3bbe1d7993f0b" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/HandControl(Old)</compoundname>
+    <innerfile refid="_obsolete_hand_control_8cs">ObsoleteHandControl.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/Z_OtherCode/HandControl(Old)/"/>
+  </compounddef>
+</doxygen>

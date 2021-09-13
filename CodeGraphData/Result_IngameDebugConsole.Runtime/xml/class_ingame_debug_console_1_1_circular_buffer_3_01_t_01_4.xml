@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>IngameDebugConsole::CircularBuffer&lt; T &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1afdfb9d5cf216ae0ce839ce1055ff520b" prot="private" static="no" mutable="no">
+        <type>T[]</type>
+        <definition>T [] IngameDebugConsole.CircularBuffer&lt; T &gt;.arr</definition>
+        <argsstring></argsstring>
+        <name>arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a09df0121fa34fe9dc46542045e564d48" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IngameDebugConsole.CircularBuffer&lt; T &gt;.startIndex</definition>
+        <argsstring></argsstring>
+        <name>startIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" line="8" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a2008848785bfd70c530a6a3041534ee0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int IngameDebugConsole.CircularBuffer&lt; T &gt;.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a2911b8cca2044afeed26d90545bc0006" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>T</type>
+        <definition>T IngameDebugConsole.CircularBuffer&lt; T &gt;.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" line="11" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a145c7f11484a5145d96a265734ce872b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IngameDebugConsole.CircularBuffer&lt; T &gt;.CircularBuffer</definition>
+        <argsstring>(int capacity)</argsstring>
+        <name>CircularBuffer</name>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a43f7a14a71f7d40e4e22708b578042fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.CircularBuffer&lt; T &gt;.Add</definition>
+        <argsstring>(T value)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" line="19" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" bodystart="19" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" line="6" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/CircularBuffer.cs" bodystart="5" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a43f7a14a71f7d40e4e22708b578042fd" prot="public" virt="non-virtual"><scope>IngameDebugConsole::CircularBuffer&lt; T &gt;</scope><name>Add</name></member>
+      <member refid="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1afdfb9d5cf216ae0ce839ce1055ff520b" prot="private" virt="non-virtual"><scope>IngameDebugConsole::CircularBuffer&lt; T &gt;</scope><name>arr</name></member>
+      <member refid="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a145c7f11484a5145d96a265734ce872b" prot="public" virt="non-virtual"><scope>IngameDebugConsole::CircularBuffer&lt; T &gt;</scope><name>CircularBuffer</name></member>
+      <member refid="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a2008848785bfd70c530a6a3041534ee0" prot="public" virt="non-virtual"><scope>IngameDebugConsole::CircularBuffer&lt; T &gt;</scope><name>Count</name></member>
+      <member refid="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a09df0121fa34fe9dc46542045e564d48" prot="private" virt="non-virtual"><scope>IngameDebugConsole::CircularBuffer&lt; T &gt;</scope><name>startIndex</name></member>
+      <member refid="class_ingame_debug_console_1_1_circular_buffer_3_01_t_01_4_1a2911b8cca2044afeed26d90545bc0006" prot="public" virt="non-virtual"><scope>IngameDebugConsole::CircularBuffer&lt; T &gt;</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

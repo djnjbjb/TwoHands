@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pivot_utilities" kind="class" prot="public">
+    <compoundname>PivotUtilities</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_pivot_utilities_1aa3e2f39471b727db083513c2f700e2c4" prot="private" static="no">
+        <name>Edge</name>
+        <enumvalue id="class_pivot_utilities_1aa3e2f39471b727db083513c2f700e2c4a945d5e233cf7d6240f6b783b36a374ff" prot="public">
+          <name>Left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_pivot_utilities_1aa3e2f39471b727db083513c2f700e2c4a92b09c7c48c520c3c55e497875da437c" prot="public">
+          <name>Right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_pivot_utilities_1aa3e2f39471b727db083513c2f700e2c4a2ad9d63b69c4a10a5cc9cad923133bc4" prot="public">
+          <name>Bottom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_pivot_utilities_1aa3e2f39471b727db083513c2f700e2c4aa4ffdcf0dc1f31b9acaf295d75b51d00" prot="public">
+          <name>Top</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="173" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="172" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pivot_utilities_1a4832ec40d98f38d1dcf11a0f139108be" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PivotUtilities.CreatePivotObject</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePivotObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="7" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="7" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1af8b87d0ae635eb1334caa6e59ae83834" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PivotUtilities.CreatePivotObjectAtParentPos</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePivotObjectAtParentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="17" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1a45bf2cfd372c65910324ed322c5fce9c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PivotUtilities.DeletePivotObject</definition>
+        <argsstring>()</argsstring>
+        <name>DeletePivotObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="27" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="27" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1adaeb3a91d652044646ca3b3d2525ec9c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PivotUtilities.CreatePivotLeft</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePivotLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="49" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="49" bodyend="56"/>
+        <references refid="class_pivot_utilities_1a763b23f5c3d31c4571d9c4017de1c200" compoundref="_pivot_utilities_8cs" startline="180" endline="212">CreatePivotObjectAtOneEdge</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1a70d54aff1271be2dc7ebb852799d8d05" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PivotUtilities.CreatePivotRight</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePivotRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="59" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="59" bodyend="66"/>
+        <references refid="class_pivot_utilities_1a763b23f5c3d31c4571d9c4017de1c200" compoundref="_pivot_utilities_8cs" startline="180" endline="212">CreatePivotObjectAtOneEdge</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1ad5e4e296036b8b2ba398675925b00be9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PivotUtilities.CreatePivotBottom</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePivotBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="69" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="69" bodyend="76"/>
+        <references refid="class_pivot_utilities_1a763b23f5c3d31c4571d9c4017de1c200" compoundref="_pivot_utilities_8cs" startline="180" endline="212">CreatePivotObjectAtOneEdge</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1aa4fb346c029a7e8dcb50a2cc89591861" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PivotUtilities.CreatePivotTop</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePivotTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="79" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="79" bodyend="86"/>
+        <references refid="class_pivot_utilities_1a763b23f5c3d31c4571d9c4017de1c200" compoundref="_pivot_utilities_8cs" startline="180" endline="212">CreatePivotObjectAtOneEdge</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1a5ea50488cdcb6d079a67777b08187e01" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject PivotUtilities.CreatePivotObjectAtParentPos</definition>
+        <argsstring>(GameObject current)</argsstring>
+        <name>CreatePivotObjectAtParentPos</name>
+        <param>
+          <type>GameObject</type>
+          <declname>current</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="89" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="89" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1ae7000d150ce0a0537f0ceace656e30db" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject PivotUtilities.CreatePivotObject</definition>
+        <argsstring>(GameObject current)</argsstring>
+        <name>CreatePivotObject</name>
+        <param>
+          <type>GameObject</type>
+          <declname>current</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="112" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="112" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1a97718f6b16cf7b96e215784a22e9409b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject PivotUtilities.DeletePivotObject</definition>
+        <argsstring>(GameObject current)</argsstring>
+        <name>DeletePivotObject</name>
+        <param>
+          <type>GameObject</type>
+          <declname>current</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="135" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="135" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pivot_utilities_1a763b23f5c3d31c4571d9c4017de1c200" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject PivotUtilities.CreatePivotObjectAtOneEdge</definition>
+        <argsstring>(GameObject current, Edge edge)</argsstring>
+        <name>CreatePivotObjectAtOneEdge</name>
+        <param>
+          <type>GameObject</type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pivot_utilities_1aa3e2f39471b727db083513c2f700e2c4" kindref="member">Edge</ref></type>
+          <declname>edge</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="180" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="180" bodyend="212"/>
+        <referencedby refid="class_pivot_utilities_1ad5e4e296036b8b2ba398675925b00be9" compoundref="_pivot_utilities_8cs" startline="69" endline="76">CreatePivotBottom</referencedby>
+        <referencedby refid="class_pivot_utilities_1adaeb3a91d652044646ca3b3d2525ec9c" compoundref="_pivot_utilities_8cs" startline="49" endline="56">CreatePivotLeft</referencedby>
+        <referencedby refid="class_pivot_utilities_1a70d54aff1271be2dc7ebb852799d8d05" compoundref="_pivot_utilities_8cs" startline="59" endline="66">CreatePivotRight</referencedby>
+        <referencedby refid="class_pivot_utilities_1aa4fb346c029a7e8dcb50a2cc89591861" compoundref="_pivot_utilities_8cs" startline="79" endline="86">CreatePivotTop</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" line="5" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Editor/PivotUtilities.cs" bodystart="4" bodyend="213"/>
+    <listofallmembers>
+      <member refid="class_pivot_utilities_1ad5e4e296036b8b2ba398675925b00be9" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>CreatePivotBottom</name></member>
+      <member refid="class_pivot_utilities_1adaeb3a91d652044646ca3b3d2525ec9c" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>CreatePivotLeft</name></member>
+      <member refid="class_pivot_utilities_1a4832ec40d98f38d1dcf11a0f139108be" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>CreatePivotObject</name></member>
+      <member refid="class_pivot_utilities_1ae7000d150ce0a0537f0ceace656e30db" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>CreatePivotObject</name></member>
+      <member refid="class_pivot_utilities_1a763b23f5c3d31c4571d9c4017de1c200" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>CreatePivotObjectAtOneEdge</name></member>
+      <member refid="class_pivot_utilities_1af8b87d0ae635eb1334caa6e59ae83834" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>CreatePivotObjectAtParentPos</name></member>
+      <member refid="class_pivot_utilities_1a5ea50488cdcb6d079a67777b08187e01" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>CreatePivotObjectAtParentPos</name></member>
+      <member refid="class_pivot_utilities_1a70d54aff1271be2dc7ebb852799d8d05" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>CreatePivotRight</name></member>
+      <member refid="class_pivot_utilities_1aa4fb346c029a7e8dcb50a2cc89591861" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>CreatePivotTop</name></member>
+      <member refid="class_pivot_utilities_1a45bf2cfd372c65910324ed322c5fce9c" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>DeletePivotObject</name></member>
+      <member refid="class_pivot_utilities_1a97718f6b16cf7b96e215784a22e9409b" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>DeletePivotObject</name></member>
+      <member refid="class_pivot_utilities_1aa3e2f39471b727db083513c2f700e2c4" prot="private" virt="non-virtual"><scope>PivotUtilities</scope><name>Edge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

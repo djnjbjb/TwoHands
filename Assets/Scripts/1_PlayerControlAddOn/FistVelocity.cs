@@ -21,7 +21,6 @@ public class SpeedParameter
     public bool nowIsTwoHand;
     public float noTwoHandTime;
     public float lastTwoHandGrabedSpeed;
-    
 
     public SpeedParameter()
     {

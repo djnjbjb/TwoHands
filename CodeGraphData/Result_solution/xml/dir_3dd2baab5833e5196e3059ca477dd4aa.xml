@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3dd2baab5833e5196e3059ca477dd4aa" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes</compoundname>
+    <innerfile refid="_bird_8cs">Bird.cs</innerfile>
+    <innerfile refid="_game_8cs">Game.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos/Flappy Shapes/"/>
+  </compounddef>
+</doxygen>

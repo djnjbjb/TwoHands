@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c4dbac49b48d3d3c80d9c6141bfcea9f" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D</compoundname>
+    <innerdir refid="dir_dd125cbf3efc01f2d16137c5375e4171">D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Demos</innerdir>
+    <innerdir refid="dir_1a589a1ad5d86933596bc888d1fa5287">D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Editor</innerdir>
+    <innerdir refid="dir_e8160d5fcd3c14f848d68e4188f97d9b">D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Shapes2D/"/>
+  </compounddef>
+</doxygen>

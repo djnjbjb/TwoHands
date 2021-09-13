@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_level_manager_1_1_a_a_b_b" kind="class" prot="public">
+    <compoundname>LevelManager::AABB</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_level_manager_1_1_a_a_b_b_1ae2e5f0c1aaeed8a672ac06c8e278ae0d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LevelManager.AABB.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_level_manager_1a5b8a50b453af388c09f2b081212549b8" compoundref="_level_manager_8cs" startline="93" endline="120">LevelManager.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_manager_1_1_a_a_b_b_1a36c5e22a5cd9726841cbf0c8dde73fe3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LevelManager.AABB.right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" line="15" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_level_manager_1a5b8a50b453af388c09f2b081212549b8" compoundref="_level_manager_8cs" startline="93" endline="120">LevelManager.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_manager_1_1_a_a_b_b_1a62cd015322305242895ece95038625cd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LevelManager.AABB.bottom</definition>
+        <argsstring></argsstring>
+        <name>bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_level_manager_1a5b8a50b453af388c09f2b081212549b8" compoundref="_level_manager_8cs" startline="93" endline="120">LevelManager.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_manager_1_1_a_a_b_b_1ab9098f79ac22179344f0753ead6f3795" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LevelManager.AABB.top</definition>
+        <argsstring></argsstring>
+        <name>top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" line="17" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" line="13" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Scripts/2_Level/LevelManager.cs" bodystart="12" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_level_manager_1_1_a_a_b_b_1a62cd015322305242895ece95038625cd" prot="public" virt="non-virtual"><scope>LevelManager::AABB</scope><name>bottom</name></member>
+      <member refid="class_level_manager_1_1_a_a_b_b_1ae2e5f0c1aaeed8a672ac06c8e278ae0d" prot="public" virt="non-virtual"><scope>LevelManager::AABB</scope><name>left</name></member>
+      <member refid="class_level_manager_1_1_a_a_b_b_1a36c5e22a5cd9726841cbf0c8dde73fe3" prot="public" virt="non-virtual"><scope>LevelManager::AABB</scope><name>right</name></member>
+      <member refid="class_level_manager_1_1_a_a_b_b_1ab9098f79ac22179344f0753ead6f3795" prot="public" virt="non-virtual"><scope>LevelManager::AABB</scope><name>top</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

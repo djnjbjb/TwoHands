@@ -1,0 +1,976 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ingame_debug_console_1_1_debug_log_recycled_list_view" kind="class" prot="public">
+    <compoundname>IngameDebugConsole::DebugLogRecycledListView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8a14c528d5990c06ad190df6272fd63b" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform IngameDebugConsole.DebugLogRecycledListView.transformComponent</definition>
+        <argsstring></argsstring>
+        <name>transformComponent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="14" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aa93250bee2e920ac4167345b430eff55" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform IngameDebugConsole.DebugLogRecycledListView.viewportTransform</definition>
+        <argsstring></argsstring>
+        <name>viewportTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="16" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6c99f90ccb24bcbc432a53d9488557bd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ingame_debug_console_1_1_debug_log_manager" kindref="compound">DebugLogManager</ref></type>
+        <definition>DebugLogManager IngameDebugConsole.DebugLogRecycledListView.debugManager</definition>
+        <argsstring></argsstring>
+        <name>debugManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="19" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae66b991d2367814b0435fca37b2eb1b0" compoundref="_debug_log_recycled_list_view_8cs" startline="330" endline="334">IngameDebugConsole.DebugLogRecycledListView.DestroyLogItemsBetweenIndices</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a73293f9692d827ce77624304c03ce98a" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color IngameDebugConsole.DebugLogRecycledListView.logItemNormalColor1</definition>
+        <argsstring></argsstring>
+        <name>logItemNormalColor1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="22" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a23c57649daae8ad7a8fcca7ef4501c92" compoundref="_debug_log_recycled_list_view_8cs" startline="352" endline="360">IngameDebugConsole.DebugLogRecycledListView.ColorLogItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9bcb00b75dd01a06cfbb6acccb6d4a79" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color IngameDebugConsole.DebugLogRecycledListView.logItemNormalColor2</definition>
+        <argsstring></argsstring>
+        <name>logItemNormalColor2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="24" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a23c57649daae8ad7a8fcca7ef4501c92" compoundref="_debug_log_recycled_list_view_8cs" startline="352" endline="360">IngameDebugConsole.DebugLogRecycledListView.ColorLogItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aaa8c33cc2cf72337f10d5aa3eab35e7e" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color IngameDebugConsole.DebugLogRecycledListView.logItemSelectedColor</definition>
+        <argsstring></argsstring>
+        <name>logItemSelectedColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="26" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a23c57649daae8ad7a8fcca7ef4501c92" compoundref="_debug_log_recycled_list_view_8cs" startline="352" endline="360">IngameDebugConsole.DebugLogRecycledListView.ColorLogItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1add16c8a525d794b99ced7ded887c8c8b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ingame_debug_console_1_1_debug_log_manager" kindref="compound">DebugLogManager</ref></type>
+        <definition>DebugLogManager IngameDebugConsole.DebugLogRecycledListView.manager</definition>
+        <argsstring></argsstring>
+        <name>manager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="29" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a86bc5b4ca8a1b911ea63cad8d4e4f598" compoundref="_debug_log_recycled_list_view_8cs" startline="65" endline="72">IngameDebugConsole.DebugLogRecycledListView.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9413ffcf8385d11a67d50cd7ac2b0123" prot="private" static="no" mutable="no">
+        <type>ScrollRect</type>
+        <definition>ScrollRect IngameDebugConsole.DebugLogRecycledListView.scrollView</definition>
+        <argsstring></argsstring>
+        <name>scrollView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="30" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab670de9ac7daf75cbf86d3247ab755af" compoundref="_debug_log_recycled_list_view_8cs" startline="57" endline="63">IngameDebugConsole.DebugLogRecycledListView.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6bbad1e3ae790defd4f26acb12038958" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogRecycledListView.logItemHeight</definition>
+        <argsstring></argsstring>
+        <name>logItemHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="32" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a992a3c6c31a151dda17c74b2992838ee" compoundref="_debug_log_recycled_list_view_8cs" startline="186" endline="190">IngameDebugConsole.DebugLogRecycledListView.CalculateContentHeight</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af91bb486387b1a5c0539679e90f45668" compoundref="_debug_log_recycled_list_view_8cs" startline="312" endline="328">IngameDebugConsole.DebugLogRecycledListView.CreateLogItemAtIndex</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a86bc5b4ca8a1b911ea63cad8d4e4f598" compoundref="_debug_log_recycled_list_view_8cs" startline="65" endline="72">IngameDebugConsole.DebugLogRecycledListView.Initialize</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a06388eca318e1790e714fe6e515182b0" compoundref="_debug_log_recycled_list_view_8cs" startline="86" endline="100">IngameDebugConsole.DebugLogRecycledListView.SelectAndFocusOnLogItemAtIndex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af5ec5e130fc4c04874ea59695c3e6f42" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogRecycledListView._1OverLogItemHeight</definition>
+        <argsstring></argsstring>
+        <name>_1OverLogItemHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="32" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a86bc5b4ca8a1b911ea63cad8d4e4f598" compoundref="_debug_log_recycled_list_view_8cs" startline="65" endline="72">IngameDebugConsole.DebugLogRecycledListView.Initialize</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aae9f2eb901d9506a53efdcf05148e030" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogRecycledListView.viewportHeight</definition>
+        <argsstring></argsstring>
+        <name>viewportHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="33" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab670de9ac7daf75cbf86d3247ab755af" compoundref="_debug_log_recycled_list_view_8cs" startline="57" endline="63">IngameDebugConsole.DebugLogRecycledListView.Awake</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1afb7cc8aa1bf71a0a58828da22ced5ca6" compoundref="_debug_log_recycled_list_view_8cs" startline="151" endline="160">IngameDebugConsole.DebugLogRecycledListView.OnLogEntriesUpdated</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a24963d94306229dffd63f980e65a55fa" compoundref="_debug_log_recycled_list_view_8cs" startline="171" endline="175">IngameDebugConsole.DebugLogRecycledListView.OnViewportDimensionsChanged</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a06388eca318e1790e714fe6e515182b0" compoundref="_debug_log_recycled_list_view_8cs" startline="86" endline="100">IngameDebugConsole.DebugLogRecycledListView.SelectAndFocusOnLogItemAtIndex</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a7d4d668ef82759ef2f1a13bec264b87e" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ingame_debug_console_1_1_debug_log_entry" kindref="compound">DebugLogEntry</ref> &gt;</type>
+        <definition>List&lt;DebugLogEntry&gt; IngameDebugConsole.DebugLogRecycledListView.collapsedLogEntries</definition>
+        <argsstring></argsstring>
+        <name>collapsedLogEntries</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="36" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a86bc5b4ca8a1b911ea63cad8d4e4f598" compoundref="_debug_log_recycled_list_view_8cs" startline="65" endline="72">IngameDebugConsole.DebugLogRecycledListView.Initialize</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a899ce6d16fcf9a4c15b128f661e71a30" compoundref="_debug_log_recycled_list_view_8cs" startline="336" endline="349">IngameDebugConsole.DebugLogRecycledListView.UpdateLogItemContentsBetweenIndices</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a4e0202e29dc1f862f8de222ccabcad51" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ingame_debug_console_1_1_debug_log_index_list" kindref="compound">DebugLogIndexList</ref></type>
+        <definition>DebugLogIndexList IngameDebugConsole.DebugLogRecycledListView.indicesOfEntriesToShow</definition>
+        <argsstring></argsstring>
+        <name>indicesOfEntriesToShow</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="39" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a86bc5b4ca8a1b911ea63cad8d4e4f598" compoundref="_debug_log_recycled_list_view_8cs" startline="65" endline="72">IngameDebugConsole.DebugLogRecycledListView.Initialize</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a899ce6d16fcf9a4c15b128f661e71a30" compoundref="_debug_log_recycled_list_view_8cs" startline="336" endline="349">IngameDebugConsole.DebugLogRecycledListView.UpdateLogItemContentsBetweenIndices</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a00da876b64bd1da99ae17a2d3fe2da9b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IngameDebugConsole.DebugLogRecycledListView.indexOfSelectedLogEntry</definition>
+        <argsstring></argsstring>
+        <name>indexOfSelectedLogEntry</name>
+        <initializer>= int.MaxValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="41" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a23c57649daae8ad7a8fcca7ef4501c92" compoundref="_debug_log_recycled_list_view_8cs" startline="352" endline="360">IngameDebugConsole.DebugLogRecycledListView.ColorLogItem</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af91bb486387b1a5c0539679e90f45668" compoundref="_debug_log_recycled_list_view_8cs" startline="312" endline="328">IngameDebugConsole.DebugLogRecycledListView.CreateLogItemAtIndex</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" compoundref="_debug_log_recycled_list_view_8cs" startline="138" endline="148">IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a06388eca318e1790e714fe6e515182b0" compoundref="_debug_log_recycled_list_view_8cs" startline="86" endline="100">IngameDebugConsole.DebugLogRecycledListView.SelectAndFocusOnLogItemAtIndex</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a899ce6d16fcf9a4c15b128f661e71a30" compoundref="_debug_log_recycled_list_view_8cs" startline="336" endline="349">IngameDebugConsole.DebugLogRecycledListView.UpdateLogItemContentsBetweenIndices</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a3bd5ee791f5114df4329e4f1fbce5696" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogRecycledListView.positionOfSelectedLogEntry</definition>
+        <argsstring></argsstring>
+        <name>positionOfSelectedLogEntry</name>
+        <initializer>= float.MaxValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="42" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" compoundref="_debug_log_recycled_list_view_8cs" startline="138" endline="148">IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a88635173d112389a9a82bf774e1ed214" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogRecycledListView.heightOfSelectedLogEntry</definition>
+        <argsstring></argsstring>
+        <name>heightOfSelectedLogEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="43" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" compoundref="_debug_log_recycled_list_view_8cs" startline="138" endline="148">IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1adc9451e1aa3384afcc36bec3780274f1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogRecycledListView.deltaHeightOfSelectedLogEntry</definition>
+        <argsstring></argsstring>
+        <name>deltaHeightOfSelectedLogEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="44" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a992a3c6c31a151dda17c74b2992838ee" compoundref="_debug_log_recycled_list_view_8cs" startline="186" endline="190">IngameDebugConsole.DebugLogRecycledListView.CalculateContentHeight</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af91bb486387b1a5c0539679e90f45668" compoundref="_debug_log_recycled_list_view_8cs" startline="312" endline="328">IngameDebugConsole.DebugLogRecycledListView.CreateLogItemAtIndex</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" compoundref="_debug_log_recycled_list_view_8cs" startline="138" endline="148">IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae584cb82d4ba9dfd44cc8491b91347fc" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; int, <ref refid="class_ingame_debug_console_1_1_debug_log_item" kindref="compound">DebugLogItem</ref> &gt;</type>
+        <definition>Dictionary&lt;int, DebugLogItem&gt; IngameDebugConsole.DebugLogRecycledListView.logItemsAtIndices</definition>
+        <argsstring></argsstring>
+        <name>logItemsAtIndices</name>
+        <initializer>= new Dictionary&lt;int, <ref refid="class_ingame_debug_console_1_1_debug_log_item" kindref="compound">DebugLogItem</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="47" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af91bb486387b1a5c0539679e90f45668" compoundref="_debug_log_recycled_list_view_8cs" startline="312" endline="328">IngameDebugConsole.DebugLogRecycledListView.CreateLogItemAtIndex</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" compoundref="_debug_log_recycled_list_view_8cs" startline="138" endline="148">IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae66b991d2367814b0435fca37b2eb1b0" compoundref="_debug_log_recycled_list_view_8cs" startline="330" endline="334">IngameDebugConsole.DebugLogRecycledListView.DestroyLogItemsBetweenIndices</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a30b07d299ee1a3b5d8a99f35ca090be8" compoundref="_debug_log_recycled_list_view_8cs" startline="163" endline="168">IngameDebugConsole.DebugLogRecycledListView.OnCollapsedLogEntryAtIndexUpdated</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a899ce6d16fcf9a4c15b128f661e71a30" compoundref="_debug_log_recycled_list_view_8cs" startline="336" endline="349">IngameDebugConsole.DebugLogRecycledListView.UpdateLogItemContentsBetweenIndices</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a454ec5d83942a73548a9d23f7509a24e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool IngameDebugConsole.DebugLogRecycledListView.isCollapseOn</definition>
+        <argsstring></argsstring>
+        <name>isCollapseOn</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="49" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a430df4bc771e855499d93a81cf2157f0" compoundref="_debug_log_recycled_list_view_8cs" startline="74" endline="77">IngameDebugConsole.DebugLogRecycledListView.SetCollapseMode</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a899ce6d16fcf9a4c15b128f661e71a30" compoundref="_debug_log_recycled_list_view_8cs" startline="336" endline="349">IngameDebugConsole.DebugLogRecycledListView.UpdateLogItemContentsBetweenIndices</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ad043af6801d7eb948860aa429e9bf8c4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IngameDebugConsole.DebugLogRecycledListView.currentTopIndex</definition>
+        <argsstring></argsstring>
+        <name>currentTopIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="52" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" compoundref="_debug_log_recycled_list_view_8cs" startline="138" endline="148">IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0a05607b754f57fbdcdc93b9ad46aef2" compoundref="_debug_log_recycled_list_view_8cs" startline="177" endline="184">IngameDebugConsole.DebugLogRecycledListView.HardResetItems</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9b53a6073d44da9848d538c51bfce2dd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IngameDebugConsole.DebugLogRecycledListView.currentBottomIndex</definition>
+        <argsstring></argsstring>
+        <name>currentBottomIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="52" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" compoundref="_debug_log_recycled_list_view_8cs" startline="138" endline="148">IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0a05607b754f57fbdcdc93b9ad46aef2" compoundref="_debug_log_recycled_list_view_8cs" startline="177" endline="184">IngameDebugConsole.DebugLogRecycledListView.HardResetItems</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab84a36160c50f0ff7e8e013ee2c7e72f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogRecycledListView.ItemHeight</definition>
+        <argsstring></argsstring>
+        <name>ItemHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="54" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a694019ba00520730f31e43b192d9b1c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float IngameDebugConsole.DebugLogRecycledListView.SelectedItemHeight</definition>
+        <argsstring></argsstring>
+        <name>SelectedItemHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="55" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab670de9ac7daf75cbf86d3247ab755af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="57" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="57" bodyend="63"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9413ffcf8385d11a67d50cd7ac2b0123" compoundref="_debug_log_recycled_list_view_8cs" startline="30">IngameDebugConsole.DebugLogRecycledListView.scrollView</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aae9f2eb901d9506a53efdcf05148e030" compoundref="_debug_log_recycled_list_view_8cs" startline="33">IngameDebugConsole.DebugLogRecycledListView.viewportHeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</definition>
+        <argsstring>(int itemIndex, DebugLogItem referenceItem=null)</argsstring>
+        <name>OnLogItemClickedInternal</name>
+        <param>
+          <type>int</type>
+          <declname>itemIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ingame_debug_console_1_1_debug_log_item" kindref="compound">DebugLogItem</ref></type>
+          <declname>referenceItem</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="102" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="102" bodyend="135"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a992a3c6c31a151dda17c74b2992838ee" compoundref="_debug_log_recycled_list_view_8cs" startline="186" endline="190">IngameDebugConsole.DebugLogRecycledListView.CalculateContentHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a7d4d668ef82759ef2f1a13bec264b87e" compoundref="_debug_log_recycled_list_view_8cs" startline="36">IngameDebugConsole.DebugLogRecycledListView.collapsedLogEntries</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a23c57649daae8ad7a8fcca7ef4501c92" compoundref="_debug_log_recycled_list_view_8cs" startline="352" endline="360">IngameDebugConsole.DebugLogRecycledListView.ColorLogItem</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9b53a6073d44da9848d538c51bfce2dd" compoundref="_debug_log_recycled_list_view_8cs" startline="52">IngameDebugConsole.DebugLogRecycledListView.currentBottomIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ad043af6801d7eb948860aa429e9bf8c4" compoundref="_debug_log_recycled_list_view_8cs" startline="52">IngameDebugConsole.DebugLogRecycledListView.currentTopIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1adc9451e1aa3384afcc36bec3780274f1" compoundref="_debug_log_recycled_list_view_8cs" startline="44">IngameDebugConsole.DebugLogRecycledListView.deltaHeightOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" compoundref="_debug_log_recycled_list_view_8cs" startline="138" endline="148">IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0a05607b754f57fbdcdc93b9ad46aef2" compoundref="_debug_log_recycled_list_view_8cs" startline="177" endline="184">IngameDebugConsole.DebugLogRecycledListView.HardResetItems</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a88635173d112389a9a82bf774e1ed214" compoundref="_debug_log_recycled_list_view_8cs" startline="43">IngameDebugConsole.DebugLogRecycledListView.heightOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a00da876b64bd1da99ae17a2d3fe2da9b" compoundref="_debug_log_recycled_list_view_8cs" startline="41">IngameDebugConsole.DebugLogRecycledListView.indexOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a4e0202e29dc1f862f8de222ccabcad51" compoundref="_debug_log_recycled_list_view_8cs" startline="39">IngameDebugConsole.DebugLogRecycledListView.indicesOfEntriesToShow</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6bbad1e3ae790defd4f26acb12038958" compoundref="_debug_log_recycled_list_view_8cs" startline="32">IngameDebugConsole.DebugLogRecycledListView.logItemHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae584cb82d4ba9dfd44cc8491b91347fc" compoundref="_debug_log_recycled_list_view_8cs" startline="47">IngameDebugConsole.DebugLogRecycledListView.logItemsAtIndices</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a3bd5ee791f5114df4329e4f1fbce5696" compoundref="_debug_log_recycled_list_view_8cs" startline="42">IngameDebugConsole.DebugLogRecycledListView.positionOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a7add49abad969ed057788d725ea2b895" compoundref="_debug_log_recycled_list_view_8cs" startline="80" endline="83">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClicked</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a06388eca318e1790e714fe6e515182b0" compoundref="_debug_log_recycled_list_view_8cs" startline="86" endline="100">IngameDebugConsole.DebugLogRecycledListView.SelectAndFocusOnLogItemAtIndex</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0a05607b754f57fbdcdc93b9ad46aef2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.HardResetItems</definition>
+        <argsstring>()</argsstring>
+        <name>HardResetItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="177" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="177" bodyend="184"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9b53a6073d44da9848d538c51bfce2dd" compoundref="_debug_log_recycled_list_view_8cs" startline="52">IngameDebugConsole.DebugLogRecycledListView.currentBottomIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ad043af6801d7eb948860aa429e9bf8c4" compoundref="_debug_log_recycled_list_view_8cs" startline="52">IngameDebugConsole.DebugLogRecycledListView.currentTopIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae66b991d2367814b0435fca37b2eb1b0" compoundref="_debug_log_recycled_list_view_8cs" startline="330" endline="334">IngameDebugConsole.DebugLogRecycledListView.DestroyLogItemsBetweenIndices</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1afb7cc8aa1bf71a0a58828da22ced5ca6" compoundref="_debug_log_recycled_list_view_8cs" startline="151" endline="160">IngameDebugConsole.DebugLogRecycledListView.OnLogEntriesUpdated</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a992a3c6c31a151dda17c74b2992838ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.CalculateContentHeight</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateContentHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="186" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="186" bodyend="190"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1adc9451e1aa3384afcc36bec3780274f1" compoundref="_debug_log_recycled_list_view_8cs" startline="44">IngameDebugConsole.DebugLogRecycledListView.deltaHeightOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6bbad1e3ae790defd4f26acb12038958" compoundref="_debug_log_recycled_list_view_8cs" startline="32">IngameDebugConsole.DebugLogRecycledListView.logItemHeight</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1afb7cc8aa1bf71a0a58828da22ced5ca6" compoundref="_debug_log_recycled_list_view_8cs" startline="151" endline="160">IngameDebugConsole.DebugLogRecycledListView.OnLogEntriesUpdated</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab655397fdefe220626152faa0dc4cf68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.CreateLogItemsBetweenIndices</definition>
+        <argsstring>(int topIndex, int bottomIndex)</argsstring>
+        <name>CreateLogItemsBetweenIndices</name>
+        <param>
+          <type>int</type>
+          <declname>topIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bottomIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="305" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="305" bodyend="309"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af91bb486387b1a5c0539679e90f45668" compoundref="_debug_log_recycled_list_view_8cs" startline="312" endline="328">IngameDebugConsole.DebugLogRecycledListView.CreateLogItemAtIndex</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af91bb486387b1a5c0539679e90f45668" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.CreateLogItemAtIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>CreateLogItemAtIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="312" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="312" bodyend="328"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a23c57649daae8ad7a8fcca7ef4501c92" compoundref="_debug_log_recycled_list_view_8cs" startline="352" endline="360">IngameDebugConsole.DebugLogRecycledListView.ColorLogItem</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1adc9451e1aa3384afcc36bec3780274f1" compoundref="_debug_log_recycled_list_view_8cs" startline="44">IngameDebugConsole.DebugLogRecycledListView.deltaHeightOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a00da876b64bd1da99ae17a2d3fe2da9b" compoundref="_debug_log_recycled_list_view_8cs" startline="41">IngameDebugConsole.DebugLogRecycledListView.indexOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6bbad1e3ae790defd4f26acb12038958" compoundref="_debug_log_recycled_list_view_8cs" startline="32">IngameDebugConsole.DebugLogRecycledListView.logItemHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae584cb82d4ba9dfd44cc8491b91347fc" compoundref="_debug_log_recycled_list_view_8cs" startline="47">IngameDebugConsole.DebugLogRecycledListView.logItemsAtIndices</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab655397fdefe220626152faa0dc4cf68" compoundref="_debug_log_recycled_list_view_8cs" startline="305" endline="309">IngameDebugConsole.DebugLogRecycledListView.CreateLogItemsBetweenIndices</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae66b991d2367814b0435fca37b2eb1b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.DestroyLogItemsBetweenIndices</definition>
+        <argsstring>(int topIndex, int bottomIndex)</argsstring>
+        <name>DestroyLogItemsBetweenIndices</name>
+        <param>
+          <type>int</type>
+          <declname>topIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bottomIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="330" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="330" bodyend="334"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6c99f90ccb24bcbc432a53d9488557bd" compoundref="_debug_log_recycled_list_view_8cs" startline="19">IngameDebugConsole.DebugLogRecycledListView.debugManager</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae584cb82d4ba9dfd44cc8491b91347fc" compoundref="_debug_log_recycled_list_view_8cs" startline="47">IngameDebugConsole.DebugLogRecycledListView.logItemsAtIndices</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_manager_1a1cce53426953602f34c5a18d1d9f23d8" compoundref="_debug_log_manager_8cs" startline="1245" endline="1249">IngameDebugConsole.DebugLogManager.PoolLogItem</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0a05607b754f57fbdcdc93b9ad46aef2" compoundref="_debug_log_recycled_list_view_8cs" startline="177" endline="184">IngameDebugConsole.DebugLogRecycledListView.HardResetItems</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a899ce6d16fcf9a4c15b128f661e71a30" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.UpdateLogItemContentsBetweenIndices</definition>
+        <argsstring>(int topIndex, int bottomIndex)</argsstring>
+        <name>UpdateLogItemContentsBetweenIndices</name>
+        <param>
+          <type>int</type>
+          <declname>topIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bottomIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="336" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="336" bodyend="349"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a7d4d668ef82759ef2f1a13bec264b87e" compoundref="_debug_log_recycled_list_view_8cs" startline="36">IngameDebugConsole.DebugLogRecycledListView.collapsedLogEntries</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a00da876b64bd1da99ae17a2d3fe2da9b" compoundref="_debug_log_recycled_list_view_8cs" startline="41">IngameDebugConsole.DebugLogRecycledListView.indexOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a4e0202e29dc1f862f8de222ccabcad51" compoundref="_debug_log_recycled_list_view_8cs" startline="39">IngameDebugConsole.DebugLogRecycledListView.indicesOfEntriesToShow</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a454ec5d83942a73548a9d23f7509a24e" compoundref="_debug_log_recycled_list_view_8cs" startline="49">IngameDebugConsole.DebugLogRecycledListView.isCollapseOn</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae584cb82d4ba9dfd44cc8491b91347fc" compoundref="_debug_log_recycled_list_view_8cs" startline="47">IngameDebugConsole.DebugLogRecycledListView.logItemsAtIndices</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a23c57649daae8ad7a8fcca7ef4501c92" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.ColorLogItem</definition>
+        <argsstring>(DebugLogItem logItem, int index)</argsstring>
+        <name>ColorLogItem</name>
+        <param>
+          <type><ref refid="class_ingame_debug_console_1_1_debug_log_item" kindref="compound">DebugLogItem</ref></type>
+          <declname>logItem</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="352" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="352" bodyend="360"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a00da876b64bd1da99ae17a2d3fe2da9b" compoundref="_debug_log_recycled_list_view_8cs" startline="41">IngameDebugConsole.DebugLogRecycledListView.indexOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a73293f9692d827ce77624304c03ce98a" compoundref="_debug_log_recycled_list_view_8cs" startline="22">IngameDebugConsole.DebugLogRecycledListView.logItemNormalColor1</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9bcb00b75dd01a06cfbb6acccb6d4a79" compoundref="_debug_log_recycled_list_view_8cs" startline="24">IngameDebugConsole.DebugLogRecycledListView.logItemNormalColor2</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aaa8c33cc2cf72337f10d5aa3eab35e7e" compoundref="_debug_log_recycled_list_view_8cs" startline="26">IngameDebugConsole.DebugLogRecycledListView.logItemSelectedColor</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af91bb486387b1a5c0539679e90f45668" compoundref="_debug_log_recycled_list_view_8cs" startline="312" endline="328">IngameDebugConsole.DebugLogRecycledListView.CreateLogItemAtIndex</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" compoundref="_debug_log_recycled_list_view_8cs" startline="138" endline="148">IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a86bc5b4ca8a1b911ea63cad8d4e4f598" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.Initialize</definition>
+        <argsstring>(DebugLogManager manager, List&lt; DebugLogEntry &gt; collapsedLogEntries, DebugLogIndexList indicesOfEntriesToShow, float logItemHeight)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type><ref refid="class_ingame_debug_console_1_1_debug_log_manager" kindref="compound">DebugLogManager</ref></type>
+          <declname>manager</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_ingame_debug_console_1_1_debug_log_entry" kindref="compound">DebugLogEntry</ref> &gt;</type>
+          <declname>collapsedLogEntries</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ingame_debug_console_1_1_debug_log_index_list" kindref="compound">DebugLogIndexList</ref></type>
+          <declname>indicesOfEntriesToShow</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>logItemHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="65" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="65" bodyend="72"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af5ec5e130fc4c04874ea59695c3e6f42" compoundref="_debug_log_recycled_list_view_8cs" startline="32">IngameDebugConsole.DebugLogRecycledListView._1OverLogItemHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a7d4d668ef82759ef2f1a13bec264b87e" compoundref="_debug_log_recycled_list_view_8cs" startline="36">IngameDebugConsole.DebugLogRecycledListView.collapsedLogEntries</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a4e0202e29dc1f862f8de222ccabcad51" compoundref="_debug_log_recycled_list_view_8cs" startline="39">IngameDebugConsole.DebugLogRecycledListView.indicesOfEntriesToShow</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6bbad1e3ae790defd4f26acb12038958" compoundref="_debug_log_recycled_list_view_8cs" startline="32">IngameDebugConsole.DebugLogRecycledListView.logItemHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1add16c8a525d794b99ced7ded887c8c8b" compoundref="_debug_log_recycled_list_view_8cs" startline="29">IngameDebugConsole.DebugLogRecycledListView.manager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a430df4bc771e855499d93a81cf2157f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.SetCollapseMode</definition>
+        <argsstring>(bool collapse)</argsstring>
+        <name>SetCollapseMode</name>
+        <param>
+          <type>bool</type>
+          <declname>collapse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="74" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="74" bodyend="77"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a454ec5d83942a73548a9d23f7509a24e" compoundref="_debug_log_recycled_list_view_8cs" startline="49">IngameDebugConsole.DebugLogRecycledListView.isCollapseOn</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a7add49abad969ed057788d725ea2b895" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.OnLogItemClicked</definition>
+        <argsstring>(DebugLogItem item)</argsstring>
+        <name>OnLogItemClicked</name>
+        <param>
+          <type><ref refid="class_ingame_debug_console_1_1_debug_log_item" kindref="compound">DebugLogItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="80" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="80" bodyend="83"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1af0717252b60f33f677f97e9cdcf5db69" compoundref="_debug_log_item_8cs" startline="82">IngameDebugConsole.DebugLogItem.Index</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a06388eca318e1790e714fe6e515182b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.SelectAndFocusOnLogItemAtIndex</definition>
+        <argsstring>(int itemIndex)</argsstring>
+        <name>SelectAndFocusOnLogItemAtIndex</name>
+        <param>
+          <type>int</type>
+          <declname>itemIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="86" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="86" bodyend="100"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a00da876b64bd1da99ae17a2d3fe2da9b" compoundref="_debug_log_recycled_list_view_8cs" startline="41">IngameDebugConsole.DebugLogRecycledListView.indexOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6bbad1e3ae790defd4f26acb12038958" compoundref="_debug_log_recycled_list_view_8cs" startline="32">IngameDebugConsole.DebugLogRecycledListView.logItemHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aae9f2eb901d9506a53efdcf05148e030" compoundref="_debug_log_recycled_list_view_8cs" startline="33">IngameDebugConsole.DebugLogRecycledListView.viewportHeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.DeselectSelectedLogItem</definition>
+        <argsstring>()</argsstring>
+        <name>DeselectSelectedLogItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="138" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="138" bodyend="148"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a23c57649daae8ad7a8fcca7ef4501c92" compoundref="_debug_log_recycled_list_view_8cs" startline="352" endline="360">IngameDebugConsole.DebugLogRecycledListView.ColorLogItem</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9b53a6073d44da9848d538c51bfce2dd" compoundref="_debug_log_recycled_list_view_8cs" startline="52">IngameDebugConsole.DebugLogRecycledListView.currentBottomIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ad043af6801d7eb948860aa429e9bf8c4" compoundref="_debug_log_recycled_list_view_8cs" startline="52">IngameDebugConsole.DebugLogRecycledListView.currentTopIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1adc9451e1aa3384afcc36bec3780274f1" compoundref="_debug_log_recycled_list_view_8cs" startline="44">IngameDebugConsole.DebugLogRecycledListView.deltaHeightOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a88635173d112389a9a82bf774e1ed214" compoundref="_debug_log_recycled_list_view_8cs" startline="43">IngameDebugConsole.DebugLogRecycledListView.heightOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a00da876b64bd1da99ae17a2d3fe2da9b" compoundref="_debug_log_recycled_list_view_8cs" startline="41">IngameDebugConsole.DebugLogRecycledListView.indexOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae584cb82d4ba9dfd44cc8491b91347fc" compoundref="_debug_log_recycled_list_view_8cs" startline="47">IngameDebugConsole.DebugLogRecycledListView.logItemsAtIndices</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a3bd5ee791f5114df4329e4f1fbce5696" compoundref="_debug_log_recycled_list_view_8cs" startline="42">IngameDebugConsole.DebugLogRecycledListView.positionOfSelectedLogEntry</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1afb7cc8aa1bf71a0a58828da22ced5ca6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.OnLogEntriesUpdated</definition>
+        <argsstring>(bool updateAllVisibleItemContents)</argsstring>
+        <name>OnLogEntriesUpdated</name>
+        <param>
+          <type>bool</type>
+          <declname>updateAllVisibleItemContents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="151" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="151" bodyend="160"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a992a3c6c31a151dda17c74b2992838ee" compoundref="_debug_log_recycled_list_view_8cs" startline="186" endline="190">IngameDebugConsole.DebugLogRecycledListView.CalculateContentHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0a05607b754f57fbdcdc93b9ad46aef2" compoundref="_debug_log_recycled_list_view_8cs" startline="177" endline="184">IngameDebugConsole.DebugLogRecycledListView.HardResetItems</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aae9f2eb901d9506a53efdcf05148e030" compoundref="_debug_log_recycled_list_view_8cs" startline="33">IngameDebugConsole.DebugLogRecycledListView.viewportHeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a30b07d299ee1a3b5d8a99f35ca090be8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.OnCollapsedLogEntryAtIndexUpdated</definition>
+        <argsstring>(int index)</argsstring>
+        <name>OnCollapsedLogEntryAtIndexUpdated</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="163" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="163" bodyend="168"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae584cb82d4ba9dfd44cc8491b91347fc" compoundref="_debug_log_recycled_list_view_8cs" startline="47">IngameDebugConsole.DebugLogRecycledListView.logItemsAtIndices</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_item_1a00f06940cd5a25927db8539af62365b1" compoundref="_debug_log_item_8cs" startline="138" endline="144">IngameDebugConsole.DebugLogItem.ShowCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a24963d94306229dffd63f980e65a55fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.OnViewportDimensionsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnViewportDimensionsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="171" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="171" bodyend="175"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" compoundref="_debug_log_recycled_list_view_8cs" startline="194" endline="303">IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aae9f2eb901d9506a53efdcf05148e030" compoundref="_debug_log_recycled_list_view_8cs" startline="33">IngameDebugConsole.DebugLogRecycledListView.viewportHeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IngameDebugConsole.DebugLogRecycledListView.UpdateItemsInTheList</definition>
+        <argsstring>(bool updateAllVisibleItemContents)</argsstring>
+        <name>UpdateItemsInTheList</name>
+        <param>
+          <type>bool</type>
+          <declname>updateAllVisibleItemContents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="194" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="194" bodyend="303"/>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af5ec5e130fc4c04874ea59695c3e6f42" compoundref="_debug_log_recycled_list_view_8cs" startline="32">IngameDebugConsole.DebugLogRecycledListView._1OverLogItemHeight</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_index_list_1a868a3dd5cc53c0796390fbe12a7b6f8c" compoundref="_debug_log_index_list_8cs" startline="8">IngameDebugConsole.DebugLogIndexList.Count</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab655397fdefe220626152faa0dc4cf68" compoundref="_debug_log_recycled_list_view_8cs" startline="305" endline="309">IngameDebugConsole.DebugLogRecycledListView.CreateLogItemsBetweenIndices</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9b53a6073d44da9848d538c51bfce2dd" compoundref="_debug_log_recycled_list_view_8cs" startline="52">IngameDebugConsole.DebugLogRecycledListView.currentBottomIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ad043af6801d7eb948860aa429e9bf8c4" compoundref="_debug_log_recycled_list_view_8cs" startline="52">IngameDebugConsole.DebugLogRecycledListView.currentTopIndex</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1adc9451e1aa3384afcc36bec3780274f1" compoundref="_debug_log_recycled_list_view_8cs" startline="44">IngameDebugConsole.DebugLogRecycledListView.deltaHeightOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae66b991d2367814b0435fca37b2eb1b0" compoundref="_debug_log_recycled_list_view_8cs" startline="330" endline="334">IngameDebugConsole.DebugLogRecycledListView.DestroyLogItemsBetweenIndices</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0a05607b754f57fbdcdc93b9ad46aef2" compoundref="_debug_log_recycled_list_view_8cs" startline="177" endline="184">IngameDebugConsole.DebugLogRecycledListView.HardResetItems</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a4e0202e29dc1f862f8de222ccabcad51" compoundref="_debug_log_recycled_list_view_8cs" startline="39">IngameDebugConsole.DebugLogRecycledListView.indicesOfEntriesToShow</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a3bd5ee791f5114df4329e4f1fbce5696" compoundref="_debug_log_recycled_list_view_8cs" startline="42">IngameDebugConsole.DebugLogRecycledListView.positionOfSelectedLogEntry</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a899ce6d16fcf9a4c15b128f661e71a30" compoundref="_debug_log_recycled_list_view_8cs" startline="336" endline="349">IngameDebugConsole.DebugLogRecycledListView.UpdateLogItemContentsBetweenIndices</references>
+        <references refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aae9f2eb901d9506a53efdcf05148e030" compoundref="_debug_log_recycled_list_view_8cs" startline="33">IngameDebugConsole.DebugLogRecycledListView.viewportHeight</references>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab670de9ac7daf75cbf86d3247ab755af" compoundref="_debug_log_recycled_list_view_8cs" startline="57" endline="63">IngameDebugConsole.DebugLogRecycledListView.Awake</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1afb7cc8aa1bf71a0a58828da22ced5ca6" compoundref="_debug_log_recycled_list_view_8cs" startline="151" endline="160">IngameDebugConsole.DebugLogRecycledListView.OnLogEntriesUpdated</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" compoundref="_debug_log_recycled_list_view_8cs" startline="102" endline="135">IngameDebugConsole.DebugLogRecycledListView.OnLogItemClickedInternal</referencedby>
+        <referencedby refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a24963d94306229dffd63f980e65a55fa" compoundref="_debug_log_recycled_list_view_8cs" startline="171" endline="175">IngameDebugConsole.DebugLogRecycledListView.OnViewportDimensionsChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="69">
+        <label>IngameDebugConsole.DebugLogRecycledListView</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>IngameDebugConsole.DebugLogEntry</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_entry"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>IngameDebugConsole.DebugLogPopup</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_popup"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="usage">
+          <edgelabel>newErrorCountText</edgelabel>
+          <edgelabel>newWarningCountText</edgelabel>
+          <edgelabel>newInfoCountText</edgelabel>
+        </childnode>
+        <childnode refid="74" relation="usage">
+          <edgelabel>debugManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
+        <label>System::IEquatable&lt; DebugLogEntry &gt;</label>
+      </node>
+      <node id="83">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="73">
+        <label>IngameDebugConsole.DebugLogIndexList</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_index_list"/>
+      </node>
+      <node id="76">
+        <label>IngameDebugConsole.DebugLogItem</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_item"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="usage">
+          <edgelabel>logCountText</edgelabel>
+          <edgelabel>logText</edgelabel>
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>manager</edgelabel>
+        </childnode>
+        <childnode refid="78" relation="usage">
+          <edgelabel>logEntry</edgelabel>
+        </childnode>
+      </node>
+      <node id="84">
+        <label>System</label>
+      </node>
+      <node id="75">
+        <label>Text</label>
+      </node>
+      <node id="81">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="74">
+        <label>IngameDebugConsole.DebugLogManager</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_manager"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="usage">
+          <edgelabel>uncollapsedLogEntriesIndices</edgelabel>
+          <edgelabel>indicesOfListEntriesToShow</edgelabel>
+        </childnode>
+        <childnode refid="75" relation="usage">
+          <edgelabel>commandSuggestionPrefab</edgelabel>
+          <edgelabel>errorEntryCountText</edgelabel>
+          <edgelabel>warningEntryCountText</edgelabel>
+          <edgelabel>infoEntryCountText</edgelabel>
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>recycledListView</edgelabel>
+        </childnode>
+        <childnode refid="76" relation="usage">
+          <edgelabel>logItemPrefab</edgelabel>
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>popupManager</edgelabel>
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>OnLogWindowShown</edgelabel>
+          <edgelabel>OnLogWindowHidden</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>IngameDebugConsole.DebugLogRecycledListView</label>
+        <link refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="usage">
+          <edgelabel>indicesOfEntriesToShow</edgelabel>
+        </childnode>
+        <childnode refid="74" relation="usage">
+          <edgelabel>debugManager</edgelabel>
+          <edgelabel>manager</edgelabel>
+        </childnode>
+      </node>
+      <node id="77">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="72">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="82">
+        <label>IDragHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" line="10" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs" bodystart="9" bodyend="361"/>
+    <listofallmembers>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af5ec5e130fc4c04874ea59695c3e6f42" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>_1OverLogItemHeight</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab670de9ac7daf75cbf86d3247ab755af" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>Awake</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a992a3c6c31a151dda17c74b2992838ee" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>CalculateContentHeight</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a7d4d668ef82759ef2f1a13bec264b87e" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>collapsedLogEntries</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a23c57649daae8ad7a8fcca7ef4501c92" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>ColorLogItem</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1af91bb486387b1a5c0539679e90f45668" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>CreateLogItemAtIndex</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab655397fdefe220626152faa0dc4cf68" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>CreateLogItemsBetweenIndices</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9b53a6073d44da9848d538c51bfce2dd" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>currentBottomIndex</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ad043af6801d7eb948860aa429e9bf8c4" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>currentTopIndex</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6c99f90ccb24bcbc432a53d9488557bd" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>debugManager</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1adc9451e1aa3384afcc36bec3780274f1" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>deltaHeightOfSelectedLogEntry</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0cbd1f3a97e87cc64195bd762be5ba76" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>DeselectSelectedLogItem</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae66b991d2367814b0435fca37b2eb1b0" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>DestroyLogItemsBetweenIndices</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a0a05607b754f57fbdcdc93b9ad46aef2" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>HardResetItems</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a88635173d112389a9a82bf774e1ed214" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>heightOfSelectedLogEntry</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a00da876b64bd1da99ae17a2d3fe2da9b" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>indexOfSelectedLogEntry</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a4e0202e29dc1f862f8de222ccabcad51" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>indicesOfEntriesToShow</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a86bc5b4ca8a1b911ea63cad8d4e4f598" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>Initialize</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a454ec5d83942a73548a9d23f7509a24e" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>isCollapseOn</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ab84a36160c50f0ff7e8e013ee2c7e72f" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>ItemHeight</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a6bbad1e3ae790defd4f26acb12038958" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>logItemHeight</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a73293f9692d827ce77624304c03ce98a" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>logItemNormalColor1</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9bcb00b75dd01a06cfbb6acccb6d4a79" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>logItemNormalColor2</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1ae584cb82d4ba9dfd44cc8491b91347fc" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>logItemsAtIndices</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aaa8c33cc2cf72337f10d5aa3eab35e7e" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>logItemSelectedColor</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1add16c8a525d794b99ced7ded887c8c8b" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>manager</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a30b07d299ee1a3b5d8a99f35ca090be8" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>OnCollapsedLogEntryAtIndexUpdated</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1afb7cc8aa1bf71a0a58828da22ced5ca6" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>OnLogEntriesUpdated</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a7add49abad969ed057788d725ea2b895" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>OnLogItemClicked</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8b87f7c8fadf97b86e12d04e969ca057" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>OnLogItemClickedInternal</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a24963d94306229dffd63f980e65a55fa" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>OnViewportDimensionsChanged</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a3bd5ee791f5114df4329e4f1fbce5696" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>positionOfSelectedLogEntry</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a9413ffcf8385d11a67d50cd7ac2b0123" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>scrollView</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a06388eca318e1790e714fe6e515182b0" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>SelectAndFocusOnLogItemAtIndex</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a694019ba00520730f31e43b192d9b1c4" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>SelectedItemHeight</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a430df4bc771e855499d93a81cf2157f0" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>SetCollapseMode</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a8a14c528d5990c06ad190df6272fd63b" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>transformComponent</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a46cd1c745725f55d5970d4ad48600659" prot="public" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>UpdateItemsInTheList</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1a899ce6d16fcf9a4c15b128f661e71a30" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>UpdateLogItemContentsBetweenIndices</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aae9f2eb901d9506a53efdcf05148e030" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>viewportHeight</name></member>
+      <member refid="class_ingame_debug_console_1_1_debug_log_recycled_list_view_1aa93250bee2e920ac4167345b430eff55" prot="private" virt="non-virtual"><scope>IngameDebugConsole::DebugLogRecycledListView</scope><name>viewportTransform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

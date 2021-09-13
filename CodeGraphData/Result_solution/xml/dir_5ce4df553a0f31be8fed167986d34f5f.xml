@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5ce4df553a0f31be8fed167986d34f5f" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Scripts/Y_EasyDebug</compoundname>
+    <innerfile refid="_easy_debug_8cs">EasyDebug.cs</innerfile>
+    <innerfile refid="_player_trail_8cs">PlayerTrail.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/Y_EasyDebug/"/>
+  </compounddef>
+</doxygen>

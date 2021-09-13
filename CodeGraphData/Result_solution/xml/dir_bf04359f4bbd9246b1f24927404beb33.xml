@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_bf04359f4bbd9246b1f24927404beb33" kind="dir">
+    <compoundname>D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/Editor</compoundname>
+    <innerfile refid="_debug_console_view_8cs">DebugConsoleView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugConsole/Editor/"/>
+  </compounddef>
+</doxygen>

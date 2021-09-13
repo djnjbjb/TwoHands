@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_y_1_1_debug_panel_1_1_category" kind="class" prot="public">
+    <compoundname>Y::DebugPanel::Category</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_y_1_1_debug_panel_1_1_category_1ab5b40e8734f04449919866cca3d0779b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Y.DebugPanel.Category.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="344" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_y_1_1_debug_panel_1_1_category_1a624bd9ef7b40ddf873bf5de9c3c6627f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Y.DebugPanel.Category.state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="345" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_y_1_1_debug_panel_1_1_category_1ab87474a00b680831a5dae4586e2c2ea2" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Y.DebugPanel.Category.button</definition>
+        <argsstring></argsstring>
+        <name>button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="346" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_y_1_1_debug_panel_1_1_category_1a936dd87b7cbc30236a8906eeae25a9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Y.DebugPanel.Category.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="348" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="348" bodyend="356"/>
+        <references refid="class_y_1_1_debug_panel_1_1_message_1a5906415dd8b31fa4c8c98619a0194b04" compoundref="_debug_panel_8cs" startline="333">Y.DebugPanel.Message.category</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" line="343" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/Yurowm/DebugPanel/DebugPanel.cs" bodystart="343" bodyend="357"/>
+    <listofallmembers>
+      <member refid="class_y_1_1_debug_panel_1_1_category_1ab87474a00b680831a5dae4586e2c2ea2" prot="public" virt="non-virtual"><scope>Y::DebugPanel::Category</scope><name>button</name></member>
+      <member refid="class_y_1_1_debug_panel_1_1_category_1ab5b40e8734f04449919866cca3d0779b" prot="public" virt="non-virtual"><scope>Y::DebugPanel::Category</scope><name>name</name></member>
+      <member refid="class_y_1_1_debug_panel_1_1_category_1a624bd9ef7b40ddf873bf5de9c3c6627f" prot="public" virt="non-virtual"><scope>Y::DebugPanel::Category</scope><name>state</name></member>
+      <member refid="class_y_1_1_debug_panel_1_1_category_1a936dd87b7cbc30236a8906eeae25a9d7" prot="public" virt="non-virtual"><scope>Y::DebugPanel::Category</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

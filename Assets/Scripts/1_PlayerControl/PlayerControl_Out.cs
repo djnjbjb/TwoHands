@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Ludo.Extensions;
 
 public partial class PlayerControl : MonoBehaviour
 {
@@ -81,5 +82,14 @@ public partial class PlayerControl : MonoBehaviour
     public int Out_GetMoveDirectionReverseIfGrabEnv()
     {
         return moveDirectionReverseIfGrabEnv;
+    }
+
+    public void BeKilledEffect()
+    {
+        Transform head = transform.Find("Body").Find("Head");
+        GameObject crying = head.LudoFind("Crying", includeInactive: true, recursive: false).gameObject;
+        crying.SetActive(true);
+        SpriteRenderer sprite = head.GetComponent<SpriteRenderer>();
+        sprite.sortingOrder = 10;
     }
 }

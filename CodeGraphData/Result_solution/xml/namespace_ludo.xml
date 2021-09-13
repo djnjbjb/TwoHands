@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_ludo" kind="namespace">
+    <compoundname>Ludo</compoundname>
+    <innerclass refid="class_ludo_1_1_log_file" prot="public">Ludo::LogFile</innerclass>
+    <innerclass refid="class_ludo_1_1_utility" prot="public">Ludo::Utility</innerclass>
+    <innernamespace refid="namespace_ludo_1_1_extensions">Ludo::Extensions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Project/TwoHandsWar/Assets/Scripts/4_Ludo/Extension.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

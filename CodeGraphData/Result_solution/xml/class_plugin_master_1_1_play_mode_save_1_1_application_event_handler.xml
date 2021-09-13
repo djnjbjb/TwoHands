@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler" kind="class" prot="private">
+    <compoundname>PluginMaster::PlayModeSave::ApplicationEventHandler</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a72e4fd090aeab85ea93c80d9f08f292c" prot="private" static="yes" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PluginMaster.PlayModeSave.ApplicationEventHandler.autoApplyFlag</definition>
+        <argsstring></argsstring>
+        <name>autoApplyFlag</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="233" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="233" bodyend="-1"/>
+        <referencedby refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1aea4838d68a08d82069585e1be97aac51" compoundref="_play_mode_save_8cs" startline="242" endline="275">PluginMaster.PlayModeSave.ApplicationEventHandler.OnStateChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a6a25614155280468e6f26e016fcf9784" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D PluginMaster.PlayModeSave.ApplicationEventHandler._icon</definition>
+        <argsstring></argsstring>
+        <name>_icon</name>
+        <initializer>= Resources.Load&lt;Texture2D&gt;(&quot;Save&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="235" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="235" bodyend="-1"/>
+        <referencedby refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1af765d3ade3960376b51ea888975ace17" compoundref="_play_mode_save_8cs" startline="277" endline="284">PluginMaster.PlayModeSave.ApplicationEventHandler.HierarchyItemCallback</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a17eab373c56bd65aa97d6e626d0c7a8f" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string PluginMaster.PlayModeSave.ApplicationEventHandler.AUTO_APPLY_OBJECT_NAME</definition>
+        <argsstring></argsstring>
+        <name>AUTO_APPLY_OBJECT_NAME</name>
+        <initializer>= &quot;PlayModeSave_AutoApply&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="234" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="234" bodyend="-1"/>
+        <referencedby refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1aea4838d68a08d82069585e1be97aac51" compoundref="_play_mode_save_8cs" startline="242" endline="275">PluginMaster.PlayModeSave.ApplicationEventHandler.OnStateChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a6fc4440907ba17d2ca209f3d696dbeff" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static PluginMaster.PlayModeSave.ApplicationEventHandler.ApplicationEventHandler</definition>
+        <argsstring>()</argsstring>
+        <name>ApplicationEventHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="236" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="236" bodyend="241"/>
+        <references refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1af765d3ade3960376b51ea888975ace17" compoundref="_play_mode_save_8cs" startline="277" endline="284">PluginMaster.PlayModeSave.ApplicationEventHandler.HierarchyItemCallback</references>
+        <references refid="class_plugin_master_1_1_play_mode_save_1a6e6dbb5d5eec966b0458113d88bdea75" compoundref="_play_mode_save_8cs" startline="60" endline="65">PluginMaster.PlayModeSave.LoadPrefs</references>
+        <references refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1aea4838d68a08d82069585e1be97aac51" compoundref="_play_mode_save_8cs" startline="242" endline="275">PluginMaster.PlayModeSave.ApplicationEventHandler.OnStateChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1aea4838d68a08d82069585e1be97aac51" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PluginMaster.PlayModeSave.ApplicationEventHandler.OnStateChanged</definition>
+        <argsstring>(PlayModeStateChange state)</argsstring>
+        <name>OnStateChanged</name>
+        <param>
+          <type>PlayModeStateChange</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="242" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="242" bodyend="275"/>
+        <references refid="class_plugin_master_1_1_play_mode_save_1ad03ab65be100984f7523d6be6b9cce61" compoundref="_play_mode_save_8cs" startline="126">PluginMaster.PlayModeSave._autoApply</references>
+        <references refid="class_plugin_master_1_1_play_mode_save_1a4e683fc2b8bc2d6827265492915b9f63" compoundref="_play_mode_save_8cs" startline="127">PluginMaster.PlayModeSave._autoSave</references>
+        <references refid="class_plugin_master_1_1_play_mode_save_1a6cbe4ac994b38536388133ccbfb2fe40" compoundref="_play_mode_save_8cs" startline="160">PluginMaster.PlayModeSave._compData</references>
+        <references refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a17eab373c56bd65aa97d6e626d0c7a8f" compoundref="_play_mode_save_8cs" startline="234">PluginMaster.PlayModeSave.ApplicationEventHandler.AUTO_APPLY_OBJECT_NAME</references>
+        <references refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a72e4fd090aeab85ea93c80d9f08f292c" compoundref="_play_mode_save_8cs" startline="233">PluginMaster.PlayModeSave.ApplicationEventHandler.autoApplyFlag</references>
+        <references refid="class_plugin_master_1_1_play_mode_save_1aff3bb4e4c562bf1d1410a12514a012b9" compoundref="_play_mode_save_8cs" startline="185" endline="192">PluginMaster.PlayModeSave.AutoSave</references>
+        <referencedby refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a6fc4440907ba17d2ca209f3d696dbeff" compoundref="_play_mode_save_8cs" startline="236" endline="241">PluginMaster.PlayModeSave.ApplicationEventHandler.ApplicationEventHandler</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1af765d3ade3960376b51ea888975ace17" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PluginMaster.PlayModeSave.ApplicationEventHandler.HierarchyItemCallback</definition>
+        <argsstring>(int instanceID, Rect selectionRect)</argsstring>
+        <name>HierarchyItemCallback</name>
+        <param>
+          <type>int</type>
+          <declname>instanceID</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>selectionRect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="277" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="277" bodyend="284"/>
+        <references refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a6a25614155280468e6f26e016fcf9784" compoundref="_play_mode_save_8cs" startline="235">PluginMaster.PlayModeSave.ApplicationEventHandler._icon</references>
+        <referencedby refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a6fc4440907ba17d2ca209f3d696dbeff" compoundref="_play_mode_save_8cs" startline="236" endline="241">PluginMaster.PlayModeSave.ApplicationEventHandler.ApplicationEventHandler</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>PluginMaster.PlayModeSave.ApplicationEventHandler</label>
+        <link refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>autoApplyFlag</edgelabel>
+          <edgelabel>_icon</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" line="232" column="1" bodyfile="D:/Project/TwoHandsWar/Assets/Plugins/PlayModeSave/Editor/Scripts/PlayModeSave.cs" bodystart="231" bodyend="285"/>
+    <listofallmembers>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a6a25614155280468e6f26e016fcf9784" prot="private" virt="non-virtual"><scope>PluginMaster::PlayModeSave::ApplicationEventHandler</scope><name>_icon</name></member>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a6fc4440907ba17d2ca209f3d696dbeff" prot="private" virt="non-virtual"><scope>PluginMaster::PlayModeSave::ApplicationEventHandler</scope><name>ApplicationEventHandler</name></member>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a17eab373c56bd65aa97d6e626d0c7a8f" prot="private" virt="non-virtual"><scope>PluginMaster::PlayModeSave::ApplicationEventHandler</scope><name>AUTO_APPLY_OBJECT_NAME</name></member>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1a72e4fd090aeab85ea93c80d9f08f292c" prot="private" virt="non-virtual"><scope>PluginMaster::PlayModeSave::ApplicationEventHandler</scope><name>autoApplyFlag</name></member>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1af765d3ade3960376b51ea888975ace17" prot="private" virt="non-virtual"><scope>PluginMaster::PlayModeSave::ApplicationEventHandler</scope><name>HierarchyItemCallback</name></member>
+      <member refid="class_plugin_master_1_1_play_mode_save_1_1_application_event_handler_1aea4838d68a08d82069585e1be97aac51" prot="private" virt="non-virtual"><scope>PluginMaster::PlayModeSave::ApplicationEventHandler</scope><name>OnStateChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
