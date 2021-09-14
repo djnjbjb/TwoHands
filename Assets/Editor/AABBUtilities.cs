@@ -174,7 +174,7 @@ public static class AABBUtilities
 	
 
 
-	[MenuItem("GameObject/AABB/MaintainTopLeftSacleY_Start #q", false, 60)]
+	[MenuItem("GameObject/AABB/MaintainTopLeftSacleY_Start", false, 60)]
 	static void MaintainTopLeftSacleY_Start()
 	{
 		SaveScaleY();
@@ -182,7 +182,7 @@ public static class AABBUtilities
 		SaveTop();
 	}
 
-	[MenuItem("GameObject/AABB/MaintainTopLeftSacleY_End &q", false, 61)]
+	[MenuItem("GameObject/AABB/MaintainTopLeftSacleY_End", false, 61)]
 	static void MaintainTopLeftSacleY_End()
 	{
 		RestoreScaleY();
@@ -191,7 +191,7 @@ public static class AABBUtilities
 		
 	}
 
-	[MenuItem("GameObject/AABB/MaintainLeftBottomSacleX_Start #e", false, 62)]
+	[MenuItem("GameObject/AABB/MaintainLeftBottomSacleX_Start", false, 62)]
 	static void MaintainLeftBottomSacleX_Start()
 	{
 		SaveScaleX();
@@ -199,7 +199,7 @@ public static class AABBUtilities
 		SaveBottom();
 	}
 
-	[MenuItem("GameObject/AABB/MaintainLeftBottomSacleX_End &e", false, 63)]
+	[MenuItem("GameObject/AABB/MaintainLeftBottomSacleX_End", false, 63)]
 	static void MaintainLeftBottomSacleX_End()
 	{
 		RestoreScaleX();

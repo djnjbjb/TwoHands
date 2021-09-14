@@ -2,21 +2,29 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public static class LayerMaskExtension
+namespace Ludo.Extensions
 {
-    public static int GetMaskInTwoHandsWar(params string[] layerNames)
+    public static class LayerMaskExtension
     {
-        List<string> layerNamesList = new List<string>(layerNames);
-        for(int i = 0; i < layerNamesList.Count; i++)
+        public static int GetMaskInTwoHandsWar(params string[] layerNames)
         {
-            string value = layerNamesList[i];
-            if (value == "Env")
+            List<string> layerNamesList = new List<string>(layerNames);
+            for (int i = 0; i < layerNamesList.Count; i++)
             {
-                layerNamesList.RemoveAt(i);
-                layerNamesList.AddRange(new List<string>() {"EnvRock", "EnvGround", "EnvRoundRock"});
+                string value = layerNamesList[i];
+                if (value == "Env")
+                {
+                    layerNamesList.RemoveAt(i);
+                    layerNamesList.AddRange(new List<string>() { "EnvRock", "EnvGround", "EnvRoundRock" });
+                }
             }
+            return LayerMask.GetMask(layerNamesList.ToArray());
         }
-        return LayerMask.GetMask(layerNamesList.ToArray());
+
+        public static int GetMaskFromInt(int layer)
+        {
+            return 1 << layer;
+        }
+
     }
-    
 }

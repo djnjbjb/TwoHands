@@ -31,50 +31,118 @@ public partial class Shuriken : MonoBehaviour
 
     }
 
+    public class BeforeTriggerFire : State
+    {
+        //in
+        Rigidbody2D rigidbody2D;
+        float idleDistance;
+        Vector2 direction;
+        Vector3 initPosition;
+
+        public BeforeTriggerFire(Shuriken shuriken,
+            Vector3 initPosition, float idleDistance, Vector2 direction, Rigidbody2D rigidbody2D)
+            : base(shuriken)
+        {
+            
+            this.direction = direction;
+            this.idleDistance = idleDistance;
+            this.rigidbody2D = rigidbody2D;
+            this.initPosition = initPosition;
+        }
+
+        public override void StateStart()
+        {
+            rigidbody2D.simulated = false;
+            Vector2 idleDirection = -direction.normalized;
+            shuriken.transform.position = initPosition +
+                                          (Vector3)(idleDirection * idleDistance);
+        }
+
+        public override void StateFixedUpdate()
+        {
+
+        }
+
+        public override void StateLateFixedUpdate()
+        {
+
+        }
+
+        public override void StateManuallyEnd()
+        {
+
+        }
+
+        public override State NextState()
+        {
+            return null;
+        }
+
+        public override string ToString()
+        {
+            return "Before Tirgger Fire";
+        }
+    }
+
     public class BeforeShowState : State
     {
         //in
+        Vector3 initPosition;
         float idleTime;
         float flyTime;
         float idleDistance;
         Vector2 direction;
         Rigidbody2D rigidbody2D;
 
-        //cached
-        Vector3 initPosition;
-
         public BeforeShowState(Shuriken shuriken,
-            float idleTime, float flyTime, float idleDistance, Vector2 direction, Rigidbody2D rigidbody2D)
+            Vector3 initPosition, float idleTime, float flyTime, float idleDistance, Vector2 direction, Rigidbody2D rigidbody2D)
             : base(shuriken)
         {
-
+            this.initPosition = initPosition;
             this.idleTime = idleTime;
             this.flyTime = flyTime;
             this.direction = direction;
             this.idleDistance = idleDistance;
             this.rigidbody2D = rigidbody2D;
+
         }
 
         public override void StateStart()
         {
+            IEnumerator StateStartCoroutine()
+            {
+                void End()
+                {
+                    ended = true;
+                }
+
+                rigidbody2D.simulated = false;
+
+                Vector2 idleDirection = -direction.normalized;
+                shuriken.transform.position = initPosition +
+                                              (Vector3)(idleDirection * idleDistance);
+
+                yield return new WaitForSeconds(idleTime);
+
+                Tweener tw = DOTween.To(
+                    () => shuriken.transform.position,
+                    (p) => shuriken.transform.position = p,
+                    initPosition,
+                    flyTime);
+                tw.OnComplete(End);
+            }
+
             shuriken.StartCoroutine(StateStartCoroutine());
         }
 
-        IEnumerator StateStartCoroutine()
+        public void StateStartByTrigger()
         {
             void End()
             {
                 ended = true;
             }
-            initPosition = shuriken.transform.position;
+
             rigidbody2D.simulated = false;
-
-            Vector2 idleDirection = -direction.normalized;
-            shuriken.transform.position = shuriken.transform.position +
-                                          (Vector3)(idleDirection * idleDistance);
-
-            yield return new WaitForSeconds(idleTime);
-
             Tweener tw = DOTween.To(
                 () => shuriken.transform.position,
                 (p) => shuriken.transform.position = p,
@@ -82,6 +150,7 @@ public partial class Shuriken : MonoBehaviour
                 flyTime);
             tw.OnComplete(End);
         }
+        
 
         public override void StateFixedUpdate()
         {

@@ -164,99 +164,8 @@ public class HKey : MonoBehaviour
         Vector2 lMvDirKeyboard = new Vector2(lMvRight, lMvUp).normalized;
         Vector2 rMvDirKeyboard = new Vector2(rMvRight, rMvUp).normalized;
 
-        Vector2 lMvDirGamepad = Vector2.zero;
-        Vector2 rMvDirGamepad = Vector2.zero;
-        if (leftStick != Vector2.zero)
-        {
-            if (Vector2.SignedAngle(leftStick, Vector2.up) >= -18
-                && Vector2.SignedAngle(leftStick, Vector2.up) < 18)
-            {
-                lMvDirGamepad = Vector2.up;
-            }
-            else if (Vector2.SignedAngle(leftStick, Vector2.up) >= 18
-                && Vector2.SignedAngle(leftStick, Vector2.up) < 18 + 54)
-            {
-                lMvDirGamepad = new Vector2(1, 1).normalized;
-            }
-            else if (Vector2.SignedAngle(leftStick, Vector2.up) >= 18+54
-                && Vector2.SignedAngle(leftStick, Vector2.up) < 90 + 18)
-            {
-                lMvDirGamepad = Vector2.right;
-            }
-
-            else if (Vector2.SignedAngle(leftStick, Vector2.up) >= 90+18
-                && Vector2.SignedAngle(leftStick, Vector2.up) < 180-18)
-            {
-                lMvDirGamepad = new Vector2(1, -1).normalized;
-            }
-            else if ( ( Vector2.SignedAngle(leftStick, Vector2.up) >= 180-18 && Vector2.SignedAngle(leftStick, Vector2.up) <= 180 )
-                     || ( Vector2.SignedAngle(leftStick, Vector2.up) >= -180 && Vector2.SignedAngle(leftStick, Vector2.up) < -(180-18) )
-                    ) 
-            {
-                lMvDirGamepad = Vector2.down;
-            }
-            else if (Vector2.SignedAngle(leftStick, Vector2.up) >= -(180 - 18)
-                && Vector2.SignedAngle(leftStick, Vector2.up) < -(180 - 18 - 54))
-            {
-                lMvDirGamepad = new Vector2(-1, -1).normalized;
-            }
-            else if (Vector2.SignedAngle(leftStick, Vector2.up) >= -(90 + 18)
-                && Vector2.SignedAngle(leftStick, Vector2.up) < -(90 - 18))
-            {
-                lMvDirGamepad = Vector2.left;
-            }
-            else if (Vector2.SignedAngle(leftStick, Vector2.up) >= -(90 - 18)
-                && Vector2.SignedAngle(leftStick, Vector2.up) < -18)
-            {
-                lMvDirGamepad = new Vector2(-1, 1).normalized;
-            }
-        }
-        
-        if (rightStick != Vector2.zero)
-        {
-            if (Vector2.SignedAngle(rightStick, Vector2.up) >= -18
-                && Vector2.SignedAngle(rightStick, Vector2.up) < 18)
-            {
-                rMvDirGamepad = Vector2.up;
-            }
-            else if (Vector2.SignedAngle(rightStick, Vector2.up) >= 18
-                && Vector2.SignedAngle(rightStick, Vector2.up) < 18 + 54)
-            {
-                rMvDirGamepad = new Vector2(1, 1).normalized;
-            }
-            else if (Vector2.SignedAngle(rightStick, Vector2.up) >= 18 + 54
-                && Vector2.SignedAngle(rightStick, Vector2.up) < 90 + 18)
-            {
-                rMvDirGamepad = Vector2.right;
-            }
-
-            else if (Vector2.SignedAngle(rightStick, Vector2.up) >= 90 + 18
-                && Vector2.SignedAngle(rightStick, Vector2.up) < 180 - 18)
-            {
-                rMvDirGamepad = new Vector2(1, -1).normalized;
-            }
-            else if ((Vector2.SignedAngle(rightStick, Vector2.up) >= 180 - 18 && Vector2.SignedAngle(rightStick, Vector2.up) <= 180)
-                     || (Vector2.SignedAngle(rightStick, Vector2.up) >= -180 && Vector2.SignedAngle(rightStick, Vector2.up) < -(180 - 18))
-                    )
-            {
-                rMvDirGamepad = Vector2.down;
-            }
-            else if (Vector2.SignedAngle(rightStick, Vector2.up) >= -(180 - 18)
-                && Vector2.SignedAngle(rightStick, Vector2.up) < -(180 - 18 - 54))
-            {
-                rMvDirGamepad = new Vector2(-1, -1).normalized;
-            }
-            else if (Vector2.SignedAngle(rightStick, Vector2.up) >= -(90 + 18)
-                && Vector2.SignedAngle(rightStick, Vector2.up) < -(90 - 18))
-            {
-                rMvDirGamepad = Vector2.left;
-            }
-            else if (Vector2.SignedAngle(rightStick, Vector2.up) >= -(90 - 18)
-                && Vector2.SignedAngle(rightStick, Vector2.up) < -18)
-            {
-                rMvDirGamepad = new Vector2(-1, 1).normalized;
-            }
-        }
+        Vector2 lMvDirGamepad = StickAngleToInGameDirecton(leftStick);
+        Vector2 rMvDirGamepad = StickAngleToInGameDirecton(rightStick);
         
         lMvDir = lMvDirGamepad != Vector2.zero ? lMvDirGamepad : lMvDirKeyboard;
         rMvDir = rMvDirGamepad != Vector2.zero ? rMvDirGamepad : rMvDirKeyboard;
@@ -267,12 +176,6 @@ public class HKey : MonoBehaviour
         lAnyDirKeyHold = lAnyDirKeyHold_Keyboard || lAnyDirKeyHold_Gamepad;
         rAnyDirKeyHold = rAnyDirKeyHold_Keyboard || rAnyDirKeyHold_Gamepad;
 
-        /*
-        Debug.Log("stick:" + leftStick);
-        Debug.Log("GamePad:" + lMvDirGamepad);
-        Debug.Log("Move:" + lMvDir);
-        */
-
         Y.DebugPanel.Log(_name: "lMvDirKeyboard", _message: lMvDirKeyboard, _category: "HKey");
         Y.DebugPanel.Log(_name: "leftStick", _message: leftStick, _category: "HKey");
         Y.DebugPanel.Log(_name: "angle", _message: Vector2.SignedAngle(leftStick, Vector2.up), _category: "HKey");
@@ -281,6 +184,72 @@ public class HKey : MonoBehaviour
         Y.DebugPanel.Log(_name: "lAnyDirKeyHold", _message: lAnyDirKeyHold, _category: "HKey");
         Y.DebugPanel.Log(_name: "lAnyDirKeyHold_Keyboard", _message: lAnyDirKeyHold_Keyboard, _category: "HKey");
         Y.DebugPanel.Log(_name: "lAnyDirKeyHold_GamePad", _message: lAnyDirKeyHold_Gamepad, _category: "HKey");
+    }
+
+    /// <summary>
+    /// 如果stickValue为Vector2.zero：
+    ///     返回Vector2.zero；    
+    /// 普通情况(stickValue不为零)：
+    ///     返回 stickValue转成的“八向的单位向量”。
+    /// </summary>
+    /// <param name="stickValue"></param>
+    /// <returns></returns>
+    static Vector2 StickAngleToInGameDirecton(Vector2 stickValue)
+    {
+        //setting
+        const float straightAngle = 45f;
+        //cached
+        float half = straightAngle / 2;
+        float oblique = 90 - straightAngle;
+        float halfOblique = oblique / 2;
+        
+        Vector3 inGameDirection = Vector2.zero;
+        if (stickValue != Vector2.zero)
+        {
+            if (Vector2.SignedAngle(stickValue, Vector2.up) >= -half
+                && Vector2.SignedAngle(stickValue, Vector2.up) < half)
+            {
+                inGameDirection = Vector2.up;
+            }
+            else if (Vector2.SignedAngle(stickValue, Vector2.up) >= half
+                  && Vector2.SignedAngle(stickValue, Vector2.up) < 90 - half)
+            {
+                inGameDirection = new Vector2(1, 1).normalized;
+            }
+            else if (Vector2.SignedAngle(stickValue, Vector2.up) >= 90 - half
+                && Vector2.SignedAngle(stickValue, Vector2.up) < 90 + half)
+            {
+                inGameDirection = Vector2.right;
+            }
+
+            else if (Vector2.SignedAngle(stickValue, Vector2.up) >= 90 + half
+                && Vector2.SignedAngle(stickValue, Vector2.up) < 180 - half)
+            {
+                inGameDirection = new Vector2(1, -1).normalized;
+            }
+            else if ((Vector2.SignedAngle(stickValue, Vector2.up) >= 180 - half && Vector2.SignedAngle(stickValue, Vector2.up) <= 180)
+                     || (Vector2.SignedAngle(stickValue, Vector2.up) >= -180 && Vector2.SignedAngle(stickValue, Vector2.up) < -(180 - half))
+                    )
+            {
+                inGameDirection = Vector2.down;
+            }
+            else if (Vector2.SignedAngle(stickValue, Vector2.up) >= -(180 - half)
+                && Vector2.SignedAngle(stickValue, Vector2.up) < -(90 + half))
+            {
+                inGameDirection = new Vector2(-1, -1).normalized;
+            }
+            else if (Vector2.SignedAngle(stickValue, Vector2.up) >= -(90 + half)
+                && Vector2.SignedAngle(stickValue, Vector2.up) < -(90 - half))
+            {
+                inGameDirection = Vector2.left;
+            }
+            else if (Vector2.SignedAngle(stickValue, Vector2.up) >= -(90 - half)
+                && Vector2.SignedAngle(stickValue, Vector2.up) < -half)
+            {
+                inGameDirection = new Vector2(-1, 1).normalized;
+            }
+        }
+        return inGameDirection;
     }
 
     static private void DebugModUpdateRefresh()

@@ -48,8 +48,15 @@ public partial class Shuriken : MonoBehaviour
         ToTargetPoint
     }
 
+    public enum StartType
+    {
+        Auto,
+        Trigger
+    }
+
     //Setting
     [SerializeField] DirectionType directionType;
+    [SerializeField] StartType startType;
     //
     [SerializeField] public float beforeShowIdleTime = 5f;
     float beforeShowFlyTime = 0.35f;
@@ -73,6 +80,7 @@ public partial class Shuriken : MonoBehaviour
     //runtime unchanged
     SpriteRenderer sprite;
     new Rigidbody2D rigidbody2D;
+    Vector3 initPosition;
     Vector3 targetPointPosition;
     Vector3 frontToBack;
     Vector3 bottomToTop;
@@ -89,12 +97,31 @@ public partial class Shuriken : MonoBehaviour
     //thisRigidbody2D.simulated
     //HCAudio2.audioSource.PlayOneShot
 
-    void ChangeStateOnStart()
+    void ChangeStateOnTriggerStart()
     {
-        _state = new BeforeShowState(this,
-            beforeShowIdleTime, beforeShowFlyTime,
+        _state = new BeforeTriggerFire(this,
+            initPosition, beforeShowIdleDistance, direction, rigidbody2D);
+        _state.StateStart();
+    }
+
+    void ChangeStateOnAutoStart()
+    {
+        _state = new BeforeShowState(this, 
+            initPosition, beforeShowIdleTime, beforeShowFlyTime,
             beforeShowIdleDistance, direction, rigidbody2D);
         _state.StateStart();
+    }
+
+    void ChangeStateOnTriggerFire()
+    {
+        if (_state != null && _state.ended != true)
+        {
+            _state.StateManuallyEnd();
+        }
+        _state = new BeforeShowState(this,
+            initPosition, beforeShowIdleTime, beforeShowFlyTime,
+            beforeShowIdleDistance, direction, rigidbody2D);
+        (_state as BeforeShowState).StateStartByTrigger();
     }
 
     void ChangeStateOnNaturalEnd()
@@ -133,6 +160,7 @@ public partial class Shuriken : MonoBehaviour
         //field: runtime unchanged
         sprite = GetComponent<SpriteRenderer>();
         rigidbody2D = GetComponent<Rigidbody2D>();
+        initPosition = transform.position;
         targetPointPosition = transform.Find("TargetPoint").position;  //targetPoint是子节点。所以，为保证其位置正确，要在一开始记录。
         frontToBack = transform.Find("Back").position - transform.Find("Front").position;
         bottomToTop = transform.Find("Top").position - transform.Find("Bottom").position;
@@ -160,8 +188,17 @@ public partial class Shuriken : MonoBehaviour
 
         //field: runtime OnChanging
         rigidbody2D.simulated = false;
-        ChangeStateOnStart();
-
+        switch (startType)
+        {
+            case StartType.Auto:
+                ChangeStateOnAutoStart();
+                break;
+            case StartType.Trigger:
+                ChangeStateOnTriggerStart();
+                break;
+            default:
+                throw new Exception("Invalid startType");
+        }
         //Start LateFixedUpdate
         StartCoroutine(YieldReturnFixedUpdate());
     }
@@ -207,6 +244,11 @@ public partial class Shuriken : MonoBehaviour
     public void KillPlayerEffect()
     {
         ChangeStateOnKillPlayer();
+    }
+
+    public void FireByTrigger()
+    {
+        ChangeStateOnTriggerFire();
     }
 
  #region Editor
