@@ -10,8 +10,40 @@ public class DebugTool : MonoBehaviour
     [SerializeField] GameObject TrailPrefab = null;
     [SerializeField] bool testMusicOff = false;
     [SerializeField] bool testShurikenKillOff = false;
+    [SerializeField] bool testYurowmDebugPenalOn = false;
+
+    [Header("-----------------------------------")]
+    [SerializeField] bool guiSpawn = false;
+    [SerializeField] GameObject guiSpawnPrefab = null ;
+    [Header("-----------------------------------")]
+    [SerializeField] bool hkeyDebugMode = false;
+
+    public static DebugTool instance = null;
     GameObject player;
     UnityEngine.InputSystem.Keyboard keyboard;
+
+    public static bool IsFunctioning()
+    {
+        return !(instance == null);
+    }
+
+    private void Awake()
+    {
+        instance = this;
+        Y.DebugPanel.initActive = testYurowmDebugPenalOn;
+    }
+
+    private void OnGUI()
+    {
+        if (guiSpawn == false)
+            return;
+        
+        if (GUI.Button(new Rect(100,100, 100, 100), "Spawn"))
+        {
+            Instantiate(guiSpawnPrefab, guiSpawnPrefab.transform.position, guiSpawnPrefab.transform.rotation);
+        }
+
+    }
 
     void Start()
     {
@@ -29,6 +61,8 @@ public class DebugTool : MonoBehaviour
         {
             throw new System.Exception("shuirikenKill not in LevelManager");
         }
+
+        HKey.debugModOn = hkeyDebugMode;
             
     }
 

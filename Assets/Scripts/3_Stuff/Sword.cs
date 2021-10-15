@@ -1,4 +1,5 @@
 ﻿using Ludo.Extensions;
+using PlayerControlTool;
 using System.Collections.Generic;
 using UnityEngine;
 using static Ludo.Utility;
@@ -543,7 +544,7 @@ namespace Stuff
             }
         }
 
-        public void ThrowSword(float speed, HandControlTool.DirectionOf9History offsetHistoryOfNineDir)
+        public void ThrowSword(float speed, DirectionOf9History offsetHistoryOfNineDir)
         {
             Ludo.LogFile.LogTemp("ThrowSword");
             /*
@@ -577,7 +578,7 @@ namespace Stuff
 
                 //direction
                 Vector2 direction;
-                HandControlTool.DirectionOf9History.Type type;
+                DirectionOf9History.Type type;
                 offsetHistoryOfNineDir.GetDirectionOfNineFromHistory(out direction, out type);
                 noHand_direction = direction;
 

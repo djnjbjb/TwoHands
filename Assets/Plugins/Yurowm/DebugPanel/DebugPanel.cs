@@ -6,7 +6,9 @@ using UnityEngine.UI;
 namespace Y
 {
     public class DebugPanel : MonoBehaviour {
-
+#if Ludo
+        public static bool initActive = false; //Added ludo
+#endif
         static DebugPanel _Instance = null;
         public static DebugPanel Instance {
             get {
@@ -21,8 +23,9 @@ namespace Y
                             _Instance.transform.localScale = Vector3.one;
                             _Instance.hideFlags = HideFlags.HideInHierarchy | HideFlags.DontSave;
                             _Instance.name = "DebugPanel";
-                            //初始时，设置为不active
-                            _Instance.gameObject.SetActive(false);
+#if Ludo
+                            _Instance.gameObject.SetActive(initActive);
+#endif
                         }
                     }
                 }

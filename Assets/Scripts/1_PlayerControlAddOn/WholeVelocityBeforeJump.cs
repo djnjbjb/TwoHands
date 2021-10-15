@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using HandControlTool;
+using PlayerControlTool;
 
 public class WholeVelocityBeforeJump: Velocity
 {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace HandControlTool
+namespace PlayerControlTool
 {
     public class DirectionOf9History
     {
@@ -143,7 +143,7 @@ namespace HandControlTool
             history.Enqueue(newClip);
             if (history.Count > 0)
             {
-                while ((Time.fixedTime - history.Peek().time) > historyTime)
+                while (Time.fixedTime - history.Peek().time > historyTime)
                 {
                     history.Dequeue();
                     if (history.Count == 0)
@@ -152,7 +152,7 @@ namespace HandControlTool
                     }
                 }
             }
-            
+
         }
     }
 }

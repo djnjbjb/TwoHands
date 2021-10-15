@@ -4,6 +4,12 @@ namespace Ludo
 {
     public class Utility
     {
+        /// <summary>
+        /// 旋转向量
+        /// </summary>
+        /// <param name="v"></param>
+        /// <param name="delta"></param>
+        /// <returns></returns>
         public static Vector2 Vec2Rotate(Vector2 v, float delta)
         {
             return new Vector2(
@@ -12,6 +18,12 @@ namespace Ludo
             );
         }
 
+        /// <summary>
+        /// 浮点数相等
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         public static bool FloatEqual_WithIn0p001(float a, float b)
         {
             float threshold = 0.001f;

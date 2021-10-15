@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Ludo;
+using PlayerControlTool;
 
 public class TwoFistVelocity
 {
     public FistVelocity left;
     public FistVelocity right;
-    public HandControlTool.DirectionOf9History leftHistoryOfNineDir = new HandControlTool.DirectionOf9History();
-    public HandControlTool.DirectionOf9History rightHistoryOfNineDir = new HandControlTool.DirectionOf9History();
+    public DirectionOf9History leftHistoryOfNineDir = new PlayerControlTool.DirectionOf9History();
+    public DirectionOf9History rightHistoryOfNineDir = new PlayerControlTool.DirectionOf9History();
 
     public TwoFistVelocity(float length)
     {

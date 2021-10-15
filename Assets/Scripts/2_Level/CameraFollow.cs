@@ -1,31 +1,30 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using NaughtyAttributes;
 
 public class CameraFollow : MonoBehaviour
 {
+    public static CameraFollow onlyInstance = null;
+
     public const float screenRatio = 16f / 9f;
     const float cameraZ = -10f;
 
     [NonSerialized] public Camera sceneCamera;
     GameObject player;
     LevelManager levelManager;
-    HandControlTool.Tool.AABB cameraRegion;
-    public static CameraFollow instance;
-    
+    Ludo.AABB cameraRegion; //相机可以活动的范围
+
     void Start()
     {
-        instance = this;
+        onlyInstance = this;
         player = PlayerControl.playerControl.gameObject;
         levelManager = LevelManager.onlyInstance;
 
         //camera
         sceneCamera = gameObject.GetComponent<Camera>();
 
-
         //cameraRegion
-        cameraRegion = new HandControlTool.Tool.AABB();
+        cameraRegion = new Ludo.AABB();
         float camera_half_height = sceneCamera.orthographicSize;
         float camera_half_width = camera_half_height * screenRatio;
 
@@ -40,7 +39,7 @@ public class CameraFollow : MonoBehaviour
         }
         else if (cameraRegion.right < cameraRegion.left)
         {
-            throw new System.Exception("Camer region invalid");
+            throw new System.Exception("Camera region invalid");
         }
 
 
@@ -53,8 +52,6 @@ public class CameraFollow : MonoBehaviour
             throw new System.Exception("Camer region invalid");
         }
     }
-
-    
     void Update()
     {
         float x = player.transform.position.x;
@@ -65,4 +62,61 @@ public class CameraFollow : MonoBehaviour
 
         gameObject.transform.position = new Vector3(x, y, cameraZ);
     }
+
+    #region External
+    public Bounds viewBounds 
+    { 
+        get
+        {
+            float h = sceneCamera.orthographicSize;
+            float w = h * screenRatio;
+            return new Bounds(new Vector3(transform.position.x, transform.position.y, 0), new Vector3(w, h, 0));
+        }
+    }
+
+    public Bounds bufferedViewBounds
+    {
+        get
+        {
+            const float bufferRatio = 1.1f;
+
+            Bounds b0 = viewBounds;
+            return new Bounds(b0.center, b0.size * bufferRatio);
+        }
+    }
+    #endregion
+
+    #region Editor
+    [ShowNativeProperty]
+    public Bounds View_Bounds
+    {
+        get
+        {
+            if (Application.isPlaying)
+            {
+                return viewBounds;
+            }
+            else
+            {
+                return new Bounds(new Vector3(0,0,0), new Vector3(0,0,0));
+            }
+        }
+    }
+
+    [ShowNativeProperty]
+    public Bounds Buffered_View_Bounds
+    {
+        get
+        {
+            if (Application.isPlaying)
+            {
+                return bufferedViewBounds;
+            }
+            else
+            {
+                return new Bounds(new Vector3(0, 0, 0), new Vector3(0, 0, 0));
+            }
+        }
+    }
+    #endregion
 }

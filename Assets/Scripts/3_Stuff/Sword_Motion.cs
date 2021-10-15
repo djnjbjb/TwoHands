@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using PlayerControlTool;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static Ludo.Utility;
@@ -57,7 +58,7 @@ namespace Stuff
 
             //准备工作2
             Vector2 swordDirection = tip.transform.position - body.transform.position;
-            handOffset = HandControlTool.Tool.ArbitraryDirectionToNineDirection(handOffset);
+            handOffset = Tool.ArbitraryDirectionToNineDirection(handOffset);
             if (!FloatEqual_WithIn0p001(handOffset.magnitude, 0))
             {
                 handAndFree_LastNonZeroHandOffset = handOffset;
@@ -253,11 +254,11 @@ namespace Stuff
         {
             //左右上 - 反弹，下 - 不反弹
 
-            Camera camera = CameraFollow.instance.sceneCamera;
+            Camera camera = CameraFollow.onlyInstance.sceneCamera;
             float ratio = CameraFollow.screenRatio;
             float camera_half_height = camera.orthographicSize;
             float camera_half_width = camera_half_height * ratio;
-            HandControlTool.Tool.AABB region = new HandControlTool.Tool.AABB();
+            Ludo.AABB region = new Ludo.AABB();
             region.left = camera.transform.position.x - camera_half_width;
             region.right = camera.transform.position.x + camera_half_width;
             region.bottom = camera.transform.position.y - camera_half_height;
@@ -413,7 +414,7 @@ namespace Stuff
                 //如果是普通的Env，朝8向靠拢
                 //如果在Ground，不能为水平方向，也就是朝6向靠拢。
                 Vector2 direction = (Vector2)(tip.transform.position - body.transform.position).normalized;
-                Vector2 properDir = HandControlTool.Tool.MostCloseNineDirection(direction);
+                Vector2 properDir = Tool.MostCloseNineDirection(direction);
                 {
                     LayerMask env = LayerMask.GetMask("EnvGround");
                     ContactFilter2D filter = new ContactFilter2D();

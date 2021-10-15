@@ -1,25 +1,18 @@
-﻿using Ludo.Extensions;
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using NaughtyAttributes;
+using Ludo.Extensions;
 
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager onlyInstance = null;
 
-    public class AABB
-    {
-        public float left;
-        public float right;
-        public float bottom;
-        public float top;
-    }
-
     //设计用变量
-    [ReadOnly] [SerializeField] float firstStartScreenStillTime = 0.5f;
-    [ReadOnly] [SerializeField] float firstStartScreenFadeTime = 1f;
+    [ShowNonSerializedField] float firstStartScreenStillTime = 0.5f;
+    [ShowNonSerializedField] float firstStartScreenFadeTime = 1f;
     float fadeOffTime = 0.5f;
     float litUpTime = 0.5f;
     float collideEnemyOrShurikenTime = 0.5f;
@@ -32,7 +25,7 @@ public class LevelManager : MonoBehaviour
     //cache
     GameObject playerHead;
     Collider2D playerCollider;
-    public AABB region;
+    public Ludo.AABB region;
     void Awake()
     {
         if (onlyInstance == null)
@@ -57,7 +50,7 @@ public class LevelManager : MonoBehaviour
 
     void InitFields()
     {
-        region = new AABB();
+        region = new Ludo.AABB();
         {
             Transform levelRegionTransform = transform.LudoFind("LevelRegion", includeInactive: true, recursive: true);
             if (levelRegionTransform == null)
@@ -199,7 +192,7 @@ public class LevelManager : MonoBehaviour
         LevelEndOperation();
 
         PlayerControl.playerControl.BeKilledEffect();
-        Shuriken shuriken = shurikenObject.GetComponent<Shuriken>();
+        ShurikenExplode shuriken = shurikenObject.GetComponent<ShurikenExplode>();
         shuriken.KillPlayerEffect();
 
         yield return new WaitForSeconds(collideEnemyOrShurikenTime);
@@ -412,8 +405,41 @@ public class LevelManager : MonoBehaviour
         playerRestartOn = false;
     }
 
+
+
+    #region External
+
     public void NextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public Bounds bounds
+    {
+        get
+        {
+            return region.ToBounds();
+        }
+    }
+
+    #endregion
+
+    #region 
+    [ShowNativeProperty]
+    public Bounds Bounds_Editor
+    {
+        get
+        {
+            if (Application.isPlaying)
+            {
+                return bounds;
+            }
+            else
+            {
+                return new Bounds(new Vector3(0, 0, 0), new Vector3(0, 0, 0));
+            }
+        }
+    }
+
+    #endregion
 }

@@ -14,7 +14,7 @@ public class ShurikenSetTime
 			float time = 0;
 			foreach (Transform t in Selection.activeGameObject.transform)
             {
-				var s = t.GetComponent<Shuriken>();
+				var s = t.GetComponent<ShurikenExplode>();
 				if (index == 1)
                 {
 					time = s.beforeShowIdleTime;

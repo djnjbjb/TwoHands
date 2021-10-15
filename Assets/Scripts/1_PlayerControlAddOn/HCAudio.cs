@@ -16,7 +16,6 @@ public class HCAudio
     AudioSource lightUpRight;
     AudioSource lightUpSword;
     AudioSource doorOpen;
-    AudioSource brandishSword;
     AudioSource[] swordWhooshes;
     AudioSource throwSword;
 
@@ -35,7 +34,6 @@ public class HCAudio
         lightUpRight = GameObject.Find("Audio").transform.Find("LightUpRight").GetComponent<AudioSource>();
         lightUpSword = GameObject.Find("Audio").transform.Find("LightUpSword").GetComponent<AudioSource>();
         doorOpen = GameObject.Find("Audio").transform.Find("DoorOpen").GetComponent<AudioSource>();
-        brandishSword = GameObject.Find("Audio").transform.Find("BrandishSword").GetComponent<AudioSource>();
         swordWhooshes = GameObject.Find("Audio").transform.Find("SwordWhooshes").gameObject.GetComponents<AudioSource>();
         throwSword = GameObject.Find("Audio").transform.Find("ThrowSword").gameObject.GetComponent<AudioSource>();
     }
@@ -94,24 +92,6 @@ public class HCAudio
         }
         */
 
-    }
-
-    public void BrandishSwordControl(bool playOrNot)
-    {
-        if (playOrNot)
-        {
-            if (!brandishSword.isPlaying)
-            {
-                brandishSword.Play();
-            }
-        }
-        else
-        {
-            if (brandishSword.isPlaying)
-            {
-                brandishSword.Pause();
-            }
-        }
     }
 
     public void BackGroundMusicFadeDown(float time, MonoBehaviour mono)

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using static Ludo.Utility;
-using HandControlTool;
+using PlayerControlTool;
 
 public partial class PlayerControl : MonoBehaviour
 {   

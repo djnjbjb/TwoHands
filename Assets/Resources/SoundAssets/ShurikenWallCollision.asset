@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d4b4d3a47c5be44494b60160875df3e, type: 3}
+  m_Name: ShurikenWallCollision
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 13b50b4bfdf8bf24a88e6cddd01569d4, type: 3}
+  pitch: 1
+  volume: 0.7
