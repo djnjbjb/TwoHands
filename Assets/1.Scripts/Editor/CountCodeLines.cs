@@ -50,6 +50,5 @@ public class CountCodeLines
         Debug.Log(String.Format("游戏代码行数：{0}", game_lines));
         Debug.Log(String.Format("Editor代码行数：{0}", editor_lines));
         Debug.Log(String.Format("总代码行数：{0}", game_lines + editor_lines));
-
     }
 }

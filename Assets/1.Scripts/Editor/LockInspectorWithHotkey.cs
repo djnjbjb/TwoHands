@@ -1,9 +1,6 @@
-﻿using UnityEngine;
-
-using System;
+﻿using System;
 using System.Reflection;
 using UnityEditor;
-
 
 public class LockInspectorWithHotkey
 {
@@ -16,7 +13,7 @@ public class LockInspectorWithHotkey
         clearMethod.Invoke(null, null);
     }
 
-    [MenuItem("Tools/Toggle Inspector Lock (shortcut) &e")]
+    [MenuItem("Tools/Toggle Inspector Lock (shortcut) &e")] //Alt+E
     static void SelectLockableInspector()
     {
         EditorWindow inspectorToBeLocked = EditorWindow.mouseOverWindow; // "EditorWindow.focusedWindow" can be used instead
