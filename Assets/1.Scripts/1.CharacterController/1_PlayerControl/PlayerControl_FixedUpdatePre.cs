@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Ludo.TwoHandsWar.PlayerInput;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,8 +16,8 @@ public partial class PlayerControl : MonoBehaviour
                 FistState
                 FootState
          */
-        leftFistState.FixedUpdateManually(leftFist, leftGrabedStuff, HKey.lGrab);
-        rightFistState.FixedUpdateManually(rightFist, rightGrabedStuff, HKey.rGrab);
+        leftFistState.FixedUpdateManually(leftFist, leftGrabedStuff, UniformInput.lGrab);
+        rightFistState.FixedUpdateManually(rightFist, rightGrabedStuff, UniformInput.rGrab);
         footState.FixedUpdateManually(bottomLeftPoint: bottomLeftPoint, bottomRightPoint: bottomRightPoint);
 
         HandStuffFixedUpdate(rightFistState.pre, leftFistState.pre);
@@ -108,8 +109,8 @@ public partial class PlayerControl : MonoBehaviour
             }
         }
 
-        HandStuffUpdate_One(ref rightGrabedStuff, rightFistState, rightPre, rightFist, HKey.rMvDir);
-        HandStuffUpdate_One(ref leftGrabedStuff, leftFistState, leftPre, leftFist, HKey.lMvDir);
+        HandStuffUpdate_One(ref rightGrabedStuff, rightFistState, rightPre, rightFist, UniformInput.rMvDir);
+        HandStuffUpdate_One(ref leftGrabedStuff, leftFistState, leftPre, leftFist, UniformInput.lMvDir);
 
     }
 

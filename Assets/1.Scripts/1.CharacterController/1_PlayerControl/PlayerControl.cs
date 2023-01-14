@@ -4,9 +4,8 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 using Ludo.Extensions;
+using Ludo.TwoHandsWar.PlayerInput;
 
-
-[RequireComponent(typeof(HKey))]
 public partial class PlayerControl : MonoBehaviour
 {
     /*
@@ -90,7 +89,6 @@ public partial class PlayerControl : MonoBehaviour
     */
     SpriteRenderer normalColorRender;
     SpriteRenderer pressedColorRender;
-
 
     private void Awake()
     {

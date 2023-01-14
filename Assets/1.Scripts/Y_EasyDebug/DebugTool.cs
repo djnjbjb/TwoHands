@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Ludo.TwoHandsWar.PlayerInput;
+using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
@@ -62,7 +63,7 @@ public class DebugTool : MonoBehaviour
             throw new System.Exception("shuirikenKill not in LevelManager");
         }
 
-        HKey.debugModOn = hkeyDebugMode;
+        UniformInput.debugModOn = hkeyDebugMode;
             
     }
 
@@ -82,9 +83,9 @@ public class DebugTool : MonoBehaviour
     {
         if (keyboard.f1Key.wasPressedThisFrame)
         {
-            HKey.debugModOn = !HKey.debugModOn;
+            UniformInput.debugModOn = !UniformInput.debugModOn;
         }
-        Y.DebugPanel.Log("HKey.DebugModOn", "Debug", HKey.debugModOn);
+        Y.DebugPanel.Log("HKey.DebugModOn", "Debug", UniformInput.debugModOn);
 
         if (keyboard.digit1Key.wasPressedThisFrame)
         {

@@ -11,7 +11,6 @@ public class Setting : MonoBehaviour
     public void Start()
     {
         settingWindow = this.transform.LudoFind("SettingWindow", includeInactive: true).gameObject;
-
     }
     public void SettingButton()
     {

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using static Ludo.Utility;
 using PlayerControlTool;
+using Ludo.TwoHandsWar.PlayerInput;
 
 public partial class PlayerControl : MonoBehaviour
 {   
@@ -89,17 +90,17 @@ public partial class PlayerControl : MonoBehaviour
 
         ParameterForFistVelocity leftParameter = new ParameterForFistVelocity
         {
-            anyKeyHold = HKey.lAnyDirKeyHold,
-            keyDir = HKey.lMvDir,
+            anyKeyHold = UniformInput.lAnyDirKeyHold,
+            keyDir = UniformInput.lMvDir,
             handState = leftFistState,
-            moveDir = HKey.lMvDir * (leftFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
+            moveDir = UniformInput.lMvDir * (leftFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
         };
         ParameterForFistVelocity rightParameter = new ParameterForFistVelocity
         {
-            anyKeyHold = HKey.rAnyDirKeyHold,
-            keyDir = HKey.rMvDir,
+            anyKeyHold = UniformInput.rAnyDirKeyHold,
+            keyDir = UniformInput.rMvDir,
             handState = rightFistState,
-            moveDir = HKey.rMvDir * (rightFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
+            moveDir = UniformInput.rMvDir * (rightFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
         };
         fistVelocity.RefreshSpeed(leftParameter: leftParameter, rightParameter: rightParameter);
     }
@@ -189,17 +190,17 @@ public partial class PlayerControl : MonoBehaviour
 
         ParameterForFistVelocity leftParameter = new ParameterForFistVelocity
         {
-            anyKeyHold = HKey.lAnyDirKeyHold,
-            keyDir = HKey.lMvDir,
+            anyKeyHold = UniformInput.lAnyDirKeyHold,
+            keyDir = UniformInput.lMvDir,
             handState = leftFistState,
-            moveDir = HKey.lMvDir * (leftFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
+            moveDir = UniformInput.lMvDir * (leftFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
         };
         ParameterForFistVelocity rightParameter = new ParameterForFistVelocity
         {
-            anyKeyHold = HKey.rAnyDirKeyHold,
-            keyDir = HKey.rMvDir,
+            anyKeyHold = UniformInput.rAnyDirKeyHold,
+            keyDir = UniformInput.rMvDir,
             handState = rightFistState,
-            moveDir = HKey.rMvDir * (rightFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
+            moveDir = UniformInput.rMvDir * (rightFistState == FistState.GrabEnv ? moveDirectionReverseIfGrabEnv : 1)
         };
         fistVelocity.OffsetReflectSpeed(leftParameter: leftParameter, leftOffset: fistOffset.left,
                                         rightParameter: rightParameter, rightOffset: fistOffset.right);
@@ -217,7 +218,7 @@ public partial class PlayerControl : MonoBehaviour
         {
             var leftStuffValue = leftGrabedStuff.GetComponent<Stuff.Sword>().GetValueForFist_AtFUPre();
             var stuffDirection = leftStuffValue.direction.normalized;
-            var moveDir = HKey.lMvDir.normalized;
+            var moveDir = UniformInput.lMvDir.normalized;
             if (FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 0) ||
                     FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 180))
             {
@@ -232,7 +233,7 @@ public partial class PlayerControl : MonoBehaviour
         {
             var rightStuffValue = rightGrabedStuff.GetComponent<Stuff.Sword>().GetValueForFist_AtFUPre();
             var stuffDirection = rightStuffValue.direction.normalized;
-            var moveDir = HKey.rMvDir.normalized;
+            var moveDir = UniformInput.rMvDir.normalized;
             if (FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 0) ||
                     FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 180))
             {
