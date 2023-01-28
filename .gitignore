@@ -72,3 +72,4 @@ crashlytics-build.properties
 
 # [TwoHandsWar Project] file
 *.thwlog
+*.thwlog.meta
