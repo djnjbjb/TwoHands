@@ -85,7 +85,7 @@ namespace Ludo.TwoHandsWar.Circumstance.Log
         private string FindFileName()
         {
             DateTime dateTime = DateTime.Now;
-            string name = "log_" + $"{dateTime:yyyyMMdd}_{dateTime:HH}h{dateTime:mm}m{dateTime:ss}s";
+            string name = "log_" + $"{dateTime:yyyyMMdd}_{dateTime:HH}h{dateTime:mm}m{dateTime:ss}s.thwlog";
 
             int num = 0;
             while (File.Exists(GetFullName(name)))
