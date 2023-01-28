@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using static Ludo.Utility;
 using PlayerControlTool;
-using Ludo.TwoHandsWar.PlayerInput;
+using Ludo.TwoHandsWar.Circumstance.PlayerInput;
+using Ludo.TwoHandsWar.Circumstance.Log;
 
 public partial class PlayerControl : MonoBehaviour
 {   
     void FixedUpdate()
     {
-        Ludo.LogFile.Log($"🔻 Fixed Update {Time.fixedTime}");
+        Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"🔻 Fixed Update {Time.fixedTime}");
 
         FU_Pre();
 
@@ -29,21 +30,21 @@ public partial class PlayerControl : MonoBehaviour
         FU_Whole();
         //Log
         {
-            Ludo.LogFile.Log($"--Left");
-            Ludo.LogFile.Log($"leftSpeed: {leftFistVelocity.speed}");
-            Ludo.LogFile.Log($"leftOffset: ({fistOffset.left.x}, {fistOffset.left.y})");
-            Ludo.LogFile.Log($"leftRelativePositon: ({leftFist.transform.localPosition.x}, {leftFist.transform.localPosition.y})");
-            
-            Ludo.LogFile.Log($"--Right");
-            Ludo.LogFile.Log($"rightSpeed: {rightFistVelocity.speed}");
-            Ludo.LogFile.Log($"rightOffset: ({fistOffset.right.x}, {fistOffset.right.y})");
-            Ludo.LogFile.Log($"rightRelativePositon: ({rightFist.transform.localPosition.x}, {rightFist.transform.localPosition.y})");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"--Left");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"leftSpeed: {leftFistVelocity.speed}");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"leftOffset: ({fistOffset.left.x}, {fistOffset.left.y})");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"leftRelativePositon: ({leftFist.transform.localPosition.x}, {leftFist.transform.localPosition.y})");
 
-            Ludo.LogFile.Log($"--Whole");
-            Ludo.LogFile.Log($"Whole Velocity Before Jump, speed:{wholeVelocityBeforeJump.speed}, direction: ({wholeVelocityBeforeJump.direction.x}, {wholeVelocityBeforeJump.direction.y})");
-            Ludo.LogFile.Log($"Whole Velocity While Jump, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
-            Ludo.LogFile.Log($"Whole Offset, ({wholeOffset.offset.x}, {wholeOffset.offset.y})");
-            Ludo.LogFile.Log($"Whole Positon, ({whole.transform.position.x}, {whole.transform.position.y})");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"--Right");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"rightSpeed: {rightFistVelocity.speed}");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"rightOffset: ({fistOffset.right.x}, {fistOffset.right.y})");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"rightRelativePositon: ({rightFist.transform.localPosition.x}, {rightFist.transform.localPosition.y})");
+
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"--Whole");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"Whole Velocity Before Jump, speed:{wholeVelocityBeforeJump.speed}, direction: ({wholeVelocityBeforeJump.direction.x}, {wholeVelocityBeforeJump.direction.y})");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"Whole Velocity While Jump, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"Whole Offset, ({wholeOffset.offset.x}, {wholeOffset.offset.y})");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"Whole Positon, ({whole.transform.position.x}, {whole.transform.position.y})");
         }
 
 
@@ -305,7 +306,7 @@ public partial class PlayerControl : MonoBehaviour
                 wholeVelocityWhileJumping.StartJumpWithLog(wholeVelocityBeforeJump, wholeOffset);
             }
 
-            Ludo.LogFile.Log($"【before】 Whole Velocity While Jump Before FixedUpdate, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"【before】 Whole Velocity While Jump Before FixedUpdate, speed:{wholeVelocityWhileJumping.speed}, direction: ({wholeVelocityWhileJumping.direction.x}, {wholeVelocityWhileJumping.direction.y})");
 
             WholeVelocityWhileJumping.Params @params = new WholeVelocityWhileJumping.Params();
             @params.leftFistState = leftFistState;

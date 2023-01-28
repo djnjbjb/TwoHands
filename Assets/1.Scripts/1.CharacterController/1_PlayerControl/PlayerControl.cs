@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 using Ludo.Extensions;
-using Ludo.TwoHandsWar.PlayerInput;
+using Ludo.TwoHandsWar.Circumstance.PlayerInput;
 
 public partial class PlayerControl : MonoBehaviour
 {

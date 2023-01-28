@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Ludo.TwoHandsWar.Circumstance.Log;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -59,7 +60,7 @@ public class WholeVelocityWhileJumping : Velocity
             startJumpLog += $"    Time: {history.time}, Dir:{history.direction}, Speed:{history.speed}\n";
         }
         startJumpLog += $"--StartJump End\n";
-        Ludo.LogFile.Log(startJumpLog);
+        Ludo.TwoHandsWar.Circumstance.Log.Logger.Log(startJumpLog);
     }
 
     private void StartJump(WholeVelocityBeforeJump velocityBeforeJump, WholeOffset offset)

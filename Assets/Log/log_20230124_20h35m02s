@@ -1,0 +1,4926 @@
+----------------------↓↓↓----------------------
+Log Start At 20:35:02
+✔ Keyboard connected.
+✔ Gamepad connected.
+🔻 Fixed Update 0
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.02
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.04
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.06
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.08
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.09999999
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.12
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.14
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.16
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.18
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.2
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.22
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.24
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.26
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.28
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.3
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.32
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.34
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.36
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.38
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.4
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.42
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.44
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.46
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.48
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.5
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.52
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.54
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.56
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.58
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.6
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.62
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.64
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.66
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.68
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.7
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.72
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.74
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.76
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.78
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.8
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.82
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.84
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.86
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.88
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.9
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.92
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.94
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.96
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 0.98
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.02
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.04
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.06
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.08
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.1
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.12
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.14
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.16
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.18
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.2
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.22
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.24
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.26
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.28
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.3
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.32
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.34
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.36
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.38
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.4
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.42
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.44
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.46
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.48
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.5
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.52
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.54
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.56
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.58
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.6
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.62
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.64
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.66
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.68
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.7
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.72
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.74
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.76
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.78
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.8
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.82
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.84
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.86
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.88
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.9
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.92
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.94
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.96
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 1.98
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.02
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.04
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.06
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.08
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.1
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.12
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.14
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.16
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.18
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.2
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.22
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.24
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.26
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.28
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.3
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.32
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.34
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.36
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.38
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.4
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.42
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.44
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.46
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.48
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.5
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.52
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.54
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.56
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.58
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.6
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.62
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.64
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.66
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.68
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.7
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.72
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.74
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.76
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.78
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.8
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.82
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.84
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.86
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.88
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.9
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.92
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.94
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.96
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 2.98
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.02
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.04
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.06
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.08
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.1
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.12
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.14
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.16
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.18
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.2
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.22
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.24
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.26
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.28
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.3
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.32
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.34
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.36
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.38
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.4
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.42
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.44
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.46
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.48
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.5
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.52
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.54
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.56
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.58
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.6
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.62
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.64
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.66
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.68
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.7
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.72
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.74
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.76
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.78
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.8
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.82
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.84
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.86
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.88
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.9
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.92
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.94
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.96
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 3.98
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.02
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.04
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.06
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.08
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.1
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.12
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.14
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.16
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.18
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.2
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.22
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.24
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.26
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.28
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.3
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.32
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.34
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.36
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.38
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.4
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.42
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.44
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.46
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.48
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.5
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.52
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.54
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.56
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.58
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.6
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.62
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.64
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.66
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.68
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.7
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.72
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.74
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.76
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.78
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.8
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.82
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.84
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.86
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.88
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.9
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.92
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.94
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.96
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 4.98
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.02
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.04
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.06
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.08
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.1
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.12
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.14
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.16
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.18
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.2
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.22
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.24
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.26
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.28
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.3
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.32
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.34
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.36
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.38
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.4
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.42
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.44
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.46
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.48
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.5
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.52
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.54
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.56
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.58
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.6
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.62
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.64
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.66
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.68
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.7
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.72
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.74
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.76
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.78
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.8
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.82
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.84
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.86
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.88
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.9
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.92
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.94
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.96
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 5.98
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.02
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.04
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.06
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.08
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.1
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.12
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.14
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.16
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.18
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.2
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.22
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.24
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.26
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.28
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.3
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.32
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.34
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.36
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.38
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.4
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.42
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.44
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.46
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.48
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.5
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.52
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+🔻 Fixed Update 6.54
+【before】 Whole Velocity While Jump Before FixedUpdate, speed:0, direction: (0, 0)
+--Left
+leftSpeed: 0
+leftOffset: (0, 0)
+leftRelativePositon: (-2.1, 0)
+--Right
+rightSpeed: 0
+rightOffset: (0, 0)
+rightRelativePositon: (2.1, 0)
+--Whole
+Whole Velocity Before Jump, speed:0, direction: (0, 0)
+Whole Velocity While Jump, speed:0, direction: (0, 0)
+Whole Offset, (0, 0)
+Whole Positon, (14, 1.96)
+Log End At 20:35:09
+----------------------↑↑↑----------------------

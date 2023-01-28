@@ -1,5 +1,6 @@
 ﻿#define TEST_RIGHT_LINE
 #undef TEST_RIGHT_LINE
+using Ludo.TwoHandsWar.Circumstance.Log;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -267,11 +268,11 @@ public class HandRepresent
         float a = (new Vector2(fistPos.x, fistPos.y) - joint1Pos).magnitude;
         float b = length1;
         float c = length2;
-        if (currentLR) Ludo.LogFile.LogTemp($"---------------------");
-        if (currentLR) Ludo.LogFile.LogTemp($"a == {a}");
-        if (currentLR) Ludo.LogFile.LogTemp($"b == {b}");
-        if (currentLR) Ludo.LogFile.LogTemp($"c == {c}");
-        if (currentLR) Ludo.LogFile.LogTemp($"b + c > a && !Ludo.Utility.FloatEqual0p001(b+c, a) == {b + c > a && !Ludo.Utility.FloatEqual_WithIn0p001(b + c, a)}");
+        if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"---------------------", "Temp");
+        if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"a == {a}", "Temp");
+        if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"b == {b}", "Temp");
+        if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"c == {c}", "Temp");
+        if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"b + c > a && !Ludo.Utility.FloatEqual0p001(b+c, a) == {b + c > a && !Ludo.Utility.FloatEqual_WithIn0p001(b + c, a)}", "Temp");
         //posJoint2
         /*
             已经放弃了选择更小距离的算法。
@@ -321,7 +322,7 @@ public class HandRepresent
             */
             joint2Pos = joint2PosPre;
             joint2State = Joint2State.Singularity;
-            if (currentLR) Ludo.LogFile.LogTemp("Current == Sigularity");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log("Current == Sigularity", "Temp");
         }
         //三角形
         else if (b + c > a && !Ludo.Utility.FloatEqual_WithIn0p001(b+c, a))
@@ -349,17 +350,17 @@ public class HandRepresent
             joint2Pos_pointOnRight = joint1Pos + joint1ToJoint2_pointOnRight;
             float distanceLeft = (joint2Pos_pointOnLeft - joint2PosPre).magnitude;
             float distanceRight = (joint2Pos_pointOnRight - joint2PosPre).magnitude;
-            if (currentLR) Ludo.LogFile.LogTemp($"Current == Triangle");
-            if (currentLR) Ludo.LogFile.LogTemp($"Pre:({joint2PosPre.x},{joint2PosPre.y})");
-            if (currentLR) Ludo.LogFile.LogTemp($"Left:({joint2Pos_pointOnLeft.x},{joint2Pos_pointOnLeft.y})");
-            if (currentLR) Ludo.LogFile.LogTemp($"Right:({joint2Pos_pointOnRight.x},{joint2Pos_pointOnRight.y})");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"Current == Triangle", "Temp");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"Pre:({joint2PosPre.x},{joint2PosPre.y})", "Temp");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"Left:({joint2Pos_pointOnLeft.x},{joint2Pos_pointOnLeft.y})", "Temp");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"Right:({joint2Pos_pointOnRight.x},{joint2Pos_pointOnRight.y})", "Temp");
 
             joint2Pos = new Vector2();
             //如果上一个状态是Line，就直接选左
             if (joint2StatePre == Joint2State.Line)
             {
                 joint2Pos = joint2Pos_pointOnLeft;
-                if (currentLR) Ludo.LogFile.LogTemp("Pre == Line");
+                if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log("Pre == Line", "Temp");
             }
             /*
                 如果上一个状态是Singularity，就根据距离来选
@@ -385,7 +386,7 @@ public class HandRepresent
                     joint2Pos = joint2Pos_pointOnRight;
                 }
 
-                if (currentLR) Ludo.LogFile.LogTemp("Pre == Singularity");
+                if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log("Pre == Singularity", "Temp");
 
             }
             else if (joint2StatePre.IsTriangle())
@@ -396,7 +397,7 @@ public class HandRepresent
                     这里涉及到极值状态的范围。
                     先拍脑门定一个。
                 */
-                if (currentLR) Ludo.LogFile.LogTemp("Pre == Triangle");
+                if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log("Pre == Triangle", "Temp");
                 /*
                     如何判断是否经过极值状态？
                     从手的根点，向两点所成直线作垂线。（若两点重合，则一定不经过）
@@ -407,7 +408,7 @@ public class HandRepresent
                  
                 */
                 bool byPassSingularity = false;
-                if (currentLR) Ludo.LogFile.LogTemp($"Ludo.Utility.FloatEqual0p001((joint2Pos - joint2PosPre).magnitude == {Ludo.Utility.FloatEqual_WithIn0p001((joint2Pos - joint2PosPre).magnitude,0)}");
+                if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"Ludo.Utility.FloatEqual0p001((joint2Pos - joint2PosPre).magnitude == {Ludo.Utility.FloatEqual_WithIn0p001((joint2Pos - joint2PosPre).magnitude,0)}", "Temp");
                 if (Ludo.Utility.FloatEqual_WithIn0p001((joint2Pos - joint2PosPre).magnitude, 0))
                 {
                     byPassSingularity = false;
@@ -415,13 +416,13 @@ public class HandRepresent
                 else
                 {
                     Vector2 nearestPoint = Ludo.Utility.FindNearestPointOnLine(fistPosPre, fistPos - fistPosPre, joint1Pos);
-                    if (currentLR) Ludo.LogFile.LogTemp($"nearestPoint == {nearestPoint}");
+                    if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"nearestPoint == {nearestPoint}", "Temp");
                     if ((joint1Pos - nearestPoint).magnitude <= singularityRadius_ifPassSigularity)
                     {
                         Vector2 line1 = nearestPoint - fistPos;
                         Vector2 line2 = nearestPoint - fistPosPre;
-                        if (currentLR) Ludo.LogFile.LogTemp($"line1 == {line1}");
-                        if (currentLR) Ludo.LogFile.LogTemp($"line2 == {line2}");
+                        if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"line1 == {line1}", "Temp");
+                        if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"line2 == {line2}", "Temp");
                         if (Vector2.Dot(line1, line2) <= 0)
                         {
                             byPassSingularity = true;
@@ -437,7 +438,7 @@ public class HandRepresent
                     }
                 }
 
-                if (currentLR) Ludo.LogFile.LogTemp($"byPassSingularity == {byPassSingularity}");
+                if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"byPassSingularity == {byPassSingularity}", "Temp");
 
                 if (byPassSingularity == false)
                 {
@@ -456,8 +457,8 @@ public class HandRepresent
                     {
                         joint2Pos = joint2Pos_pointOnRight;
                     }
-                    if (currentLR) Ludo.LogFile.LogTemp($"distanceLeft:{distanceLeft}");
-                    if (currentLR) Ludo.LogFile.LogTemp($"distanceRight:{distanceRight}");
+                    if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"distanceLeft:{distanceLeft}", "Temp");
+                    if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"distanceRight:{distanceRight}", "Temp");
                 }
 
             }
@@ -478,7 +479,7 @@ public class HandRepresent
             Vector2 offset = Vector2.Lerp(new Vector2(), joint1ToFist, length1 / length);
             joint2Pos = joint1Pos + offset;
             joint2State = Joint2State.Line;
-            if (currentLR) Ludo.LogFile.LogTemp("Current == Line");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log("Current == Line", "Temp");
         }
     }
 
@@ -583,7 +584,7 @@ public class HandRepresent
         out Vector2 line2Pos, out Quaternion line2Rotation,
         out Quaternion fistRotation)
     {
-        if (currentLR) Ludo.LogFile.LogTemp($"joint2Pos:({joint2Pos.x},{joint2Pos.y})");
+        if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"joint2Pos:({joint2Pos.x},{joint2Pos.y})", "Temp");
         line1Pos = new Vector2();
         line1Rotation = new Quaternion();
         {
@@ -594,10 +595,10 @@ public class HandRepresent
                 (joint1ScaleX / 2 + line1ScaleX / 2) / length1 );
             line1Pos = joint1Pos + offsetLine1;
             float angleLine1 = Vector2.SignedAngle(new Vector2(1, 0), joint1ToJoint2);
-            if (currentLR) Ludo.LogFile.LogTemp($"joint1ToJoint2:({joint1ToJoint2.x},{joint1ToJoint2.y})");
-            if (currentLR) Ludo.LogFile.LogTemp($"angleLine1:{angleLine1}");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"joint1ToJoint2:({joint1ToJoint2.x},{joint1ToJoint2.y})", "Temp");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"angleLine1:{angleLine1}", "Temp");
             line1Rotation = Quaternion.Euler(0, 0, angleLine1);
-            if (currentLR) Ludo.LogFile.LogTemp($"line1Rotation:{line1Rotation}");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"line1Rotation:{line1Rotation}", "Temp");
         }
         line2Pos = new Vector2();
         line2Rotation = new Quaternion();
@@ -612,10 +613,10 @@ public class HandRepresent
                 (joint2ScaleX / 2 + line2ScaleX / 2) / length2 );
             line2Pos = joint2Pos + offsetLine2;
             float angleLine2 = Vector2.SignedAngle(new Vector2(1, 0), joint2ToFist);
-            if (currentLR) Ludo.LogFile.LogTemp($"joint2ToFist:({joint2ToFist.x},{joint2ToFist.y})");
-            if (currentLR) Ludo.LogFile.LogTemp($"angleLine2:{angleLine2}");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"joint2ToFist:({joint2ToFist.x},{joint2ToFist.y})", "Temp");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"angleLine2:{angleLine2}", "Temp");
             line2Rotation = Quaternion.Euler(0, 0, angleLine2);
-            if (currentLR) Ludo.LogFile.LogTemp($"line1Rotation:{line2Rotation}");
+            if (currentLR) Ludo.TwoHandsWar.Circumstance.Log.Logger.Log($"line1Rotation:{line2Rotation}", "Temp");
             fistRotation = line2Rotation;
         }
     }

@@ -1,4 +1,5 @@
 ﻿using Ludo.Extensions;
+using Ludo.TwoHandsWar.Circumstance.Log;
 using PlayerControlTool;
 using System.Collections.Generic;
 using UnityEngine;
@@ -546,7 +547,7 @@ namespace Stuff
 
         public void ThrowSword(float speed, DirectionOf9History offsetHistoryOfNineDir)
         {
-            Ludo.LogFile.LogTemp("ThrowSword");
+            Ludo.TwoHandsWar.Circumstance.Log.Logger.Log("ThrowSword", "Temp");
             /*
                 先判断有无Collier
                 由此决定State
@@ -594,11 +595,11 @@ namespace Stuff
 
             if (states.noHandState == NoHandState.Fly)
             {
-                Ludo.LogFile.LogTemp("ThrowSword, Fly");
+                Ludo.TwoHandsWar.Circumstance.Log.Logger.Log("ThrowSword, Fly", "Temp");
             }
             if (states.noHandState == NoHandState.Env)
             {
-                Ludo.LogFile.LogTemp("ThrowSword, Env");
+                Ludo.TwoHandsWar.Circumstance.Log.Logger.Log("ThrowSword, Env", "Temp");
             }
 
         }
