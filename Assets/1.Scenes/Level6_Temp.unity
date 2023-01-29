@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 1037105534}
   - component: {fileID: 1037105533}
   m_Layer: 0
-  m_Name: Level5
+  m_Name: LastLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
