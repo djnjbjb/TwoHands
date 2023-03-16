@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using NaughtyAttributes;
-using Ludo.TwoHandsWar.Utilities.ScriptableObjects;
+using Ludo.Types;
 
 public class ClipOrClipScriptable : MonoBehaviour
 {
     public AudioClip clip;
     [Label("ClipScriptable")]
-    public AudioClipPlusScriptable clipScriptable;
+    public AudioClipPlus clipScriptable;
     [Label("Clip or ClipScriptable")]
     public Object clipOrClipScriptable;
 }

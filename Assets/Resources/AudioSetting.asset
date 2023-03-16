@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f98bba8acc77c47b1f5760e9580cbb, type: 3}
+  m_Name: AudioSetting
+  m_EditorClassIdentifier: 
+  Music:
+    _serializedList:
+    - Key: BackGround
+      Value: {fileID: 8300000, guid: af23f1f6b8a79c64dab15c7b42f51aea, type: 3}
+  Sfx:
+    _serializedList:
+    - Key: LeftGrip
+      Value: {fileID: 8300000, guid: 1741e11df91d9f64085e767f5e9a61d8, type: 3}
+    - Key: LeftRelease
+      Value: {fileID: 8300000, guid: d48c4bb88522ad34e8024ae00ac6797f, type: 3}
+    - Key: LeftMove
+      Value: {fileID: 8300000, guid: 874d98905f4ac8440ab49de90a0e1b09, type: 3}
+    - Key: RightGrip
+      Value: {fileID: 8300000, guid: 1741e11df91d9f64085e767f5e9a61d8, type: 3}
+    - Key: RightRelease
+      Value: {fileID: 8300000, guid: d48c4bb88522ad34e8024ae00ac6797f, type: 3}
+    - Key: RightMOve
+      Value: {fileID: 8300000, guid: 874d98905f4ac8440ab49de90a0e1b09, type: 3}
+    - Key: Death
+      Value: {fileID: 8300000, guid: 5ec8c42c2f732e542b4bcb17376242c2, type: 3}
+    - Key: LightUpBody
+      Value: {fileID: 8300000, guid: 3aecaed94d863d542ace4d5ecd9241cf, type: 3}
+    - Key: LightUpLeft
+      Value: {fileID: 8300000, guid: 3aecaed94d863d542ace4d5ecd9241cf, type: 3}
+    - Key: LightUpRight
+      Value: {fileID: 8300000, guid: 3aecaed94d863d542ace4d5ecd9241cf, type: 3}
+    - Key: LightUpSword
+      Value: {fileID: 8300000, guid: 3aecaed94d863d542ace4d5ecd9241cf, type: 3}
+    - Key: SwordWhoosh
+      Value: {fileID: 8300000, guid: 5f4cfda0301f0b847bdda6f3a64b11db, type: 3}
+    - Key: DoorOpen
+      Value: {fileID: 8300000, guid: 70bd1615772a62d42a216c00333d8c11, type: 3}
+    - Key: ThrowSword
+      Value: {fileID: 8300000, guid: e1ee9703c7628f248a41a67ec5dc0ceb, type: 3}

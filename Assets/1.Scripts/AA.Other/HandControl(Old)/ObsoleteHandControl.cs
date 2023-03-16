@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Ludo.Extensions;
-using Ludo;
+using Ludo.Utility;
 
 public class ObsoleteHandControl : MonoBehaviour
 {
@@ -283,7 +283,7 @@ public class ObsoleteHandControl : MonoBehaviour
         Vector2 fistPos = fistPosInWholeParentCoor;
         Vector2 wholePos = wholePerson.transform.localPosition;
         Vector2 fistToWhole = wholePos - fistPos;
-        Vector2 fistToWholeAfterRotate = Utility.Vec2Rotate(fistToWhole, -angle_Deg * Mathf.Deg2Rad);
+        Vector2 fistToWholeAfterRotate = Geometry.Vec2Rotate(fistToWhole, -angle_Deg * Mathf.Deg2Rad);
 
         offset = fistToWholeAfterRotate - fistToWhole;
         angleWholePerson_Deg = -angle_Deg;
