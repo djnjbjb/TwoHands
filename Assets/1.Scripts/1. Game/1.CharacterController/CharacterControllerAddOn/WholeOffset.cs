@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Ludo.Utility;
+using static Ludo.Utility.Algebra;
 
 public class WholeOffset
 {
@@ -14,7 +15,7 @@ public class WholeOffset
         set
         {
             _offset = value;
-            if (Geometry.FloatEqual_WithIn0p001(_offset.magnitude, 0f))
+            if (FloatEqual_WithIn0p001(_offset.magnitude, 0f))
             {
                 offsetZeroTime += Time.fixedDeltaTime;
             }

@@ -52,7 +52,7 @@ public class LevelManager : MonoBehaviour
 
     void InitFields()
     {
-        region = new Ludo.AABB();
+        region = new AABB();
         {
             Transform levelRegionTransform = transform.LudoFind("LevelRegion", includeInactive: true, recursive: true);
             if (levelRegionTransform == null)

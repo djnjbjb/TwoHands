@@ -26,7 +26,7 @@ public class CameraFollow : MonoBehaviour
         sceneCamera = gameObject.GetComponent<Camera>();
 
         //cameraRegion
-        cameraRegion = new Ludo.AABB();
+        cameraRegion = new AABB();
         float camera_half_height = sceneCamera.orthographicSize;
         float camera_half_width = camera_half_height * screenRatio;
 
@@ -35,7 +35,7 @@ public class CameraFollow : MonoBehaviour
         cameraRegion.bottom = levelManager.region.bottom + camera_half_height;
         cameraRegion.top = levelManager.region.top - camera_half_height;
 
-        if (Ludo.Utility.Geometry.FloatEqual_WithIn0p001(cameraRegion.left, cameraRegion.right))
+        if (Ludo.Utility.Algebra.FloatEqual_WithIn0p001(cameraRegion.left, cameraRegion.right))
         {
             cameraRegion.right = cameraRegion.left;
         }
@@ -45,7 +45,7 @@ public class CameraFollow : MonoBehaviour
         }
 
 
-        if (Ludo.Utility.Geometry.FloatEqual_WithIn0p001(cameraRegion.bottom, cameraRegion.top))
+        if (Ludo.Utility.Algebra.FloatEqual_WithIn0p001(cameraRegion.bottom, cameraRegion.top))
         {
             cameraRegion.top = cameraRegion.bottom;
         }

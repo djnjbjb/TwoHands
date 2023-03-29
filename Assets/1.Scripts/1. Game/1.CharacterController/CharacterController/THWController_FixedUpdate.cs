@@ -91,7 +91,7 @@ namespace Ludo.TwoHandsWar
                 此外，还需要加上ifGrabMoveReverse来确定方向
             输出
                 FistSpeed
-        */
+            */
 
             ParameterForFistVelocity leftParameter = new ParameterForFistVelocity
             {
@@ -224,8 +224,8 @@ namespace Ludo.TwoHandsWar
                 var leftStuffValue = leftGrabedStuff.GetComponent<Stuff.Sword>().GetValueForFist_AtFUPre();
                 var stuffDirection = leftStuffValue.direction.normalized;
                 var moveDir = PlayerInput.lMvDir.normalized;
-                if (FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 0) ||
-                    FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 180))
+                if (Algebra.FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 0) ||
+                    Algebra.FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 180))
                 {
                     leftFistStateTemp = FistState.GrabStuff;
                 }
@@ -239,8 +239,8 @@ namespace Ludo.TwoHandsWar
                 var rightStuffValue = rightGrabedStuff.GetComponent<Stuff.Sword>().GetValueForFist_AtFUPre();
                 var stuffDirection = rightStuffValue.direction.normalized;
                 var moveDir = PlayerInput.rMvDir.normalized;
-                if (FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 0) ||
-                    FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 180))
+                if (Algebra.FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 0) ||
+                    Algebra.FloatEqual_WithIn0p001(Vector2.Angle(moveDir, stuffDirection), 180))
                 {
                     rightFistStateTemp = FistState.GrabStuff;
                 }
@@ -325,38 +325,38 @@ namespace Ludo.TwoHandsWar
         void FU_Whole_Offset()
         {
             /*
-         GrabStuffEnv带来的变化
+                GrabStuffEnv带来的变化
 
-            在判断用offset还是速度计算时。GrabStuffEnv总是等效于GrabEnv。
+                在判断用offset还是速度计算时。GrabStuffEnv总是等效于GrabEnv。
             
-            但是，使用Offset计算时，方法不同。
-            GrabStuffEnv等效于Env时，计算Offset也等效于Env。
-            等效于Stuff时，不对Offset产生影响。
-            具体代码再看。
-         */
+                但是，使用Offset计算时，方法不同。
+                GrabStuffEnv等效于Env时，计算Offset也等效于Env。
+                等效于Stuff时，不对Offset产生影响。
+                具体代码再看。
+            */
             FistState leftFistState_GrabStuffEnvProcessed = this.leftFistState;
             FistState rightFistState_GrabStuffEnvProcessed = this.rightFistState;
             FistGrabStuffEnvHelper(ref leftFistState_GrabStuffEnvProcessed, ref rightFistState_GrabStuffEnvProcessed);
 
             /*
-            Summary
-            首先区分有无GrabEnv。
-            当手有GrabEnv时，用offset计算。
-            没有时，用speed计算。
+                Summary
+                首先区分有无GrabEnv。
+                当手有GrabEnv时，用offset计算。
+                没有时，用speed计算。
 
-            在这之前，可以先准备些常用参数。
-        */
+                在这之前，可以先准备些常用参数。
+            */
 
             /*
-            0. 准备         
-         */
+                0. 准备         
+            */
             Matrix4x4 wholeMatrix = Matrix4x4.TRS(whole.transform.position, whole.transform.localRotation, whole.transform.localScale);
             Vector2 tempWholeOffset = new Vector2();
             /*
-            1. 有GrabEnv 
-            有GrabEnv时，不考虑任何碰撞。
-            根据HandState分情况讨论。
-        */
+                1. 有GrabEnv 
+                有GrabEnv时，不考虑任何碰撞。
+                根据HandState分情况讨论。
+            */
             if (leftFistState.IsGrabing_Env_StuffEnv() || rightFistState.IsGrabing_Env_StuffEnv())
             {
                 Vector2 leftFistOffset = fistOffset.left;
@@ -403,11 +403,11 @@ namespace Ludo.TwoHandsWar
                         }
                     }
 
-                    if (Geometry.FloatEqual_WithIn0p001(biggerDis, 0))
+                    if (Algebra.FloatEqual_WithIn0p001(biggerDis, 0))
                     {
                         tempWholeOffset = new Vector2();
                     }
-                    else if (Geometry.FloatEqual_WithIn0p001(smallerDis, 0) && !Geometry.FloatEqual_WithIn0p001(biggerDis, 0))
+                    else if (Algebra.FloatEqual_WithIn0p001(smallerDis, 0) && !Algebra.FloatEqual_WithIn0p001(biggerDis, 0))
                     {
                         //如果一只手的移动是0
                         //身体和移动的那只手，等效于单手移动

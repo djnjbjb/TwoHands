@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static Ludo.Utility.Geometry;
+using static Ludo.Utility.Algebra;
 
 namespace Stuff
 {
@@ -260,7 +261,7 @@ namespace Stuff
             float ratio = CameraFollow.screenRatio;
             float camera_half_height = camera.orthographicSize;
             float camera_half_width = camera_half_height * ratio;
-            AABB region = new Ludo.AABB();
+            AABB region = new AABB();
             region.left = camera.transform.position.x - camera_half_width;
             region.right = camera.transform.position.x + camera_half_width;
             region.bottom = camera.transform.position.y - camera_half_height;
@@ -340,7 +341,7 @@ namespace Stuff
             Vector2 BestDirectionInGround(Vector2 direction)
             {
                 //先判断是否为0，然后再判断和8向的夹角
-                if (Geometry.FloatEqual_WithIn0p001(direction.x, 0) && Geometry.FloatEqual_WithIn0p001(direction.y, 0))
+                if (FloatEqual_WithIn0p001(direction.x, 0) && FloatEqual_WithIn0p001(direction.y, 0))
                 {
                     return Vector2.zero;
                 }

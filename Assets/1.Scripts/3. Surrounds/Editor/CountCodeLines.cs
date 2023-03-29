@@ -12,9 +12,9 @@ public class CountCodeLines
     [MenuItem("Tools/Code Line Count")]
     private static void PrintTotalLine()
     {
-        int game_lines = 0;
+        int gameLines = 0;
         {
-            string[] fileName = Directory.GetFiles("Assets/Scripts", "*.cs", SearchOption.AllDirectories);
+            string[] fileName = Directory.GetFiles("Assets/1.Scripts", "*.cs", SearchOption.AllDirectories);
             int totalLine = 0;
             foreach (var temp in fileName)
             {
@@ -27,11 +27,13 @@ public class CountCodeLines
 
                 totalLine += nowLine;
             }
-            game_lines = totalLine;
+            gameLines = totalLine;
         }
-        int editor_lines;
+        Debug.Log(String.Format("游戏代码行数：{0}", gameLines));
+
+        int characterControllerLines = 0;
         {
-            string[] fileName = Directory.GetFiles("Assets/Editor", "*.cs", SearchOption.AllDirectories);
+            string[] fileName = Directory.GetFiles("Assets/1.Scripts/1. Game/1.CharacterController", "*.cs", SearchOption.AllDirectories);
             int totalLine = 0;
             foreach (var temp in fileName)
             {
@@ -44,11 +46,8 @@ public class CountCodeLines
 
                 totalLine += nowLine;
             }
-            editor_lines = totalLine;
-            
+            characterControllerLines = totalLine;
         }
-        Debug.Log(String.Format("游戏代码行数：{0}", game_lines));
-        Debug.Log(String.Format("Editor代码行数：{0}", editor_lines));
-        Debug.Log(String.Format("总代码行数：{0}", game_lines + editor_lines));
+        Debug.Log(String.Format("CharacterController代码行数：{0}", characterControllerLines));
     }
 }

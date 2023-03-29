@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using PlayerControlTool;
 using Ludo.Utility;
+using static Ludo.Utility.Algebra;
 
 public class TwoFistVelocity
 {
@@ -64,8 +65,8 @@ public class TwoFistVelocity
             if (  (leftParameter.moveDir == rightParameter.moveDir)
                   && leftParameter.moveDir.magnitude != 0            )
             {
-                if (  Geometry.FloatEqual_WithIn0p001(leftOffset.magnitude, 0f)
-                      && Geometry.FloatEqual_WithIn0p001(rightOffset.magnitude, 0f) )
+                if (  FloatEqual_WithIn0p001(leftOffset.magnitude, 0f)
+                      && FloatEqual_WithIn0p001(rightOffset.magnitude, 0f) )
                 {
                     left.OffsetZeroTwoHand();
                     right.OffsetZeroTwoHand();
@@ -86,7 +87,7 @@ public class TwoFistVelocity
         增加一条，速度必须小于单手最大速度，才加速
     */
     NormalState:
-        if (Geometry.FloatEqual_WithIn0p001(leftOffset.magnitude, 0f))
+        if (FloatEqual_WithIn0p001(leftOffset.magnitude, 0f))
         {
             if (leftParameter.moveDir.magnitude != 0)
             {
@@ -98,7 +99,7 @@ public class TwoFistVelocity
             }
         }
 
-        if (Geometry.FloatEqual_WithIn0p001(rightOffset.magnitude, 0f))
+        if (FloatEqual_WithIn0p001(rightOffset.magnitude, 0f))
         {
             if (rightParameter.moveDir.magnitude != 0)
             {

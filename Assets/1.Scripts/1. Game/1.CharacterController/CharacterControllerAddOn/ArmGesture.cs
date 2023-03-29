@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Logger = Ludo.TwoHandsWar.Circumstance.Logger;
+using static Ludo.Utility.Algebra;
 
 namespace Ludo.TwoHandsWar.THWControllerSub
 {
@@ -258,7 +259,7 @@ namespace Ludo.TwoHandsWar.THWControllerSub
             if (currentLR) Logger.Log($"a == {a}", "Temp");
             if (currentLR) Logger.Log($"b == {b}", "Temp");
             if (currentLR) Logger.Log($"c == {c}", "Temp");
-            if (currentLR) Logger.Log($"b + c > a && !Ludo.Utility.FloatEqual0p001(b+c, a) == {b + c > a && !Geometry.FloatEqual_WithIn0p001(b + c, a)}", "Temp");
+            if (currentLR) Logger.Log($"b + c > a && !Ludo.Utility.FloatEqual0p001(b+c, a) == {b + c > a && !FloatEqual_WithIn0p001(b + c, a)}", "Temp");
             //posJoint2
             /*
             已经放弃了选择更小距离的算法。
@@ -311,7 +312,7 @@ namespace Ludo.TwoHandsWar.THWControllerSub
                 if (currentLR) Logger.Log("Current == Sigularity", "Temp");
             }
             //三角形
-            else if (b + c > a && !Geometry.FloatEqual_WithIn0p001(b+c, a))
+            else if (b + c > a && !FloatEqual_WithIn0p001(b+c, a))
             {
 
                 /*
@@ -394,8 +395,8 @@ namespace Ludo.TwoHandsWar.THWControllerSub
                  
                 */
                     bool byPassSingularity = false;
-                    if (currentLR) Logger.Log($"Ludo.Utility.FloatEqual0p001((joint2Pos - joint2PosPre).magnitude == {Geometry.FloatEqual_WithIn0p001((joint2Pos - joint2PosPre).magnitude,0)}", "Temp");
-                    if (Geometry.FloatEqual_WithIn0p001((joint2Pos - joint2PosPre).magnitude, 0))
+                    if (currentLR) Logger.Log($"Ludo.Utility.FloatEqual0p001((joint2Pos - joint2PosPre).magnitude == {FloatEqual_WithIn0p001((joint2Pos - joint2PosPre).magnitude,0)}", "Temp");
+                    if (FloatEqual_WithIn0p001((joint2Pos - joint2PosPre).magnitude, 0))
                     {
                         byPassSingularity = false;
                     }
@@ -487,7 +488,7 @@ namespace Ludo.TwoHandsWar.THWControllerSub
                 joint2State = Joint2State.Singularity;
             }
             //三角形
-            else if (b + c > a && !Geometry.FloatEqual_WithIn0p001(b + c, a))
+            else if (b + c > a && !FloatEqual_WithIn0p001(b + c, a))
             {
                 float cosJoint1 = (a * a + b * b - c * c) / (2 * a * b);
                 float angleJoint1 = Mathf.Acos(cosJoint1);
@@ -528,7 +529,7 @@ namespace Ludo.TwoHandsWar.THWControllerSub
                 joint2State = Joint2State.Singularity;
             }
             //三角形
-            else if (b + c > a && !Geometry.FloatEqual_WithIn0p001(b + c, a))
+            else if (b + c > a && !FloatEqual_WithIn0p001(b + c, a))
             {
                 //如果在radius范围内，则在计算Joint2的位置时，把移动到圆的边上。
                 Vector2 newFistPos = fistPos;

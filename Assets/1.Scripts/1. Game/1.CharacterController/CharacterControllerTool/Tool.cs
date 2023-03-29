@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Ludo.Utility.Algebra;
 
 namespace PlayerControlTool
 {
@@ -59,10 +60,10 @@ namespace PlayerControlTool
         {
             float directionRightPart = 0;
             float rightDot = Vector2.Dot(direction, Vector2.right);
-            directionRightPart = Mathf.Sign(rightDot) * (Geometry.FloatEqual_WithIn0p001(rightDot, 0) ? 0 : 1);
+            directionRightPart = Mathf.Sign(rightDot) * (FloatEqual_WithIn0p001(rightDot, 0) ? 0 : 1);
             float directionUpPart = 0;
             float upDot = Vector2.Dot(direction, Vector2.up);
-            directionUpPart = Mathf.Sign(upDot) * (Geometry.FloatEqual_WithIn0p001(upDot, 0) ? 0 : 1);
+            directionUpPart = Mathf.Sign(upDot) * (FloatEqual_WithIn0p001(upDot, 0) ? 0 : 1);
             direction = (directionRightPart * Vector2.right + directionUpPart * Vector2.up).normalized;
             return direction;
         }
@@ -70,7 +71,7 @@ namespace PlayerControlTool
         public static Vector2 MostCloseNineDirection(Vector2 direction)
         {
             //先判断是否为0，然后再判断和8向的夹角
-            if (Geometry.FloatEqual_WithIn0p001(direction.x, 0) && Geometry.FloatEqual_WithIn0p001(direction.y, 0))
+            if (FloatEqual_WithIn0p001(direction.x, 0) && FloatEqual_WithIn0p001(direction.y, 0))
             {
                 return new Vector2(0, 0);
             }

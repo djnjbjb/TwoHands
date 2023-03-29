@@ -512,7 +512,7 @@ public partial class ShurikenExplode : MonoBehaviour
             if(shuriken.bounds.Intersects(CameraFollow.onlyInstance.bufferedViewBounds))
             {
                 AudioPool.PlayClip(audioClip);
-                ObjectExtensions.InstantiateParticleAutoDie(particle, shuriken.transform.position, shuriken.transform.rotation);
+                GameObjectExtensions.InstantiateParticleAutoDie(particle, shuriken.transform.position, shuriken.transform.rotation);
             }
 
             Destroy(shuriken.gameObject);

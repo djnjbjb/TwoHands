@@ -7,6 +7,13 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.jeffjadulco.guidregenerator": {
+      "version": "https://github.com/jeffjadulco/unity-guid-regenerator.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "60c99435cc23adfc734beb770ed677d6c7fad14c"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.9",
       "depth": 0,
@@ -184,6 +191,13 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "unity-dependencies-hunter": {
+      "version": "https://github.com/AlexeyPerov/Unity-Dependencies-Hunter.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "13b13298c3bdb12c36e0b1f78bb8845f942e2ced"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

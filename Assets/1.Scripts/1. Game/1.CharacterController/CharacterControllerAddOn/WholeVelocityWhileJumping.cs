@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Logger = Ludo.TwoHandsWar.Circumstance.Logger;
+using static Ludo.Utility.Algebra;
 
 public class WholeVelocityWhileJumping : Velocity
 {
@@ -327,8 +328,8 @@ public class WholeVelocityWhileJumping : Velocity
         if (jumpSpeedAddedWhenSlanting)
         {
             //斜向时，速度乘以 √2
-            if (!Geometry.FloatEqual_WithIn0p001(direction.x, 0)
-                 && !Geometry.FloatEqual_WithIn0p001(direction.y, 0))
+            if (!FloatEqual_WithIn0p001(direction.x, 0)
+                 && !FloatEqual_WithIn0p001(direction.y, 0))
             {
                 Vector2 velocity = speed * direction;
                 velocity.y = velocity.y * Mathf.Pow(2, 0.5f);

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using PlayerControlTool;
 using Ludo.Utility;
-
+using static Ludo.Utility.Algebra;
 public class WholeVelocityBeforeJump: Velocity
 {
     public struct History
@@ -147,14 +147,14 @@ public class WholeVelocityBeforeJump: Velocity
                     biggerDis = lhDis;
                     biggerFist = RightOrLeftFist.Left;
                 }
-                if (Geometry.FloatEqual_WithIn0p001(biggerDis, 0))
+                if (FloatEqual_WithIn0p001(biggerDis, 0))
                 {
                     //如果双手移动都是0
                     speed = leftFistVelocity.speed;
                     direction = Tool.ArbitraryDirectionToNineDirection(leftFistOffset);
                     direction = wholeMatrix * -direction;
                 }
-                else if (Geometry.FloatEqual_WithIn0p001(smallerDis, 0) && !Geometry.FloatEqual_WithIn0p001(biggerDis, 0))
+                else if (FloatEqual_WithIn0p001(smallerDis, 0) && !FloatEqual_WithIn0p001(biggerDis, 0))
                 {
                     //如果一只手的移动是0
                     //身体和移动的那只手，等效于单手移动
@@ -191,7 +191,7 @@ public class WholeVelocityBeforeJump: Velocity
                         rightBigDot = Vector2.Dot(rightFistOffset, Vector2.right);
                     else
                         rightBigDot = Vector2.Dot(leftFistOffset, Vector2.right);
-                    directionRightPart = Mathf.Sign(rightBigDot) * (Geometry.FloatEqual_WithIn0p001(rightBigDot, 0) ? 0 : 1);
+                    directionRightPart = Mathf.Sign(rightBigDot) * (FloatEqual_WithIn0p001(rightBigDot, 0) ? 0 : 1);
                     float directionUpPart = 0;
                     float upBigDot = 0;
                     if (Mathf.Abs(Vector2.Dot(rightFistOffset, Vector2.up))
@@ -200,7 +200,7 @@ public class WholeVelocityBeforeJump: Velocity
                         upBigDot = Vector2.Dot(rightFistOffset, Vector2.up);
                     else
                         upBigDot = Vector2.Dot(leftFistOffset, Vector2.up);
-                    directionUpPart = Mathf.Sign(upBigDot) * (Geometry.FloatEqual_WithIn0p001(upBigDot, 0) ? 0 : 1);
+                    directionUpPart = Mathf.Sign(upBigDot) * (FloatEqual_WithIn0p001(upBigDot, 0) ? 0 : 1);
                     direction = (directionRightPart * Vector2.right + directionUpPart * Vector2.up).normalized;
                     direction = wholeMatrix * -direction;
                 }

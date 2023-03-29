@@ -3,8 +3,8 @@ using PlayerControlTool;
 using System.Collections.Generic;
 using Ludo.TwoHandsWar;
 using UnityEngine;
-using static Ludo.Utility.Geometry;
 using Logger = Ludo.TwoHandsWar.Circumstance.Logger;
+using static Ludo.Utility.Algebra;
 
 
 namespace Stuff
